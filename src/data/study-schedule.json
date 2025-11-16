@@ -1,164 +1,1517 @@
 {
-  "2025-11-18": [
-    "Matemática - Conjuntos (operações, subconjuntos, intervalos, conjuntos numéricos) - 120min",
-    "Matemática - MMC e MDC - 60min",
-    "Física - Grandezas vetoriais, escalares e vetores - 90min",
-    "Química - Propriedades das substâncias (densidade, solubilidade, T fusão/ebulição) - 90min",
-    "Química - Processos de separação de misturas - 60min"
-  ],
-  "2025-11-19": [
-    "Matemática - Razão, proporção e proporcionalidade - 90min",
-    "Matemática - Notação científica, algarismos significativos, estimativa - 60min",
-    "Física - Cinemática: MRU (conceitos, equações, gráficos) - 90min",
-    "Química - Modelos atômicos (Dalton, Thomson, Rutherford, Bohr) - 90min",
-    "Filosofia - Lógica: argumento, validade, falácia (parte técnica) - 60min"
-  ],
-  "2025-11-20": [
-    "Matemática - Expressões algébricas, produtos notáveis e fatoração - 120min",
-    "Física - Cinemática: MRUV e queda livre - 90min",
-    "Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade - 90min",
-    "Sociologia - Métodos de pesquisa (parte técnica: quantitativo/qualitativo) - 60min",
-    "Português - Concordância verbal e nominal - 60min"
-  ],
-  "2025-11-21": [
-    "Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento) - 120min",
-    "Física - Movimento circular - 75min",
-    "Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico) - 90min",
-    "Geografia - Cartografia (mapas, elementos, coordenadas geográficas, fusos horários) - 75min",
-    "Ciências Humanas - Narrativas de origem e Antiguidade Oriental - 60min"
-  ],
-  "2025-11-22": [
-    "Matemática - Função afim (taxa de variação, inequações, sistemas lineares) - 120min",
-    "Física - Leis de Newton (1ª, 2ª e 3ª leis) - 90min",
-    "Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica) - 90min",
-    "Geografia - Projeções cartográficas, escalas, curvas de nível - 60min",
-    "Português - Tempo e modo verbais - 60min"
-  ],
-  "2025-11-23": [
-    "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
-    "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice) - 120min",
-    "Matemática - Exercícios de conjuntos e função afim - 90min",
-    "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos - 60min",
-    "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica - 90min",
-    "Tempo livre para recuperar atrasos - 2h"
-  ],
-  "2025-11-26": [
-    "Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal) - 90min",
-    "Química - Ligações químicas: iônica - 30min"
-  ],
-  "2025-11-27": [
-    "Matemática - Função quadrática (inequações e sistemas) - 90min",
-    "Química - Ligações químicas: covalente - 30min"
-  ],
-  "2025-11-28": [
-    "Matemática - FOCO Função exponencial (potenciação, propriedades) - 90min",
-    "Química - Ligações químicas: metálica - 30min"
-  ],
-  "2025-11-29": [
-    "Matemática - FOCO Função exponencial (equações, gráficos, crescimento/decrescimento) - 90min",
-    "Física - Força peso, normal e atrito - 30min"
-  ],
-  "2025-11-30": [
-    "Matemática - FOCO Função logarítmica (definição, logaritmo decimal e natural) - 90min",
-    "Física - Plano inclinado - 30min"
-  ],
-  "2025-12-01": [
-    "Matemática - FOCO Função logarítmica (propriedades, equações logarítmicas) - 90min",
-    "Química - Propriedades das substâncias segundo ligações químicas - 30min"
-  ],
-  "2025-12-02": [
-    "Matemática - FOCO Função logarítmica (gráficos) - 60min",
-    "Matemática - FOCO Relação entre funções exponencial e logarítmica - 60min"
-  ],
-  "2025-12-03": [
-    "Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango) - 120min",
-    "Física - Hidrostática: pressão em sólidos e fluidos - 90min",
-    "Química - FOCO Reações químicas (evidências, equações, balanceamento) - 90min",
-    "Geografia - Estrutura geológica, relevo, tectônica, mineração - 60min",
-    "Ciências Humanas - Antiguidade Tardia e Mundo Medieval + Arte Medieval - 60min"
-  ],
-  "2025-12-04": [
-    "Matemática - Geometria: áreas (triângulo, círculo) - 90min",
-    "Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo - 90min",
-    "Física - Princípio de Pascal e Teorema de Stevin - 90min",
-    "Química - FOCO Estequiometria: mol e massa molar - 120min",
-    "Biologia - Composição química dos seres vivos (água, biomoléculas) - 30min"
-  ],
-  "2025-12-05": [
-    "Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis - 90min",
-    "Matemática - Retas paralelas e transversais (proporcionalidade) - 60min",
-    "Física - Princípio de Arquimedes (empuxo) - 60min",
-    "Física - Experimento de Torricelli (pressão atmosférica) - 30min",
-    "Química - FOCO Estequiometria: cálculos em reações químicas - 120min",
-    "Ciências Humanas - Mundo Moderno Capitalista (séc. XV-XVII) + Renascimento nas Artes - 90min"
-  ],
-  "2025-12-06": [
-    "Matemática - Sistema Internacional de Medidas e conversões - 60min",
-    "Matemática - REVISÃO Função exponencial e logarítmica - 90min",
-    "Física - REVISÃO Cinemática completa (MRU, MRUV, queda livre, circular) - 90min",
-    "Química - FOCO Estequiometria: leis ponderais - 90min",
-    "Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas) - 60min",
-    "Biologia - Níveis de organização biológica - 30min"
-  ],
-  "2025-12-07": [
-    "REVISAR PENDÊNCIAS DA SEMANA",
-    "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log) - 150min",
-    "Matemática - Questões discursivas e redação matemática - 90min",
-    "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado) - 90min",
-    "Química - REVISÃO Ligações químicas completo - 60min",
-    "Ciências Humanas - Povos originários das Américas + Arte Indígena - 60min",
-    "Tempo livre para recuperar atrasos - 1h30min"
-  ],
-  "2025-12-09": [
-    "Matemática - REVISÃO FINAL Conjuntos, MMC/MDC, razão e proporção - 90min",
-    "Matemática - REVISÃO FINAL Função afim e quadrática - 90min",
-    "Física - REVISÃO FINAL Hidrostática completa - 90min",
-    "Química - REVISÃO FINAL Modelos atômicos e Tabela Periódica - 90min",
-    "Química - REVISÃO FINAL Estequiometria completa - 60min",
-    "Biologia - Célula (estruturas celulares, respiração celular, fotossíntese, fermentação, quimiossíntese) - 60min"
-  ],
-  "2025-12-10": [
-    "Matemática - REVISÃO FINAL Função exponencial e logarítmica - 120min",
-    "Matemática - REVISÃO FINAL Geometria e trigonometria - 90min",
-    "Física - REVISÃO FINAL Cinemática + Dinâmica - 90min",
-    "Química - REVISÃO GERAL Propriedades, separação, ligações - 60min",
-    "Ciências Humanas - Trânsitos entre continentes (séc. XV-XVII) + Ocupação da América Portuguesa - 60min"
-  ],
-  "2025-12-11": [
-    "Matemática - REVISÃO GERAL Todos os tópicos (foco em dúvidas) - 120min",
-    "Física - REVISÃO GERAL Todos os tópicos (foco em fórmulas) - 90min",
-    "Química - REVISÃO GERAL Todos os tópicos - 90min",
-    "Geografia - REVISÃO Cartografia, climatologia, geologia - 60min",
-    "Ciências Humanas - REVISÃO Filosofia (surgimento, áreas, lógica) - 30min",
-    "Ciências Humanas - REVISÃO Sociologia (surgimento, cultura, métodos, desigualdades) - 30min"
-  ],
-  "2025-12-12": [
-    "Biologia - REVISÃO RÁPIDA Genética (conceitos básicos, Mendel, mitose, meiose, crossing over) - 45min",
-    "Biologia - REVISÃO GERAL Todos os tópicos - 45min",
-    "Português - REVISÃO Gramática completa - 45min",
-    "Ciências Humanas - REVISÃO FINAL Linha do tempo histórica + conexões artísticas/literárias - 90min",
-    "Geografia - REVISÃO FINAL Domínios morfoclimáticos, solos, energia, agropecuária - 60min",
-    "Matemática - Revisão leve de fórmulas e macetes - 60min",
-    "Física - Revisão leve de fórmulas e conceitos-chave - 60min",
-    "Química - Revisão leve de tabela periódica e fórmulas - 45min"
-  ],
-  "2025-12-13": [
-    "Revisão flash de Matemática (fórmulas essenciais) - 45min",
-    "Revisão flash de Física (fórmulas essenciais) - 45min",
-    "Revisão flash de Química (tabela periódica, mol, fórmulas) - 45min",
-    "Revisão flash de Ciências Humanas (mapas mentais, linha do tempo) - 30min",
-    "Revisão flash de Geografia (mapas, conceitos-chave) - 15min",
-    "DESCANSO: Organizar materiais, dormir cedo, hidratar-se - OBRIGATÓRIO"
-  ],
-  "2025-12-14": [
-    "DIA DA PROVA",
-    "Café da manhã reforçado",
-    "Revisar só anotações-chave (30min máximo)",
-    "Separar documentos e materiais",
-    "Chegar com antecedência no local",
-    "Ler todas as questões primeiro (15min)",
-    "Resolver as mais fáceis primeiro",
-    "Deixar tempo para as discursivas (peso 4!)",
-    "Revisar respostas nos últimos 20min"
-  ]
+  "subjects": {
+    "matematica": [
+      {
+        "code": "mat-1-1",
+        "title": "Matemática - Conjuntos (operações, subconjuntos, intervalos, conjuntos numéricos)",
+        "keys": [
+          "conjuntos"
+        ]
+      },
+      {
+        "code": "mat-1-2",
+        "title": "Matemática - MMC e MDC",
+        "keys": [
+          "mdc",
+          "mmc"
+        ]
+      },
+      {
+        "code": "mat-1-3",
+        "title": "Matemática - Razão, proporção e proporcionalidade",
+        "keys": [
+          "proporcao",
+          "razao"
+        ]
+      },
+      {
+        "code": "mat-1-4",
+        "title": "Matemática - Notação científica, algarismos significativos, estimativa",
+        "keys": [
+          "cientifica",
+          "notacao"
+        ]
+      },
+      {
+        "code": "mat-1-5",
+        "title": "Matemática - Expressões algébricas, produtos notáveis e fatoração",
+        "keys": [
+          "algebra"
+        ]
+      },
+      {
+        "code": "mat-1-6",
+        "title": "Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento)",
+        "keys": [
+          "afim",
+          "funcao"
+        ]
+      },
+      {
+        "code": "mat-1-7",
+        "title": "Matemática - Função afim (taxa de variação, inequações, sistemas lineares)",
+        "keys": [
+          "afim",
+          "funcao"
+        ]
+      },
+      {
+        "code": "mat-1-8",
+        "title": "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice)",
+        "keys": [
+          "funcao",
+          "quadratica"
+        ]
+      },
+      {
+        "code": "mat-1-9",
+        "title": "Matemática - Exercícios de conjuntos e função afim",
+        "keys": [
+          "afim",
+          "conjuntos",
+          "exercicios",
+          "funcao"
+        ]
+      },
+      {
+        "code": "mat-ferias-1",
+        "title": "Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal)",
+        "keys": [
+          "funcao",
+          "quadratica"
+        ]
+      },
+      {
+        "code": "mat-ferias-2",
+        "title": "Matemática - Função quadrática (inequações e sistemas)",
+        "keys": [
+          "funcao",
+          "quadratica"
+        ]
+      },
+      {
+        "code": "mat-ferias-3",
+        "title": "Matemática - FOCO Função exponencial (potenciação, propriedades)",
+        "keys": [
+          "exponencial",
+          "funcao"
+        ]
+      },
+      {
+        "code": "mat-ferias-4",
+        "title": "Matemática - FOCO Função exponencial (equações, gráficos, crescimento/decrescimento)",
+        "keys": [
+          "exponencial",
+          "funcao"
+        ]
+      },
+      {
+        "code": "mat-ferias-5",
+        "title": "Matemática - FOCO Função logarítmica (definição, logaritmo decimal e natural)",
+        "keys": [
+          "funcao",
+          "logaritmica"
+        ]
+      },
+      {
+        "code": "mat-ferias-6",
+        "title": "Matemática - FOCO Função logarítmica (propriedades, equações logarítmicas)",
+        "keys": [
+          "funcao",
+          "logaritmica"
+        ]
+      },
+      {
+        "code": "mat-ferias-7",
+        "title": "Matemática - FOCO Função logarítmica (gráficos)",
+        "keys": [
+          "funcao",
+          "logaritmica"
+        ]
+      },
+      {
+        "code": "mat-ferias-8",
+        "title": "Matemática - FOCO Relação entre funções exponencial e logarítmica",
+        "keys": []
+      },
+      {
+        "code": "mat-2-1",
+        "title": "Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango)",
+        "keys": [
+          "geometria"
+        ]
+      },
+      {
+        "code": "mat-2-2",
+        "title": "Matemática - Geometria: áreas (triângulo, círculo)",
+        "keys": [
+          "geometria"
+        ]
+      },
+      {
+        "code": "mat-2-3",
+        "title": "Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo",
+        "keys": [
+          "pitagoras"
+        ]
+      },
+      {
+        "code": "mat-2-4",
+        "title": "Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis",
+        "keys": [
+          "trigonometria"
+        ]
+      },
+      {
+        "code": "mat-2-5",
+        "title": "Matemática - Retas paralelas e transversais (proporcionalidade)",
+        "keys": [
+          "analitica",
+          "geometria"
+        ]
+      },
+      {
+        "code": "mat-2-6",
+        "title": "Matemática - Sistema Internacional de Medidas e conversões",
+        "keys": [
+          "medidas"
+        ]
+      },
+      {
+        "code": "mat-2-7",
+        "title": "Matemática - REVISÃO Função exponencial e logarítmica",
+        "keys": [
+          "exponencial",
+          "funcao",
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-2-8",
+        "title": "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log)",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-2-9",
+        "title": "Matemática - Questões discursivas e redação matemática",
+        "keys": []
+      },
+      {
+        "code": "mat-3-1",
+        "title": "Matemática - REVISÃO FINAL Conjuntos, MMC/MDC, razão e proporção",
+        "keys": [
+          "conjuntos",
+          "mdc",
+          "mmc",
+          "proporcao",
+          "razao",
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-3-2",
+        "title": "Matemática - REVISÃO FINAL Função afim e quadrática",
+        "keys": [
+          "afim",
+          "funcao",
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-3-3",
+        "title": "Matemática - REVISÃO FINAL Função exponencial e logarítmica",
+        "keys": [
+          "exponencial",
+          "funcao",
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-3-4",
+        "title": "Matemática - REVISÃO FINAL Geometria e trigonometria",
+        "keys": [
+          "geometria",
+          "revisao",
+          "trigonometria"
+        ]
+      },
+      {
+        "code": "mat-3-5",
+        "title": "Matemática - REVISÃO GERAL Todos os tópicos (foco em dúvidas)",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-3-6",
+        "title": "Matemática - Revisão leve de fórmulas e macetes",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "mat-3-7",
+        "title": "Revisão flash de Matemática (fórmulas essenciais)",
+        "keys": [
+          "revisao"
+        ]
+      }
+    ],
+    "fisica": [
+      {
+        "code": "fis-1-1",
+        "title": "Física - Grandezas vetoriais, escalares e vetores",
+        "keys": [
+          "grandezas",
+          "vetoriais"
+        ]
+      },
+      {
+        "code": "fis-1-2",
+        "title": "Física - Cinemática: MRU (conceitos, equações, gráficos)",
+        "keys": [
+          "cinematica"
+        ]
+      },
+      {
+        "code": "fis-1-3",
+        "title": "Física - Cinemática: MRUV e queda livre",
+        "keys": [
+          "cinematica"
+        ]
+      },
+      {
+        "code": "fis-1-4",
+        "title": "Física - Movimento circular",
+        "keys": [
+          "circular",
+          "movimento"
+        ]
+      },
+      {
+        "code": "fis-1-5",
+        "title": "Física - Leis de Newton (1ª, 2ª e 3ª leis)",
+        "keys": [
+          "de",
+          "leis",
+          "newton"
+        ]
+      },
+      {
+        "code": "fis-ferias-1",
+        "title": "Física - Força peso, normal e atrito",
+        "keys": [
+          "dinamica"
+        ]
+      },
+      {
+        "code": "fis-ferias-2",
+        "title": "Física - Plano inclinado",
+        "keys": [
+          "dinamica"
+        ]
+      },
+      {
+        "code": "fis-2-1",
+        "title": "Física - Hidrostática: pressão em sólidos e fluidos",
+        "keys": [
+          "hidrostatica"
+        ]
+      },
+      {
+        "code": "fis-2-2",
+        "title": "Física - Princípio de Pascal e Teorema de Stevin",
+        "keys": [
+          "hidrostatica"
+        ]
+      },
+      {
+        "code": "fis-2-3",
+        "title": "Física - Princípio de Arquimedes (empuxo)",
+        "keys": [
+          "hidrostatica"
+        ]
+      },
+      {
+        "code": "fis-2-4",
+        "title": "Física - Experimento de Torricelli (pressão atmosférica)",
+        "keys": [
+          "hidrostatica"
+        ]
+      },
+      {
+        "code": "fis-2-5",
+        "title": "Física - REVISÃO Cinemática completa (MRU, MRUV, queda livre, circular)",
+        "keys": [
+          "cinematica",
+          "revisao"
+        ]
+      },
+      {
+        "code": "fis-2-6",
+        "title": "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado)",
+        "keys": [
+          "de",
+          "dinamica",
+          "leis",
+          "newton",
+          "revisao"
+        ]
+      },
+      {
+        "code": "fis-3-1",
+        "title": "Física - REVISÃO FINAL Hidrostática completa",
+        "keys": [
+          "hidrostatica",
+          "revisao"
+        ]
+      },
+      {
+        "code": "fis-3-2",
+        "title": "Física - REVISÃO FINAL Cinemática + Dinâmica",
+        "keys": [
+          "cinematica",
+          "dinamica",
+          "revisao"
+        ]
+      },
+      {
+        "code": "fis-3-3",
+        "title": "Física - REVISÃO GERAL Todos os tópicos (foco em fórmulas)",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "fis-3-4",
+        "title": "Física - Revisão leve de fórmulas e conceitos-chave",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "fis-3-5",
+        "title": "Revisão flash de Física (fórmulas essenciais)",
+        "keys": [
+          "revisao"
+        ]
+      }
+    ],
+    "quimica": [
+      {
+        "code": "qui-1-1",
+        "title": "Química - Propriedades das substâncias (densidade, solubilidade, T fusão/ebulição)",
+        "keys": [
+          "propriedades",
+          "substancias"
+        ]
+      },
+      {
+        "code": "qui-1-2",
+        "title": "Química - Processos de separação de misturas",
+        "keys": [
+          "misturas",
+          "separacao"
+        ]
+      },
+      {
+        "code": "qui-1-3",
+        "title": "Química - Modelos atômicos (Dalton, Thomson, Rutherford, Bohr)",
+        "keys": [
+          "atomicos",
+          "modelos"
+        ]
+      },
+      {
+        "code": "qui-1-4",
+        "title": "Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade",
+        "keys": [
+          "atomica",
+          "estrutura"
+        ]
+      },
+      {
+        "code": "qui-1-5",
+        "title": "Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico)",
+        "keys": [
+          "periodica",
+          "tabela"
+        ]
+      },
+      {
+        "code": "qui-1-6",
+        "title": "Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica)",
+        "keys": [
+          "periodica",
+          "tabela"
+        ]
+      },
+      {
+        "code": "qui-ferias-1",
+        "title": "Química - Ligações químicas: iônica",
+        "keys": [
+          "ligacoes",
+          "quimicas"
+        ]
+      },
+      {
+        "code": "qui-ferias-2",
+        "title": "Química - Ligações químicas: covalente",
+        "keys": [
+          "ligacoes",
+          "quimicas"
+        ]
+      },
+      {
+        "code": "qui-ferias-3",
+        "title": "Química - Ligações químicas: metálica",
+        "keys": [
+          "ligacoes",
+          "quimicas"
+        ]
+      },
+      {
+        "code": "qui-ferias-4",
+        "title": "Química - Propriedades das substâncias segundo ligações químicas",
+        "keys": [
+          "ligacoes",
+          "propriedades",
+          "quimicas",
+          "substancias"
+        ]
+      },
+      {
+        "code": "qui-2-1",
+        "title": "Química - FOCO Reações químicas (evidências, equações, balanceamento)",
+        "keys": [
+          "quimicas",
+          "reacoes"
+        ]
+      },
+      {
+        "code": "qui-2-2",
+        "title": "Química - FOCO Estequiometria: mol e massa molar",
+        "keys": [
+          "estequiometria"
+        ]
+      },
+      {
+        "code": "qui-2-3",
+        "title": "Química - FOCO Estequiometria: cálculos em reações químicas",
+        "keys": [
+          "estequiometria",
+          "quimicas",
+          "reacoes"
+        ]
+      },
+      {
+        "code": "qui-2-4",
+        "title": "Química - FOCO Estequiometria: leis ponderais",
+        "keys": [
+          "de",
+          "estequiometria",
+          "leis",
+          "newton"
+        ]
+      },
+      {
+        "code": "qui-2-5",
+        "title": "Química - REVISÃO Ligações químicas completo",
+        "keys": [
+          "ligacoes",
+          "quimicas",
+          "revisao"
+        ]
+      },
+      {
+        "code": "qui-3-1",
+        "title": "Química - REVISÃO FINAL Modelos atômicos e Tabela Periódica",
+        "keys": [
+          "atomicos",
+          "modelos",
+          "periodica",
+          "revisao",
+          "tabela"
+        ]
+      },
+      {
+        "code": "qui-3-2",
+        "title": "Química - REVISÃO FINAL Estequiometria completa",
+        "keys": [
+          "estequiometria",
+          "revisao"
+        ]
+      },
+      {
+        "code": "qui-3-3",
+        "title": "Química - REVISÃO GERAL Propriedades, separação, ligações",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "qui-3-4",
+        "title": "Química - REVISÃO GERAL Todos os tópicos",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "qui-3-5",
+        "title": "Química - Revisão leve de tabela periódica e fórmulas",
+        "keys": [
+          "periodica",
+          "revisao",
+          "tabela"
+        ]
+      },
+      {
+        "code": "qui-3-6",
+        "title": "Revisão flash de Química (tabela periódica, mol, fórmulas)",
+        "keys": [
+          "estequiometria",
+          "periodica",
+          "revisao",
+          "tabela"
+        ]
+      }
+    ],
+    "filosofia": [
+      {
+        "code": "fil-1-1",
+        "title": "Filosofia - Lógica: argumento, validade, falácia (parte técnica)",
+        "keys": [
+          "logica"
+        ]
+      }
+    ],
+    "sociologia": [
+      {
+        "code": "soc-1-1",
+        "title": "Sociologia - Métodos de pesquisa (parte técnica: quantitativo/qualitativo)",
+        "keys": [
+          "metodos",
+          "pesquisa"
+        ]
+      }
+    ],
+    "portugues": [
+      {
+        "code": "por-1-1",
+        "title": "Português - Concordância verbal e nominal",
+        "keys": [
+          "concordancia"
+        ]
+      },
+      {
+        "code": "por-1-2",
+        "title": "Português - Tempo e modo verbais",
+        "keys": [
+          "verbos"
+        ]
+      },
+      {
+        "code": "por-3-1",
+        "title": "Português - REVISÃO Gramática completa",
+        "keys": [
+          "gramatica",
+          "revisao"
+        ]
+      }
+    ],
+    "geografia": [
+      {
+        "code": "geo-1-1",
+        "title": "Geografia - Cartografia (mapas, elementos, coordenadas geográficas, fusos horários)",
+        "keys": [
+          "cartografia"
+        ]
+      },
+      {
+        "code": "geo-1-2",
+        "title": "Geografia - Projeções cartográficas, escalas, curvas de nível",
+        "keys": [
+          "cartografia"
+        ]
+      },
+      {
+        "code": "geo-2-1",
+        "title": "Geografia - Estrutura geológica, relevo, tectônica, mineração",
+        "keys": [
+          "geologia",
+          "logica"
+        ]
+      },
+      {
+        "code": "geo-2-2",
+        "title": "Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas)",
+        "keys": [
+          "climatologia"
+        ]
+      },
+      {
+        "code": "geo-3-1",
+        "title": "Geografia - REVISÃO Cartografia, climatologia, geologia",
+        "keys": [
+          "cartografia",
+          "climatologia",
+          "revisao"
+        ]
+      },
+      {
+        "code": "geo-3-2",
+        "title": "Geografia - REVISÃO FINAL Domínios morfoclimáticos, solos, energia, agropecuária",
+        "keys": [
+          "biogeografia",
+          "revisao"
+        ]
+      },
+      {
+        "code": "geo-3-3",
+        "title": "Revisão flash de Geografia (mapas, conceitos-chave)",
+        "keys": [
+          "cartografia",
+          "revisao"
+        ]
+      }
+    ],
+    "ciencias-humanas": [
+      {
+        "code": "hum-1-1",
+        "title": "Ciências Humanas - Narrativas de origem e Antiguidade Oriental",
+        "keys": [
+          "antiga",
+          "historia"
+        ]
+      },
+      {
+        "code": "hum-1-2",
+        "title": "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica",
+        "keys": [
+          "antiga",
+          "historia"
+        ]
+      },
+      {
+        "code": "hum-2-1",
+        "title": "Ciências Humanas - Antiguidade Tardia e Mundo Medieval + Arte Medieval",
+        "keys": [
+          "antiga",
+          "historia",
+          "idade",
+          "media"
+        ]
+      },
+      {
+        "code": "hum-2-2",
+        "title": "Ciências Humanas - Mundo Moderno Capitalista (séc. XV-XVII) + Renascimento nas Artes",
+        "keys": [
+          "idade",
+          "moderna"
+        ]
+      },
+      {
+        "code": "hum-2-3",
+        "title": "Ciências Humanas - Povos originários das Américas + Arte Indígena",
+        "keys": [
+          "americas"
+        ]
+      },
+      {
+        "code": "hum-3-1",
+        "title": "Ciências Humanas - Trânsitos entre continentes (séc. XV-XVII) + Ocupação da América Portuguesa",
+        "keys": [
+          "grandes",
+          "navegacoes"
+        ]
+      },
+      {
+        "code": "hum-3-2",
+        "title": "Ciências Humanas - REVISÃO Filosofia (surgimento, áreas, lógica)",
+        "keys": [
+          "geometria",
+          "logica",
+          "revisao"
+        ]
+      },
+      {
+        "code": "hum-3-3",
+        "title": "Ciências Humanas - REVISÃO Sociologia (surgimento, cultura, métodos, desigualdades)",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "hum-3-4",
+        "title": "Ciências Humanas - REVISÃO FINAL Linha do tempo histórica + conexões artísticas/literárias",
+        "keys": [
+          "geral",
+          "historia",
+          "revisao"
+        ]
+      },
+      {
+        "code": "hum-3-5",
+        "title": "Revisão flash de Ciências Humanas (mapas mentais, linha do tempo)",
+        "keys": [
+          "cartografia",
+          "geral",
+          "historia",
+          "revisao"
+        ]
+      }
+    ],
+    "geral": [
+      {
+        "code": "ger-1-1",
+        "title": "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "ger-1-2",
+        "title": "Tempo livre para recuperar atrasos - 2h",
+        "keys": []
+      },
+      {
+        "code": "ger-2-1",
+        "title": "REVISAR PENDÊNCIAS DA SEMANA",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "ger-2-2",
+        "title": "Tempo livre para recuperar atrasos - 1h",
+        "keys": []
+      },
+      {
+        "code": "ger-3-1",
+        "title": "DESCANSO: Organizar materiais, dormir cedo, hidratar-se - OBRIGATÓRIO",
+        "keys": []
+      },
+      {
+        "code": "ger-3-2",
+        "title": "DIA DA PROVA",
+        "keys": []
+      },
+      {
+        "code": "ger-3-3",
+        "title": "Café da manhã reforçado",
+        "keys": []
+      },
+      {
+        "code": "ger-3-4",
+        "title": "Revisar só anotações-chave (30min máximo)",
+        "keys": [
+          "revisao"
+        ]
+      },
+      {
+        "code": "ger-3-5",
+        "title": "Separar documentos e materiais",
+        "keys": []
+      },
+      {
+        "code": "ger-3-6",
+        "title": "Chegar com antecedência no local",
+        "keys": []
+      },
+      {
+        "code": "ger-3-7",
+        "title": "Ler todas as questões primeiro (15min)",
+        "keys": []
+      },
+      {
+        "code": "ger-3-8",
+        "title": "Resolver as mais fáceis primeiro",
+        "keys": []
+      },
+      {
+        "code": "ger-3-9",
+        "title": "Deixar tempo para as discursivas (peso 4!)",
+        "keys": []
+      },
+      {
+        "code": "ger-3-10",
+        "title": "Revisar respostas nos últimos",
+        "keys": [
+          "revisao"
+        ]
+      }
+    ],
+    "biologia": [
+      {
+        "code": "bio-1-1",
+        "title": "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos",
+        "keys": [
+          "origem",
+          "vida"
+        ]
+      },
+      {
+        "code": "bio-2-1",
+        "title": "Biologia - Composição química dos seres vivos (água, biomoléculas)",
+        "keys": [
+          "composicao",
+          "estequiometria",
+          "quimica"
+        ]
+      },
+      {
+        "code": "bio-2-2",
+        "title": "Biologia - Níveis de organização biológica",
+        "keys": [
+          "biologica",
+          "logica",
+          "organizacao"
+        ]
+      },
+      {
+        "code": "bio-3-1",
+        "title": "Biologia - Célula (estruturas celulares, respiração celular, fotossíntese, fermentação, quimiossíntese)",
+        "keys": [
+          "celula"
+        ]
+      },
+      {
+        "code": "bio-3-2",
+        "title": "Biologia - REVISÃO RÁPIDA Genética (conceitos básicos, Mendel, mitose, meiose, crossing over)",
+        "keys": [
+          "genetica",
+          "revisao"
+        ]
+      },
+      {
+        "code": "bio-3-3",
+        "title": "Biologia - REVISÃO GERAL Todos os tópicos",
+        "keys": [
+          "revisao"
+        ]
+      }
+    ]
+  },
+  "schedule": {
+    "2025-11-18": [
+      {
+        "name": "Matemática - Conjuntos (operações, subconjuntos, intervalos, conjuntos numéricos) - 120min",
+        "subject": "matematica",
+        "code": "mat-1-1"
+      },
+      {
+        "name": "Matemática - MMC e MDC - 60min",
+        "subject": "matematica",
+        "code": "mat-1-2"
+      },
+      {
+        "name": "Física - Grandezas vetoriais, escalares e vetores - 90min",
+        "subject": "fisica",
+        "code": "fis-1-1"
+      },
+      {
+        "name": "Química - Propriedades das substâncias (densidade, solubilidade, T fusão/ebulição) - 90min",
+        "subject": "quimica",
+        "code": "qui-1-1"
+      },
+      {
+        "name": "Química - Processos de separação de misturas - 60min",
+        "subject": "quimica",
+        "code": "qui-1-2"
+      }
+    ],
+    "2025-11-19": [
+      {
+        "name": "Matemática - Razão, proporção e proporcionalidade - 90min",
+        "subject": "matematica",
+        "code": "mat-1-3"
+      },
+      {
+        "name": "Matemática - Notação científica, algarismos significativos, estimativa - 60min",
+        "subject": "matematica",
+        "code": "mat-1-4"
+      },
+      {
+        "name": "Física - Cinemática: MRU (conceitos, equações, gráficos) - 90min",
+        "subject": "fisica",
+        "code": "fis-1-2"
+      },
+      {
+        "name": "Química - Modelos atômicos (Dalton, Thomson, Rutherford, Bohr) - 90min",
+        "subject": "quimica",
+        "code": "qui-1-3"
+      },
+      {
+        "name": "Filosofia - Lógica: argumento, validade, falácia (parte técnica) - 60min",
+        "subject": "filosofia",
+        "code": "fil-1-1"
+      }
+    ],
+    "2025-11-20": [
+      {
+        "name": "Matemática - Expressões algébricas, produtos notáveis e fatoração - 120min",
+        "subject": "matematica",
+        "code": "mat-1-5"
+      },
+      {
+        "name": "Física - Cinemática: MRUV e queda livre - 90min",
+        "subject": "fisica",
+        "code": "fis-1-3"
+      },
+      {
+        "name": "Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade - 90min",
+        "subject": "quimica",
+        "code": "qui-1-4"
+      },
+      {
+        "name": "Sociologia - Métodos de pesquisa (parte técnica: quantitativo/qualitativo) - 60min",
+        "subject": "sociologia",
+        "code": "soc-1-1"
+      },
+      {
+        "name": "Português - Concordância verbal e nominal - 60min",
+        "subject": "portugues",
+        "code": "por-1-1"
+      }
+    ],
+    "2025-11-21": [
+      {
+        "name": "Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento) - 120min",
+        "subject": "matematica",
+        "code": "mat-1-6"
+      },
+      {
+        "name": "Física - Movimento circular - 75min",
+        "subject": "fisica",
+        "code": "fis-1-4"
+      },
+      {
+        "name": "Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico) - 90min",
+        "subject": "quimica",
+        "code": "qui-1-5"
+      },
+      {
+        "name": "Geografia - Cartografia (mapas, elementos, coordenadas geográficas, fusos horários) - 75min",
+        "subject": "geografia",
+        "code": "geo-1-1"
+      },
+      {
+        "name": "Ciências Humanas - Narrativas de origem e Antiguidade Oriental - 60min",
+        "subject": "ciencias-humanas",
+        "code": "hum-1-1"
+      }
+    ],
+    "2025-11-22": [
+      {
+        "name": "Matemática - Função afim (taxa de variação, inequações, sistemas lineares) - 120min",
+        "subject": "matematica",
+        "code": "mat-1-7"
+      },
+      {
+        "name": "Física - Leis de Newton (1ª, 2ª e 3ª leis) - 90min",
+        "subject": "fisica",
+        "code": "fis-1-5"
+      },
+      {
+        "name": "Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica) - 90min",
+        "subject": "quimica",
+        "code": "qui-1-6"
+      },
+      {
+        "name": "Geografia - Projeções cartográficas, escalas, curvas de nível - 60min",
+        "subject": "geografia",
+        "code": "geo-1-2"
+      },
+      {
+        "name": "Português - Tempo e modo verbais - 60min",
+        "subject": "portugues",
+        "code": "por-1-2"
+      }
+    ],
+    "2025-11-23": [
+      {
+        "name": "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
+        "subject": "geral",
+        "code": "ger-1-1"
+      },
+      {
+        "name": "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice) - 120min",
+        "subject": "matematica",
+        "code": "mat-1-8"
+      },
+      {
+        "name": "Matemática - Exercícios de conjuntos e função afim - 90min",
+        "subject": "matematica",
+        "code": "mat-1-9"
+      },
+      {
+        "name": "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos - 60min",
+        "subject": "biologia",
+        "code": "bio-1-1"
+      },
+      {
+        "name": "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica - 90min",
+        "subject": "ciencias-humanas",
+        "code": "hum-1-2"
+      },
+      {
+        "name": "Tempo livre para recuperar atrasos - 2h",
+        "subject": "geral",
+        "code": "ger-1-2"
+      }
+    ],
+    "2025-11-26": [
+      {
+        "name": "Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal) - 90min",
+        "subject": "matematica",
+        "code": "mat-ferias-1"
+      },
+      {
+        "name": "Química - Ligações químicas: iônica - 30min",
+        "subject": "quimica",
+        "code": "qui-ferias-1"
+      }
+    ],
+    "2025-11-27": [
+      {
+        "name": "Matemática - Função quadrática (inequações e sistemas) - 90min",
+        "subject": "matematica",
+        "code": "mat-ferias-2"
+      },
+      {
+        "name": "Química - Ligações químicas: covalente - 30min",
+        "subject": "quimica",
+        "code": "qui-ferias-2"
+      }
+    ],
+    "2025-11-28": [
+      {
+        "name": "Matemática - FOCO Função exponencial (potenciação, propriedades) - 90min",
+        "subject": "matematica",
+        "code": "mat-ferias-3"
+      },
+      {
+        "name": "Química - Ligações químicas: metálica - 30min",
+        "subject": "quimica",
+        "code": "qui-ferias-3"
+      }
+    ],
+    "2025-11-29": [
+      {
+        "name": "Matemática - FOCO Função exponencial (equações, gráficos, crescimento/decrescimento) - 90min",
+        "subject": "matematica",
+        "code": "mat-ferias-4"
+      },
+      {
+        "name": "Física - Força peso, normal e atrito - 30min",
+        "subject": "fisica",
+        "code": "fis-ferias-1"
+      }
+    ],
+    "2025-11-30": [
+      {
+        "name": "Matemática - FOCO Função logarítmica (definição, logaritmo decimal e natural) - 90min",
+        "subject": "matematica",
+        "code": "mat-ferias-5"
+      },
+      {
+        "name": "Física - Plano inclinado - 30min",
+        "subject": "fisica",
+        "code": "fis-ferias-2"
+      }
+    ],
+    "2025-12-01": [
+      {
+        "name": "Matemática - FOCO Função logarítmica (propriedades, equações logarítmicas) - 90min",
+        "subject": "matematica",
+        "code": "mat-ferias-6"
+      },
+      {
+        "name": "Química - Propriedades das substâncias segundo ligações químicas - 30min",
+        "subject": "quimica",
+        "code": "qui-ferias-4"
+      }
+    ],
+    "2025-12-02": [
+      {
+        "name": "Matemática - FOCO Função logarítmica (gráficos) - 60min",
+        "subject": "matematica",
+        "code": "mat-ferias-7"
+      },
+      {
+        "name": "Matemática - FOCO Relação entre funções exponencial e logarítmica - 60min",
+        "subject": "matematica",
+        "code": "mat-ferias-8"
+      }
+    ],
+    "2025-12-03": [
+      {
+        "name": "Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango) - 120min",
+        "subject": "matematica",
+        "code": "mat-2-1"
+      },
+      {
+        "name": "Física - Hidrostática: pressão em sólidos e fluidos - 90min",
+        "subject": "fisica",
+        "code": "fis-2-1"
+      },
+      {
+        "name": "Química - FOCO Reações químicas (evidências, equações, balanceamento) - 90min",
+        "subject": "quimica",
+        "code": "qui-2-1"
+      },
+      {
+        "name": "Geografia - Estrutura geológica, relevo, tectônica, mineração - 60min",
+        "subject": "geografia",
+        "code": "geo-2-1"
+      },
+      {
+        "name": "Ciências Humanas - Antiguidade Tardia e Mundo Medieval + Arte Medieval - 60min",
+        "subject": "ciencias-humanas",
+        "code": "hum-2-1"
+      }
+    ],
+    "2025-12-04": [
+      {
+        "name": "Matemática - Geometria: áreas (triângulo, círculo) - 90min",
+        "subject": "matematica",
+        "code": "mat-2-2"
+      },
+      {
+        "name": "Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo - 90min",
+        "subject": "matematica",
+        "code": "mat-2-3"
+      },
+      {
+        "name": "Física - Princípio de Pascal e Teorema de Stevin - 90min",
+        "subject": "fisica",
+        "code": "fis-2-2"
+      },
+      {
+        "name": "Química - FOCO Estequiometria: mol e massa molar - 120min",
+        "subject": "quimica",
+        "code": "qui-2-2"
+      },
+      {
+        "name": "Biologia - Composição química dos seres vivos (água, biomoléculas) - 30min",
+        "subject": "biologia",
+        "code": "bio-2-1"
+      }
+    ],
+    "2025-12-05": [
+      {
+        "name": "Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis - 90min",
+        "subject": "matematica",
+        "code": "mat-2-4"
+      },
+      {
+        "name": "Matemática - Retas paralelas e transversais (proporcionalidade) - 60min",
+        "subject": "matematica",
+        "code": "mat-2-5"
+      },
+      {
+        "name": "Física - Princípio de Arquimedes (empuxo) - 60min",
+        "subject": "fisica",
+        "code": "fis-2-3"
+      },
+      {
+        "name": "Física - Experimento de Torricelli (pressão atmosférica) - 30min",
+        "subject": "fisica",
+        "code": "fis-2-4"
+      },
+      {
+        "name": "Química - FOCO Estequiometria: cálculos em reações químicas - 120min",
+        "subject": "quimica",
+        "code": "qui-2-3"
+      },
+      {
+        "name": "Ciências Humanas - Mundo Moderno Capitalista (séc. XV-XVII) + Renascimento nas Artes - 90min",
+        "subject": "ciencias-humanas",
+        "code": "hum-2-2"
+      }
+    ],
+    "2025-12-06": [
+      {
+        "name": "Matemática - Sistema Internacional de Medidas e conversões - 60min",
+        "subject": "matematica",
+        "code": "mat-2-6"
+      },
+      {
+        "name": "Matemática - REVISÃO Função exponencial e logarítmica - 90min",
+        "subject": "matematica",
+        "code": "mat-2-7"
+      },
+      {
+        "name": "Física - REVISÃO Cinemática completa (MRU, MRUV, queda livre, circular) - 90min",
+        "subject": "fisica",
+        "code": "fis-2-5"
+      },
+      {
+        "name": "Química - FOCO Estequiometria: leis ponderais - 90min",
+        "subject": "quimica",
+        "code": "qui-2-4"
+      },
+      {
+        "name": "Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas) - 60min",
+        "subject": "geografia",
+        "code": "geo-2-2"
+      },
+      {
+        "name": "Biologia - Níveis de organização biológica - 30min",
+        "subject": "biologia",
+        "code": "bio-2-2"
+      }
+    ],
+    "2025-12-07": [
+      {
+        "name": "REVISAR PENDÊNCIAS DA SEMANA",
+        "subject": "geral",
+        "code": "ger-2-1"
+      },
+      {
+        "name": "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log) - 150min",
+        "subject": "matematica",
+        "code": "mat-2-8"
+      },
+      {
+        "name": "Matemática - Questões discursivas e redação matemática - 90min",
+        "subject": "matematica",
+        "code": "mat-2-9"
+      },
+      {
+        "name": "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado) - 90min",
+        "subject": "fisica",
+        "code": "fis-2-6"
+      },
+      {
+        "name": "Química - REVISÃO Ligações químicas completo - 60min",
+        "subject": "quimica",
+        "code": "qui-2-5"
+      },
+      {
+        "name": "Ciências Humanas - Povos originários das Américas + Arte Indígena - 60min",
+        "subject": "ciencias-humanas",
+        "code": "hum-2-3"
+      },
+      {
+        "name": "Tempo livre para recuperar atrasos - 1h30min",
+        "subject": "geral",
+        "code": "ger-2-2"
+      }
+    ],
+    "2025-12-09": [
+      {
+        "name": "Matemática - REVISÃO FINAL Conjuntos, MMC/MDC, razão e proporção - 90min",
+        "subject": "matematica",
+        "code": "mat-3-1"
+      },
+      {
+        "name": "Matemática - REVISÃO FINAL Função afim e quadrática - 90min",
+        "subject": "matematica",
+        "code": "mat-3-2"
+      },
+      {
+        "name": "Física - REVISÃO FINAL Hidrostática completa - 90min",
+        "subject": "fisica",
+        "code": "fis-3-1"
+      },
+      {
+        "name": "Química - REVISÃO FINAL Modelos atômicos e Tabela Periódica - 90min",
+        "subject": "quimica",
+        "code": "qui-3-1"
+      },
+      {
+        "name": "Química - REVISÃO FINAL Estequiometria completa - 60min",
+        "subject": "quimica",
+        "code": "qui-3-2"
+      },
+      {
+        "name": "Biologia - Célula (estruturas celulares, respiração celular, fotossíntese, fermentação, quimiossíntese) - 60min",
+        "subject": "biologia",
+        "code": "bio-3-1"
+      }
+    ],
+    "2025-12-10": [
+      {
+        "name": "Matemática - REVISÃO FINAL Função exponencial e logarítmica - 120min",
+        "subject": "matematica",
+        "code": "mat-3-3"
+      },
+      {
+        "name": "Matemática - REVISÃO FINAL Geometria e trigonometria - 90min",
+        "subject": "matematica",
+        "code": "mat-3-4"
+      },
+      {
+        "name": "Física - REVISÃO FINAL Cinemática + Dinâmica - 90min",
+        "subject": "fisica",
+        "code": "fis-3-2"
+      },
+      {
+        "name": "Química - REVISÃO GERAL Propriedades, separação, ligações - 60min",
+        "subject": "quimica",
+        "code": "qui-3-3"
+      },
+      {
+        "name": "Ciências Humanas - Trânsitos entre continentes (séc. XV-XVII) + Ocupação da América Portuguesa - 60min",
+        "subject": "ciencias-humanas",
+        "code": "hum-3-1"
+      }
+    ],
+    "2025-12-11": [
+      {
+        "name": "Matemática - REVISÃO GERAL Todos os tópicos (foco em dúvidas) - 120min",
+        "subject": "matematica",
+        "code": "mat-3-5"
+      },
+      {
+        "name": "Física - REVISÃO GERAL Todos os tópicos (foco em fórmulas) - 90min",
+        "subject": "fisica",
+        "code": "fis-3-3"
+      },
+      {
+        "name": "Química - REVISÃO GERAL Todos os tópicos - 90min",
+        "subject": "quimica",
+        "code": "qui-3-4"
+      },
+      {
+        "name": "Geografia - REVISÃO Cartografia, climatologia, geologia - 60min",
+        "subject": "geografia",
+        "code": "geo-3-1"
+      },
+      {
+        "name": "Ciências Humanas - REVISÃO Filosofia (surgimento, áreas, lógica) - 30min",
+        "subject": "ciencias-humanas",
+        "code": "hum-3-2"
+      },
+      {
+        "name": "Ciências Humanas - REVISÃO Sociologia (surgimento, cultura, métodos, desigualdades) - 30min",
+        "subject": "ciencias-humanas",
+        "code": "hum-3-3"
+      }
+    ],
+    "2025-12-12": [
+      {
+        "name": "Biologia - REVISÃO RÁPIDA Genética (conceitos básicos, Mendel, mitose, meiose, crossing over) - 45min",
+        "subject": "biologia",
+        "code": "bio-3-2"
+      },
+      {
+        "name": "Biologia - REVISÃO GERAL Todos os tópicos - 45min",
+        "subject": "biologia",
+        "code": "bio-3-3"
+      },
+      {
+        "name": "Português - REVISÃO Gramática completa - 45min",
+        "subject": "portugues",
+        "code": "por-3-1"
+      },
+      {
+        "name": "Ciências Humanas - REVISÃO FINAL Linha do tempo histórica + conexões artísticas/literárias - 90min",
+        "subject": "ciencias-humanas",
+        "code": "hum-3-4"
+      },
+      {
+        "name": "Geografia - REVISÃO FINAL Domínios morfoclimáticos, solos, energia, agropecuária - 60min",
+        "subject": "geografia",
+        "code": "geo-3-2"
+      },
+      {
+        "name": "Matemática - Revisão leve de fórmulas e macetes - 60min",
+        "subject": "matematica",
+        "code": "mat-3-6"
+      },
+      {
+        "name": "Física - Revisão leve de fórmulas e conceitos-chave - 60min",
+        "subject": "fisica",
+        "code": "fis-3-4"
+      },
+      {
+        "name": "Química - Revisão leve de tabela periódica e fórmulas - 45min",
+        "subject": "quimica",
+        "code": "qui-3-5"
+      }
+    ],
+    "2025-12-13": [
+      {
+        "name": "Revisão flash de Matemática (fórmulas essenciais) - 45min",
+        "subject": "matematica",
+        "code": "mat-3-7"
+      },
+      {
+        "name": "Revisão flash de Física (fórmulas essenciais) - 45min",
+        "subject": "fisica",
+        "code": "fis-3-5"
+      },
+      {
+        "name": "Revisão flash de Química (tabela periódica, mol, fórmulas) - 45min",
+        "subject": "quimica",
+        "code": "qui-3-6"
+      },
+      {
+        "name": "Revisão flash de Ciências Humanas (mapas mentais, linha do tempo) - 30min",
+        "subject": "ciencias-humanas",
+        "code": "hum-3-5"
+      },
+      {
+        "name": "Revisão flash de Geografia (mapas, conceitos-chave) - 15min",
+        "subject": "geografia",
+        "code": "geo-3-3"
+      },
+      {
+        "name": "DESCANSO: Organizar materiais, dormir cedo, hidratar-se - OBRIGATÓRIO",
+        "subject": "geral",
+        "code": "ger-3-1"
+      }
+    ],
+    "2025-12-14": [
+      {
+        "name": "DIA DA PROVA",
+        "subject": "geral",
+        "code": "ger-3-2"
+      },
+      {
+        "name": "Café da manhã reforçado",
+        "subject": "geral",
+        "code": "ger-3-3"
+      },
+      {
+        "name": "Revisar só anotações-chave (30min máximo)",
+        "subject": "geral",
+        "code": "ger-3-4"
+      },
+      {
+        "name": "Separar documentos e materiais",
+        "subject": "geral",
+        "code": "ger-3-5"
+      },
+      {
+        "name": "Chegar com antecedência no local",
+        "subject": "geral",
+        "code": "ger-3-6"
+      },
+      {
+        "name": "Ler todas as questões primeiro (15min)",
+        "subject": "geral",
+        "code": "ger-3-7"
+      },
+      {
+        "name": "Resolver as mais fáceis primeiro",
+        "subject": "geral",
+        "code": "ger-3-8"
+      },
+      {
+        "name": "Deixar tempo para as discursivas (peso 4!)",
+        "subject": "geral",
+        "code": "ger-3-9"
+      },
+      {
+        "name": "Revisar respostas nos últimos 20min",
+        "subject": "geral",
+        "code": "ger-3-10"
+      }
+    ]
+  }
 }

@@ -4,6 +4,8 @@ import UFMGLayout from "@/layouts/UFMGLayout.vue";
 import UFMG from "./views/UFMG.vue";
 import Plano from "./views/UFMG/Plano.vue";
 import PlanoSidebar from "./views/UFMG/PlanoSidebar.vue";
+import Material from "./views/UFMG/Material.vue";
+import MaterialSidebar from "./views/UFMG/MaterialSidebar.vue";
 
 export const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +30,14 @@ export const router = createRouter({
           components: {
             default: Plano,
             sidebar: PlanoSidebar,
+          },
+        },
+        {
+          path: "material",
+          name: "Material",
+          components: {
+            default: Material,
+            sidebar: MaterialSidebar,
           },
         },
       ],

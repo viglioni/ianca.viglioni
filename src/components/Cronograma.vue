@@ -23,7 +23,8 @@ const formatDisplayDate = (date: Date): string => {
 
 // Get all dates from the schedule
 const allDates = computed(() => {
-  return Object.keys(studySchedule as Record<string, string[]>)
+  const schedule = (studySchedule as any).schedule as Record<string, Task[]>;
+  return Object.keys(schedule)
     .map((dateStr) => {
       const date = new Date(dateStr + 'T00:00:00');
       return date;
@@ -73,9 +74,16 @@ const getDateLabel = (date: Date): string => {
   return `${formatDisplayDate(date)}${checkpointLabel}`;
 };
 
+interface Task {
+  name: string;
+  subject: string;
+  code: string;
+}
+
 const currentTasks = computed(() => {
   const dateKey = formatDate(currentDate.value);
-  return (studySchedule as Record<string, string[]>)[dateKey] || [];
+  const schedule = (studySchedule as any).schedule as Record<string, Task[]>;
+  return schedule[dateKey] || [];
 });
 
 const hasTasks = computed(() => currentTasks.value.length > 0);
@@ -195,7 +203,7 @@ onMounted(() => {
 
     <div v-if="hasTasks" class="tasks-list">
       <div v-for="(task, index) in currentTasks" :key="index" class="task-item">
-        <span class="task-text">{{ task }}</span>
+        <span class="task-text">{{ task.name }}</span>
       </div>
     </div>
 

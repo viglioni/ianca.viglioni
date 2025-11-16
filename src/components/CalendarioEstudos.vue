@@ -13,9 +13,16 @@ const formatDate = (date: Date): string => {
   return `${year}-${month}-${day}`;
 };
 
+interface Task {
+  name: string;
+  subject: string;
+  code: string;
+}
+
 // Get all dates from the schedule
 const allDates = computed(() => {
-  return Object.keys(studySchedule as Record<string, string[]>)
+  const schedule = (studySchedule as any).schedule as Record<string, Task[]>;
+  return Object.keys(schedule)
     .map((dateStr) => {
       const date = new Date(dateStr + "T00:00:00");
       return date;

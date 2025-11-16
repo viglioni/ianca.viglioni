@@ -132,16 +132,36 @@ Se precisar parar e retomar o trabalho:
 
 ## SEMANA 2: 03/12 - 07/12
 
-### Terça a Sexta (03-06/12)
-- [ ] Geometria completa - Matemática
-- [ ] Hidrostática - Física
-- [ ] Estequiometria (FOCO) - Química
-- [ ] Geografia + Humanas
-- [ ] Biologia (Composição, Níveis)
+### Terça, 03/12 ✅ COMPLETO
+- [x] Matemática - Geometria: áreas - 120min
+- [x] Física - Hidrostática - 90min
+- [x] Química - Reações químicas - 90min
+- [x] Geografia - Estrutura geológica - 60min
+- [x] Humanas - Antiguidade Tardia - 60min
+
+### Quarta, 04/12 ✅ COMPLETO
+- [x] Matemática - Geometria triângulos - 120min
+- [x] Física - Pascal/Stevin - 90min
+- [x] Química - Estequiometria mol - 90min
+- [x] Biologia - Composição química - 60min
+
+### Quinta, 05/12 ✅ COMPLETO
+- [x] Matemática - Trigonometria - 120min
+- [x] Física - Arquimedes - 90min
+- [x] Química - Estequiometria cálculos - 90min
+- [x] Humanas - Renascimento - 60min
+
+### Sexta, 06/12 ✅ COMPLETO
+- [x] Matemática - Unidades medida - 90min
+- [x] Física - Revisão cinemática - 90min
+- [x] Química - Leis estequiométricas - 90min
+- [x] Geografia - Climatologia - 60min
+- [x] Biologia - Níveis organização - 60min
 
 ### Sábado, 07/12
-- [ ] Checkpoint + Revisões
-- [ ] Questões discursivas - Matemática
+- [ ] Checkpoint semanal
+- [ ] Matemática - Revisão exp/log - 90min
+- [ ] Matemática - Questões discursivas - 90min
 
 ---
 
@@ -163,6 +183,6 @@ Boa sorte!
 
 ---
 
-**Progresso: 43/96 itens (44,8%) - 🎉 PERÍODO DE FÉRIAS COMPLETO! 🎉**
+**Progresso: 61/96 itens (63,5%) - Passou dos 63%! 🎉**
 
-**Próximas aulas:** Semana 2 (03/12-07/12) - Geometria, Hidrostática, Estequiometria, Geografia, Humanas, Biologia
+**Próximas aulas:** Sábado 07/12 - Checkpoint semanal + Revisões Matemática
