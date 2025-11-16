@@ -21,7 +21,7 @@ interface Task {
 
 // Get all dates from the schedule
 const allDates = computed(() => {
-  const schedule = (studySchedule as any).schedule as Record<string, Task[]>;
+  const schedule = (studySchedule as any).schedule as Record<string, string[]>;
   return Object.keys(schedule)
     .map((dateStr) => {
       const date = new Date(dateStr + "T00:00:00");

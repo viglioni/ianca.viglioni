@@ -1,4 +1,2311 @@
 {
+  "codes": {
+    "mat-1-1": {
+      "title": "Matemática - Conjuntos (operações, subconjuntos, intervalos, conjuntos numéricos)",
+      "themes": [
+        "Conjuntos"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-18"
+      ]
+    },
+    "mat-1-2": {
+      "title": "Matemática - MMC e MDC",
+      "themes": [
+        "MDC",
+        "MMC"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-18"
+      ]
+    },
+    "mat-1-3": {
+      "title": "Matemática - Razão, proporção e proporcionalidade",
+      "themes": [
+        "Proporção",
+        "Razão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-19"
+      ]
+    },
+    "mat-1-4": {
+      "title": "Matemática - Notação científica, algarismos significativos, estimativa",
+      "themes": [
+        "Notação Científica",
+        "Notação Científica"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-19"
+      ]
+    },
+    "mat-1-5": {
+      "title": "Matemática - Expressões algébricas, produtos notáveis e fatoração",
+      "themes": [
+        "Álgebra"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-20"
+      ]
+    },
+    "mat-1-6": {
+      "title": "Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento)",
+      "themes": [
+        "Função Afim",
+        "Funções"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-21"
+      ]
+    },
+    "mat-1-7": {
+      "title": "Matemática - Função afim (taxa de variação, inequações, sistemas lineares)",
+      "themes": [
+        "Função Afim",
+        "Funções"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-22"
+      ]
+    },
+    "mat-1-8": {
+      "title": "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice)",
+      "themes": [
+        "Funções",
+        "Função Quadrática"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-23"
+      ]
+    },
+    "mat-1-9": {
+      "title": "Matemática - Exercícios de conjuntos e função afim",
+      "themes": [
+        "Função Afim",
+        "Conjuntos",
+        "Exercícios",
+        "Funções"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-23"
+      ]
+    },
+    "mat-ferias-1": {
+      "title": "Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal)",
+      "themes": [
+        "Funções",
+        "Função Quadrática"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-26"
+      ]
+    },
+    "mat-ferias-2": {
+      "title": "Matemática - Função quadrática (inequações e sistemas)",
+      "themes": [
+        "Funções",
+        "Função Quadrática"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-27"
+      ]
+    },
+    "mat-ferias-3": {
+      "title": "Matemática - FOCO Função exponencial (potenciação, propriedades)",
+      "themes": [
+        "Função Exponencial",
+        "Funções"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-28"
+      ]
+    },
+    "mat-ferias-4": {
+      "title": "Matemática - FOCO Função exponencial (equações, gráficos, crescimento/decrescimento)",
+      "themes": [
+        "Função Exponencial",
+        "Funções"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-29"
+      ]
+    },
+    "mat-ferias-5": {
+      "title": "Matemática - FOCO Função logarítmica (definição, logaritmo decimal e natural)",
+      "themes": [
+        "Funções",
+        "logaritmica"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-11-30"
+      ]
+    },
+    "mat-ferias-6": {
+      "title": "Matemática - FOCO Função logarítmica (propriedades, equações logarítmicas)",
+      "themes": [
+        "Funções",
+        "logaritmica"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-01"
+      ]
+    },
+    "mat-ferias-7": {
+      "title": "Matemática - FOCO Função logarítmica (gráficos)",
+      "themes": [
+        "Funções",
+        "logaritmica"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-02"
+      ]
+    },
+    "mat-ferias-8": {
+      "title": "Matemática - FOCO Relação entre funções exponencial e logarítmica",
+      "themes": [],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-02"
+      ]
+    },
+    "mat-2-1": {
+      "title": "Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango)",
+      "themes": [
+        "Geometria"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-03"
+      ]
+    },
+    "mat-2-2": {
+      "title": "Matemática - Geometria: áreas (triângulo, círculo)",
+      "themes": [
+        "Geometria"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-04"
+      ]
+    },
+    "mat-2-3": {
+      "title": "Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo",
+      "themes": [
+        "pitagoras"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-04"
+      ]
+    },
+    "mat-2-4": {
+      "title": "Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis",
+      "themes": [
+        "Trigonometria"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-05"
+      ]
+    },
+    "mat-2-5": {
+      "title": "Matemática - Retas paralelas e transversais (proporcionalidade)",
+      "themes": [
+        "analitica",
+        "Geometria"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-05"
+      ]
+    },
+    "mat-2-6": {
+      "title": "Matemática - Sistema Internacional de Medidas e conversões",
+      "themes": [
+        "medidas"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-06"
+      ]
+    },
+    "mat-2-7": {
+      "title": "Matemática - REVISÃO Função exponencial e logarítmica",
+      "themes": [
+        "Função Exponencial",
+        "Funções",
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-06"
+      ]
+    },
+    "mat-2-8": {
+      "title": "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "mat-2-9": {
+      "title": "Matemática - Questões discursivas e redação matemática",
+      "themes": [],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "mat-3-1": {
+      "title": "Matemática - REVISÃO FINAL Conjuntos, MMC/MDC, razão e proporção",
+      "themes": [
+        "Conjuntos",
+        "MDC",
+        "MMC",
+        "Proporção",
+        "Razão",
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-09"
+      ]
+    },
+    "mat-3-2": {
+      "title": "Matemática - REVISÃO FINAL Função afim e quadrática",
+      "themes": [
+        "Função Afim",
+        "Funções",
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-09"
+      ]
+    },
+    "mat-3-3": {
+      "title": "Matemática - REVISÃO FINAL Função exponencial e logarítmica",
+      "themes": [
+        "Função Exponencial",
+        "Funções",
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-10"
+      ]
+    },
+    "mat-3-4": {
+      "title": "Matemática - REVISÃO FINAL Geometria e trigonometria",
+      "themes": [
+        "Geometria",
+        "Revisão",
+        "Trigonometria"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-10"
+      ]
+    },
+    "mat-3-5": {
+      "title": "Matemática - REVISÃO GERAL Todos os tópicos (foco em dúvidas)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-11"
+      ]
+    },
+    "mat-3-6": {
+      "title": "Matemática - Revisão leve de fórmulas e macetes",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "mat-3-7": {
+      "title": "Revisão flash de Matemática (fórmulas essenciais)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "matematica",
+      "dates": [
+        "2025-12-13"
+      ]
+    },
+    "fis-1-1": {
+      "title": "Física - Grandezas vetoriais, escalares e vetores",
+      "themes": [
+        "Grandezas Físicas",
+        "Grandezas Vetoriais"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-18"
+      ]
+    },
+    "fis-1-2": {
+      "title": "Física - Cinemática: MRU (conceitos, equações, gráficos)",
+      "themes": [
+        "Cinemática"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-19"
+      ]
+    },
+    "fis-1-3": {
+      "title": "Física - Cinemática: MRUV e queda livre",
+      "themes": [
+        "Cinemática"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-20"
+      ]
+    },
+    "fis-1-4": {
+      "title": "Física - Movimento circular",
+      "themes": [
+        "Movimento Circular",
+        "Movimento"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-21"
+      ]
+    },
+    "fis-1-5": {
+      "title": "Física - Leis de Newton (1ª, 2ª e 3ª leis)",
+      "themes": [
+        "de",
+        "Leis",
+        "Leis de Newton"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-22"
+      ]
+    },
+    "fis-ferias-1": {
+      "title": "Física - Força peso, normal e atrito",
+      "themes": [
+        "dinamica"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-29"
+      ]
+    },
+    "fis-ferias-2": {
+      "title": "Física - Plano inclinado",
+      "themes": [
+        "dinamica"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-11-30"
+      ]
+    },
+    "fis-2-1": {
+      "title": "Física - Hidrostática: pressão em sólidos e fluidos",
+      "themes": [
+        "Hidrostática"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-03"
+      ]
+    },
+    "fis-2-2": {
+      "title": "Física - Princípio de Pascal e Teorema de Stevin",
+      "themes": [
+        "Hidrostática"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-04"
+      ]
+    },
+    "fis-2-3": {
+      "title": "Física - Princípio de Arquimedes (empuxo)",
+      "themes": [
+        "Hidrostática"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-05"
+      ]
+    },
+    "fis-2-4": {
+      "title": "Física - Experimento de Torricelli (pressão atmosférica)",
+      "themes": [
+        "Hidrostática"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-05"
+      ]
+    },
+    "fis-2-5": {
+      "title": "Física - REVISÃO Cinemática completa (MRU, MRUV, queda livre, circular)",
+      "themes": [
+        "Cinemática",
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-06"
+      ]
+    },
+    "fis-2-6": {
+      "title": "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado)",
+      "themes": [
+        "de",
+        "dinamica",
+        "Leis",
+        "Leis de Newton",
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "fis-3-1": {
+      "title": "Física - REVISÃO FINAL Hidrostática completa",
+      "themes": [
+        "Hidrostática",
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-09"
+      ]
+    },
+    "fis-3-2": {
+      "title": "Física - REVISÃO FINAL Cinemática + Dinâmica",
+      "themes": [
+        "Cinemática",
+        "dinamica",
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-10"
+      ]
+    },
+    "fis-3-3": {
+      "title": "Física - REVISÃO GERAL Todos os tópicos (foco em fórmulas)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-11"
+      ]
+    },
+    "fis-3-4": {
+      "title": "Física - Revisão leve de fórmulas e conceitos-chave",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "fis-3-5": {
+      "title": "Revisão flash de Física (fórmulas essenciais)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "fisica",
+      "dates": [
+        "2025-12-13"
+      ]
+    },
+    "qui-1-1": {
+      "title": "Química - Propriedades das substâncias (densidade, solubilidade, T fusão/ebulição)",
+      "themes": [
+        "Propriedades",
+        "Substâncias"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-18"
+      ]
+    },
+    "qui-1-2": {
+      "title": "Química - Processos de separação de misturas",
+      "themes": [
+        "Misturas",
+        "Separação de Misturas"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-18"
+      ]
+    },
+    "qui-1-3": {
+      "title": "Química - Modelos atômicos (Dalton, Thomson, Rutherford, Bohr)",
+      "themes": [
+        "Modelos Atômicos",
+        "Modelos Atômicos"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-19"
+      ]
+    },
+    "qui-1-4": {
+      "title": "Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade",
+      "themes": [
+        "Estrutura Atômica",
+        "Estrutura Geológica"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-20"
+      ]
+    },
+    "qui-1-5": {
+      "title": "Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico)",
+      "themes": [
+        "Propriedades Periódicas",
+        "Tabela Periódica"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-21"
+      ]
+    },
+    "qui-1-6": {
+      "title": "Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica)",
+      "themes": [
+        "Propriedades Periódicas",
+        "Tabela Periódica"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-22"
+      ]
+    },
+    "qui-ferias-1": {
+      "title": "Química - Ligações químicas: iônica",
+      "themes": [
+        "Ligações Químicas",
+        "Reações Químicas"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-26"
+      ]
+    },
+    "qui-ferias-2": {
+      "title": "Química - Ligações químicas: covalente",
+      "themes": [
+        "Ligações Químicas",
+        "Reações Químicas"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-27"
+      ]
+    },
+    "qui-ferias-3": {
+      "title": "Química - Ligações químicas: metálica",
+      "themes": [
+        "Ligações Químicas",
+        "Reações Químicas"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-11-28"
+      ]
+    },
+    "qui-ferias-4": {
+      "title": "Química - Propriedades das substâncias segundo ligações químicas",
+      "themes": [
+        "Ligações Químicas",
+        "Propriedades",
+        "Reações Químicas",
+        "Substâncias"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-01"
+      ]
+    },
+    "qui-2-1": {
+      "title": "Química - FOCO Reações químicas (evidências, equações, balanceamento)",
+      "themes": [
+        "Reações Químicas",
+        "Reações"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-03"
+      ]
+    },
+    "qui-2-2": {
+      "title": "Química - FOCO Estequiometria: mol e massa molar",
+      "themes": [
+        "Estequiometria"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-04"
+      ]
+    },
+    "qui-2-3": {
+      "title": "Química - FOCO Estequiometria: cálculos em reações químicas",
+      "themes": [
+        "Estequiometria",
+        "Reações Químicas",
+        "Reações"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-05"
+      ]
+    },
+    "qui-2-4": {
+      "title": "Química - FOCO Estequiometria: leis ponderais",
+      "themes": [
+        "de",
+        "Estequiometria",
+        "Leis",
+        "Leis de Newton"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-06"
+      ]
+    },
+    "qui-2-5": {
+      "title": "Química - REVISÃO Ligações químicas completo",
+      "themes": [
+        "Ligações Químicas",
+        "Reações Químicas",
+        "Revisão"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "qui-3-1": {
+      "title": "Química - REVISÃO FINAL Modelos atômicos e Tabela Periódica",
+      "themes": [
+        "Modelos Atômicos",
+        "Modelos Atômicos",
+        "Propriedades Periódicas",
+        "Revisão",
+        "Tabela Periódica"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-09"
+      ]
+    },
+    "qui-3-2": {
+      "title": "Química - REVISÃO FINAL Estequiometria completa",
+      "themes": [
+        "Estequiometria",
+        "Revisão"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-09"
+      ]
+    },
+    "qui-3-3": {
+      "title": "Química - REVISÃO GERAL Propriedades, separação, ligações",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-10"
+      ]
+    },
+    "qui-3-4": {
+      "title": "Química - REVISÃO GERAL Todos os tópicos",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-11"
+      ]
+    },
+    "qui-3-5": {
+      "title": "Química - Revisão leve de tabela periódica e fórmulas",
+      "themes": [
+        "Propriedades Periódicas",
+        "Revisão",
+        "Tabela Periódica"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "qui-3-6": {
+      "title": "Revisão flash de Química (tabela periódica, mol, fórmulas)",
+      "themes": [
+        "Estequiometria",
+        "Propriedades Periódicas",
+        "Revisão",
+        "Tabela Periódica"
+      ],
+      "subject": "quimica",
+      "dates": [
+        "2025-12-13"
+      ]
+    },
+    "fil-1-1": {
+      "title": "Filosofia - Lógica: argumento, validade, falácia (parte técnica)",
+      "themes": [
+        "Lógica"
+      ],
+      "subject": "filosofia",
+      "dates": [
+        "2025-11-19"
+      ]
+    },
+    "soc-1-1": {
+      "title": "Sociologia - Métodos de pesquisa (parte técnica: quantitativo/qualitativo)",
+      "themes": [
+        "Métodos de Pesquisa",
+        "Métodos de Pesquisa"
+      ],
+      "subject": "sociologia",
+      "dates": [
+        "2025-11-20"
+      ]
+    },
+    "por-1-1": {
+      "title": "Português - Concordância verbal e nominal",
+      "themes": [
+        "Concordância"
+      ],
+      "subject": "portugues",
+      "dates": [
+        "2025-11-20"
+      ]
+    },
+    "por-1-2": {
+      "title": "Português - Tempo e modo verbais",
+      "themes": [
+        "Verbos"
+      ],
+      "subject": "portugues",
+      "dates": [
+        "2025-11-22"
+      ]
+    },
+    "por-3-1": {
+      "title": "Português - REVISÃO Gramática completa",
+      "themes": [
+        "gramatica",
+        "Revisão"
+      ],
+      "subject": "portugues",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "geo-1-1": {
+      "title": "Geografia - Cartografia (mapas, elementos, coordenadas geográficas, fusos horários)",
+      "themes": [
+        "Cartografia"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-11-21"
+      ]
+    },
+    "geo-1-2": {
+      "title": "Geografia - Projeções cartográficas, escalas, curvas de nível",
+      "themes": [
+        "Cartografia"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-11-22"
+      ]
+    },
+    "geo-2-1": {
+      "title": "Geografia - Estrutura geológica, relevo, tectônica, mineração",
+      "themes": [
+        "geologia",
+        "Lógica"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-12-03"
+      ]
+    },
+    "geo-2-2": {
+      "title": "Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas)",
+      "themes": [
+        "Climatologia"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-12-06"
+      ]
+    },
+    "geo-3-1": {
+      "title": "Geografia - REVISÃO Cartografia, climatologia, geologia",
+      "themes": [
+        "Cartografia",
+        "Climatologia",
+        "Revisão"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-12-11"
+      ]
+    },
+    "geo-3-2": {
+      "title": "Geografia - REVISÃO FINAL Domínios morfoclimáticos, solos, energia, agropecuária",
+      "themes": [
+        "biogeografia",
+        "Revisão"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "geo-3-3": {
+      "title": "Revisão flash de Geografia (mapas, conceitos-chave)",
+      "themes": [
+        "Cartografia",
+        "Revisão"
+      ],
+      "subject": "geografia",
+      "dates": [
+        "2025-12-13"
+      ]
+    },
+    "hum-1-1": {
+      "title": "Ciências Humanas - Narrativas de origem e Antiguidade Oriental",
+      "themes": [
+        "antiga",
+        "História"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-11-21"
+      ]
+    },
+    "hum-1-2": {
+      "title": "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica",
+      "themes": [
+        "antiga",
+        "História"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-11-23"
+      ]
+    },
+    "hum-2-1": {
+      "title": "Ciências Humanas - Antiguidade Tardia e Mundo Medieval + Arte Medieval",
+      "themes": [
+        "antiga",
+        "História",
+        "idade",
+        "media"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-03"
+      ]
+    },
+    "hum-2-2": {
+      "title": "Ciências Humanas - Mundo Moderno Capitalista (séc. XV-XVII) + Renascimento nas Artes",
+      "themes": [
+        "idade",
+        "moderna"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-05"
+      ]
+    },
+    "hum-2-3": {
+      "title": "Ciências Humanas - Povos originários das Américas + Arte Indígena",
+      "themes": [
+        "Américas"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "hum-3-1": {
+      "title": "Ciências Humanas - Trânsitos entre continentes (séc. XV-XVII) + Ocupação da América Portuguesa",
+      "themes": [
+        "grandes",
+        "navegacoes"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-10"
+      ]
+    },
+    "hum-3-2": {
+      "title": "Ciências Humanas - REVISÃO Filosofia (surgimento, áreas, lógica)",
+      "themes": [
+        "Geometria",
+        "Lógica",
+        "Revisão"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-11"
+      ]
+    },
+    "hum-3-3": {
+      "title": "Ciências Humanas - REVISÃO Sociologia (surgimento, cultura, métodos, desigualdades)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-11"
+      ]
+    },
+    "hum-3-4": {
+      "title": "Ciências Humanas - REVISÃO FINAL Linha do tempo histórica + conexões artísticas/literárias",
+      "themes": [
+        "Revisão Geral",
+        "História",
+        "Revisão"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "hum-3-5": {
+      "title": "Revisão flash de Ciências Humanas (mapas mentais, linha do tempo)",
+      "themes": [
+        "Cartografia",
+        "Revisão Geral",
+        "História",
+        "Revisão"
+      ],
+      "subject": "ciencias-humanas",
+      "dates": [
+        "2025-12-13"
+      ]
+    },
+    "ger-1-1": {
+      "title": "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "geral",
+      "dates": [
+        "2025-11-23"
+      ]
+    },
+    "ger-1-2": {
+      "title": "Tempo livre para recuperar atrasos - 2h",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-11-23"
+      ]
+    },
+    "ger-2-1": {
+      "title": "REVISAR PENDÊNCIAS DA SEMANA",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "geral",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "ger-2-2": {
+      "title": "Tempo livre para recuperar atrasos - 1h",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-07"
+      ]
+    },
+    "ger-3-1": {
+      "title": "DESCANSO: Organizar materiais, dormir cedo, hidratar-se - OBRIGATÓRIO",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-13"
+      ]
+    },
+    "ger-3-2": {
+      "title": "DIA DA PROVA",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-3": {
+      "title": "Café da manhã reforçado",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-4": {
+      "title": "Revisar só anotações-chave (30min máximo)",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-5": {
+      "title": "Separar documentos e materiais",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-6": {
+      "title": "Chegar com antecedência no local",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-7": {
+      "title": "Ler todas as questões primeiro (15min)",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-8": {
+      "title": "Resolver as mais fáceis primeiro",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-9": {
+      "title": "Deixar tempo para as discursivas (peso 4!)",
+      "themes": [],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "ger-3-10": {
+      "title": "Revisar respostas nos últimos",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "geral",
+      "dates": [
+        "2025-12-14"
+      ]
+    },
+    "bio-1-1": {
+      "title": "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos",
+      "themes": [
+        "Origem da Vida",
+        "Origem da Vida"
+      ],
+      "subject": "biologia",
+      "dates": [
+        "2025-11-23"
+      ]
+    },
+    "bio-2-1": {
+      "title": "Biologia - Composição química dos seres vivos (água, biomoléculas)",
+      "themes": [
+        "Composição Química",
+        "Estequiometria",
+        "Química"
+      ],
+      "subject": "biologia",
+      "dates": [
+        "2025-12-04"
+      ]
+    },
+    "bio-2-2": {
+      "title": "Biologia - Níveis de organização biológica",
+      "themes": [
+        "biologica",
+        "Lógica",
+        "Organização"
+      ],
+      "subject": "biologia",
+      "dates": [
+        "2025-12-06"
+      ]
+    },
+    "bio-3-1": {
+      "title": "Biologia - Célula (estruturas celulares, respiração celular, fotossíntese, fermentação, quimiossíntese)",
+      "themes": [
+        "Célula"
+      ],
+      "subject": "biologia",
+      "dates": [
+        "2025-12-09"
+      ]
+    },
+    "bio-3-2": {
+      "title": "Biologia - REVISÃO RÁPIDA Genética (conceitos básicos, Mendel, mitose, meiose, crossing over)",
+      "themes": [
+        "genetica",
+        "Revisão"
+      ],
+      "subject": "biologia",
+      "dates": [
+        "2025-12-12"
+      ]
+    },
+    "bio-3-3": {
+      "title": "Biologia - REVISÃO GERAL Todos os tópicos",
+      "themes": [
+        "Revisão"
+      ],
+      "subject": "biologia",
+      "dates": [
+        "2025-12-12"
+      ]
+    }
+  },
+  "themes": {
+    "Américas": {
+      "codes": [
+        {
+          "code": "hum-2-3"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "Cartografia": {
+      "codes": [
+        {
+          "code": "geo-1-1"
+        },
+        {
+          "code": "geo-1-2"
+        },
+        {
+          "code": "geo-3-1"
+        },
+        {
+          "code": "geo-3-3"
+        },
+        {
+          "code": "hum-3-5"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas",
+        "geografia"
+      ]
+    },
+    "Cinemática": {
+      "codes": [
+        {
+          "code": "fis-1-2"
+        },
+        {
+          "code": "fis-1-3"
+        },
+        {
+          "code": "fis-2-5"
+        },
+        {
+          "code": "fis-3-2"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "Climatologia": {
+      "codes": [
+        {
+          "code": "geo-2-2"
+        },
+        {
+          "code": "geo-3-1"
+        }
+      ],
+      "subjects": [
+        "geografia"
+      ]
+    },
+    "Composição Química": {
+      "codes": [
+        {
+          "code": "bio-2-1"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "Concordância": {
+      "codes": [
+        {
+          "code": "por-1-1"
+        }
+      ],
+      "subjects": [
+        "portugues"
+      ]
+    },
+    "Conjuntos": {
+      "codes": [
+        {
+          "code": "mat-1-1"
+        },
+        {
+          "code": "mat-1-9"
+        },
+        {
+          "code": "mat-3-1"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Célula": {
+      "codes": [
+        {
+          "code": "bio-3-1"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "Estequiometria": {
+      "codes": [
+        {
+          "code": "bio-2-1"
+        },
+        {
+          "code": "qui-2-2"
+        },
+        {
+          "code": "qui-2-3"
+        },
+        {
+          "code": "qui-2-4"
+        },
+        {
+          "code": "qui-3-2"
+        },
+        {
+          "code": "qui-3-6"
+        }
+      ],
+      "subjects": [
+        "biologia",
+        "quimica"
+      ]
+    },
+    "Estrutura Atômica": {
+      "codes": [
+        {
+          "code": "qui-1-4"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Estrutura Geológica": {
+      "codes": [
+        {
+          "code": "qui-1-4"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Exercícios": {
+      "codes": [
+        {
+          "code": "mat-1-9"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Função Afim": {
+      "codes": [
+        {
+          "code": "mat-1-6"
+        },
+        {
+          "code": "mat-1-7"
+        },
+        {
+          "code": "mat-1-9"
+        },
+        {
+          "code": "mat-3-2"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Função Exponencial": {
+      "codes": [
+        {
+          "code": "mat-2-7"
+        },
+        {
+          "code": "mat-3-3"
+        },
+        {
+          "code": "mat-ferias-3"
+        },
+        {
+          "code": "mat-ferias-4"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Função Quadrática": {
+      "codes": [
+        {
+          "code": "mat-1-8"
+        },
+        {
+          "code": "mat-ferias-1"
+        },
+        {
+          "code": "mat-ferias-2"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Funções": {
+      "codes": [
+        {
+          "code": "mat-1-6"
+        },
+        {
+          "code": "mat-1-7"
+        },
+        {
+          "code": "mat-1-8"
+        },
+        {
+          "code": "mat-1-9"
+        },
+        {
+          "code": "mat-2-7"
+        },
+        {
+          "code": "mat-3-2"
+        },
+        {
+          "code": "mat-3-3"
+        },
+        {
+          "code": "mat-ferias-1"
+        },
+        {
+          "code": "mat-ferias-2"
+        },
+        {
+          "code": "mat-ferias-3"
+        },
+        {
+          "code": "mat-ferias-4"
+        },
+        {
+          "code": "mat-ferias-5"
+        },
+        {
+          "code": "mat-ferias-6"
+        },
+        {
+          "code": "mat-ferias-7"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Geometria": {
+      "codes": [
+        {
+          "code": "hum-3-2"
+        },
+        {
+          "code": "mat-2-1"
+        },
+        {
+          "code": "mat-2-2"
+        },
+        {
+          "code": "mat-2-5"
+        },
+        {
+          "code": "mat-3-4"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas",
+        "matematica"
+      ]
+    },
+    "Grandezas Físicas": {
+      "codes": [
+        {
+          "code": "fis-1-1"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "Grandezas Vetoriais": {
+      "codes": [
+        {
+          "code": "fis-1-1"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "Hidrostática": {
+      "codes": [
+        {
+          "code": "fis-2-1"
+        },
+        {
+          "code": "fis-2-2"
+        },
+        {
+          "code": "fis-2-3"
+        },
+        {
+          "code": "fis-2-4"
+        },
+        {
+          "code": "fis-3-1"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "História": {
+      "codes": [
+        {
+          "code": "hum-1-1"
+        },
+        {
+          "code": "hum-1-2"
+        },
+        {
+          "code": "hum-2-1"
+        },
+        {
+          "code": "hum-3-4"
+        },
+        {
+          "code": "hum-3-5"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "Leis": {
+      "codes": [
+        {
+          "code": "fis-1-5"
+        },
+        {
+          "code": "fis-2-6"
+        },
+        {
+          "code": "qui-2-4"
+        }
+      ],
+      "subjects": [
+        "fisica",
+        "quimica"
+      ]
+    },
+    "Leis de Newton": {
+      "codes": [
+        {
+          "code": "fis-1-5"
+        },
+        {
+          "code": "fis-2-6"
+        },
+        {
+          "code": "qui-2-4"
+        }
+      ],
+      "subjects": [
+        "fisica",
+        "quimica"
+      ]
+    },
+    "Ligações Químicas": {
+      "codes": [
+        {
+          "code": "qui-2-5"
+        },
+        {
+          "code": "qui-ferias-1"
+        },
+        {
+          "code": "qui-ferias-2"
+        },
+        {
+          "code": "qui-ferias-3"
+        },
+        {
+          "code": "qui-ferias-4"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Lógica": {
+      "codes": [
+        {
+          "code": "bio-2-2"
+        },
+        {
+          "code": "fil-1-1"
+        },
+        {
+          "code": "geo-2-1"
+        },
+        {
+          "code": "hum-3-2"
+        }
+      ],
+      "subjects": [
+        "biologia",
+        "ciencias-humanas",
+        "filosofia",
+        "geografia"
+      ]
+    },
+    "MDC": {
+      "codes": [
+        {
+          "code": "mat-1-2"
+        },
+        {
+          "code": "mat-3-1"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "MMC": {
+      "codes": [
+        {
+          "code": "mat-1-2"
+        },
+        {
+          "code": "mat-3-1"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Misturas": {
+      "codes": [
+        {
+          "code": "qui-1-2"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Modelos Atômicos": {
+      "codes": [
+        {
+          "code": "qui-1-3"
+        },
+        {
+          "code": "qui-1-3"
+        },
+        {
+          "code": "qui-3-1"
+        },
+        {
+          "code": "qui-3-1"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Movimento": {
+      "codes": [
+        {
+          "code": "fis-1-4"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "Movimento Circular": {
+      "codes": [
+        {
+          "code": "fis-1-4"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "Métodos de Pesquisa": {
+      "codes": [
+        {
+          "code": "soc-1-1"
+        },
+        {
+          "code": "soc-1-1"
+        }
+      ],
+      "subjects": [
+        "sociologia"
+      ]
+    },
+    "Notação Científica": {
+      "codes": [
+        {
+          "code": "mat-1-4"
+        },
+        {
+          "code": "mat-1-4"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Organização": {
+      "codes": [
+        {
+          "code": "bio-2-2"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "Origem da Vida": {
+      "codes": [
+        {
+          "code": "bio-1-1"
+        },
+        {
+          "code": "bio-1-1"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "Proporção": {
+      "codes": [
+        {
+          "code": "mat-1-3"
+        },
+        {
+          "code": "mat-3-1"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Propriedades": {
+      "codes": [
+        {
+          "code": "qui-1-1"
+        },
+        {
+          "code": "qui-ferias-4"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Propriedades Periódicas": {
+      "codes": [
+        {
+          "code": "qui-1-5"
+        },
+        {
+          "code": "qui-1-6"
+        },
+        {
+          "code": "qui-3-1"
+        },
+        {
+          "code": "qui-3-5"
+        },
+        {
+          "code": "qui-3-6"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Química": {
+      "codes": [
+        {
+          "code": "bio-2-1"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "Razão": {
+      "codes": [
+        {
+          "code": "mat-1-3"
+        },
+        {
+          "code": "mat-3-1"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Reações": {
+      "codes": [
+        {
+          "code": "qui-2-1"
+        },
+        {
+          "code": "qui-2-3"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Reações Químicas": {
+      "codes": [
+        {
+          "code": "qui-2-1"
+        },
+        {
+          "code": "qui-2-3"
+        },
+        {
+          "code": "qui-2-5"
+        },
+        {
+          "code": "qui-ferias-1"
+        },
+        {
+          "code": "qui-ferias-2"
+        },
+        {
+          "code": "qui-ferias-3"
+        },
+        {
+          "code": "qui-ferias-4"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Revisão": {
+      "codes": [
+        {
+          "code": "bio-3-2"
+        },
+        {
+          "code": "bio-3-3"
+        },
+        {
+          "code": "fis-2-5"
+        },
+        {
+          "code": "fis-2-6"
+        },
+        {
+          "code": "fis-3-1"
+        },
+        {
+          "code": "fis-3-2"
+        },
+        {
+          "code": "fis-3-3"
+        },
+        {
+          "code": "fis-3-4"
+        },
+        {
+          "code": "fis-3-5"
+        },
+        {
+          "code": "geo-3-1"
+        },
+        {
+          "code": "geo-3-2"
+        },
+        {
+          "code": "geo-3-3"
+        },
+        {
+          "code": "ger-1-1"
+        },
+        {
+          "code": "ger-2-1"
+        },
+        {
+          "code": "ger-3-10"
+        },
+        {
+          "code": "ger-3-4"
+        },
+        {
+          "code": "hum-3-2"
+        },
+        {
+          "code": "hum-3-3"
+        },
+        {
+          "code": "hum-3-4"
+        },
+        {
+          "code": "hum-3-5"
+        },
+        {
+          "code": "mat-2-7"
+        },
+        {
+          "code": "mat-2-8"
+        },
+        {
+          "code": "mat-3-1"
+        },
+        {
+          "code": "mat-3-2"
+        },
+        {
+          "code": "mat-3-3"
+        },
+        {
+          "code": "mat-3-4"
+        },
+        {
+          "code": "mat-3-5"
+        },
+        {
+          "code": "mat-3-6"
+        },
+        {
+          "code": "mat-3-7"
+        },
+        {
+          "code": "por-3-1"
+        },
+        {
+          "code": "qui-2-5"
+        },
+        {
+          "code": "qui-3-1"
+        },
+        {
+          "code": "qui-3-2"
+        },
+        {
+          "code": "qui-3-3"
+        },
+        {
+          "code": "qui-3-4"
+        },
+        {
+          "code": "qui-3-5"
+        },
+        {
+          "code": "qui-3-6"
+        }
+      ],
+      "subjects": [
+        "biologia",
+        "ciencias-humanas",
+        "fisica",
+        "geografia",
+        "geral",
+        "matematica",
+        "portugues",
+        "quimica"
+      ]
+    },
+    "Revisão Geral": {
+      "codes": [
+        {
+          "code": "hum-3-4"
+        },
+        {
+          "code": "hum-3-5"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "Separação de Misturas": {
+      "codes": [
+        {
+          "code": "qui-1-2"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Substâncias": {
+      "codes": [
+        {
+          "code": "qui-1-1"
+        },
+        {
+          "code": "qui-ferias-4"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Tabela Periódica": {
+      "codes": [
+        {
+          "code": "qui-1-5"
+        },
+        {
+          "code": "qui-1-6"
+        },
+        {
+          "code": "qui-3-1"
+        },
+        {
+          "code": "qui-3-5"
+        },
+        {
+          "code": "qui-3-6"
+        }
+      ],
+      "subjects": [
+        "quimica"
+      ]
+    },
+    "Trigonometria": {
+      "codes": [
+        {
+          "code": "mat-2-4"
+        },
+        {
+          "code": "mat-3-4"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Verbos": {
+      "codes": [
+        {
+          "code": "por-1-2"
+        }
+      ],
+      "subjects": [
+        "portugues"
+      ]
+    },
+    "analitica": {
+      "codes": [
+        {
+          "code": "mat-2-5"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "antiga": {
+      "codes": [
+        {
+          "code": "hum-1-1"
+        },
+        {
+          "code": "hum-1-2"
+        },
+        {
+          "code": "hum-2-1"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "biogeografia": {
+      "codes": [
+        {
+          "code": "geo-3-2"
+        }
+      ],
+      "subjects": [
+        "geografia"
+      ]
+    },
+    "biologica": {
+      "codes": [
+        {
+          "code": "bio-2-2"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "de": {
+      "codes": [
+        {
+          "code": "fis-1-5"
+        },
+        {
+          "code": "fis-2-6"
+        },
+        {
+          "code": "qui-2-4"
+        }
+      ],
+      "subjects": [
+        "fisica",
+        "quimica"
+      ]
+    },
+    "dinamica": {
+      "codes": [
+        {
+          "code": "fis-2-6"
+        },
+        {
+          "code": "fis-3-2"
+        },
+        {
+          "code": "fis-ferias-1"
+        },
+        {
+          "code": "fis-ferias-2"
+        }
+      ],
+      "subjects": [
+        "fisica"
+      ]
+    },
+    "genetica": {
+      "codes": [
+        {
+          "code": "bio-3-2"
+        }
+      ],
+      "subjects": [
+        "biologia"
+      ]
+    },
+    "geologia": {
+      "codes": [
+        {
+          "code": "geo-2-1"
+        }
+      ],
+      "subjects": [
+        "geografia"
+      ]
+    },
+    "gramatica": {
+      "codes": [
+        {
+          "code": "por-3-1"
+        }
+      ],
+      "subjects": [
+        "portugues"
+      ]
+    },
+    "grandes": {
+      "codes": [
+        {
+          "code": "hum-3-1"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "idade": {
+      "codes": [
+        {
+          "code": "hum-2-1"
+        },
+        {
+          "code": "hum-2-2"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "logaritmica": {
+      "codes": [
+        {
+          "code": "mat-ferias-5"
+        },
+        {
+          "code": "mat-ferias-6"
+        },
+        {
+          "code": "mat-ferias-7"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "media": {
+      "codes": [
+        {
+          "code": "hum-2-1"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "medidas": {
+      "codes": [
+        {
+          "code": "mat-2-6"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "moderna": {
+      "codes": [
+        {
+          "code": "hum-2-2"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "navegacoes": {
+      "codes": [
+        {
+          "code": "hum-3-1"
+        }
+      ],
+      "subjects": [
+        "ciencias-humanas"
+      ]
+    },
+    "pitagoras": {
+      "codes": [
+        {
+          "code": "mat-2-3"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    },
+    "Álgebra": {
+      "codes": [
+        {
+          "code": "mat-1-5"
+        }
+      ],
+      "subjects": [
+        "matematica"
+      ]
+    }
+  },
   "subjects": {
     "matematica": [
       {
@@ -896,622 +3203,166 @@
   },
   "schedule": {
     "2025-11-18": [
-      {
-        "name": "Matemática - Conjuntos (operações, subconjuntos, intervalos, conjuntos numéricos) - 120min",
-        "subject": "matematica",
-        "code": "mat-1-1"
-      },
-      {
-        "name": "Matemática - MMC e MDC - 60min",
-        "subject": "matematica",
-        "code": "mat-1-2"
-      },
-      {
-        "name": "Física - Grandezas vetoriais, escalares e vetores - 90min",
-        "subject": "fisica",
-        "code": "fis-1-1"
-      },
-      {
-        "name": "Química - Propriedades das substâncias (densidade, solubilidade, T fusão/ebulição) - 90min",
-        "subject": "quimica",
-        "code": "qui-1-1"
-      },
-      {
-        "name": "Química - Processos de separação de misturas - 60min",
-        "subject": "quimica",
-        "code": "qui-1-2"
-      }
+      "mat-1-1",
+      "mat-1-2",
+      "fis-1-1",
+      "qui-1-1",
+      "qui-1-2"
     ],
     "2025-11-19": [
-      {
-        "name": "Matemática - Razão, proporção e proporcionalidade - 90min",
-        "subject": "matematica",
-        "code": "mat-1-3"
-      },
-      {
-        "name": "Matemática - Notação científica, algarismos significativos, estimativa - 60min",
-        "subject": "matematica",
-        "code": "mat-1-4"
-      },
-      {
-        "name": "Física - Cinemática: MRU (conceitos, equações, gráficos) - 90min",
-        "subject": "fisica",
-        "code": "fis-1-2"
-      },
-      {
-        "name": "Química - Modelos atômicos (Dalton, Thomson, Rutherford, Bohr) - 90min",
-        "subject": "quimica",
-        "code": "qui-1-3"
-      },
-      {
-        "name": "Filosofia - Lógica: argumento, validade, falácia (parte técnica) - 60min",
-        "subject": "filosofia",
-        "code": "fil-1-1"
-      }
+      "mat-1-3",
+      "mat-1-4",
+      "fis-1-2",
+      "qui-1-3",
+      "fil-1-1"
     ],
     "2025-11-20": [
-      {
-        "name": "Matemática - Expressões algébricas, produtos notáveis e fatoração - 120min",
-        "subject": "matematica",
-        "code": "mat-1-5"
-      },
-      {
-        "name": "Física - Cinemática: MRUV e queda livre - 90min",
-        "subject": "fisica",
-        "code": "fis-1-3"
-      },
-      {
-        "name": "Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade - 90min",
-        "subject": "quimica",
-        "code": "qui-1-4"
-      },
-      {
-        "name": "Sociologia - Métodos de pesquisa (parte técnica: quantitativo/qualitativo) - 60min",
-        "subject": "sociologia",
-        "code": "soc-1-1"
-      },
-      {
-        "name": "Português - Concordância verbal e nominal - 60min",
-        "subject": "portugues",
-        "code": "por-1-1"
-      }
+      "mat-1-5",
+      "fis-1-3",
+      "qui-1-4",
+      "soc-1-1",
+      "por-1-1"
     ],
     "2025-11-21": [
-      {
-        "name": "Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento) - 120min",
-        "subject": "matematica",
-        "code": "mat-1-6"
-      },
-      {
-        "name": "Física - Movimento circular - 75min",
-        "subject": "fisica",
-        "code": "fis-1-4"
-      },
-      {
-        "name": "Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico) - 90min",
-        "subject": "quimica",
-        "code": "qui-1-5"
-      },
-      {
-        "name": "Geografia - Cartografia (mapas, elementos, coordenadas geográficas, fusos horários) - 75min",
-        "subject": "geografia",
-        "code": "geo-1-1"
-      },
-      {
-        "name": "Ciências Humanas - Narrativas de origem e Antiguidade Oriental - 60min",
-        "subject": "ciencias-humanas",
-        "code": "hum-1-1"
-      }
+      "mat-1-6",
+      "fis-1-4",
+      "qui-1-5",
+      "geo-1-1",
+      "hum-1-1"
     ],
     "2025-11-22": [
-      {
-        "name": "Matemática - Função afim (taxa de variação, inequações, sistemas lineares) - 120min",
-        "subject": "matematica",
-        "code": "mat-1-7"
-      },
-      {
-        "name": "Física - Leis de Newton (1ª, 2ª e 3ª leis) - 90min",
-        "subject": "fisica",
-        "code": "fis-1-5"
-      },
-      {
-        "name": "Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica) - 90min",
-        "subject": "quimica",
-        "code": "qui-1-6"
-      },
-      {
-        "name": "Geografia - Projeções cartográficas, escalas, curvas de nível - 60min",
-        "subject": "geografia",
-        "code": "geo-1-2"
-      },
-      {
-        "name": "Português - Tempo e modo verbais - 60min",
-        "subject": "portugues",
-        "code": "por-1-2"
-      }
+      "mat-1-7",
+      "fis-1-5",
+      "qui-1-6",
+      "geo-1-2",
+      "por-1-2"
     ],
     "2025-11-23": [
-      {
-        "name": "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
-        "subject": "geral",
-        "code": "ger-1-1"
-      },
-      {
-        "name": "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice) - 120min",
-        "subject": "matematica",
-        "code": "mat-1-8"
-      },
-      {
-        "name": "Matemática - Exercícios de conjuntos e função afim - 90min",
-        "subject": "matematica",
-        "code": "mat-1-9"
-      },
-      {
-        "name": "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos - 60min",
-        "subject": "biologia",
-        "code": "bio-1-1"
-      },
-      {
-        "name": "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica - 90min",
-        "subject": "ciencias-humanas",
-        "code": "hum-1-2"
-      },
-      {
-        "name": "Tempo livre para recuperar atrasos - 2h",
-        "subject": "geral",
-        "code": "ger-1-2"
-      }
+      "ger-1-1",
+      "mat-1-8",
+      "mat-1-9",
+      "bio-1-1",
+      "hum-1-2",
+      "ger-1-2"
     ],
     "2025-11-26": [
-      {
-        "name": "Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal) - 90min",
-        "subject": "matematica",
-        "code": "mat-ferias-1"
-      },
-      {
-        "name": "Química - Ligações químicas: iônica - 30min",
-        "subject": "quimica",
-        "code": "qui-ferias-1"
-      }
+      "mat-ferias-1",
+      "qui-ferias-1"
     ],
     "2025-11-27": [
-      {
-        "name": "Matemática - Função quadrática (inequações e sistemas) - 90min",
-        "subject": "matematica",
-        "code": "mat-ferias-2"
-      },
-      {
-        "name": "Química - Ligações químicas: covalente - 30min",
-        "subject": "quimica",
-        "code": "qui-ferias-2"
-      }
+      "mat-ferias-2",
+      "qui-ferias-2"
     ],
     "2025-11-28": [
-      {
-        "name": "Matemática - FOCO Função exponencial (potenciação, propriedades) - 90min",
-        "subject": "matematica",
-        "code": "mat-ferias-3"
-      },
-      {
-        "name": "Química - Ligações químicas: metálica - 30min",
-        "subject": "quimica",
-        "code": "qui-ferias-3"
-      }
+      "mat-ferias-3",
+      "qui-ferias-3"
     ],
     "2025-11-29": [
-      {
-        "name": "Matemática - FOCO Função exponencial (equações, gráficos, crescimento/decrescimento) - 90min",
-        "subject": "matematica",
-        "code": "mat-ferias-4"
-      },
-      {
-        "name": "Física - Força peso, normal e atrito - 30min",
-        "subject": "fisica",
-        "code": "fis-ferias-1"
-      }
+      "mat-ferias-4",
+      "fis-ferias-1"
     ],
     "2025-11-30": [
-      {
-        "name": "Matemática - FOCO Função logarítmica (definição, logaritmo decimal e natural) - 90min",
-        "subject": "matematica",
-        "code": "mat-ferias-5"
-      },
-      {
-        "name": "Física - Plano inclinado - 30min",
-        "subject": "fisica",
-        "code": "fis-ferias-2"
-      }
+      "mat-ferias-5",
+      "fis-ferias-2"
     ],
     "2025-12-01": [
-      {
-        "name": "Matemática - FOCO Função logarítmica (propriedades, equações logarítmicas) - 90min",
-        "subject": "matematica",
-        "code": "mat-ferias-6"
-      },
-      {
-        "name": "Química - Propriedades das substâncias segundo ligações químicas - 30min",
-        "subject": "quimica",
-        "code": "qui-ferias-4"
-      }
+      "mat-ferias-6",
+      "qui-ferias-4"
     ],
     "2025-12-02": [
-      {
-        "name": "Matemática - FOCO Função logarítmica (gráficos) - 60min",
-        "subject": "matematica",
-        "code": "mat-ferias-7"
-      },
-      {
-        "name": "Matemática - FOCO Relação entre funções exponencial e logarítmica - 60min",
-        "subject": "matematica",
-        "code": "mat-ferias-8"
-      }
+      "mat-ferias-7",
+      "mat-ferias-8"
     ],
     "2025-12-03": [
-      {
-        "name": "Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango) - 120min",
-        "subject": "matematica",
-        "code": "mat-2-1"
-      },
-      {
-        "name": "Física - Hidrostática: pressão em sólidos e fluidos - 90min",
-        "subject": "fisica",
-        "code": "fis-2-1"
-      },
-      {
-        "name": "Química - FOCO Reações químicas (evidências, equações, balanceamento) - 90min",
-        "subject": "quimica",
-        "code": "qui-2-1"
-      },
-      {
-        "name": "Geografia - Estrutura geológica, relevo, tectônica, mineração - 60min",
-        "subject": "geografia",
-        "code": "geo-2-1"
-      },
-      {
-        "name": "Ciências Humanas - Antiguidade Tardia e Mundo Medieval + Arte Medieval - 60min",
-        "subject": "ciencias-humanas",
-        "code": "hum-2-1"
-      }
+      "mat-2-1",
+      "fis-2-1",
+      "qui-2-1",
+      "geo-2-1",
+      "hum-2-1"
     ],
     "2025-12-04": [
-      {
-        "name": "Matemática - Geometria: áreas (triângulo, círculo) - 90min",
-        "subject": "matematica",
-        "code": "mat-2-2"
-      },
-      {
-        "name": "Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo - 90min",
-        "subject": "matematica",
-        "code": "mat-2-3"
-      },
-      {
-        "name": "Física - Princípio de Pascal e Teorema de Stevin - 90min",
-        "subject": "fisica",
-        "code": "fis-2-2"
-      },
-      {
-        "name": "Química - FOCO Estequiometria: mol e massa molar - 120min",
-        "subject": "quimica",
-        "code": "qui-2-2"
-      },
-      {
-        "name": "Biologia - Composição química dos seres vivos (água, biomoléculas) - 30min",
-        "subject": "biologia",
-        "code": "bio-2-1"
-      }
+      "mat-2-2",
+      "mat-2-3",
+      "fis-2-2",
+      "qui-2-2",
+      "bio-2-1"
     ],
     "2025-12-05": [
-      {
-        "name": "Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis - 90min",
-        "subject": "matematica",
-        "code": "mat-2-4"
-      },
-      {
-        "name": "Matemática - Retas paralelas e transversais (proporcionalidade) - 60min",
-        "subject": "matematica",
-        "code": "mat-2-5"
-      },
-      {
-        "name": "Física - Princípio de Arquimedes (empuxo) - 60min",
-        "subject": "fisica",
-        "code": "fis-2-3"
-      },
-      {
-        "name": "Física - Experimento de Torricelli (pressão atmosférica) - 30min",
-        "subject": "fisica",
-        "code": "fis-2-4"
-      },
-      {
-        "name": "Química - FOCO Estequiometria: cálculos em reações químicas - 120min",
-        "subject": "quimica",
-        "code": "qui-2-3"
-      },
-      {
-        "name": "Ciências Humanas - Mundo Moderno Capitalista (séc. XV-XVII) + Renascimento nas Artes - 90min",
-        "subject": "ciencias-humanas",
-        "code": "hum-2-2"
-      }
+      "mat-2-4",
+      "mat-2-5",
+      "fis-2-3",
+      "fis-2-4",
+      "qui-2-3",
+      "hum-2-2"
     ],
     "2025-12-06": [
-      {
-        "name": "Matemática - Sistema Internacional de Medidas e conversões - 60min",
-        "subject": "matematica",
-        "code": "mat-2-6"
-      },
-      {
-        "name": "Matemática - REVISÃO Função exponencial e logarítmica - 90min",
-        "subject": "matematica",
-        "code": "mat-2-7"
-      },
-      {
-        "name": "Física - REVISÃO Cinemática completa (MRU, MRUV, queda livre, circular) - 90min",
-        "subject": "fisica",
-        "code": "fis-2-5"
-      },
-      {
-        "name": "Química - FOCO Estequiometria: leis ponderais - 90min",
-        "subject": "quimica",
-        "code": "qui-2-4"
-      },
-      {
-        "name": "Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas) - 60min",
-        "subject": "geografia",
-        "code": "geo-2-2"
-      },
-      {
-        "name": "Biologia - Níveis de organização biológica - 30min",
-        "subject": "biologia",
-        "code": "bio-2-2"
-      }
+      "mat-2-6",
+      "mat-2-7",
+      "fis-2-5",
+      "qui-2-4",
+      "geo-2-2",
+      "bio-2-2"
     ],
     "2025-12-07": [
-      {
-        "name": "REVISAR PENDÊNCIAS DA SEMANA",
-        "subject": "geral",
-        "code": "ger-2-1"
-      },
-      {
-        "name": "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log) - 150min",
-        "subject": "matematica",
-        "code": "mat-2-8"
-      },
-      {
-        "name": "Matemática - Questões discursivas e redação matemática - 90min",
-        "subject": "matematica",
-        "code": "mat-2-9"
-      },
-      {
-        "name": "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado) - 90min",
-        "subject": "fisica",
-        "code": "fis-2-6"
-      },
-      {
-        "name": "Química - REVISÃO Ligações químicas completo - 60min",
-        "subject": "quimica",
-        "code": "qui-2-5"
-      },
-      {
-        "name": "Ciências Humanas - Povos originários das Américas + Arte Indígena - 60min",
-        "subject": "ciencias-humanas",
-        "code": "hum-2-3"
-      },
-      {
-        "name": "Tempo livre para recuperar atrasos - 1h30min",
-        "subject": "geral",
-        "code": "ger-2-2"
-      }
+      "ger-2-1",
+      "mat-2-8",
+      "mat-2-9",
+      "fis-2-6",
+      "qui-2-5",
+      "hum-2-3",
+      "ger-2-2"
     ],
     "2025-12-09": [
-      {
-        "name": "Matemática - REVISÃO FINAL Conjuntos, MMC/MDC, razão e proporção - 90min",
-        "subject": "matematica",
-        "code": "mat-3-1"
-      },
-      {
-        "name": "Matemática - REVISÃO FINAL Função afim e quadrática - 90min",
-        "subject": "matematica",
-        "code": "mat-3-2"
-      },
-      {
-        "name": "Física - REVISÃO FINAL Hidrostática completa - 90min",
-        "subject": "fisica",
-        "code": "fis-3-1"
-      },
-      {
-        "name": "Química - REVISÃO FINAL Modelos atômicos e Tabela Periódica - 90min",
-        "subject": "quimica",
-        "code": "qui-3-1"
-      },
-      {
-        "name": "Química - REVISÃO FINAL Estequiometria completa - 60min",
-        "subject": "quimica",
-        "code": "qui-3-2"
-      },
-      {
-        "name": "Biologia - Célula (estruturas celulares, respiração celular, fotossíntese, fermentação, quimiossíntese) - 60min",
-        "subject": "biologia",
-        "code": "bio-3-1"
-      }
+      "mat-3-1",
+      "mat-3-2",
+      "fis-3-1",
+      "qui-3-1",
+      "qui-3-2",
+      "bio-3-1"
     ],
     "2025-12-10": [
-      {
-        "name": "Matemática - REVISÃO FINAL Função exponencial e logarítmica - 120min",
-        "subject": "matematica",
-        "code": "mat-3-3"
-      },
-      {
-        "name": "Matemática - REVISÃO FINAL Geometria e trigonometria - 90min",
-        "subject": "matematica",
-        "code": "mat-3-4"
-      },
-      {
-        "name": "Física - REVISÃO FINAL Cinemática + Dinâmica - 90min",
-        "subject": "fisica",
-        "code": "fis-3-2"
-      },
-      {
-        "name": "Química - REVISÃO GERAL Propriedades, separação, ligações - 60min",
-        "subject": "quimica",
-        "code": "qui-3-3"
-      },
-      {
-        "name": "Ciências Humanas - Trânsitos entre continentes (séc. XV-XVII) + Ocupação da América Portuguesa - 60min",
-        "subject": "ciencias-humanas",
-        "code": "hum-3-1"
-      }
+      "mat-3-3",
+      "mat-3-4",
+      "fis-3-2",
+      "qui-3-3",
+      "hum-3-1"
     ],
     "2025-12-11": [
-      {
-        "name": "Matemática - REVISÃO GERAL Todos os tópicos (foco em dúvidas) - 120min",
-        "subject": "matematica",
-        "code": "mat-3-5"
-      },
-      {
-        "name": "Física - REVISÃO GERAL Todos os tópicos (foco em fórmulas) - 90min",
-        "subject": "fisica",
-        "code": "fis-3-3"
-      },
-      {
-        "name": "Química - REVISÃO GERAL Todos os tópicos - 90min",
-        "subject": "quimica",
-        "code": "qui-3-4"
-      },
-      {
-        "name": "Geografia - REVISÃO Cartografia, climatologia, geologia - 60min",
-        "subject": "geografia",
-        "code": "geo-3-1"
-      },
-      {
-        "name": "Ciências Humanas - REVISÃO Filosofia (surgimento, áreas, lógica) - 30min",
-        "subject": "ciencias-humanas",
-        "code": "hum-3-2"
-      },
-      {
-        "name": "Ciências Humanas - REVISÃO Sociologia (surgimento, cultura, métodos, desigualdades) - 30min",
-        "subject": "ciencias-humanas",
-        "code": "hum-3-3"
-      }
+      "mat-3-5",
+      "fis-3-3",
+      "qui-3-4",
+      "geo-3-1",
+      "hum-3-2",
+      "hum-3-3"
     ],
     "2025-12-12": [
-      {
-        "name": "Biologia - REVISÃO RÁPIDA Genética (conceitos básicos, Mendel, mitose, meiose, crossing over) - 45min",
-        "subject": "biologia",
-        "code": "bio-3-2"
-      },
-      {
-        "name": "Biologia - REVISÃO GERAL Todos os tópicos - 45min",
-        "subject": "biologia",
-        "code": "bio-3-3"
-      },
-      {
-        "name": "Português - REVISÃO Gramática completa - 45min",
-        "subject": "portugues",
-        "code": "por-3-1"
-      },
-      {
-        "name": "Ciências Humanas - REVISÃO FINAL Linha do tempo histórica + conexões artísticas/literárias - 90min",
-        "subject": "ciencias-humanas",
-        "code": "hum-3-4"
-      },
-      {
-        "name": "Geografia - REVISÃO FINAL Domínios morfoclimáticos, solos, energia, agropecuária - 60min",
-        "subject": "geografia",
-        "code": "geo-3-2"
-      },
-      {
-        "name": "Matemática - Revisão leve de fórmulas e macetes - 60min",
-        "subject": "matematica",
-        "code": "mat-3-6"
-      },
-      {
-        "name": "Física - Revisão leve de fórmulas e conceitos-chave - 60min",
-        "subject": "fisica",
-        "code": "fis-3-4"
-      },
-      {
-        "name": "Química - Revisão leve de tabela periódica e fórmulas - 45min",
-        "subject": "quimica",
-        "code": "qui-3-5"
-      }
+      "bio-3-2",
+      "bio-3-3",
+      "por-3-1",
+      "hum-3-4",
+      "geo-3-2",
+      "mat-3-6",
+      "fis-3-4",
+      "qui-3-5"
     ],
     "2025-12-13": [
-      {
-        "name": "Revisão flash de Matemática (fórmulas essenciais) - 45min",
-        "subject": "matematica",
-        "code": "mat-3-7"
-      },
-      {
-        "name": "Revisão flash de Física (fórmulas essenciais) - 45min",
-        "subject": "fisica",
-        "code": "fis-3-5"
-      },
-      {
-        "name": "Revisão flash de Química (tabela periódica, mol, fórmulas) - 45min",
-        "subject": "quimica",
-        "code": "qui-3-6"
-      },
-      {
-        "name": "Revisão flash de Ciências Humanas (mapas mentais, linha do tempo) - 30min",
-        "subject": "ciencias-humanas",
-        "code": "hum-3-5"
-      },
-      {
-        "name": "Revisão flash de Geografia (mapas, conceitos-chave) - 15min",
-        "subject": "geografia",
-        "code": "geo-3-3"
-      },
-      {
-        "name": "DESCANSO: Organizar materiais, dormir cedo, hidratar-se - OBRIGATÓRIO",
-        "subject": "geral",
-        "code": "ger-3-1"
-      }
+      "mat-3-7",
+      "fis-3-5",
+      "qui-3-6",
+      "hum-3-5",
+      "geo-3-3",
+      "ger-3-1"
     ],
     "2025-12-14": [
-      {
-        "name": "DIA DA PROVA",
-        "subject": "geral",
-        "code": "ger-3-2"
-      },
-      {
-        "name": "Café da manhã reforçado",
-        "subject": "geral",
-        "code": "ger-3-3"
-      },
-      {
-        "name": "Revisar só anotações-chave (30min máximo)",
-        "subject": "geral",
-        "code": "ger-3-4"
-      },
-      {
-        "name": "Separar documentos e materiais",
-        "subject": "geral",
-        "code": "ger-3-5"
-      },
-      {
-        "name": "Chegar com antecedência no local",
-        "subject": "geral",
-        "code": "ger-3-6"
-      },
-      {
-        "name": "Ler todas as questões primeiro (15min)",
-        "subject": "geral",
-        "code": "ger-3-7"
-      },
-      {
-        "name": "Resolver as mais fáceis primeiro",
-        "subject": "geral",
-        "code": "ger-3-8"
-      },
-      {
-        "name": "Deixar tempo para as discursivas (peso 4!)",
-        "subject": "geral",
-        "code": "ger-3-9"
-      },
-      {
-        "name": "Revisar respostas nos últimos 20min",
-        "subject": "geral",
-        "code": "ger-3-10"
-      }
+      "ger-3-2",
+      "ger-3-3",
+      "ger-3-4",
+      "ger-3-5",
+      "ger-3-6",
+      "ger-3-7",
+      "ger-3-8",
+      "ger-3-9",
+      "ger-3-10"
     ]
   }
 }

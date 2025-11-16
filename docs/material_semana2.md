@@ -6841,3 +6841,1239 @@ Tegumentar    →  Proteção (pele)
 **Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - conceitos fundamentais!)
 
 ---
+
+# 12/07 - Semana 2, Dia 5 (Sábado - Checkpoint)
+
+## Checkpoint Semanal - Semana 2 (03/12 - 06/12)
+
+### Parabéns! Você completou a Semana 2! 🎉
+
+**Progresso geral:** 61/96 aulas (63,5%)
+
+**O que você estudou esta semana:**
+
+### Terça 03/12 (5 aulas)
+✅ Matemática - Geometria Plana: Áreas (triângulos, círculos, polígonos)
+✅ Física - Hidrostática: Pressão, densidade, Stevin
+✅ Química - Reações Químicas: Tipos, balanceamento
+✅ Geografia - Estrutura Geológica: Placas tectônicas, relevo
+✅ Humanas - Antiguidade Tardia e Mundo Medieval
+
+### Quarta 04/12 (4 aulas)
+✅ Matemática - Geometria: Triângulos especiais, círculos, Pitágoras
+✅ Física - Pascal, Stevin, Arquimedes (Hidrostática avançada)
+✅ Química - Estequiometria: Conceito de mol e massa molar
+✅ Biologia - Composição Química dos Seres Vivos
+
+### Quinta 05/12 (4 aulas)
+✅ Matemática - Trigonometria no Triângulo Retângulo
+✅ Física - Arquimedes aprofundado + Torricelli
+✅ Química - Estequiometria: Cálculos estequiométricos
+✅ Humanas - Renascimento Cultural e Científico
+
+### Sexta 06/12 (5 aulas)
+✅ Matemática - Unidades de Medida e Conversões
+✅ Física - Revisão de Cinemática (MRU, MRUV, queda livre)
+✅ Química - Leis Estequiométricas (Lavoisier, Proust, Dalton)
+✅ Geografia - Climatologia
+✅ Biologia - Níveis de Organização dos Seres Vivos
+
+**Total da Semana 2:** 18 aulas completas!
+
+### Autoavaliação - Semana 2
+
+**Marque com X os tópicos que você domina:**
+
+**Matemática:**
+- [ ] Áreas de figuras planas (retângulo, triângulo, círculo)
+- [ ] Teorema de Pitágoras e ternas pitagóricas
+- [ ] Razões trigonométricas (seno, cosseno, tangente)
+- [ ] Ângulos notáveis (30°, 45°, 60°)
+- [ ] Conversões de unidades (comprimento, área, volume)
+
+**Física:**
+- [ ] Pressão hidrostática (P = ρgh)
+- [ ] Princípio de Pascal (prensa hidráulica)
+- [ ] Princípio de Arquimedes (empuxo)
+- [ ] Teorema de Torricelli
+- [ ] Equações do MRU e MRUV
+- [ ] Queda livre e lançamentos
+
+**Química:**
+- [ ] Tipos de reações químicas
+- [ ] Balanceamento de equações
+- [ ] Conceito de mol e Constante de Avogadro
+- [ ] Cálculos com massa molar
+- [ ] Lei de Lavoisier (conservação)
+- [ ] Lei de Proust (proporções constantes)
+- [ ] Lei de Dalton (proporções múltiplas)
+
+**Geografia:**
+- [ ] Estrutura interna da Terra
+- [ ] Placas tectônicas e deriva continental
+- [ ] Elementos climáticos vs fatores climáticos
+- [ ] Tipos de chuva (convectiva, orográfica, frontal)
+- [ ] Principais climas do mundo e do Brasil
+
+**Biologia:**
+- [ ] Composição química: água, sais, carboidratos, lipídios, proteínas
+- [ ] Níveis de organização (átomo → biosfera)
+- [ ] Diferença entre população, comunidade, ecossistema
+- [ ] Célula procariótica vs eucariótica
+
+**Humanas:**
+- [ ] Antiguidade Tardia (queda de Roma)
+- [ ] Feudalismo medieval
+- [ ] Renascimento cultural e científico
+- [ ] Humanismo e Reforma
+
+### Fórmulas Essenciais da Semana 2
+
+**Matemática:**
+```
+Áreas:
+- Retângulo: A = b × h
+- Triângulo: A = (b × h) / 2
+- Círculo: A = πr²
+- Comprimento circunferência: C = 2πr
+
+Pitágoras:
+a² = b² + c²
+
+Trigonometria:
+sen θ = oposto / hipotenusa
+cos θ = adjacente / hipotenusa
+tan θ = oposto / adjacente
+sen²θ + cos²θ = 1
+
+Ângulos notáveis:
+sen 30° = 1/2,  cos 30° = √3/2,  tan 30° = √3/3
+sen 45° = √2/2, cos 45° = √2/2, tan 45° = 1
+sen 60° = √3/2, cos 60° = 1/2,  tan 60° = √3
+```
+
+**Física:**
+```
+Hidrostática:
+P = ρgh (Stevin)
+F₂/F₁ = A₂/A₁ (Pascal - prensa)
+E = ρ_fluido × V × g (Arquimedes)
+v = √(2gh) (Torricelli)
+
+Cinemática:
+MRU: s = s₀ + vt
+MRUV: v = v₀ + at
+      s = s₀ + v₀t + ½at²
+      v² = v₀² + 2aΔs
+Queda livre: v = gt, h = ½gt²
+```
+
+**Química:**
+```
+Mol:
+n = m/M
+N = n × N_A
+N_A = 6,02 × 10²³
+
+Leis Ponderais:
+Lavoisier: m_reagentes = m_produtos
+Proust: proporção constante
+Dalton: proporções inteiras
+
+Volume molar (CNTP):
+V = n × 22,4 L
+```
+
+### Pontos de Atenção
+
+**Se você teve dificuldade, revise:**
+
+1. **Trigonometria:** Treine identificar cateto oposto/adjacente
+2. **Estequiometria:** Pratique cálculos com mol e massa molar
+3. **Hidrostática:** Entenda quando usar cada princípio
+4. **Geometria:** Memorize as fórmulas de área
+5. **Níveis de organização:** População (mesma espécie) ≠ Comunidade (várias espécies)
+
+### Dicas para Manter o Ritmo
+
+**Você está a 63,5% da meta! 🎯**
+
+✅ **O que fazer agora:**
+1. Revise as fórmulas essenciais acima
+2. Refaça exercícios que errou
+3. Continue com as próximas aulas de revisão
+4. Descanse bem - seu cérebro precisa consolidar!
+
+✅ **Para a próxima semana:**
+- Faltam 35 aulas (36,5% do conteúdo)
+- Semana 3: revisões finais e preparação para a prova
+- Mantenha o foco e a confiança!
+
+### Próximos Passos
+
+**Hoje (Sábado 07/12):**
+- ✅ Checkpoint (feito!)
+- ⏳ Revisão de Exponenciais e Logaritmos
+- ⏳ Questões discursivas de Matemática
+
+**Semana 3 (09/12 - 13/12):**
+- Revisões finais de todas as matérias
+- Fórmulas e mapas mentais
+- Simulados e questões
+
+**Véspera (13/12):**
+- Flash reviews
+- Descanso e confiança!
+
+---
+
+**Você está indo muito bem! Continue firme! 💪📚**
+
+---
+
+## Aula 62 - Matemática: Revisão de Funções Exponenciais e Logarítmicas - 90min
+
+### Objetivo da Revisão
+
+Consolidar os principais conceitos de funções exponenciais e logarítmicas estudados durante as férias, preparando para questões da prova.
+
+### Função Exponencial - Revisão Rápida
+
+**Definição:**
+```
+f(x) = aˣ, onde a > 0 e a ≠ 1
+```
+
+**Características principais:**
+
+**Se a > 1:** função **crescente**
+- x aumenta → f(x) aumenta
+- Exemplo: f(x) = 2ˣ
+
+**Se 0 < a < 1:** função **decrescente**
+- x aumenta → f(x) diminui
+- Exemplo: f(x) = (1/2)ˣ
+
+**Propriedades fundamentais:**
+```
+a⁰ = 1
+a¹ = a
+aˣ · aʸ = aˣ⁺ʸ
+aˣ / aʸ = aˣ⁻ʸ
+(aˣ)ʸ = aˣʸ
+a⁻ˣ = 1/aˣ
+```
+
+**Gráfico:**
+- Passa sempre por (0, 1)
+- Nunca toca o eixo x (assíntota horizontal)
+- Domínio: ℝ (todos os reais)
+- Imagem: ℝ₊* (reais positivos)
+
+### Equações Exponenciais - Revisão
+
+**Estratégia principal:** igualar as bases
+
+**Método:**
+1. Transformar para mesma base
+2. Igualar os expoentes
+3. Resolver a equação resultante
+
+**Exemplo 1:**
+```
+2ˣ = 16
+2ˣ = 2⁴
+x = 4
+```
+
+**Exemplo 2:**
+```
+4ˣ = 8
+(2²)ˣ = 2³
+2²ˣ = 2³
+2x = 3
+x = 3/2
+```
+
+**Exemplo 3:**
+```
+9ˣ⁺¹ = 27ˣ
+(3²)ˣ⁺¹ = (3³)ˣ
+3²⁽ˣ⁺¹⁾ = 3³ˣ
+2(x+1) = 3x
+2x + 2 = 3x
+x = 2
+```
+
+**Exemplo 4 (substituição):**
+```
+4ˣ - 5·2ˣ + 4 = 0
+(2²)ˣ - 5·2ˣ + 4 = 0
+(2ˣ)² - 5·2ˣ + 4 = 0
+
+Faça 2ˣ = y:
+y² - 5y + 4 = 0
+(y - 4)(y - 1) = 0
+y = 4 ou y = 1
+
+Se 2ˣ = 4 → x = 2
+Se 2ˣ = 1 → x = 0
+
+S = {0, 2}
+```
+
+### Função Logarítmica - Revisão Rápida
+
+**Definição:**
+```
+logₐ b = x  ⟺  aˣ = b
+
+onde a > 0, a ≠ 1, b > 0
+```
+
+**Leitura:** "logaritmo de b na base a"
+
+**Significado:** "a que expoente devo elevar a base a para obter b?"
+
+**Exemplos:**
+```
+log₂ 8 = 3  (pois 2³ = 8)
+log₁₀ 100 = 2  (pois 10² = 100)
+log₅ 1 = 0  (pois 5⁰ = 1)
+log₃ 3 = 1  (pois 3¹ = 3)
+```
+
+**Casos especiais:**
+```
+logₐ 1 = 0  (sempre!)
+logₐ a = 1  (sempre!)
+logₐ aˣ = x
+a^(logₐ x) = x
+```
+
+### Propriedades dos Logaritmos
+
+**1. Logaritmo do produto:**
+```
+logₐ (b · c) = logₐ b + logₐ c
+```
+
+**2. Logaritmo do quociente:**
+```
+logₐ (b/c) = logₐ b - logₐ c
+```
+
+**3. Logaritmo da potência:**
+```
+logₐ bⁿ = n · logₐ b
+```
+
+**4. Mudança de base:**
+```
+logₐ b = log_c b / log_c a
+```
+
+**Caso particular (base 10):**
+```
+logₐ b = log b / log a
+```
+
+**5. Inversão de base:**
+```
+logₐ b = 1 / log_b a
+```
+
+### Equações Logarítmicas - Revisão
+
+**Condição de existência:**
+- Logaritmando > 0
+- Base > 0 e ≠ 1
+
+**Exemplo 1:**
+```
+log₂ x = 5
+x = 2⁵
+x = 32
+```
+
+**Exemplo 2:**
+```
+log₃ (x - 1) = 2
+x - 1 = 3²
+x - 1 = 9
+x = 10
+
+Verificação: x - 1 = 10 - 1 = 9 > 0 ✓
+```
+
+**Exemplo 3:**
+```
+log x + log (x - 3) = 1  (base 10)
+log [x(x - 3)] = 1
+x(x - 3) = 10¹
+x² - 3x = 10
+x² - 3x - 10 = 0
+(x - 5)(x + 2) = 0
+x = 5 ou x = -2
+
+Verificação:
+x = 5: log 5 e log 2 existem ✓
+x = -2: log(-2) não existe ✗
+
+S = {5}
+```
+
+**Exemplo 4 (mesma base):**
+```
+log₂ x = log₂ (3x - 4)
+x = 3x - 4
+-2x = -4
+x = 2
+
+Verificação:
+x = 2 > 0 ✓
+3x - 4 = 2 > 0 ✓
+
+S = {2}
+```
+
+### Relação entre Exponencial e Logaritmo
+
+**Funções inversas:**
+```
+f(x) = aˣ ⟺ f⁻¹(x) = logₐ x
+```
+
+**Consequências:**
+```
+logₐ (aˣ) = x
+a^(logₐ x) = x
+```
+
+**Gráficos são simétricos em relação à reta y = x**
+
+### Exercícios de Revisão Integrada
+
+#### Exercício 1
+Resolva: 3ˣ⁺¹ = 81
+
+**Solução:**
+```
+3ˣ⁺¹ = 3⁴
+x + 1 = 4
+x = 3
+```
+
+**Resposta:** x = 3
+
+#### Exercício 2
+Calcule: log₅ 125
+
+**Solução:**
+```
+log₅ 125 = log₅ 5³ = 3
+```
+
+**Resposta:** 3
+
+#### Exercício 3
+Resolva: log₂ (x + 3) + log₂ (x - 3) = 4
+
+**Solução:**
+```
+log₂ [(x + 3)(x - 3)] = 4
+(x + 3)(x - 3) = 2⁴
+x² - 9 = 16
+x² = 25
+x = ±5
+
+Verificação:
+x = 5: log₂ 8 + log₂ 2 existe ✓
+x = -5: log₂ (-2) não existe ✗
+
+S = {5}
+```
+
+**Resposta:** x = 5
+
+#### Exercício 4
+Sabendo que log 2 ≈ 0,30, calcule log 8.
+
+**Solução:**
+```
+log 8 = log 2³ = 3 log 2
+log 8 = 3 × 0,30 = 0,90
+```
+
+**Resposta:** 0,90
+
+#### Exercício 5
+Resolva: 2²ˣ - 3·2ˣ - 4 = 0
+
+**Solução:**
+```
+(2ˣ)² - 3·2ˣ - 4 = 0
+
+Faça 2ˣ = y:
+y² - 3y - 4 = 0
+(y - 4)(y + 1) = 0
+y = 4 ou y = -1
+
+Se 2ˣ = 4 → 2ˣ = 2² → x = 2 ✓
+Se 2ˣ = -1 → impossível (2ˣ > 0 sempre) ✗
+
+S = {2}
+```
+
+**Resposta:** x = 2
+
+#### Exercício 6
+Resolva: log₃ x + log₃ (x - 8) = 2
+
+**Solução:**
+```
+log₃ [x(x - 8)] = 2
+x(x - 8) = 3²
+x² - 8x = 9
+x² - 8x - 9 = 0
+(x - 9)(x + 1) = 0
+x = 9 ou x = -1
+
+Verificação:
+x = 9: 9 > 0 e 9 - 8 = 1 > 0 ✓
+x = -1: -1 < 0 ✗
+
+S = {9}
+```
+
+**Resposta:** x = 9
+
+#### Exercício 7
+(UFMG) Se log₂ 5 = a, expresse log₂ 20 em função de a.
+
+**Solução:**
+```
+log₂ 20 = log₂ (4 × 5)
+log₂ 20 = log₂ 4 + log₂ 5
+log₂ 20 = log₂ 2² + a
+log₂ 20 = 2 + a
+```
+
+**Resposta:** 2 + a
+
+#### Exercício 8
+Resolva a inequação: 2ˣ > 8
+
+**Solução:**
+```
+2ˣ > 2³
+
+Como base 2 > 1 (função crescente):
+x > 3
+
+S = {x ∈ ℝ | x > 3} ou (3, +∞)
+```
+
+**Resposta:** x > 3
+
+#### Exercício 9
+Calcule: log₂ 3 · log₃ 4 · log₄ 8
+
+**Solução:**
+```
+Usando mudança de base:
+log₃ 4 = log₂ 4 / log₂ 3
+log₄ 8 = log₂ 8 / log₂ 4
+
+Substituindo:
+log₂ 3 · (log₂ 4 / log₂ 3) · (log₂ 8 / log₂ 4)
+= log₂ 8
+= log₂ 2³
+= 3
+```
+
+**Resposta:** 3
+
+#### Exercício 10
+(UFMG) Resolva: 5ˣ⁺² = 1
+
+**Solução:**
+```
+5ˣ⁺² = 5⁰
+x + 2 = 0
+x = -2
+```
+
+**Resposta:** x = -2
+
+### Resumo de Fórmulas Essenciais
+
+```
+EXPONENCIAL:
+aˣ · aʸ = aˣ⁺ʸ
+aˣ / aʸ = aˣ⁻ʸ
+(aˣ)ʸ = aˣʸ
+a⁰ = 1
+a¹ = a
+a⁻ˣ = 1/aˣ
+
+LOGARITMO:
+logₐ b = x ⟺ aˣ = b
+logₐ 1 = 0
+logₐ a = 1
+logₐ aˣ = x
+a^(logₐ x) = x
+
+PROPRIEDADES:
+logₐ (b·c) = logₐ b + logₐ c
+logₐ (b/c) = logₐ b - logₐ c
+logₐ bⁿ = n · logₐ b
+logₐ b = log_c b / log_c a  (mudança de base)
+logₐ b = 1 / log_b a  (inversão)
+
+EQUAÇÕES:
+Exponencial: igualar bases → igualar expoentes
+Logarítmica: condições + aplicar propriedades
+```
+
+### Dicas para a Prova
+
+1. **Exponencial:** sempre tente igualar as bases
+2. **Logaritmo:** verifique condições de existência (logaritmando > 0)
+3. **Propriedades:** produto vira soma, quociente vira subtração
+4. **Substituição:** útil em equações com 2²ˣ e 2ˣ
+5. **Mudança de base:** quando bases diferentes
+6. **log₁₀ = log** (base 10 omitida)
+7. **ln = log_e** (logaritmo natural)
+8. **Inequações:** atenção ao sentido (base > 1 ou 0 < base < 1)
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - sempre cai!)
+
+---
+
+## Aula 63 - Matemática: Questões Discursivas e Resoluções Detalhadas - 90min
+
+### Objetivo
+
+Praticar questões discursivas de Matemática, típicas da prova do SERIADO UFMG, com resoluções completas e detalhadas mostrando todos os passos.
+
+**Por que questões discursivas são importantes?**
+- Exigem raciocínio completo, não apenas resposta final
+- Pontuação parcial: mesmo errando resposta, ganha pontos pelos passos
+- Desenvolvem organização e clareza matemática
+- Mostram compreensão profunda dos conceitos
+
+### Como Resolver Questões Discursivas
+
+**Passos essenciais:**
+
+1. **Leia com atenção:** identifique o que é dado e o que é pedido
+2. **Organize os dados:** liste informações importantes
+3. **Planeje a solução:** qual conceito/fórmula usar?
+4. **Resolva com clareza:** mostre TODOS os passos
+5. **Justifique:** explique raciocínio quando necessário
+6. **Verifique:** a resposta faz sentido?
+7. **Apresente a resposta final:** destaque claramente
+
+**Dicas de apresentação:**
+- Escreva de forma legível
+- Use símbolos matemáticos corretamente
+- Não pule etapas importantes
+- Explique transformações não óbvias
+- Marque a resposta final (caixa, destaque)
+
+### Questão 1 - Função Afim (Fácil-Médio)
+
+**Enunciado:**
+
+Uma função afim f é tal que f(2) = 5 e f(-1) = -4.
+
+a) Determine a lei de formação da função f.
+b) Calcule f(0).
+c) Para que valor de x tem-se f(x) = 11?
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- f é função afim: f(x) = ax + b
+- f(2) = 5
+- f(-1) = -4
+
+**a) Determinar f(x) = ax + b**
+
+Usando f(2) = 5:
+```
+a(2) + b = 5
+2a + b = 5  ... (equação 1)
+```
+
+Usando f(-1) = -4:
+```
+a(-1) + b = -4
+-a + b = -4  ... (equação 2)
+```
+
+**Sistema:**
+```
+{  2a + b = 5    (1)
+{ -a + b = -4   (2)
+```
+
+Subtraindo (2) de (1):
+```
+2a + b - (-a + b) = 5 - (-4)
+2a + b + a - b = 9
+3a = 9
+a = 3
+```
+
+Substituindo a = 3 em (2):
+```
+-3 + b = -4
+b = -1
+```
+
+**Resposta a):** f(x) = 3x - 1
+
+**b) Calcular f(0)**
+
+```
+f(0) = 3(0) - 1 = -1
+```
+
+**Resposta b):** f(0) = -1
+
+**c) Resolver f(x) = 11**
+
+```
+3x - 1 = 11
+3x = 12
+x = 4
+```
+
+**Resposta c):** x = 4
+
+---
+
+### Questão 2 - Função Quadrática (Médio)
+
+**Enunciado:**
+
+Considere a função f(x) = x² - 4x + 3.
+
+a) Determine as raízes da função.
+b) Encontre as coordenadas do vértice.
+c) Esboce o gráfico identificando raízes e vértice.
+d) Determine o conjunto imagem da função.
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- f(x) = x² - 4x + 3
+- a = 1, b = -4, c = 3
+
+**a) Raízes (f(x) = 0)**
+
+```
+x² - 4x + 3 = 0
+```
+
+**Método 1: Fatoração**
+```
+x² - 4x + 3 = 0
+(x - 1)(x - 3) = 0
+
+x - 1 = 0  ou  x - 3 = 0
+x = 1  ou  x = 3
+```
+
+**Método 2: Bhaskara (alternativo)**
+```
+Δ = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4
+
+x = [-b ± √Δ] / 2a
+x = [4 ± 2] / 2
+
+x₁ = 6/2 = 3
+x₂ = 2/2 = 1
+```
+
+**Resposta a):** Raízes: x = 1 e x = 3
+
+**b) Coordenadas do vértice**
+
+**Coordenada x do vértice:**
+```
+xᵥ = -b / 2a = -(-4) / 2(1) = 4/2 = 2
+```
+
+**Coordenada y do vértice:**
+```
+yᵥ = f(xᵥ) = f(2)
+yᵥ = 2² - 4(2) + 3
+yᵥ = 4 - 8 + 3 = -1
+```
+
+**Ou usando fórmula:**
+```
+yᵥ = -Δ / 4a = -4 / 4 = -1
+```
+
+**Resposta b):** Vértice V(2, -1)
+
+**c) Esboço do gráfico**
+
+```
+  y
+  │
+  3│    ╱     ╲
+  2│   ╱       ╲
+  1│  ╱         ╲
+  0├─●───────────●──→ x
+   │1  2        3
+ -1│    ●
+   │   (2,-1)
+   │   vértice
+
+Pontos importantes:
+- Raízes: (1, 0) e (3, 0)
+- Vértice: (2, -1) - ponto mínimo
+- Parábola côncava para cima (a > 0)
+- Eixo de simetria: x = 2
+```
+
+**d) Conjunto imagem**
+
+Como a > 0 (parábola abre para cima) e yᵥ = -1:
+
+**Resposta d):** Im = {y ∈ ℝ | y ≥ -1} ou Im = [-1, +∞)
+
+---
+
+### Questão 3 - Geometria Plana (Médio)
+
+**Enunciado:**
+
+Um triângulo retângulo tem catetos medindo 6 cm e 8 cm.
+
+a) Calcule a hipotenusa.
+b) Determine a área do triângulo.
+c) Calcule o seno, cosseno e tangente do menor ângulo agudo.
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- Triângulo retângulo
+- Catetos: b = 6 cm, c = 8 cm
+- Hipotenusa: a = ?
+
+**a) Hipotenusa (Teorema de Pitágoras)**
+
+```
+a² = b² + c²
+a² = 6² + 8²
+a² = 36 + 64
+a² = 100
+a = √100 = 10 cm
+```
+
+**Resposta a):** Hipotenusa = 10 cm
+
+**b) Área do triângulo**
+
+```
+A = (base × altura) / 2
+A = (cateto × cateto) / 2
+A = (6 × 8) / 2
+A = 48 / 2 = 24 cm²
+```
+
+**Resposta b):** Área = 24 cm²
+
+**c) Razões trigonométricas do menor ângulo**
+
+O menor ângulo agudo (θ) é oposto ao menor cateto (6 cm).
+
+**Esquema:**
+```
+       |\
+       | \
+    6  |  \ 10
+       |   \
+       |____\
+      θ  8
+```
+
+**Seno:**
+```
+sen θ = cateto oposto / hipotenusa = 6/10 = 3/5 = 0,6
+```
+
+**Cosseno:**
+```
+cos θ = cateto adjacente / hipotenusa = 8/10 = 4/5 = 0,8
+```
+
+**Tangente:**
+```
+tan θ = cateto oposto / cateto adjacente = 6/8 = 3/4 = 0,75
+```
+
+**Resposta c:**
+- sen θ = 3/5 (ou 0,6)
+- cos θ = 4/5 (ou 0,8)
+- tan θ = 3/4 (ou 0,75)
+
+---
+
+### Questão 4 - Função Exponencial (Médio-Difícil)
+
+**Enunciado:**
+
+Uma população de bactérias cresce segundo a função P(t) = P₀ · 2ᵗ, onde P₀ é a população inicial e t é o tempo em horas.
+
+a) Se inicialmente havia 500 bactérias, quantas haverá após 3 horas?
+b) Em quanto tempo a população inicial será multiplicada por 8?
+c) Qual o tempo necessário para a população dobrar?
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- P(t) = P₀ · 2ᵗ
+- P₀ = população inicial
+- t = tempo (horas)
+
+**a) População após 3 horas com P₀ = 500**
+
+```
+P(3) = 500 · 2³
+P(3) = 500 · 8
+P(3) = 4000 bactérias
+```
+
+**Resposta a):** 4000 bactérias
+
+**b) Tempo para população × 8**
+
+Queremos: P(t) = 8 · P₀
+
+```
+P₀ · 2ᵗ = 8 · P₀
+2ᵗ = 8
+2ᵗ = 2³
+t = 3 horas
+```
+
+**Resposta b):** 3 horas
+
+**c) Tempo para dobrar**
+
+Queremos: P(t) = 2 · P₀
+
+```
+P₀ · 2ᵗ = 2 · P₀
+2ᵗ = 2
+2ᵗ = 2¹
+t = 1 hora
+```
+
+**Resposta c):** 1 hora (tempo de duplicação)
+
+---
+
+### Questão 5 - Logaritmo (Médio-Difícil)
+
+**Enunciado:**
+
+Resolva a equação: log₂ x + log₂ (x - 6) = 4
+
+Apresente:
+a) As condições de existência
+b) A resolução completa
+c) A verificação da(s) solução(ões)
+
+---
+
+**Resolução Completa:**
+
+**a) Condições de existência**
+
+Para existir logaritmo:
+
+**Condição 1:** x > 0
+**Condição 2:** x - 6 > 0 → x > 6
+
+**Condição mais restritiva:** x > 6
+
+**b) Resolução**
+
+```
+log₂ x + log₂ (x - 6) = 4
+```
+
+**Aplicando propriedade do produto:**
+```
+log₂ [x · (x - 6)] = 4
+```
+
+**Usando definição de logaritmo:**
+```
+x(x - 6) = 2⁴
+x² - 6x = 16
+x² - 6x - 16 = 0
+```
+
+**Resolvendo por Bhaskara:**
+```
+Δ = b² - 4ac = (-6)² - 4(1)(-16)
+Δ = 36 + 64 = 100
+
+x = [-b ± √Δ] / 2a
+x = [6 ± 10] / 2
+
+x₁ = 16/2 = 8
+x₂ = -4/2 = -2
+```
+
+**c) Verificação**
+
+**Para x = 8:**
+- Condição x > 6: 8 > 6 ✓
+- Substituindo na equação original:
+  ```
+  log₂ 8 + log₂ (8 - 6) = log₂ 8 + log₂ 2
+  = log₂ 2³ + log₂ 2
+  = 3 + 1 = 4 ✓
+  ```
+
+**Para x = -2:**
+- Condição x > 6: -2 > 6 ✗
+- Não satisfaz condição de existência
+
+**Resposta final:** x = 8
+
+---
+
+### Questão 6 - Estequiometria Integrada (Difícil)
+
+**Enunciado:**
+
+Na reação de combustão completa do metano (CH₄):
+
+CH₄ + 2 O₂ → CO₂ + 2 H₂O
+
+Dados: C = 12 g/mol, H = 1 g/mol, O = 16 g/mol
+
+a) Calcule a massa molar de cada substância.
+b) Quantos gramas de CO₂ são produzidos a partir de 32 g de CH₄?
+c) Qual o volume de CO₂ produzido nas CNTP?
+
+---
+
+**Resolução Completa:**
+
+**a) Massas molares**
+
+**CH₄:**
+```
+M(CH₄) = 1×C + 4×H = 1×12 + 4×1 = 16 g/mol
+```
+
+**O₂:**
+```
+M(O₂) = 2×O = 2×16 = 32 g/mol
+```
+
+**CO₂:**
+```
+M(CO₂) = 1×C + 2×O = 1×12 + 2×16 = 44 g/mol
+```
+
+**H₂O:**
+```
+M(H₂O) = 2×H + 1×O = 2×1 + 1×16 = 18 g/mol
+```
+
+**Resposta a:**
+- M(CH₄) = 16 g/mol
+- M(O₂) = 32 g/mol
+- M(CO₂) = 44 g/mol
+- M(H₂O) = 18 g/mol
+
+**b) Massa de CO₂ produzida**
+
+**Proporção estequiométrica:**
+```
+CH₄  :  CO₂
+1 mol : 1 mol
+```
+
+**Em massa:**
+```
+16 g CH₄ ────► 44 g CO₂
+32 g CH₄ ────► x
+```
+
+**Regra de três:**
+```
+16/32 = 44/x
+16x = 32 × 44
+16x = 1408
+x = 88 g
+```
+
+**Ou por mols:**
+```
+n(CH₄) = m/M = 32/16 = 2 mol
+
+Proporção: 1 mol CH₄ → 1 mol CO₂
+Logo: 2 mol CH₄ → 2 mol CO₂
+
+m(CO₂) = n × M = 2 × 44 = 88 g
+```
+
+**Resposta b):** 88 g de CO₂
+
+**c) Volume de CO₂ nas CNTP**
+
+```
+n(CO₂) = 2 mol (calculado acima)
+
+V = n × 22,4 L/mol (CNTP)
+V = 2 × 22,4 = 44,8 L
+```
+
+**Resposta c):** 44,8 L de CO₂
+
+---
+
+### Questão 7 - Trigonometria Aplicada (Médio)
+
+**Enunciado:**
+
+Uma escada de 10 m está apoiada em uma parede vertical, formando um ângulo de 60° com o solo horizontal.
+
+a) Qual a altura alcançada pela escada na parede?
+b) Qual a distância da base da escada até a parede?
+c) Se a escada escorregar até formar 45° com o solo, qual será a nova altura na parede?
+
+Dados: sen 60° = √3/2 ≈ 0,87; cos 60° = 1/2; sen 45° = √2/2 ≈ 0,71
+
+---
+
+**Resolução Completa:**
+
+**Esquema (situação inicial):**
+```
+      parede
+        |\ 
+        | \ escada (10m)
+      h |  \
+        |   \
+        |____\ 60°
+           d   solo
+```
+
+**a) Altura na parede (h)**
+
+```
+sen 60° = h / 10
+√3/2 = h / 10
+h = 10 × √3/2
+h = 5√3 m ≈ 8,7 m
+```
+
+**Resposta a):** h = 5√3 m (≈ 8,7 m)
+
+**b) Distância até a parede (d)**
+
+```
+cos 60° = d / 10
+1/2 = d / 10
+d = 10 × 1/2
+d = 5 m
+```
+
+**Resposta b):** d = 5 m
+
+**c) Nova altura com 45°**
+
+```
+sen 45° = h' / 10
+√2/2 = h' / 10
+h' = 10 × √2/2
+h' = 5√2 m ≈ 7,1 m
+```
+
+**Resposta c):** h' = 5√2 m (≈ 7,1 m)
+
+**Observação:** A altura diminuiu de ≈8,7m para ≈7,1m quando o ângulo diminuiu.
+
+---
+
+### Dicas Finais para Questões Discursivas
+
+**O que fazer:**
+✅ Mostre todos os cálculos intermediários
+✅ Justifique escolhas (qual fórmula, por quê)
+✅ Use notação matemática correta
+✅ Destaque a resposta final
+✅ Inclua unidades quando apropriado
+✅ Verifique se a resposta faz sentido
+✅ Organize a resolução em etapas claras
+
+**O que evitar:**
+❌ Pular etapas importantes
+❌ Escrever apenas a resposta final
+❌ Usar raciocínio confuso ou desorganizado
+❌ Esquecer de verificar condições (ex: existência de log)
+❌ Omitir unidades em problemas aplicados
+❌ Caligrafia ilegível
+
+**Pontuação parcial:**
+Mesmo que você erre a resposta final, pode ganhar pontos por:
+- Organizar os dados corretamente
+- Escolher a estratégia adequada
+- Executar passos corretos
+- Mostrar raciocínio lógico
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - questões discursivas valem muito!)
+
+---
+
+## 🎯 Semana 2 Completa!
+
+**Parabéns! Você finalizou toda a Semana 2!**
+
+**Resumo do que foi conquistado:**
+- ✅ 18 aulas completas (Terça a Sexta)
+- ✅ Checkpoint semanal
+- ✅ 2 aulas de revisão (Sábado)
+- ✅ **Total: 20 aulas na Semana 2!**
+
+**Progresso total: 63/96 (65,6%)** 🎉
+
+**Próximos passos:**
+- Descanse no domingo!
+- Semana 3 (09/12-13/12): Revisões finais e preparação
+- Prova: 14/12
+
+**Continue firme! Você está quase lá! 💪📚**
+
+---

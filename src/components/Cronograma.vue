@@ -80,10 +80,23 @@ interface Task {
   code: string;
 }
 
+interface CodeData {
+  title: string;
+  themes: string[];
+  subject: string;
+}
+
 const currentTasks = computed(() => {
   const dateKey = formatDate(currentDate.value);
-  const schedule = (studySchedule as any).schedule as Record<string, Task[]>;
-  return schedule[dateKey] || [];
+  const schedule = (studySchedule as any).schedule as Record<string, string[]>;
+  const codes = (studySchedule as any).codes as Record<string, CodeData>;
+  const codesToday = schedule[dateKey] || [];
+
+  return codesToday.map(code => ({
+    name: codes[code].title,
+    subject: codes[code].subject,
+    code: code
+  }));
 });
 
 const hasTasks = computed(() => currentTasks.value.length > 0);

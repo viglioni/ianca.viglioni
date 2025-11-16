@@ -1,12 +1,122 @@
 <script setup lang="ts">
-import UFMGSidebar from "./UFMGSidebar.vue";
+import { ref, onMounted, onUnmounted } from "vue";
+import CalendarioEstudos from "@/components/CalendarioEstudos.vue";
 
 const sections = [
+  { id: "filtros", label: "Filtros" },
   { id: "dias", label: "Dias de Estudo" },
-  { id: "materias", label: "Matérias" },
 ];
+
+const activeSection = ref("");
+
+const handleScroll = () => {
+  const scrollPosition = window.scrollY + 150;
+
+  for (const section of sections) {
+    const element = document.getElementById(section.id);
+    if (element) {
+      const { top, bottom } = element.getBoundingClientRect();
+      if (top <= 150 && bottom >= 150) {
+        activeSection.value = section.id;
+        if (window.location.hash !== `#${section.id}`) {
+          history.replaceState(null, "", `#${section.id}`);
+        }
+        break;
+      }
+    }
+  }
+};
+
+const scrollToSection = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const headerOffset = 100;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+  handleScroll();
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <template>
-  <UFMGSidebar :sections="sections" />
+  <nav class="sidebar-nav">
+    <h3 class="sidebar-title">Conteúdo</h3>
+    <ul class="sidebar-menu">
+      <template v-for="section in sections" :key="section.id">
+        <li v-if="section.id === 'dias'">
+          <div class="calendario-section">
+            <CalendarioEstudos />
+          </div>
+        </li>
+
+        <li>
+          <a
+            :href="`#${section.id}`"
+            :class="['sidebar-link', { active: activeSection === section.id }]"
+            @click.prevent="scrollToSection(section.id)"
+          >
+            {{ section.label }}
+          </a>
+        </li>
+      </template>
+    </ul>
+  </nav>
 </template>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Merriweather:wght@300;400;700&display=swap");
+
+.sidebar-nav {
+  @apply flex flex-col gap-6;
+}
+
+.sidebar-title {
+  @apply text-2xl font-bold mb-4;
+  font-family: "Crimson Text", serif;
+  color: #f5f1e8;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar-menu {
+  @apply flex flex-col gap-3 list-none p-0 m-0;
+}
+
+.sidebar-link {
+  @apply block px-4 py-2 rounded transition-all duration-300;
+  font-family: "Merriweather", serif;
+  color: #f5f1e8;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.sidebar-link:hover {
+  background: rgba(212, 175, 55, 0.2);
+  color: #d4af37;
+  transform: translateX(4px);
+}
+
+.sidebar-link.active {
+  background: rgba(212, 175, 55, 0.3);
+  color: #d4af37;
+  border-left: 3px solid #d4af37;
+  font-weight: 600;
+}
+
+.calendario-section {
+  @apply list-none mt-1 mb-4 ml-4 px-2 py-1;
+}
+</style>

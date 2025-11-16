@@ -1,4 +1,11 @@
 <script setup lang="ts">
+import { ref, computed, watch, onMounted } from "vue";
+import { useRoute, useRouter } from "vue-router";
+import studySchedule from "@/data/study-schedule.json";
+
+const route = useRoute();
+const router = useRouter();
+
 const weeks = [
   {
     id: "semana1",
@@ -26,15 +33,245 @@ const weeks = [
   },
 ];
 
-const subjects = [
-  { id: "matematica", name: "Matemática", icon: "📐" },
-  { id: "fisica", name: "Física", icon: "⚡" },
-  { id: "quimica", name: "Química", icon: "🧪" },
-  { id: "ciencias-humanas", name: "Ciências Humanas", icon: "🌍" },
-  { id: "geografia", name: "Geografia", icon: "🗺️" },
-  { id: "portugues", name: "Português", icon: "📖" },
-  { id: "biologia", name: "Biologia", icon: "🧬" },
-];
+interface CodeData {
+  title: string;
+  themes: string[];
+  subject: string;
+  dates: string[];
+}
+
+// Subject emojis and colors mapping
+const subjectConfig: Record<string, { emoji: string; name: string; color: string }> = {
+  'matematica': { emoji: '📐', name: 'Matemática', color: '#3b82f6' },
+  'fisica': { emoji: '⚡', name: 'Física', color: '#8b5cf6' },
+  'quimica': { emoji: '🧪', name: 'Química', color: '#10b981' },
+  'biologia': { emoji: '🧬', name: 'Biologia', color: '#06b6d4' },
+  'geografia': { emoji: '🗺️', name: 'Geografia', color: '#f59e0b' },
+  'ciencias-humanas': { emoji: '🌍', name: 'Ciências Humanas', color: '#ef4444' },
+  'portugues': { emoji: '📖', name: 'Português', color: '#ec4899' },
+  'filosofia': { emoji: '💭', name: 'Filosofia', color: '#6366f1' },
+  'sociologia': { emoji: '👥', name: 'Sociologia', color: '#14b8a6' },
+  'geral': { emoji: '📚', name: 'Geral', color: '#64748b' }
+};
+
+const getSubjectEmoji = (subject: string): string => {
+  return subjectConfig[subject]?.emoji || '📚';
+};
+
+const getSubjectName = (subject: string): string => {
+  return subjectConfig[subject]?.name || subject.charAt(0).toUpperCase() + subject.slice(1);
+};
+
+const getSubjectColor = (subject: string): string => {
+  return subjectConfig[subject]?.color || '#64748b';
+};
+
+const formatCodeForDisplay = (code: string, subject: string): string => {
+  // Example: mat-1-1 -> Matemática 1-1
+  // Example: por-ferias-2 -> Português f-2
+  const parts = code.split('-');
+  if (parts.length >= 3) {
+    const week = parts[1];
+    const number = parts[2];
+    const weekDisplay = week === 'ferias' ? 'f' : week;
+    return `${getSubjectEmoji(subject)} ${getSubjectName(subject)} ${weekDisplay}-${number}`;
+  }
+  return `${getSubjectEmoji(subject)} ${getSubjectName(subject)}`;
+};
+
+// Get all available subjects and themes
+const allSubjects = computed(() => {
+  const data = studySchedule as any;
+  return Object.keys(data.subjects).sort();
+});
+
+const allThemes = computed(() => {
+  const data = studySchedule as any;
+  const themes = data.themes as Record<string, { codes: any[], subjects: string[] }>;
+
+  let themesList = Object.keys(themes);
+
+  // Filter themes by selected subject
+  if (selectedSubject.value) {
+    themesList = themesList.filter(theme =>
+      themes[theme].subjects.includes(selectedSubject.value)
+    );
+  }
+
+  return themesList.sort();
+});
+
+// Get initial date using same logic as calendar
+const getInitialDate = (): string => {
+  const data = studySchedule as any;
+  const allScheduleDates = Object.keys(data.schedule).sort();
+
+  if (allScheduleDates.length === 0) return "";
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const todayStr = formatDateToISO(today);
+
+  const firstDate = allScheduleDates[0];
+  const lastDate = allScheduleDates[allScheduleDates.length - 1];
+
+  // If today is before the first date, return the first date
+  if (todayStr < firstDate) {
+    return firstDate;
+  }
+  // If today is after the last date, return the last date
+  else if (todayStr > lastDate) {
+    return lastDate;
+  }
+  // Otherwise return today if it exists in schedule, or empty
+  return allScheduleDates.includes(todayStr) ? todayStr : "";
+};
+
+const formatDateToISO = (date: Date): string => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+};
+
+// Filter state from query params
+const selectedSubject = ref<string>("");
+const selectedTheme = ref<string>("");
+const selectedDate = ref<string>("");
+const searchText = ref<string>("");
+
+// Update URL with current filters
+const updateURL = () => {
+  const query: Record<string, string> = {};
+  if (selectedSubject.value) query.subject = selectedSubject.value;
+  if (selectedTheme.value) query.theme = selectedTheme.value;
+  if (selectedDate.value) query.day = selectedDate.value;
+  if (searchText.value) query.search = searchText.value;
+
+  router.push({ query });
+};
+
+// Load filters from URL
+const loadFromURL = () => {
+  selectedSubject.value = (route.query.subject as string) || "";
+  selectedTheme.value = (route.query.theme as string) || "";
+  selectedDate.value = (route.query.day as string) || getInitialDate();
+  searchText.value = (route.query.search as string) || "";
+};
+
+// Normalize text for better filtering
+const normalizeText = (text: string): string => {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // Remove accents
+    .replace(/[^a-z0-9\s]/g, "") // Remove special characters
+    .trim();
+};
+
+// Get all available dates
+const allDates = computed(() => {
+  const data = studySchedule as any;
+  return Object.keys(data.schedule).sort();
+});
+
+// Format date for display
+const formatDate = (date: string): string => {
+  const [year, month, day] = date.split('-');
+  return `${day}/${month}`;
+};
+
+// Get filtered codes
+const filteredCodes = computed(() => {
+  const data = studySchedule as any;
+  const codes = data.codes as Record<string, CodeData>;
+  const themes = data.themes as Record<string, { codes: { code: string }[], subjects: string[] }>;
+
+  let resultCodes = Object.keys(codes);
+
+  // Filter by subject
+  if (selectedSubject.value) {
+    resultCodes = resultCodes.filter(
+      (code) => codes[code].subject === selectedSubject.value
+    );
+  }
+
+  // Filter by theme
+  if (selectedTheme.value) {
+    const themeCodesList = themes[selectedTheme.value]?.codes.map((t) => t.code) || [];
+    resultCodes = resultCodes.filter((code) => themeCodesList.includes(code));
+  }
+
+  // Filter by date
+  if (selectedDate.value) {
+    resultCodes = resultCodes.filter((code) =>
+      codes[code].dates?.includes(selectedDate.value)
+    );
+  }
+
+  // Filter by search text
+  if (searchText.value) {
+    const normalizedSearch = normalizeText(searchText.value);
+    resultCodes = resultCodes.filter((code) => {
+      const normalizedTitle = normalizeText(codes[code].title);
+      const normalizedCode = normalizeText(code);
+      return (
+        normalizedTitle.includes(normalizedSearch) ||
+        normalizedCode.includes(normalizedSearch)
+      );
+    });
+  }
+
+  return resultCodes.sort();
+});
+
+const clearFilters = () => {
+  selectedSubject.value = "";
+  selectedTheme.value = "";
+  selectedDate.value = "";
+  searchText.value = "";
+  updateURL();
+};
+
+const setDateFilter = (dateStr: string) => {
+  // Parse DD/MM format to YYYY-MM-DD
+  const [day, month] = dateStr.split('/');
+  const year = '2025'; // Year from the schedule
+  const isoDate = `${year}-${month}-${day}`;
+
+  // Clear other filters and set only date
+  selectedSubject.value = "";
+  selectedTheme.value = "";
+  selectedDate.value = isoDate;
+  searchText.value = "";
+  updateURL();
+};
+
+const isDaySelected = (dayStr: string): boolean => {
+  if (!selectedDate.value) return false;
+  const [day, month] = dayStr.split('/');
+  const year = '2025';
+  const isoDate = `${year}-${month}-${day}`;
+  return selectedDate.value === isoDate;
+};
+
+// Watch for subject changes and clear theme if it's not valid
+watch(selectedSubject, () => {
+  if (selectedTheme.value && !allThemes.value.includes(selectedTheme.value)) {
+    selectedTheme.value = "";
+  }
+  updateURL();
+});
+
+// Watch all filters and update URL
+watch([selectedTheme, selectedDate, searchText], () => {
+  updateURL();
+});
+
+// Initialize from URL on mount
+onMounted(() => {
+  loadFromURL();
+});
 </script>
 
 <template>
@@ -46,6 +283,75 @@ const subjects = [
           <p class="subtitle">SERIADO UFMG ETAPA 1</p>
         </div>
 
+        <div class="content-section" id="filtros">
+          <h2 class="section-heading">🔍 Filtros</h2>
+
+          <div class="filters-container">
+            <div class="filter-group">
+              <label class="filter-label">Disciplina</label>
+              <select v-model="selectedSubject" class="filter-select">
+                <option value="">Todas</option>
+                <option v-for="subject in allSubjects" :key="subject" :value="subject">
+                  {{ getSubjectEmoji(subject) }} {{ subject.charAt(0).toUpperCase() + subject.slice(1) }}
+                </option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Tema</label>
+              <select v-model="selectedTheme" class="filter-select">
+                <option value="">Todos</option>
+                <option v-for="theme in allThemes" :key="theme" :value="theme">
+                  {{ theme }}
+                </option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Data</label>
+              <select v-model="selectedDate" class="filter-select">
+                <option value="">Todas</option>
+                <option v-for="date in allDates" :key="date" :value="date">
+                  {{ formatDate(date) }}
+                </option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Buscar</label>
+              <input
+                v-model="searchText"
+                type="text"
+                placeholder="Digite para buscar..."
+                class="filter-input"
+              />
+            </div>
+
+            <div class="filter-group">
+              <button @click="clearFilters" class="clear-button">
+                Limpar Filtros
+              </button>
+            </div>
+          </div>
+
+          <div class="results-section">
+            <h3 class="results-heading">
+              {{ filteredCodes.length }} resultado(s) encontrado(s)
+            </h3>
+            <div class="codes-list">
+              <div v-for="code in filteredCodes" :key="code" class="code-item">
+                <span
+                  class="subject-badge"
+                  :style="{ backgroundColor: getSubjectColor((studySchedule as any).codes[code].subject) }"
+                >
+                  {{ formatCodeForDisplay(code, (studySchedule as any).codes[code].subject) }}
+                </span>
+                <span class="code-title">{{ (studySchedule as any).codes[code].title }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="content-section" id="dias">
           <h2 class="section-heading">📅 Dias de Estudo</h2>
           <div class="weeks-container">
@@ -55,25 +361,16 @@ const subjects = [
                 <span class="week-period">{{ week.period }}</span>
               </div>
               <div class="days-grid">
-                <div v-for="day in week.days" :key="day" class="day-card">
+                <button
+                  v-for="day in week.days"
+                  :key="day"
+                  @click="setDateFilter(day)"
+                  :class="['day-card', { selected: isDaySelected(day) }]"
+                >
                   {{ day }}
-                </div>
+                </button>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="content-section" id="materias">
-          <h2 class="section-heading">📚 Matérias</h2>
-          <div class="subjects-grid">
-            <button
-              v-for="subject in subjects"
-              :key="subject.id"
-              class="subject-card"
-            >
-              <span class="subject-icon">{{ subject.icon }}</span>
-              <span class="subject-name">{{ subject.name }}</span>
-            </button>
           </div>
         </div>
       </div>
@@ -179,32 +476,101 @@ const subjects = [
   transform: scale(1.05);
 }
 
-.subjects-grid {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+.day-card.selected {
+  background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
+  color: #0d3e47;
+  border-color: #0d3e47;
+  font-weight: bold;
 }
 
-.subject-card {
-  @apply flex flex-col items-center gap-3 p-6 rounded-lg transition-all duration-200 cursor-pointer;
-  background: linear-gradient(135deg, rgba(13, 62, 71, 0.05) 0%, rgba(26, 85, 96, 0.05) 100%);
-  border: 2px solid rgba(26, 85, 96, 0.2);
-  border-left-width: 4px;
-  border-left-color: #1a5560;
+.filters-container {
+  @apply grid grid-cols-1 md:grid-cols-5 gap-4 mb-6;
 }
 
-.subject-card:hover {
-  background: linear-gradient(135deg, rgba(13, 62, 71, 0.1) 0%, rgba(26, 85, 96, 0.1) 100%);
-  border-left-color: #d4af37;
-  transform: translateX(4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.filter-group {
+  @apply flex flex-col gap-2;
 }
 
-.subject-icon {
-  @apply text-4xl;
-}
-
-.subject-name {
-  @apply text-lg font-bold;
+.filter-label {
+  @apply text-sm font-bold;
   font-family: "Crimson Text", serif;
   color: #0d3e47;
 }
+
+.filter-select,
+.filter-input {
+  @apply px-3 py-2 rounded-lg border-2 transition-all duration-200;
+  font-family: "Merriweather", serif;
+  background: white;
+  border-color: rgba(26, 85, 96, 0.3);
+  color: #0d3e47;
+}
+
+.filter-select:focus,
+.filter-input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.clear-button {
+  @apply px-4 py-2 rounded-lg font-bold transition-all duration-200 mt-auto;
+  font-family: "Merriweather", serif;
+  background: linear-gradient(135deg, rgba(13, 62, 71, 0.1) 0%, rgba(26, 85, 96, 0.1) 100%);
+  border: 2px solid rgba(26, 85, 96, 0.3);
+  color: #0d3e47;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background: linear-gradient(135deg, #0d3e47 0%, #1a5560 100%);
+  border-color: #d4af37;
+  color: #f5f1e8;
+}
+
+.results-section {
+  @apply flex flex-col gap-3;
+}
+
+.results-heading {
+  @apply text-lg font-bold;
+  font-family: "Crimson Text", serif;
+  color: #1a5560;
+}
+
+.codes-list {
+  @apply flex flex-col gap-2 max-h-96 overflow-y-auto;
+}
+
+.code-item {
+  @apply flex items-center gap-3 p-3 rounded-lg transition-all duration-200;
+  background: linear-gradient(90deg, rgba(13, 62, 71, 0.05) 0%, rgba(26, 85, 96, 0.05) 100%);
+  border-left: 3px solid #1a5560;
+}
+
+.code-item:hover {
+  background: linear-gradient(90deg, rgba(13, 62, 71, 0.1) 0%, rgba(26, 85, 96, 0.1) 100%);
+  border-left-color: #d4af37;
+  transform: translateX(4px);
+}
+
+.subject-badge {
+  @apply px-3 py-2 rounded text-xs font-bold flex-shrink-0;
+  font-family: "Merriweather", serif;
+  color: white;
+  height: 36px;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.code-title {
+  @apply text-sm;
+  font-family: "Merriweather", serif;
+  color: #2d4f56;
+}
+
 </style>
