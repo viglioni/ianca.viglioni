@@ -3,7 +3,7 @@ import Home from "@/views/Home.vue";
 import UFMGLayout from "@/layouts/UFMGLayout.vue";
 import UFMG from "./views/UFMG.vue";
 import Plano from "./views/UFMG/Plano.vue";
-import UFMGSidebar from "./views/UFMG/UFMGSidebar.vue";
+import PlanoSidebar from "./views/UFMG/PlanoSidebar.vue";
 
 export const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,7 +27,7 @@ export const router = createRouter({
           name: "Plano",
           components: {
             default: Plano,
-            sidebar: UFMGSidebar,
+            sidebar: PlanoSidebar,
           },
         },
       ],

@@ -1,5 +1,58 @@
 <script setup lang="ts">
-// Component logic here
+import { ref } from "vue";
+import { useRouter } from "vue-router";
+import Cronograma from "@/components/Cronograma.vue";
+
+const router = useRouter();
+
+const checkpoints = [
+  {
+    date: "2025-11-23",
+    display: "23/11 (Sábado)",
+    title: "CHECKPOINT SEMANAL 1",
+    description: "Revisar pendências da semana 1",
+    tasks: [
+      "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
+      "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice) - 120min",
+      "Matemática - Exercícios de conjuntos e função afim - 90min",
+      "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos - 60min",
+      "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica - 90min",
+      "Tempo livre para recuperar atrasos - 2h",
+    ],
+  },
+  {
+    date: "2025-12-07",
+    display: "07/12 (Sábado)",
+    title: "CHECKPOINT SEMANAL 2",
+    description: "Revisar pendências da semana 2",
+    tasks: [
+      "REVISAR PENDÊNCIAS DA SEMANA",
+      "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log) - 150min",
+      "Matemática - Questões discursivas e redação matemática - 90min",
+      "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado) - 90min",
+      "Química - REVISÃO Ligações químicas completo - 60min",
+      "Ciências Humanas - Povos originários das Américas + Arte Indígena - 60min",
+      "Tempo livre para recuperar atrasos - 1h30min",
+    ],
+  },
+];
+
+const goToCheckpoint = (date: string) => {
+  router.push({ query: { day: date } });
+  // Scroll to cronograma section
+  setTimeout(() => {
+    const element = document.getElementById("cronograma");
+    if (element) {
+      const headerOffset = 100;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  }, 100);
+};
 </script>
 
 <template>
@@ -29,6 +82,26 @@
             </li>
             <li>📝 Anote dúvidas durante a semana e resolva no sábado</li>
           </ul>
+        </div>
+
+        <div class="content-section" id="cronograma">
+          <h2 class="section-heading">📅 Cronograma</h2>
+          <Cronograma />
+
+          <div class="checkpoints-section">
+            <h3 class="checkpoints-heading">🎯 Checkpoints</h3>
+            <div class="checkpoint-list">
+              <button
+                v-for="checkpoint in checkpoints"
+                :key="checkpoint.date"
+                @click="goToCheckpoint(checkpoint.date)"
+                class="checkpoint-item clickable"
+              >
+                <span class="checkpoint-date">{{ checkpoint.display }}</span>
+                <span class="checkpoint-desc">{{ checkpoint.description }}</span>
+              </button>
+            </div>
+          </div>
         </div>
 
         <div class="content-section" id="prioridades">
@@ -455,5 +528,52 @@
 
 .motivacao-emoji {
   @apply text-4xl text-center mt-4;
+}
+
+/* Checkpoints section */
+.checkpoints-section {
+  @apply mt-6 pt-6 border-t-2 border-teal-200;
+}
+
+.checkpoints-heading {
+  @apply text-xl font-bold mb-4;
+  font-family: "Crimson Text", serif;
+  color: #0d3e47;
+}
+
+.checkpoint-list {
+  @apply flex flex-col gap-3;
+}
+
+.checkpoint-item {
+  @apply flex flex-col md:flex-row md:items-center gap-2 p-3 rounded-lg w-full text-left;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+  border-left: 3px solid #d4af37;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  font-family: "Merriweather", serif;
+  cursor: default;
+}
+
+.checkpoint-item.clickable {
+  @apply cursor-pointer transition-all duration-200;
+}
+
+.checkpoint-item.clickable:hover {
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.1) 100%);
+  border-left-color: #b8941f;
+  transform: translateX(4px);
+}
+
+.checkpoint-date {
+  @apply font-bold text-base;
+  color: #0d3e47;
+  min-width: 140px;
+}
+
+.checkpoint-desc {
+  @apply text-sm;
+  color: #2d4f56;
 }
 </style>
