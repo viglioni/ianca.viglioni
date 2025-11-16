@@ -40,22 +40,22 @@ interface CodeData {
   dates: string[];
 }
 
-// Subject emojis and colors mapping
-const subjectConfig: Record<string, { emoji: string; name: string; color: string }> = {
-  'matematica': { emoji: '📐', name: 'Matemática', color: '#3b82f6' },
-  'fisica': { emoji: '⚡', name: 'Física', color: '#8b5cf6' },
-  'quimica': { emoji: '🧪', name: 'Química', color: '#10b981' },
-  'biologia': { emoji: '🧬', name: 'Biologia', color: '#06b6d4' },
-  'geografia': { emoji: '🗺️', name: 'Geografia', color: '#f59e0b' },
-  'ciencias-humanas': { emoji: '🌍', name: 'Ciências Humanas', color: '#ef4444' },
-  'portugues': { emoji: '📖', name: 'Português', color: '#ec4899' },
-  'filosofia': { emoji: '💭', name: 'Filosofia', color: '#6366f1' },
-  'sociologia': { emoji: '👥', name: 'Sociologia', color: '#14b8a6' },
-  'geral': { emoji: '📚', name: 'Geral', color: '#64748b' }
+// Subject icons and colors mapping
+const subjectConfig: Record<string, { icon: string; name: string; color: string }> = {
+  'matematica': { icon: 'fa-calculator', name: 'Matemática', color: '#3b82f6' },
+  'fisica': { icon: 'fa-bolt', name: 'Física', color: '#8b5cf6' },
+  'quimica': { icon: 'fa-flask', name: 'Química', color: '#10b981' },
+  'biologia': { icon: 'fa-dna', name: 'Biologia', color: '#06b6d4' },
+  'geografia': { icon: 'fa-earth-americas', name: 'Geografia', color: '#f59e0b' },
+  'ciencias-humanas': { icon: 'fa-globe', name: 'Ciências Humanas', color: '#ef4444' },
+  'portugues': { icon: 'fa-book', name: 'Português', color: '#ec4899' },
+  'filosofia': { icon: 'fa-lightbulb', name: 'Filosofia', color: '#6366f1' },
+  'sociologia': { icon: 'fa-users', name: 'Sociologia', color: '#14b8a6' },
+  'geral': { icon: 'fa-book-open', name: 'Geral', color: '#64748b' }
 };
 
-const getSubjectEmoji = (subject: string): string => {
-  return subjectConfig[subject]?.emoji || '📚';
+const getSubjectIcon = (subject: string): string => {
+  return subjectConfig[subject]?.icon || 'fa-book-open';
 };
 
 const getSubjectName = (subject: string): string => {
@@ -66,17 +66,16 @@ const getSubjectColor = (subject: string): string => {
   return subjectConfig[subject]?.color || '#64748b';
 };
 
-const formatCodeForDisplay = (code: string, subject: string): string => {
-  // Example: mat-1-1 -> Matemática 1-1
-  // Example: por-ferias-2 -> Português f-2
+const formatCodeNumber = (code: string): string => {
+  // Example: mat-1-1 -> 1-1
+  // Example: por-2-2 -> 2-2
   const parts = code.split('-');
   if (parts.length >= 3) {
     const week = parts[1];
     const number = parts[2];
-    const weekDisplay = week === 'ferias' ? 'f' : week;
-    return `${getSubjectEmoji(subject)} ${getSubjectName(subject)} ${weekDisplay}-${number}`;
+    return `${week}-${number}`;
   }
-  return `${getSubjectEmoji(subject)} ${getSubjectName(subject)}`;
+  return '';
 };
 
 // Get all available subjects and themes
@@ -142,21 +141,34 @@ const searchText = ref<string>("");
 
 // Update URL with current filters
 const updateURL = () => {
+  isUpdatingFromLocal = true;
   const query: Record<string, string> = {};
   if (selectedSubject.value) query.subject = selectedSubject.value;
   if (selectedTheme.value) query.theme = selectedTheme.value;
   if (selectedDate.value) query.day = selectedDate.value;
   if (searchText.value) query.search = searchText.value;
 
-  router.push({ query });
+  // Use replace to avoid infinite loops with watchers
+  router.replace({ query });
 };
+
+// Track if this is the first load
+let isFirstLoad = true;
 
 // Load filters from URL
 const loadFromURL = () => {
   selectedSubject.value = (route.query.subject as string) || "";
   selectedTheme.value = (route.query.theme as string) || "";
-  selectedDate.value = (route.query.day as string) || getInitialDate();
+  // Only set default date on first load and if no query params exist
+  if (route.query.day) {
+    selectedDate.value = route.query.day as string;
+  } else if (isFirstLoad && !route.query.subject && !route.query.theme && !route.query.search) {
+    selectedDate.value = getInitialDate();
+  } else {
+    selectedDate.value = "";
+  }
   searchText.value = (route.query.search as string) || "";
+  isFirstLoad = false;
 };
 
 // Normalize text for better filtering
@@ -256,17 +268,29 @@ const isDaySelected = (dayStr: string): boolean => {
 };
 
 // Watch for subject changes and clear theme if it's not valid
-watch(selectedSubject, () => {
-  if (selectedTheme.value && !allThemes.value.includes(selectedTheme.value)) {
-    selectedTheme.value = "";
+watch(selectedSubject, (newVal, oldVal) => {
+  if (newVal !== oldVal) {
+    if (selectedTheme.value && !allThemes.value.includes(selectedTheme.value)) {
+      selectedTheme.value = "";
+    }
+    updateURL();
   }
-  updateURL();
 });
 
 // Watch all filters and update URL
 watch([selectedTheme, selectedDate, searchText], () => {
   updateURL();
 });
+
+// Watch for URL changes (from other components like sidebar calendar)
+// Don't update if we're the ones who changed it
+let isUpdatingFromLocal = false;
+watch(() => route.query, (newQuery, oldQuery) => {
+  if (!isUpdatingFromLocal) {
+    loadFromURL();
+  }
+  isUpdatingFromLocal = false;
+}, { deep: true });
 
 // Initialize from URL on mount
 onMounted(() => {
@@ -292,7 +316,7 @@ onMounted(() => {
               <select v-model="selectedSubject" class="filter-select">
                 <option value="">Todas</option>
                 <option v-for="subject in allSubjects" :key="subject" :value="subject">
-                  {{ getSubjectEmoji(subject) }} {{ subject.charAt(0).toUpperCase() + subject.slice(1) }}
+                  {{ subject.charAt(0).toUpperCase() + subject.slice(1) }}
                 </option>
               </select>
             </div>
@@ -344,7 +368,8 @@ onMounted(() => {
                   class="subject-badge"
                   :style="{ backgroundColor: getSubjectColor((studySchedule as any).codes[code].subject) }"
                 >
-                  {{ formatCodeForDisplay(code, (studySchedule as any).codes[code].subject) }}
+                  <i :class="['fas', getSubjectIcon((studySchedule as any).codes[code].subject)]"></i>
+                  <span>{{ getSubjectName((studySchedule as any).codes[code].subject) }} {{ formatCodeNumber(code) }}</span>
                 </span>
                 <span class="code-title">{{ (studySchedule as any).codes[code].title }}</span>
               </div>
@@ -533,19 +558,20 @@ onMounted(() => {
 }
 
 .results-heading {
-  @apply text-lg font-bold;
+  @apply text-xl font-bold;
   font-family: "Crimson Text", serif;
   color: #1a5560;
 }
 
 .codes-list {
-  @apply flex flex-col gap-2 max-h-96 overflow-y-auto;
+  @apply flex flex-col gap-3 max-h-[500px] overflow-y-auto;
 }
 
 .code-item {
-  @apply flex items-center gap-3 p-3 rounded-lg transition-all duration-200;
+  @apply flex items-center gap-4 p-4 rounded-lg transition-all duration-200;
   background: linear-gradient(90deg, rgba(13, 62, 71, 0.05) 0%, rgba(26, 85, 96, 0.05) 100%);
   border-left: 3px solid #1a5560;
+  min-height: 50px;
 }
 
 .code-item:hover {
@@ -555,22 +581,35 @@ onMounted(() => {
 }
 
 .subject-badge {
-  @apply px-3 py-2 rounded text-xs font-bold flex-shrink-0;
+  @apply px-3 py-2 rounded font-bold flex-shrink-0;
   font-family: "Merriweather", serif;
   color: white;
-  height: 36px;
-  min-width: 180px;
+  height: 40px;
+  min-width: 220px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
   white-space: nowrap;
+  font-size: 14px;
+}
+
+.subject-badge i {
+  font-size: 18px;
+  width: 22px;
+  margin-right: 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.subject-badge span {
+  text-align: left;
+  flex: 1;
 }
 
 .code-title {
-  @apply text-sm;
+  @apply text-base;
   font-family: "Merriweather", serif;
   color: #2d4f56;
+  line-height: 1.5;
 }
 
 </style>

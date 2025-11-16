@@ -161,16 +161,14 @@ const updateFromURL = () => {
       urlDate.setHours(0, 0, 0, 0);
       currentDate.value = urlDate;
     } else {
-      // Invalid date in URL, use initial date and update URL
+      // Invalid date in URL, use initial date but don't update URL
       const initialDate = getInitialDate();
       currentDate.value = initialDate;
-      updateURL(initialDate);
     }
   } else {
-    // No day in URL, use initial date and update URL
+    // No day in URL, use initial date but don't auto-add to URL
     const initialDate = getInitialDate();
     currentDate.value = initialDate;
-    updateURL(initialDate);
   }
 };
 
