@@ -5,7 +5,7 @@ const code = "ger-3-2";
 const title = "Matemática: MMC e MDC";
 const subject = "geral";
 const themes: string[] = [];
-const dates = ["2025-12-07"];
+const dates = ["2025-12-06"];
 const lessonContent = `<div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
 <li>Matemática: MMC e MDC</li>

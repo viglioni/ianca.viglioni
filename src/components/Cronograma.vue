@@ -45,7 +45,7 @@ const isLastDay = computed(() => {
   return formatDate(currentDate.value) === formatDate(lastDate.value);
 });
 
-const checkpointDates = ['2025-11-23', '2025-12-07'];
+const checkpointDates = ['2025-11-22', '2025-12-06'];
 
 const isCheckpoint = (date: Date): boolean => {
   return checkpointDates.includes(formatDate(date));

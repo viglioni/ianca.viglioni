@@ -5,7 +5,7 @@ const code = "mat-1-9";
 const title = "Matemática: Conjuntos";
 const subject = "matematica";
 const themes = ["Função Afim","Conjuntos","Exercícios","Funções"];
-const dates = ["2025-11-23"];
+const dates = ["2025-11-22"];
 const lessonContent = `<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Matemática: Conjuntos</li>

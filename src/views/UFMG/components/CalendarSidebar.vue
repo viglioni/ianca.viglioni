@@ -22,16 +22,16 @@ const goToCheckpoint = (date: string) => {
       <h4 class="checkpoints-title">🎯 Checkpoints</h4>
       <div class="checkpoint-sidebar-list">
         <button
-          @click="goToCheckpoint('2025-11-23')"
+          @click="goToCheckpoint('2025-11-22')"
           class="checkpoint-sidebar-item"
         >
-          <span class="checkpoint-sidebar-date">23/11</span>
+          <span class="checkpoint-sidebar-date">22/11</span>
         </button>
         <button
-          @click="goToCheckpoint('2025-12-07')"
+          @click="goToCheckpoint('2025-12-06')"
           class="checkpoint-sidebar-item"
         >
-          <span class="checkpoint-sidebar-date">07/12</span>
+          <span class="checkpoint-sidebar-date">06/12</span>
         </button>
       </div>
     </div>

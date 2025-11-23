@@ -5,7 +5,7 @@ const code = "ger-3-1";
 const title = "Matemática: Conjuntos";
 const subject = "geral";
 const themes = ["Revisão"];
-const dates = ["2025-12-07"];
+const dates = ["2025-12-06"];
 const lessonContent = `<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Matemática: Conjuntos</li>

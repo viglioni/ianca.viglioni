@@ -69,18 +69,7 @@
 
 ---
 
-### Sábado, 22/11
-- [ ] Matemática - Função afim (taxa de variação, inequações, sistemas lineares) - 120min
-- [ ] Física - Leis de Newton (1ª, 2ª e 3ª leis) - 90min
-- [ ] Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica) - 90min
-- [ ] Geografia - Projeções cartográficas, escalas, curvas de nível - 60min
-- [ ] Português - Tempo e modo verbais - 60min
-
-**Total: 7h**
-
----
-
-### Domingo, 23/11 - 🔍 CHECKPOINT SEMANAL 1
+### Sábado, 22/11 - 🔍 CHECKPOINT SEMANAL 1
 - [ ] **REVISAR PENDÊNCIAS DA SEMANA** - verificar itens não concluídos
 - [ ] Matemática - Função quadrática (definição, coeficientes, gráfico, vértice) - 120min
 - [ ] Matemática - Exercícios de conjuntos e função afim - 90min
@@ -89,6 +78,14 @@
 - [ ] Tempo livre para recuperar atrasos - 2h
 
 **Total: 8h**
+
+---
+
+### Domingo, 23/11 - 🌴 DESCANSO
+- [ ] Dia livre para descanso
+- [ ] Opcional: revisão leve de anotações (máximo 1h)
+
+**Total: 0-1h**
 
 ---
 
@@ -186,19 +183,7 @@
 
 ---
 
-### Sábado, 06/12
-- [ ] Matemática - Sistema Internacional de Medidas e conversões - 60min
-- [ ] Matemática - **REVISÃO** Função exponencial e logarítmica - 90min
-- [ ] Física - **REVISÃO** Cinemática completa (MRU, MRUV, queda livre, circular) - 90min
-- [ ] Química - **FOCO** Estequiometria: leis ponderais - 90min
-- [ ] Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas) - 60min
-- [ ] Biologia - Níveis de organização biológica - 30min
-
-**Total: 7h**
-
----
-
-### Domingo, 07/12 - 🔍 CHECKPOINT SEMANAL 2
+### Sábado, 06/12 - 🔍 CHECKPOINT SEMANAL 2
 - [ ] **REVISAR PENDÊNCIAS DA SEMANA**
 - [ ] Matemática - **REVISÃO INTENSA** Todas as funções (afim, quadrática, exp, log) - 150min
 - [ ] Matemática - Questões discursivas e redação matemática - 90min
@@ -208,6 +193,14 @@
 - [ ] Tempo livre para recuperar atrasos - 1h30min
 
 **Total: 8h**
+
+---
+
+### Domingo, 07/12 - 🌴 DESCANSO
+- [ ] Dia livre para descanso
+- [ ] Opcional: revisão leve de anotações (máximo 1h)
+
+**Total: 0-1h**
 
 ---
 
@@ -298,7 +291,7 @@
 - ✅ **1ª passada**: Semanas 1 (18-23/11) e período de férias (26/11-02/12)
 - ✅ **2ª passada**: Semana 2 (03-07/12)
 - ✅ **Revisão final intensiva**: Semana 3 (09-13/12)
-- ✅ **Checkpoints**: Sábados 23/11 e 07/12
+- ✅ **Checkpoints**: Sábados 22/11 e 06/12
 
 ### Distribuição de tempo por matéria (total ~165h)
 

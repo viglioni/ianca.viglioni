@@ -5,7 +5,7 @@ const code = "hum-1-2";
 const title = "Matemática: Conjuntos";
 const subject = "ciencias-humanas";
 const themes = ["antiga","História"];
-const dates = ["2025-11-23"];
+const dates = ["2025-11-22"];
 const lessonContent = `<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Matemática: Conjuntos</li>

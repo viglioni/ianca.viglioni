@@ -5,7 +5,7 @@ const code = "hum-3-3";
 const title = "Física: Grandezas Vetoriais, Escalares e Vetores";
 const subject = "ciencias-humanas";
 const themes = ["Américas"];
-const dates = ["2025-12-07"];
+const dates = ["2025-12-06"];
 const lessonContent = `<div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
 <li>Física: Grandezas Vetoriais, Escalares e Vetores</li>

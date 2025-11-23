@@ -5,7 +5,7 @@ const code = "mat-3-8";
 const title = "Física: Grandezas Vetoriais, Escalares e Vetores";
 const subject = "matematica";
 const themes = ["Revisão"];
-const dates = ["2025-12-07"];
+const dates = ["2025-12-06"];
 const lessonContent = `<div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
 <li>Física: Grandezas Vetoriais, Escalares e Vetores</li>

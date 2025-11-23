@@ -12,5 +12,5 @@ const sections = [
 </script>
 
 <template>
-  <UFMGSidebar :sections="sections" />
+  <UFMGSidebar :sections="sections" :show-calendar="false" />
 </template>

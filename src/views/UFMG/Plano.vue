@@ -7,8 +7,8 @@ const router = useRouter();
 
 const checkpoints = [
   {
-    date: "2025-11-23",
-    display: "23/11 (Sábado)",
+    date: "2025-11-22",
+    display: "22/11 (Sábado)",
     title: "CHECKPOINT SEMANAL 1",
     description: "Revisar pendências da semana 1",
     tasks: [
@@ -21,8 +21,8 @@ const checkpoints = [
     ],
   },
   {
-    date: "2025-12-07",
-    display: "07/12 (Sábado)",
+    date: "2025-12-06",
+    display: "06/12 (Sábado)",
     title: "CHECKPOINT SEMANAL 2",
     description: "Revisar pendências da semana 2",
     tasks: [
@@ -239,7 +239,7 @@ const goToCheckpoint = (date: string) => {
             </li>
             <li><strong>2ª passada:</strong> Semana 2 (03-07/12)</li>
             <li><strong>Revisão final:</strong> Semana 3 (09-13/12)</li>
-            <li><strong>Checkpoints:</strong> Sábados 23/11 e 07/12</li>
+            <li><strong>Checkpoints:</strong> Sábados 22/11 e 06/12</li>
           </ul>
         </div>
 

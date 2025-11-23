@@ -9,9 +9,12 @@ interface SidebarSection {
 
 interface Props {
   sections: SidebarSection[];
+  showCalendar?: boolean;
 }
 
-const props = defineProps<Props>();
+const props = withDefaults(defineProps<Props>(), {
+  showCalendar: true,
+});
 const activeSection = ref("");
 
 const handleScroll = () => {
@@ -75,7 +78,7 @@ onUnmounted(() => {
         </li>
 
         <!-- Insert calendar after Cronograma -->
-        <li v-if="section.id === 'cronograma'" class="calendar-item">
+        <li v-if="section.id === 'cronograma' && props.showCalendar" class="calendar-item">
           <CalendarSidebar />
         </li>
       </template>
