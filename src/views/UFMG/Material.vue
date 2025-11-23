@@ -11,26 +11,26 @@ const weeks = [
   {
     id: "semana1",
     name: "Semana 1",
-    period: "18/11 - 23/11",
-    days: ["18/11", "19/11", "20/11", "21/11", "22/11", "23/11"],
+    period: "22/11 - 26/11",
+    days: ["22/11", "23/11", "24/11", "25/11", "26/11"],
   },
   {
     id: "ferias",
     name: "Férias",
-    period: "26/11 - 02/12",
-    days: ["26/11", "27/11", "28/11", "29/11", "30/11", "01/12", "02/12"],
+    period: "27/11 - 01/12",
+    days: ["27/11", "28/11", "29/11", "30/11", "01/12"],
   },
   {
     id: "semana2",
     name: "Semana 2",
-    period: "03/12 - 07/12",
-    days: ["03/12", "04/12", "05/12", "06/12", "07/12"],
+    period: "02/12 - 08/12",
+    days: ["02/12", "03/12", "04/12", "05/12", "06/12", "07/12", "08/12"],
   },
   {
-    id: "semana3",
-    name: "Semana 3",
-    period: "09/12 - 14/12",
-    days: ["09/12", "10/12", "11/12", "12/12", "13/12", "14/12"],
+    id: "revisao",
+    name: "Semana de Revisão",
+    period: "09/12 - 13/12",
+    days: ["09/12", "10/12", "11/12", "12/12", "13/12"],
   },
 ];
 
@@ -157,7 +157,6 @@ const searchText = ref<string>("");
 
 // Update URL with current filters
 const updateURL = () => {
-  isUpdatingFromLocal = true;
   const query: Record<string, string> = {};
   if (selectedSubject.value) query.subject = selectedSubject.value;
   if (selectedTheme.value) query.theme = selectedTheme.value;
@@ -299,13 +298,8 @@ watch([selectedTheme, selectedDate, searchText], () => {
 });
 
 // Watch for URL changes (from other components like sidebar calendar)
-// Don't update if we're the ones who changed it
-let isUpdatingFromLocal = false;
-watch(() => route.query, (newQuery, oldQuery) => {
-  if (!isUpdatingFromLocal) {
-    loadFromURL();
-  }
-  isUpdatingFromLocal = false;
+watch(() => route.query, () => {
+  loadFromURL();
 }, { deep: true });
 
 // Initialize from URL on mount
