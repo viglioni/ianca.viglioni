@@ -8,7 +8,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-18"
-      ]
+      ],
+      "duration": 120
     },
     "mat-1-2": {
       "title": "Matemática - MMC e MDC",
@@ -19,7 +20,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-18"
-      ]
+      ],
+      "duration": 90
     },
     "mat-1-3": {
       "title": "Matemática - Razão, proporção e proporcionalidade",
@@ -30,7 +32,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-19"
-      ]
+      ],
+      "duration": 90
     },
     "mat-1-4": {
       "title": "Matemática - Notação científica, algarismos significativos, estimativa",
@@ -41,7 +44,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-19"
-      ]
+      ],
+      "duration": 60
     },
     "mat-1-5": {
       "title": "Matemática - Expressões algébricas, produtos notáveis e fatoração",
@@ -51,7 +55,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-20"
-      ]
+      ],
+      "duration": 60
     },
     "mat-1-6": {
       "title": "Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento)",
@@ -62,7 +67,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-21"
-      ]
+      ],
+      "duration": 90
     },
     "mat-1-7": {
       "title": "Matemática - Função afim (taxa de variação, inequações, sistemas lineares)",
@@ -73,7 +79,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-22"
-      ]
+      ],
+      "duration": 90
     },
     "mat-1-8": {
       "title": "Matemática - Função quadrática (definição, coeficientes, gráfico, vértice)",
@@ -84,7 +91,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-23"
-      ]
+      ],
+      "duration": 90
     },
     "mat-1-9": {
       "title": "Matemática - Exercícios de conjuntos e função afim",
@@ -97,7 +105,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-23"
-      ]
+      ],
+      "duration": 90
     },
     "mat-2-1": {
       "title": "Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal)",
@@ -108,7 +117,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-26"
-      ]
+      ],
+      "duration": 120
     },
     "mat-2-2": {
       "title": "Matemática - Função quadrática (inequações e sistemas)",
@@ -119,7 +129,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-27"
-      ]
+      ],
+      "duration": 90
     },
     "mat-2-3": {
       "title": "Matemática - FOCO Função exponencial (potenciação, propriedades)",
@@ -130,7 +141,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-28"
-      ]
+      ],
+      "duration": 90
     },
     "mat-2-4": {
       "title": "Matemática - FOCO Função exponencial (equações, gráficos, crescimento/decrescimento)",
@@ -141,7 +153,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-29"
-      ]
+      ],
+      "duration": 60
     },
     "mat-2-5": {
       "title": "Matemática - FOCO Função logarítmica (definição, logaritmo decimal e natural)",
@@ -152,7 +165,8 @@
       "subject": "matematica",
       "dates": [
         "2025-11-30"
-      ]
+      ],
+      "duration": 60
     },
     "mat-2-6": {
       "title": "Matemática - FOCO Função logarítmica (propriedades, equações logarítmicas)",
@@ -163,7 +177,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-01"
-      ]
+      ],
+      "duration": 90
     },
     "mat-2-7": {
       "title": "Matemática - FOCO Função logarítmica (gráficos)",
@@ -174,7 +189,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-02"
-      ]
+      ],
+      "duration": 90
     },
     "mat-2-8": {
       "title": "Matemática - FOCO Relação entre funções exponencial e logarítmica",
@@ -182,7 +198,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-02"
-      ]
+      ],
+      "duration": 90
     },
     "mat-3-1": {
       "title": "Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango)",
@@ -192,7 +209,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-03"
-      ]
+      ],
+      "duration": 120
     },
     "mat-3-2": {
       "title": "Matemática - Geometria: áreas (triângulo, círculo)",
@@ -202,7 +220,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-04"
-      ]
+      ],
+      "duration": 90
     },
     "mat-3-3": {
       "title": "Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo",
@@ -212,7 +231,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-04"
-      ]
+      ],
+      "duration": 90
     },
     "mat-3-4": {
       "title": "Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis",
@@ -222,7 +242,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-05"
-      ]
+      ],
+      "duration": 60
     },
     "mat-3-5": {
       "title": "Matemática - Retas paralelas e transversais (proporcionalidade)",
@@ -233,7 +254,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-05"
-      ]
+      ],
+      "duration": 60
     },
     "mat-3-6": {
       "title": "Matemática - Sistema Internacional de Medidas e conversões",
@@ -243,7 +265,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-06"
-      ]
+      ],
+      "duration": 90
     },
     "mat-3-7": {
       "title": "Matemática - REVISÃO Função exponencial e logarítmica",
@@ -255,7 +278,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-06"
-      ]
+      ],
+      "duration": 90
     },
     "mat-3-8": {
       "title": "Matemática - REVISÃO INTENSA Todas as funções (afim, quadrática, exp, log)",
@@ -265,7 +289,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 90
     },
     "mat-3-9": {
       "title": "Matemática - Questões discursivas e redação matemática",
@@ -273,7 +298,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 90
     },
     "mat-4-1": {
       "title": "Matemática - REVISÃO FINAL Conjuntos, MMC/MDC, razão e proporção",
@@ -288,7 +314,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-09"
-      ]
+      ],
+      "duration": 120
     },
     "mat-4-2": {
       "title": "Matemática - REVISÃO FINAL Função afim e quadrática",
@@ -300,7 +327,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-09"
-      ]
+      ],
+      "duration": 90
     },
     "mat-4-3": {
       "title": "Matemática - REVISÃO FINAL Função exponencial e logarítmica",
@@ -312,7 +340,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-10"
-      ]
+      ],
+      "duration": 90
     },
     "mat-4-4": {
       "title": "Matemática - REVISÃO FINAL Geometria e trigonometria",
@@ -324,7 +353,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-10"
-      ]
+      ],
+      "duration": 60
     },
     "mat-4-5": {
       "title": "Matemática - REVISÃO GERAL Todos os tópicos (foco em dúvidas)",
@@ -334,7 +364,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-11"
-      ]
+      ],
+      "duration": 60
     },
     "mat-4-6": {
       "title": "Matemática - Revisão leve de fórmulas e macetes",
@@ -344,7 +375,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 90
     },
     "mat-4-7": {
       "title": "Revisão flash de Matemática (fórmulas essenciais)",
@@ -354,7 +386,8 @@
       "subject": "matematica",
       "dates": [
         "2025-12-13"
-      ]
+      ],
+      "duration": 90
     },
     "fis-1-1": {
       "title": "Física - Grandezas vetoriais, escalares e vetores",
@@ -365,7 +398,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-18"
-      ]
+      ],
+      "duration": 120
     },
     "fis-1-2": {
       "title": "Física - Cinemática: MRU (conceitos, equações, gráficos)",
@@ -375,7 +409,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-19"
-      ]
+      ],
+      "duration": 90
     },
     "fis-1-3": {
       "title": "Física - Cinemática: MRUV e queda livre",
@@ -385,7 +420,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-20"
-      ]
+      ],
+      "duration": 90
     },
     "fis-1-4": {
       "title": "Física - Movimento circular",
@@ -396,7 +432,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-21"
-      ]
+      ],
+      "duration": 60
     },
     "fis-1-5": {
       "title": "Física - Leis de Newton (1ª, 2ª e 3ª leis)",
@@ -408,7 +445,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-22"
-      ]
+      ],
+      "duration": 60
     },
     "fis-2-1": {
       "title": "Física - Força peso, normal e atrito",
@@ -418,7 +456,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-29"
-      ]
+      ],
+      "duration": 120
     },
     "fis-2-2": {
       "title": "Física - Plano inclinado",
@@ -428,7 +467,8 @@
       "subject": "fisica",
       "dates": [
         "2025-11-30"
-      ]
+      ],
+      "duration": 90
     },
     "fis-3-1": {
       "title": "Física - Hidrostática: pressão em sólidos e fluidos",
@@ -438,7 +478,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-03"
-      ]
+      ],
+      "duration": 120
     },
     "fis-3-2": {
       "title": "Física - Princípio de Pascal e Teorema de Stevin",
@@ -448,7 +489,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-04"
-      ]
+      ],
+      "duration": 90
     },
     "fis-3-3": {
       "title": "Física - Princípio de Arquimedes (empuxo)",
@@ -458,7 +500,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-05"
-      ]
+      ],
+      "duration": 90
     },
     "fis-3-4": {
       "title": "Física - Experimento de Torricelli (pressão atmosférica)",
@@ -468,7 +511,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-05"
-      ]
+      ],
+      "duration": 60
     },
     "fis-3-5": {
       "title": "Física - REVISÃO Cinemática completa (MRU, MRUV, queda livre, circular)",
@@ -479,7 +523,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-06"
-      ]
+      ],
+      "duration": 60
     },
     "fis-3-6": {
       "title": "Física - REVISÃO Dinâmica completa (Leis de Newton, forças, plano inclinado)",
@@ -493,7 +538,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 90
     },
     "fis-4-1": {
       "title": "Física - REVISÃO FINAL Hidrostática completa",
@@ -504,7 +550,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-09"
-      ]
+      ],
+      "duration": 120
     },
     "fis-4-2": {
       "title": "Física - REVISÃO FINAL Cinemática + Dinâmica",
@@ -516,7 +563,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-10"
-      ]
+      ],
+      "duration": 90
     },
     "fis-4-3": {
       "title": "Física - REVISÃO GERAL Todos os tópicos (foco em fórmulas)",
@@ -526,7 +574,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-11"
-      ]
+      ],
+      "duration": 90
     },
     "fis-4-4": {
       "title": "Física - Revisão leve de fórmulas e conceitos-chave",
@@ -536,7 +585,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 60
     },
     "fis-4-5": {
       "title": "Revisão flash de Física (fórmulas essenciais)",
@@ -546,7 +596,8 @@
       "subject": "fisica",
       "dates": [
         "2025-12-13"
-      ]
+      ],
+      "duration": 60
     },
     "qui-1-1": {
       "title": "Química - Propriedades das substâncias (densidade, solubilidade, T fusão/ebulição)",
@@ -557,7 +608,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-18"
-      ]
+      ],
+      "duration": 120
     },
     "qui-1-2": {
       "title": "Química - Processos de separação de misturas",
@@ -568,7 +620,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-18"
-      ]
+      ],
+      "duration": 90
     },
     "qui-1-3": {
       "title": "Química - Modelos atômicos (Dalton, Thomson, Rutherford, Bohr)",
@@ -579,7 +632,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-19"
-      ]
+      ],
+      "duration": 90
     },
     "qui-1-4": {
       "title": "Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade",
@@ -590,7 +644,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-20"
-      ]
+      ],
+      "duration": 60
     },
     "qui-1-5": {
       "title": "Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico)",
@@ -601,7 +656,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-21"
-      ]
+      ],
+      "duration": 60
     },
     "qui-1-6": {
       "title": "Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica)",
@@ -612,7 +668,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-22"
-      ]
+      ],
+      "duration": 90
     },
     "qui-2-1": {
       "title": "Química - Ligações químicas: iônica",
@@ -623,7 +680,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-26"
-      ]
+      ],
+      "duration": 120
     },
     "qui-2-2": {
       "title": "Química - Ligações químicas: covalente",
@@ -634,7 +692,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-27"
-      ]
+      ],
+      "duration": 90
     },
     "qui-2-3": {
       "title": "Química - Ligações químicas: metálica",
@@ -645,7 +704,8 @@
       "subject": "quimica",
       "dates": [
         "2025-11-28"
-      ]
+      ],
+      "duration": 90
     },
     "qui-2-4": {
       "title": "Química - Propriedades das substâncias segundo ligações químicas",
@@ -658,7 +718,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-01"
-      ]
+      ],
+      "duration": 60
     },
     "qui-3-1": {
       "title": "Química - FOCO Reações químicas (evidências, equações, balanceamento)",
@@ -669,7 +730,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-03"
-      ]
+      ],
+      "duration": 120
     },
     "qui-3-2": {
       "title": "Química - FOCO Estequiometria: mol e massa molar",
@@ -679,7 +741,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-04"
-      ]
+      ],
+      "duration": 90
     },
     "qui-3-3": {
       "title": "Química - FOCO Estequiometria: cálculos em reações químicas",
@@ -691,7 +754,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-05"
-      ]
+      ],
+      "duration": 90
     },
     "qui-3-4": {
       "title": "Química - FOCO Estequiometria: leis ponderais",
@@ -704,7 +768,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-06"
-      ]
+      ],
+      "duration": 60
     },
     "qui-3-5": {
       "title": "Química - REVISÃO Ligações químicas completo",
@@ -716,7 +781,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 60
     },
     "qui-4-1": {
       "title": "Química - REVISÃO FINAL Modelos atômicos e Tabela Periódica",
@@ -730,7 +796,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-09"
-      ]
+      ],
+      "duration": 120
     },
     "qui-4-2": {
       "title": "Química - REVISÃO FINAL Estequiometria completa",
@@ -741,7 +808,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-09"
-      ]
+      ],
+      "duration": 90
     },
     "qui-4-3": {
       "title": "Química - REVISÃO GERAL Propriedades, separação, ligações",
@@ -751,7 +819,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-10"
-      ]
+      ],
+      "duration": 90
     },
     "qui-4-4": {
       "title": "Química - REVISÃO GERAL Todos os tópicos",
@@ -761,7 +830,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-11"
-      ]
+      ],
+      "duration": 60
     },
     "qui-4-5": {
       "title": "Química - Revisão leve de tabela periódica e fórmulas",
@@ -773,7 +843,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 60
     },
     "qui-4-6": {
       "title": "Revisão flash de Química (tabela periódica, mol, fórmulas)",
@@ -786,7 +857,8 @@
       "subject": "quimica",
       "dates": [
         "2025-12-13"
-      ]
+      ],
+      "duration": 90
     },
     "fil-1-1": {
       "title": "Filosofia - Lógica: argumento, validade, falácia (parte técnica)",
@@ -796,7 +868,8 @@
       "subject": "filosofia",
       "dates": [
         "2025-11-19"
-      ]
+      ],
+      "duration": 120
     },
     "soc-1-1": {
       "title": "Sociologia - Métodos de pesquisa (parte técnica: quantitativo/qualitativo)",
@@ -807,7 +880,8 @@
       "subject": "sociologia",
       "dates": [
         "2025-11-20"
-      ]
+      ],
+      "duration": 120
     },
     "por-1-1": {
       "title": "Português - Concordância verbal e nominal",
@@ -817,7 +891,8 @@
       "subject": "portugues",
       "dates": [
         "2025-11-20"
-      ]
+      ],
+      "duration": 120
     },
     "por-1-2": {
       "title": "Português - Tempo e modo verbais",
@@ -827,7 +902,8 @@
       "subject": "portugues",
       "dates": [
         "2025-11-22"
-      ]
+      ],
+      "duration": 90
     },
     "por-4-1": {
       "title": "Português - REVISÃO Gramática completa",
@@ -838,7 +914,8 @@
       "subject": "portugues",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 120
     },
     "geo-1-1": {
       "title": "Geografia - Cartografia (mapas, elementos, coordenadas geográficas, fusos horários)",
@@ -848,7 +925,8 @@
       "subject": "geografia",
       "dates": [
         "2025-11-21"
-      ]
+      ],
+      "duration": 120
     },
     "geo-1-2": {
       "title": "Geografia - Projeções cartográficas, escalas, curvas de nível",
@@ -858,7 +936,8 @@
       "subject": "geografia",
       "dates": [
         "2025-11-22"
-      ]
+      ],
+      "duration": 90
     },
     "geo-3-1": {
       "title": "Geografia - Estrutura geológica, relevo, tectônica, mineração",
@@ -869,7 +948,8 @@
       "subject": "geografia",
       "dates": [
         "2025-12-03"
-      ]
+      ],
+      "duration": 120
     },
     "geo-3-2": {
       "title": "Geografia - Climatologia (tempo, clima, fenômenos extremos, mudanças climáticas)",
@@ -879,7 +959,8 @@
       "subject": "geografia",
       "dates": [
         "2025-12-06"
-      ]
+      ],
+      "duration": 90
     },
     "geo-4-1": {
       "title": "Geografia - REVISÃO Cartografia, climatologia, geologia",
@@ -891,7 +972,8 @@
       "subject": "geografia",
       "dates": [
         "2025-12-11"
-      ]
+      ],
+      "duration": 120
     },
     "geo-4-2": {
       "title": "Geografia - REVISÃO FINAL Domínios morfoclimáticos, solos, energia, agropecuária",
@@ -902,7 +984,8 @@
       "subject": "geografia",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 90
     },
     "geo-4-3": {
       "title": "Revisão flash de Geografia (mapas, conceitos-chave)",
@@ -913,7 +996,8 @@
       "subject": "geografia",
       "dates": [
         "2025-12-13"
-      ]
+      ],
+      "duration": 90
     },
     "hum-1-1": {
       "title": "Ciências Humanas - Narrativas de origem e Antiguidade Oriental",
@@ -924,7 +1008,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-11-21"
-      ]
+      ],
+      "duration": 120
     },
     "hum-1-2": {
       "title": "Ciências Humanas - Antiguidade Ocidental (Grécia e Roma) + elementos de Arte Clássica",
@@ -935,7 +1020,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-11-23"
-      ]
+      ],
+      "duration": 90
     },
     "hum-3-1": {
       "title": "Ciências Humanas - Antiguidade Tardia e Mundo Medieval + Arte Medieval",
@@ -948,7 +1034,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-03"
-      ]
+      ],
+      "duration": 120
     },
     "hum-3-2": {
       "title": "Ciências Humanas - Mundo Moderno Capitalista (séc. XV-XVII) + Renascimento nas Artes",
@@ -959,7 +1046,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-05"
-      ]
+      ],
+      "duration": 90
     },
     "hum-3-3": {
       "title": "Ciências Humanas - Povos originários das Américas + Arte Indígena",
@@ -969,7 +1057,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 90
     },
     "hum-4-1": {
       "title": "Ciências Humanas - Trânsitos entre continentes (séc. XV-XVII) + Ocupação da América Portuguesa",
@@ -980,7 +1069,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-10"
-      ]
+      ],
+      "duration": 120
     },
     "hum-4-2": {
       "title": "Ciências Humanas - REVISÃO Filosofia (surgimento, áreas, lógica)",
@@ -992,7 +1082,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-11"
-      ]
+      ],
+      "duration": 90
     },
     "hum-4-3": {
       "title": "Ciências Humanas - REVISÃO Sociologia (surgimento, cultura, métodos, desigualdades)",
@@ -1002,7 +1093,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-11"
-      ]
+      ],
+      "duration": 90
     },
     "hum-4-4": {
       "title": "Ciências Humanas - REVISÃO FINAL Linha do tempo histórica + conexões artísticas/literárias",
@@ -1014,7 +1106,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 60
     },
     "hum-4-5": {
       "title": "Revisão flash de Ciências Humanas (mapas mentais, linha do tempo)",
@@ -1027,7 +1120,8 @@
       "subject": "ciencias-humanas",
       "dates": [
         "2025-12-13"
-      ]
+      ],
+      "duration": 60
     },
     "ger-1-1": {
       "title": "REVISAR PENDÊNCIAS DA SEMANA - verificar itens não concluídos",
@@ -1037,7 +1131,8 @@
       "subject": "geral",
       "dates": [
         "2025-11-23"
-      ]
+      ],
+      "duration": 120
     },
     "ger-1-2": {
       "title": "Tempo livre para recuperar atrasos - 2h",
@@ -1045,7 +1140,8 @@
       "subject": "geral",
       "dates": [
         "2025-11-23"
-      ]
+      ],
+      "duration": 90
     },
     "ger-3-1": {
       "title": "REVISAR PENDÊNCIAS DA SEMANA",
@@ -1055,7 +1151,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 120
     },
     "ger-3-2": {
       "title": "Tempo livre para recuperar atrasos - 1h",
@@ -1063,7 +1160,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-07"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-1": {
       "title": "DESCANSO: Organizar materiais, dormir cedo, hidratar-se - OBRIGATÓRIO",
@@ -1071,7 +1169,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-13"
-      ]
+      ],
+      "duration": 120
     },
     "ger-4-2": {
       "title": "DIA DA PROVA",
@@ -1079,7 +1178,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-3": {
       "title": "Café da manhã reforçado",
@@ -1087,7 +1187,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-4": {
       "title": "Revisar só anotações-chave (30min máximo)",
@@ -1097,7 +1198,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 60
     },
     "ger-4-5": {
       "title": "Separar documentos e materiais",
@@ -1105,7 +1207,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 60
     },
     "ger-4-6": {
       "title": "Chegar com antecedência no local",
@@ -1113,7 +1216,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-7": {
       "title": "Ler todas as questões primeiro (15min)",
@@ -1121,7 +1225,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-8": {
       "title": "Resolver as mais fáceis primeiro",
@@ -1129,7 +1234,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-9": {
       "title": "Deixar tempo para as discursivas (peso 4!)",
@@ -1137,7 +1243,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "ger-4-10": {
       "title": "Revisar respostas nos últimos",
@@ -1147,7 +1254,8 @@
       "subject": "geral",
       "dates": [
         "2025-12-14"
-      ]
+      ],
+      "duration": 90
     },
     "bio-1-1": {
       "title": "Biologia - Origem da vida (Terra primitiva, Hipótese de Oparin) + Características dos seres vivos",
@@ -1158,7 +1266,8 @@
       "subject": "biologia",
       "dates": [
         "2025-11-23"
-      ]
+      ],
+      "duration": 120
     },
     "bio-3-1": {
       "title": "Biologia - Composição química dos seres vivos (água, biomoléculas)",
@@ -1170,7 +1279,8 @@
       "subject": "biologia",
       "dates": [
         "2025-12-04"
-      ]
+      ],
+      "duration": 120
     },
     "bio-3-2": {
       "title": "Biologia - Níveis de organização biológica",
@@ -1182,7 +1292,8 @@
       "subject": "biologia",
       "dates": [
         "2025-12-06"
-      ]
+      ],
+      "duration": 90
     },
     "bio-4-1": {
       "title": "Biologia - Célula (estruturas celulares, respiração celular, fotossíntese, fermentação, quimiossíntese)",
@@ -1192,7 +1303,8 @@
       "subject": "biologia",
       "dates": [
         "2025-12-09"
-      ]
+      ],
+      "duration": 120
     },
     "bio-4-2": {
       "title": "Biologia - REVISÃO RÁPIDA Genética (conceitos básicos, Mendel, mitose, meiose, crossing over)",
@@ -1203,7 +1315,8 @@
       "subject": "biologia",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 90
     },
     "bio-4-3": {
       "title": "Biologia - REVISÃO GERAL Todos os tópicos",
@@ -1213,7 +1326,8 @@
       "subject": "biologia",
       "dates": [
         "2025-12-12"
-      ]
+      ],
+      "duration": 90
     }
   },
   "themes": {

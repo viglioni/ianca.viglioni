@@ -1,693 +1,2220 @@
-# Material de Estudo - Semana 3 (09/12 - 13/12) - RETA FINAL
+# Material de Estudo - Semana 2 (03/12 - 07/12)
 
-**Objetivo:** Consolidar todo o aprendizado com revisões finais e preparação para a prova
-
-**Faltam apenas 5 dias para a prova!** 🎯
+**Objetivo:** Aprofundamento em Geometria, Hidrostática, Estequiometria, Geografia, Humanas e Biologia
 
 ---
 
-# 12/09 - Semana 3, Dia 1 (Segunda-feira)
+# 12/03 - Semana 2, Dia 1
 
-## Aula 64 - Matemática: Revisão Final - Conjuntos, MMC/MDC, Razão e Proporção - 90min
+## Aula 44 - Matemática: Geometria Plana - Áreas de Figuras (Parte 1) - 120min
 
-### Objetivo da Revisão
+### Introdução à Geometria Plana
 
-Consolidar os conceitos fundamentais estudados na Semana 1, essenciais para toda a Matemática.
+**Geometria Plana:** estuda figuras bidimensionais (2D) - polígonos, círculos, etc.
 
-### 1. Teoria dos Conjuntos - Revisão Rápida
+**Conceitos fundamentais:**
+- **Ponto:** posição no espaço (sem dimensão)
+- **Reta:** conjunto infinito de pontos alinhados
+- **Plano:** superfície plana infinita
+- **Ângulo:** abertura entre duas semirretas
+- **Polígono:** figura fechada formada por segmentos de reta
 
-**Conjunto:** coleção de elementos bem definidos
+### Unidades de Área
 
-**Notações:**
-- A = {1, 2, 3, 4} → conjunto por extensão
-- B = {x ∈ ℕ | x < 5} → conjunto por compreensão
+**Unidade SI:** metro quadrado (m²)
 
-**Conjuntos especiais:**
+**Conversões:**
 ```
-∅ ou {} = conjunto vazio
-ℕ = {0, 1, 2, 3, ...} = naturais
-ℤ = {..., -2, -1, 0, 1, 2, ...} = inteiros
-ℚ = {a/b | a,b ∈ ℤ, b ≠ 0} = racionais
-ℝ = todos os números reais
-```
-
-**Relações:**
-- ∈ (pertence): 3 ∈ {1, 2, 3}
-- ⊂ (contido): {1, 2} ⊂ {1, 2, 3}
-- ∪ (união): {1, 2} ∪ {2, 3} = {1, 2, 3}
-- ∩ (interseção): {1, 2} ∩ {2, 3} = {2}
-- − (diferença): {1, 2, 3} − {2} = {1, 3}
-
-**Número de elementos:**
-```
-n(A ∪ B) = n(A) + n(B) − n(A ∩ B)
+1 m² = 100 dm² = 10.000 cm² = 1.000.000 mm²
+1 km² = 1.000.000 m²
+1 hectare (ha) = 10.000 m²
 ```
 
-**Exercício rápido:**
-Em uma turma, 30 alunos gostam de Matemática, 25 de Física, 10 de ambas. Quantos alunos há na turma?
+### Retângulo
 
+**Definição:** quadrilátero com 4 ângulos retos (90°)
+
+**Elementos:**
+- **Base (b):** comprimento
+- **Altura (h):** largura
+
+**Área:**
 ```
-n(M ∪ F) = n(M) + n(F) − n(M ∩ F)
-n(M ∪ F) = 30 + 25 − 10 = 45 alunos
-```
-
-### 2. MMC e MDC - Revisão Rápida
-
-**MDC (Máximo Divisor Comum):**
-- Maior número que divide todos
-- Método: fatoração ou divisões sucessivas
-- **Números primos entre si:** MDC = 1
-
-**Exemplo:** MDC(12, 18)
-```
-12 = 2² × 3
-18 = 2 × 3²
-MDC = 2 × 3 = 6
+A = b × h
 ```
 
-**MMC (Mínimo Múltiplo Comum):**
-- Menor múltiplo comum a todos
-- Método: fatoração simultânea
-
-**Exemplo:** MMC(12, 18)
+**Perímetro:**
 ```
-12, 18 | 2
- 6,  9 | 2
- 3,  9 | 3
- 1,  3 | 3
- 1,  1
-
-MMC = 2 × 2 × 3 × 3 = 36
+P = 2(b + h)
 ```
 
-**Relação importante:**
-```
-MMC(a,b) × MDC(a,b) = a × b
-```
+**Exemplo:**
+Retângulo com b = 8 cm e h = 5 cm
+- A = 8 × 5 = 40 cm²
+- P = 2(8 + 5) = 26 cm
 
-**Aplicações:**
-- **MDC:** dividir em partes iguais (máximas)
-- **MMC:** eventos que se repetem (próximo encontro)
+### Quadrado
 
-**Exercício rápido:**
-Dois ônibus passam no mesmo ponto: um a cada 12 minutos, outro a cada 18 minutos. Se passaram juntos às 8h, quando passarão juntos novamente?
+**Definição:** retângulo com todos os lados iguais
 
+**Elementos:**
+- **Lado (l)**
+
+**Área:**
 ```
-MMC(12, 18) = 36 minutos
-8h + 36min = 8h36min
-```
-
-### 3. Razão e Proporção - Revisão Rápida
-
-**Razão:**
-```
-a/b (lê-se "a está para b")
+A = l²
 ```
 
-**Proporção:**
+**Perímetro:**
 ```
-a/b = c/d
-```
-
-**Propriedade fundamental:**
-```
-a × d = b × c (produto dos extremos = produto dos meios)
+P = 4l
 ```
 
-**Grandezas diretamente proporcionais:**
-- Uma aumenta → outra aumenta na mesma razão
-- Regra de três simples direta
-
-**Exemplo:** 5 kg custam R$ 20. Quanto custam 8 kg?
+**Diagonal:**
 ```
-5 kg ─── R$ 20
-8 kg ─── x
-
-5/8 = 20/x
-5x = 160
-x = 32
+d = l√2
 ```
 
-**Grandezas inversamente proporcionais:**
-- Uma aumenta → outra diminui
-- Regra de três simples inversa
+**Exemplo:**
+Quadrado com l = 6 cm
+- A = 6² = 36 cm²
+- P = 4 × 6 = 24 cm
+- d = 6√2 ≈ 8,49 cm
 
-**Exemplo:** 4 trabalhadores fazem um serviço em 6 dias. E 6 trabalhadores?
+### Paralelogramo
+
+**Definição:** quadrilátero com lados opostos paralelos
+
+**Elementos:**
+- **Base (b)**
+- **Altura (h):** distância perpendicular entre as bases
+
+**Área:**
 ```
-Mais trabalhadores → menos dias (inversa)
-
-4 trab ─── 6 dias
-6 trab ─── x
-
-Inverter uma razão:
-6/4 = 6/x
-6x = 24
-x = 4 dias
-```
-
-**Divisão proporcional:**
-
-**Diretamente proporcional a a, b, c:**
-```
-x/a = y/b = z/c = k
-x = ka, y = kb, z = kc
+A = b × h
 ```
 
-**Exemplo:** Dividir 120 em partes proporcionais a 2, 3, 5.
+**Importante:** A altura é perpendicular à base, não é o lado inclinado!
+
+**Exemplo:**
+Paralelogramo com b = 10 cm e h = 4 cm
+- A = 10 × 4 = 40 cm²
+
+### Trapézio
+
+**Definição:** quadrilátero com um par de lados paralelos (bases)
+
+**Elementos:**
+- **Base maior (B)**
+- **Base menor (b)**
+- **Altura (h):** distância perpendicular entre as bases
+
+**Área:**
 ```
-x/2 = y/3 = z/5 = k
-x + y + z = 120
-2k + 3k + 5k = 120
-10k = 120
-k = 12
-
-x = 2×12 = 24
-y = 3×12 = 36
-z = 5×12 = 60
-```
-
-### Questões de Fixação Rápida
-
-#### Questão 1
-Se A = {1, 2, 3}, B = {2, 3, 4}, calcule n(A ∪ B).
-
-**Resposta:** A ∪ B = {1, 2, 3, 4}, n(A ∪ B) = 4
-
-#### Questão 2
-Calcule MDC(24, 36) e MMC(24, 36).
-
-**Resposta:**
-```
-24 = 2³ × 3
-36 = 2² × 3²
-MDC = 2² × 3 = 12
-MMC = 2³ × 3² = 72
+A = ((B + b) × h) / 2
 ```
 
-#### Questão 3
-Uma torneira enche um tanque em 6 horas. Outra em 4 horas. Juntas, em quanto tempo enchem?
+**"Média das bases vezes a altura"**
 
-**Resposta:**
+**Tipos:**
+- **Trapézio retângulo:** dois ângulos retos
+- **Trapézio isósceles:** lados não paralelos iguais
+- **Trapézio escaleno:** lados desiguais
+
+**Exemplo:**
+Trapézio com B = 12 cm, b = 8 cm, h = 5 cm
+- A = ((12 + 8) × 5) / 2 = (20 × 5) / 2 = 50 cm²
+
+### Losango
+
+**Definição:** quadrilátero com todos os lados iguais (diagonais perpendiculares)
+
+**Elementos:**
+- **Diagonal maior (D)**
+- **Diagonal menor (d)**
+
+**Área:**
 ```
-Em 1h: primeira enche 1/6, segunda enche 1/4
-Juntas: 1/6 + 1/4 = 2/12 + 3/12 = 5/12 por hora
-Tempo total: 12/5 = 2,4 horas = 2h24min
+A = (D × d) / 2
 ```
+
+**"Produto das diagonais dividido por 2"**
+
+**Exemplo:**
+Losango com D = 10 cm e d = 6 cm
+- A = (10 × 6) / 2 = 30 cm²
+
+### Resumo das Fórmulas de Quadriláteros
+
+```
+┌──────────────┬──────────────────┬─────────────┐
+│   Figura     │      Área        │  Perímetro  │
+├──────────────┼──────────────────┼─────────────┤
+│ Retângulo    │    A = b × h     │  P = 2(b+h) │
+│ Quadrado     │    A = l²        │  P = 4l     │
+│ Paralelogramo│    A = b × h     │  P = 2(b+l) │
+│ Trapézio     │ A = (B+b)×h / 2  │  P = B+b+l₁+l₂│
+│ Losango      │ A = (D×d) / 2    │  P = 4l     │
+└──────────────┴──────────────────┴─────────────┘
+```
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+Um retângulo tem perímetro 30 cm e base 9 cm. Qual sua área?
+
+**Solução:**
+P = 2(b + h)
+30 = 2(9 + h)
+30 = 18 + 2h
+2h = 12
+h = 6 cm
+
+A = b × h = 9 × 6 = 54 cm²
+
+*[Ver resposta 1 no final do documento]*
+
+#### Exercício 2
+Um terreno quadrado tem área de 400 m². Qual o comprimento de sua cerca (perímetro)?
+
+**Solução:**
+A = l²
+400 = l²
+l = 20 m
+
+P = 4l = 4 × 20 = 80 m
+
+*[Ver resposta 2 no final do documento]*
+
+#### Exercício 3
+Um trapézio tem bases 15 cm e 9 cm, e altura 8 cm. Calcule sua área.
+
+**Solução:**
+A = ((B + b) × h) / 2
+A = ((15 + 9) × 8) / 2
+A = (24 × 8) / 2
+A = 192 / 2
+A = 96 cm²
+
+*[Ver resposta 3 no final do documento]*
+
+#### Exercício 4
+(UFMG) Um losango tem diagonais de 12 cm e 16 cm. Qual sua área?
+
+**Solução:**
+A = (D × d) / 2
+A = (16 × 12) / 2
+A = 192 / 2
+A = 96 cm²
+
+*[Ver resposta 4 no final do documento]*
+
+#### Exercício 5
+Um paralelogramo tem base 10 cm e área 60 cm². Qual sua altura?
+
+**Solução:**
+A = b × h
+60 = 10 × h
+h = 6 cm
+
+*[Ver resposta 5 no final do documento]*
+
+### Dicas para a Prova
+
+1. **Retângulo:** base × altura
+2. **Quadrado:** lado²
+3. **Paralelogramo:** base × altura (altura perpendicular!)
+4. **Trapézio:** média das bases × altura
+5. **Losango:** (diagonal maior × diagonal menor) / 2
+6. **Sempre verificar unidades**
+7. **Desenhar a figura ajuda**
+8. **Altura ≠ lado inclinado** (no paralelogramo/trapézio)
+
+### Conceitos-Chave para Memorizar
+
+**Quadriláteros:**
+- **4 lados**, soma dos ângulos internos = 360°
+
+**Áreas:**
+- Retângulo/Paralelogramo: base × altura
+- Quadrado: lado²
+- Trapézio: média das bases × altura
+- Losango: produto das diagonais / 2
+
+**Altura:**
+- Sempre perpendicular à base
+- Não confundir com lado inclinado
 
 ### Fórmulas Essenciais
 
 ```
-CONJUNTOS:
-n(A ∪ B) = n(A) + n(B) − n(A ∩ B)
+Retângulo:
+A = b × h
+P = 2(b + h)
 
-MMC e MDC:
-MMC(a,b) × MDC(a,b) = a × b
+Quadrado:
+A = l²
+P = 4l
+Diagonal: d = l√2
 
-PROPORÇÃO:
-a/b = c/d → ad = bc
+Paralelogramo:
+A = b × h  (h perpendicular!)
 
-REGRA DE TRÊS:
-Direta: grandezas na mesma direção
-Inversa: grandezas em direções opostas
+Trapézio:
+A = ((B + b) × h) / 2
+onde B = base maior, b = base menor
 
-DIVISÃO PROPORCIONAL:
-x/a = y/b = z/c = (x+y+z)/(a+b+c)
+Losango:
+A = (D × d) / 2
+onde D = diagonal maior, d = diagonal menor
+
+Conversões:
+1 m² = 10.000 cm²
+1 km² = 1.000.000 m²
+1 ha = 10.000 m²
+```
+
+### Resumo Visual
+
+```
+QUADRILÁTEROS:
+
+Retângulo:        Quadrado:
+┌────────┐        ┌────┐
+│   h    │        │ l  │
+│        │        │    │
+└────────┘        └────┘
+    b                 l
+
+Paralelogramo:    Trapézio:
+  /‾‾‾‾‾‾\             b
+ /    h   \        ┌─────┐
+/          \       │  h  │
+────────────       └─────────┘
+     b                 B
+
+Losango:
+     D
+    /|\
+   / | \
+  /  |d \
+ /   |   \
+/    |    \
 ```
 
 ---
 
-**Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Fácil-Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (base de tudo!)
+**Tempo de estudo recomendado:** 120 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - geometria sempre cai!)
 
 ---
 
-## Aula 65 - Matemática: Revisão Final - Função Afim e Quadrática - 90min
+*Continua na próxima aula com Triângulos e Círculos...*
 
-### Objetivo da Revisão
+---
 
-Consolidar completamente as funções de 1º e 2º grau, com foco em gráficos, raízes e aplicações.
+## Aula 45 - Física: Hidrostática - Pressão em Sólidos e Fluidos - 90min
 
-### PARTE 1: Função Afim (1º Grau)
+### Introdução à Hidrostática
 
-**Definição:**
-```
-f(x) = ax + b, onde a ≠ 0
-```
+**Hidrostática:** parte da Física que estuda os **fluidos em repouso** (líquidos e gases).
 
-**Parâmetros:**
-- **a** = coeficiente angular (inclinação)
-- **b** = coeficiente linear (onde corta o eixo y)
+**Fluido:** substância que escoa, não mantém forma própria (líquidos e gases).
 
-**Gráfico:** sempre uma RETA
+**Por que estudar?**
+- Barragens, submarinos, vasos comunicantes
+- Prensas hidráulicas, freios de carros
+- Pressão sanguínea, mergulho
 
-**Análise do coeficiente a:**
+### Conceito de Pressão
 
-```
-a > 0: função CRESCENTE (↗)
-a < 0: função DECRESCENTE (↘)
-```
-
-**Raiz (zero da função):**
-```
-f(x) = 0
-ax + b = 0
-x = −b/a
-```
-
-**Coeficiente angular (taxa de variação):**
-```
-a = Δy/Δx = (y₂ − y₁)/(x₂ − x₁)
-```
-
-**Encontrar a lei f(x) = ax + b:**
-- Usar dois pontos
-- Montar sistema de equações
-- Resolver para a e b
-
-**Exemplo completo:**
-
-Determine f(x) sabendo que f(1) = 3 e f(4) = 12.
+**Pressão:** força por unidade de área
 
 ```
-f(x) = ax + b
-
-f(1) = 3:  a(1) + b = 3  →  a + b = 3
-f(4) = 12: a(4) + b = 12 →  4a + b = 12
-
-Subtraindo:
-4a + b − (a + b) = 12 − 3
-3a = 9
-a = 3
-
-Substituindo: 3 + b = 3 → b = 0
-
-Resposta: f(x) = 3x
+P = F / A
 ```
 
-**Sinal da função afim:**
+**Onde:**
+- P = pressão (Pa ou N/m²)
+- F = força perpendicular à superfície (N)
+- A = área (m²)
 
-Para f(x) = ax + b, raiz em x = −b/a:
+**Unidades:**
+- **Pascal (Pa):** 1 Pa = 1 N/m² (unidade SI)
+- **Atmosfera (atm):** 1 atm = 101.325 Pa ≈ 10⁵ Pa
+- **mmHg:** 760 mmHg = 1 atm
+- **Bar:** 1 bar = 10⁵ Pa
 
+**Exemplo:**
+Uma força de 200 N atua sobre uma área de 0,5 m².
+P = F/A = 200/0,5 = 400 Pa
+
+### Pressão em Sólidos
+
+**Quanto menor a área, maior a pressão!**
+
+**Exemplos práticos:**
+- **Faca:** corta porque área da lâmina é pequena → alta pressão
+- **Prego:** área da ponta é muito pequena → penetra facilmente
+- **Salto agulha:** concentra todo peso em área pequena → afunda no chão
+- **Esqui:** distribui peso em área grande → não afunda na neve
+
+**Exemplo:**
+Uma pessoa de 600 N usa sapatos com área total 300 cm².
+P = F/A = 600 / 0,03 m² = 20.000 Pa
+
+Se usar salto agulha (área 2 cm²):
+P = 600 / 0,0002 = 3.000.000 Pa (150× maior!)
+
+### Pressão em Fluidos
+
+**Características:**
+- Fluidos exercem pressão em **todas as direções**
+- Pressão aumenta com a profundidade
+- Não depende da forma do recipiente
+
+### Pressão Hidrostática (Pressão de uma Coluna de Líquido)
+
+**Lei de Stevin:**
 ```
-Se a > 0 (crescente):
-  f(x) > 0 para x > −b/a
-  f(x) < 0 para x < −b/a
-
-Se a < 0 (decrescente):
-  f(x) > 0 para x < −b/a
-  f(x) < 0 para x > −b/a
-```
-
-**Aplicação - Questão Rápida:**
-
-Uma empresa cobra taxa fixa de R$ 50 mais R$ 0,20 por minuto. Qual o custo de uma chamada de 40 minutos?
-
-```
-f(x) = 0,20x + 50
-f(40) = 0,20(40) + 50 = 8 + 50 = R$ 58
-```
-
-### PARTE 2: Função Quadrática (2º Grau)
-
-**Definição:**
-```
-f(x) = ax² + bx + c, onde a ≠ 0
-```
-
-**Gráfico:** sempre uma PARÁBOLA
-
-**Concavidade:**
-```
-a > 0: parábola abre para CIMA (∪)
-a < 0: parábola abre para BAIXO (∩)
-```
-
-**Discriminante (Delta):**
-```
-Δ = b² − 4ac
-```
-
-**Raízes (fórmula de Bhaskara):**
-```
-x = (−b ± √Δ) / 2a
+P = ρ × g × h
 ```
 
-**Análise do discriminante:**
+**Onde:**
+- P = pressão hidrostática (Pa)
+- ρ (rho) = densidade do líquido (kg/m³)
+- g = aceleração da gravidade (≈10 m/s²)
+- h = profundidade (m)
+
+**Importante:**
+- Pressão **não depende** da forma do recipiente
+- Pressão **depende** apenas de ρ, g, h
+- Mesma profundidade → mesma pressão
+
+**Exemplo:**
+Pressão no fundo de uma piscina de 3 m de profundidade (água: ρ = 1000 kg/m³).
+
+P = ρ × g × h
+P = 1000 × 10 × 3
+P = 30.000 Pa = 30 kPa
+
+### Pressão Total (Pressão Absoluta)
+
+**Pressão total = Pressão atmosférica + Pressão hidrostática**
 
 ```
-Δ > 0: duas raízes reais distintas (parábola corta x em 2 pontos)
-Δ = 0: uma raiz real (parábola tangencia x)
-Δ < 0: nenhuma raiz real (parábola não toca x)
+P_total = P_atm + ρ × g × h
 ```
 
-**Vértice da parábola:**
+**Onde:**
+- P_atm = pressão atmosférica (≈ 10⁵ Pa ao nível do mar)
+
+**Exemplo:**
+Pressão total a 3 m de profundidade na piscina:
+P_total = 100.000 + 30.000 = 130.000 Pa = 130 kPa
+
+### Densidade
+
+**Densidade:** massa por unidade de volume
 
 ```
-xᵥ = −b / 2a
-yᵥ = −Δ / 4a  ou  yᵥ = f(xᵥ)
+ρ = m / V
 ```
 
-**Ponto de máximo ou mínimo:**
-- Se a > 0: vértice é ponto de **mínimo**
-- Se a < 0: vértice é ponto de **máximo**
+**Unidade SI:** kg/m³
 
-**Conjunto imagem:**
+**Densidades importantes:**
 ```
-a > 0: Im = [yᵥ, +∞)  (y ≥ yᵥ)
-a < 0: Im = (−∞, yᵥ]  (y ≤ yᵥ)
-```
-
-**Eixo de simetria:**
-```
-x = xᵥ = −b/2a
+Água: ρ = 1000 kg/m³ = 1 g/cm³
+Mercúrio: ρ = 13.600 kg/m³
+Álcool: ρ = 800 kg/m³
+Gelo: ρ = 920 kg/m³ (menos que água!)
+Óleo: ρ = 900 kg/m³
+Ar: ρ = 1,3 kg/m³
 ```
 
-**Soma e produto das raízes:**
+**Exemplo:**
+Um bloco de 2 kg tem volume 0,001 m³ (1 litro).
+ρ = m/V = 2 / 0,001 = 2000 kg/m³
+
+### Pressão Atmosférica
+
+**Pressão atmosférica:** pressão exercida pela coluna de ar da atmosfera.
+
+**Ao nível do mar:**
 ```
-x₁ + x₂ = −b/a
-x₁ · x₂ = c/a
-```
-
-**Forma fatorada (quando tem raízes):**
-```
-f(x) = a(x − x₁)(x − x₂)
-```
-
-### Exemplo Completo - Função Quadrática
-
-**Dada f(x) = x² − 6x + 5:**
-
-**a) Raízes:**
-```
-Δ = b² − 4ac = (−6)² − 4(1)(5) = 36 − 20 = 16
-
-x = [6 ± 4] / 2
-
-x₁ = 10/2 = 5
-x₂ = 2/2 = 1
-
-Raízes: 1 e 5
+P_atm = 101.325 Pa ≈ 1 atm ≈ 10⁵ Pa
+P_atm = 760 mmHg
 ```
 
-**Verificação por fatoração:**
-```
-x² − 6x + 5 = (x − 1)(x − 5) ✓
-```
+**Experiência de Torricelli:**
+- Tubo invertido com mercúrio
+- Coluna de Hg sobe 76 cm ao nível do mar
+- P_atm = ρ_Hg × g × h = 13.600 × 10 × 0,76 = 103.360 Pa ≈ 1 atm
 
-**b) Vértice:**
-```
-xᵥ = −b/2a = 6/2 = 3
+**Altitude:**
+- Quanto maior a altitude, menor a pressão atmosférica
+- No topo do Everest: P ≈ 0,3 atm
 
-yᵥ = f(3) = 3² − 6(3) + 5 = 9 − 18 + 5 = −4
+### Teorema de Stevin
 
-Vértice: V(3, −4)
-```
+**"Pontos em um mesmo líquido, na mesma profundidade, têm a mesma pressão."**
 
-**c) Gráfico:**
-```
-  y
-  │
-  5│●             ●
-  │  \         /
-  0├───●─────●─────→ x
-  │   1     5
-  │      ●
- -4│     (3,-4)
-  │    vértice
+**Consequência: Vasos Comunicantes**
+- Líquidos em recipientes comunicantes ficam na mesma altura
+- Exemplo: sistema de esgoto, caixa d'água
 
-- Concavidade: para cima (a = 1 > 0)
-- Raízes: x = 1 e x = 5
-- Vértice: V(3, −4) - ponto de mínimo
-```
+### Exercícios Resolvidos
 
-**d) Imagem:**
-```
-Im = [−4, +∞)  ou  {y ∈ ℝ | y ≥ −4}
-```
-
-**e) Sinal:**
-```
-f(x) > 0: x < 1 ou x > 5
-f(x) = 0: x = 1 ou x = 5
-f(x) < 0: 1 < x < 5
-```
-
-### Sinal da Função Quadrática - Resumo
-
-**Caso 1: Δ > 0 (duas raízes: x₁ e x₂, com x₁ < x₂)**
-
-```
-Se a > 0 (∪):
-  f(x) > 0: x < x₁ ou x > x₂ (fora das raízes)
-  f(x) < 0: x₁ < x < x₂ (entre as raízes)
-
-Se a < 0 (∩):
-  f(x) > 0: x₁ < x < x₂ (entre as raízes)
-  f(x) < 0: x < x₁ ou x > x₂ (fora das raízes)
-```
-
-**Caso 2: Δ = 0 (uma raiz: x₀)**
-
-```
-Se a > 0: f(x) ≥ 0 para todo x (toca x apenas em x₀)
-Se a < 0: f(x) ≤ 0 para todo x (toca x apenas em x₀)
-```
-
-**Caso 3: Δ < 0 (sem raízes reais)**
-
-```
-Se a > 0: f(x) > 0 para todo x (sempre positiva)
-Se a < 0: f(x) < 0 para todo x (sempre negativa)
-```
-
-### Questões de Fixação
-
-#### Questão 1
-Determine a raiz de f(x) = 2x − 8.
-
-**Resposta:**
-```
-2x − 8 = 0
-x = 4
-```
-
-#### Questão 2
-Uma função afim passa por (0, 5) e (2, 9). Determine f(x).
-
-**Resposta:**
-```
-b = 5 (ponto (0, 5))
-a = (9−5)/(2−0) = 4/2 = 2
-f(x) = 2x + 5
-```
-
-#### Questão 3
-Resolva x² − 5x + 6 = 0.
-
-**Resposta:**
-```
-Δ = 25 − 24 = 1
-x = (5 ± 1)/2
-x₁ = 3, x₂ = 2
-```
-
-#### Questão 4
-Determine o vértice de f(x) = −x² + 4x − 3.
-
-**Resposta:**
-```
-xᵥ = −4/(2×(−1)) = 4/2 = 2
-yᵥ = −(2)² + 4(2) − 3 = −4 + 8 − 3 = 1
-V(2, 1) - ponto de máximo
-```
-
-#### Questão 5
-Para quais valores de x a função f(x) = x² − 4 é negativa?
-
-**Resposta:**
-```
-x² − 4 < 0
-Raízes: x = ±2
-a > 0 → negativa entre as raízes
-−2 < x < 2
-```
-
-### Problemas Aplicados
-
-#### Problema 1 (Afim)
-Um táxi cobra R$ 5 de bandeirada mais R$ 3 por km. Quanto custa uma corrida de 12 km?
+#### Exercício 1
+Calcule a pressão exercida por uma força de 500 N sobre uma área de 2 m².
 
 **Solução:**
-```
-f(x) = 3x + 5
-f(12) = 3(12) + 5 = 36 + 5 = R$ 41
-```
+P = F/A = 500/2 = 250 Pa
 
-#### Problema 2 (Quadrática)
-Um projétil é lançado com altura h(t) = −5t² + 20t (metros). Qual a altura máxima?
+*[Ver resposta 6 no final do documento]*
+
+#### Exercício 2
+Qual a pressão hidrostática a 5 m de profundidade na água? (ρ = 1000 kg/m³, g = 10 m/s²)
 
 **Solução:**
+P = ρ × g × h
+P = 1000 × 10 × 5
+P = 50.000 Pa = 50 kPa
+
+*[Ver resposta 7 no final do documento]*
+
+#### Exercício 3
+(UFMG) A pressão total a 10 m de profundidade em um lago é aproximadamente:
+(Dados: P_atm = 10⁵ Pa, ρ_água = 1000 kg/m³, g = 10 m/s²)
+
+**Solução:**
+P_hidrostática = ρ × g × h = 1000 × 10 × 10 = 100.000 Pa
+P_total = P_atm + P_hidrostática = 100.000 + 100.000 = 200.000 Pa = 2 × 10⁵ Pa
+
+*[Ver resposta 8 no final do documento]*
+
+#### Exercício 4
+Um cubo de 8 kg e aresta 0,2 m está apoiado sobre uma mesa. Qual a pressão sobre a mesa?
+
+**Solução:**
+F = P = m × g = 8 × 10 = 80 N
+A = lado² = (0,2)² = 0,04 m²
+P = F/A = 80/0,04 = 2000 Pa
+
+*[Ver resposta 9 no final do documento]*
+
+#### Exercício 5
+Mergulhadores não devem subir rapidamente. Por quê?
+
+**Solução:**
+Na profundidade, a pressão é alta. O nitrogênio do ar se dissolve no sangue.
+Ao subir rapidamente, a pressão diminui bruscamente e o nitrogênio forma bolhas no sangue (doença de descompressão ou embolia).
+
+*[Ver resposta 10 no final do documento]*
+
+### Aplicações Práticas
+
+**1. Barragens:**
+- Mais espessas na base (maior pressão)
+- P aumenta com h
+
+**2. Mergulho:**
+- A cada 10 m, pressão aumenta ≈1 atm
+- Submarinos precisam ser muito resistentes
+
+**3. Caixa d'água:**
+- Instalada no alto para gerar pressão
+- Quanto mais alta, maior a pressão nas torneiras
+
+**4. Vasos comunicantes:**
+- Esgoto, níveis de água
+- Princípio da mangueira de nível
+
+### Dicas para a Prova
+
+1. **Pressão em sólidos:** P = F/A
+2. **Pressão hidrostática:** P = ρgh
+3. **Pressão total:** P_total = P_atm + ρgh
+4. **Mesma profundidade → mesma pressão**
+5. **Pressão não depende da forma do recipiente**
+6. **Densidade da água:** 1000 kg/m³
+7. **P_atm ≈ 10⁵ Pa ≈ 1 atm**
+8. **Unidades:** sempre converter para SI
+
+### Conceitos-Chave para Memorizar
+
+**Pressão:**
+- Força por área: P = F/A
+- Unidade SI: Pascal (Pa)
+
+**Pressão Hidrostática:**
+- P = ρgh (não depende da forma)
+- Aumenta com profundidade
+
+**Densidade:**
+- ρ = m/V
+- Água: 1000 kg/m³
+
+**Teorema de Stevin:**
+- Mesma profundidade, mesma pressão
+- Vasos comunicantes: líquidos na mesma altura
+
+### Fórmulas Essenciais
+
 ```
-a = −5 < 0 → tem máximo no vértice
-tᵥ = −20/(2×(−5)) = 20/10 = 2 segundos
-h_máx = −5(2)² + 20(2) = −20 + 40 = 20 metros
-```
+Pressão:
+P = F / A
 
-### Fórmulas Essenciais - Resumo
+Pressão Hidrostática (Lei de Stevin):
+P = ρ × g × h
 
-```
-FUNÇÃO AFIM:
-f(x) = ax + b
-Raiz: x = −b/a
-Coef. angular: a = Δy/Δx
+Pressão Total:
+P_total = P_atm + ρ × g × h
 
-FUNÇÃO QUADRÁTICA:
-f(x) = ax² + bx + c
-
-Discriminante:
-Δ = b² − 4ac
-
-Raízes (Bhaskara):
-x = (−b ± √Δ) / 2a
-
-Vértice:
-xᵥ = −b/2a
-yᵥ = −Δ/4a
-
-Soma e produto:
-x₁ + x₂ = −b/a
-x₁ · x₂ = c/a
-
-Imagem:
-a > 0: Im = [yᵥ, +∞)
-a < 0: Im = (−∞, yᵥ]
-```
-
-### Checklist de Revisão
-
-**Função Afim:**
-- [ ] Sei determinar f(x) dados dois pontos
-- [ ] Sei calcular a raiz
-- [ ] Sei identificar se é crescente ou decrescente
-- [ ] Sei esboçar o gráfico
-- [ ] Sei resolver problemas aplicados
-
-**Função Quadrática:**
-- [ ] Sei calcular delta e aplicar Bhaskara
-- [ ] Sei determinar o vértice
-- [ ] Sei identificar concavidade
-- [ ] Sei esboçar o gráfico completo
-- [ ] Sei determinar o sinal da função
-- [ ] Sei calcular imagem
-- [ ] Sei resolver problemas de máximo/mínimo
-
----
-
-**Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
-
----
-
-## Aula 66 - Física: Revisão Final - Hidrostática Completa - 90min
-
-### Objetivo da Revisão
-
-Consolidar todos os conceitos de Hidrostática: pressão, densidade, Stevin, Pascal, Arquimedes e Torricelli.
-
-### 1. Conceitos Fundamentais
-
-**Densidade (ρ):**
-```
-ρ = m/V
-
-Unidades:
-kg/m³ (SI)
-g/cm³ (comum)
-
-Conversão: 1 g/cm³ = 1000 kg/m³
-```
-
-**Dados importantes:**
-```
-ρ_água = 1000 kg/m³ = 1 g/cm³
-ρ_gelo = 920 kg/m³ = 0,92 g/cm³
-ρ_mercúrio = 13.600 kg/m³ = 13,6 g/cm³
-```
-
-**Pressão (P):**
-```
-P = F/A
-
-Unidades:
-Pa (pascal) = N/m² (SI)
-atm (atmosfera)
-mmHg (milímetro de mercúrio)
+Densidade:
+ρ = m / V
 
 Conversões:
 1 atm = 101.325 Pa ≈ 10⁵ Pa
 1 atm = 760 mmHg
+1 bar = 10⁵ Pa
+
+Densidades:
+ρ_água = 1000 kg/m³
+ρ_Hg = 13.600 kg/m³
+g = 10 m/s² (Terra)
 ```
 
-**Pressão atmosférica:**
+### Resumo Visual
+
 ```
-P_atm ≈ 1 atm = 101.325 Pa
+PRESSÃO EM SÓLIDOS:
+  F ↓
+ ┌───┐
+ │   │  P = F/A
+ └───┘
+  A
+
+PRESSÃO EM FLUIDOS:
+    ← → Pressão em
+  ↑     todas direções
+  ↓
+
+PRESSÃO HIDROSTÁTICA:
+       P_atm
+  ┌─────────┐
+  │  água   │
+  │    h    │  P = ρgh
+  │         │
+  └─────────┘
+  P_total = P_atm + ρgh
+
+VASOS COMUNICANTES:
+   │    │
+   │ ┌──┴──┐
+   └─┤ líq │─┐
+     └─────┘ │
+        └────┘
+  Mesmo nível!
 ```
 
-### 2. Teorema de Stevin (Lei Fundamental da Hidrostática)
+---
 
-**Enunciado:**
-"A diferença de pressão entre dois pontos de um fluido em equilíbrio é igual ao produto da densidade, gravidade e diferença de altura."
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐ (muito importante - conceitos fundamentais)
 
-**Fórmula:**
+---
+
+## Aula 46 - Química: Reações Químicas - Evidências, Equações e Balanceamento - 90min
+
+### O que é uma Reação Química?
+
+**Reação química:** processo onde substâncias iniciais (**reagentes**) se transformam em novas substâncias (**produtos**).
+
+**Representação:**
 ```
-P = P_atm + ρgh
+Reagentes → Produtos
+```
 
+**Características:**
+- **Rearranjo de átomos:** átomos não são criados ou destruídos (Lei de Lavoisier)
+- **Quebra e formação de ligações**
+- **Mudança nas propriedades** das substâncias
+- **Energia envolvida** (absorção ou liberação)
+
+**Exemplo:**
+```
+2 H₂ + O₂ → 2 H₂O
+hidrogênio + oxigênio → água
+```
+
+### Evidências de uma Reação Química
+
+**Como saber se ocorreu uma reação?**
+
+**1. Mudança de cor**
+- Exemplo: ferro enferruja (cinza → marrom-avermelhado)
+- Exemplo: frutas oxidam e escurecem
+
+**2. Liberação de gás (efervescência)**
+- Exemplo: bicarbonato de sódio + vinagre → CO₂
+- Exemplo: comprimido efervescente
+
+**3. Formação de precipitado (sólido)**
+- Quando dois líquidos incolores formam sólido colorido
+- Exemplo: AgNO₃ + NaCl → AgCl (precipitado branco)
+
+**4. Variação de temperatura**
+- **Exotérmica:** libera calor (queima de combustíveis)
+- **Endotérmica:** absorve calor (gelo químico)
+
+**5. Liberação de luz**
+- Exemplo: combustão, fogos de artifício
+- Exemplo: vaga-lumes (bioluminescência)
+
+**6. Mudança de odor**
+- Exemplo: decomposição de alimentos
+
+### Equação Química
+
+**Equação química:** representação simbólica de uma reação.
+
+**Componentes:**
+```
+Reagentes → Produtos
+
+Coeficientes + Fórmulas + Estados físicos
+```
+
+**Estados físicos:**
+- **(s)** = sólido (solid)
+- **(l)** = líquido (liquid)
+- **(g)** = gás (gas)
+- **(aq)** = aquoso (aqueous, dissolvido em água)
+
+**Exemplo completo:**
+```
+2 H₂(g) + O₂(g) → 2 H₂O(l)
+```
+
+### Lei de Lavoisier (Conservação das Massas)
+
+**"Na natureza, nada se cria, nada se perde, tudo se transforma."**
+
+**Consequência:**
+- **Número de átomos de cada elemento** nos reagentes = número nos produtos
+- **Massa total dos reagentes** = massa total dos produtos
+
+**Exemplo:**
+```
+C + O₂ → CO₂
+12g + 32g → 44g
+```
+
+### Balanceamento de Equações Químicas
+
+**Balancear:** ajustar os **coeficientes** para igualar o número de átomos de cada elemento nos dois lados.
+
+**Regras:**
+1. **Nunca mude os índices** das fórmulas (H₂O sempre será H₂O!)
+2. **Ajuste apenas os coeficientes** (números antes das fórmulas)
+3. **Use números inteiros** menores possíveis
+4. **Comece pelo elemento mais complexo**
+5. **Deixe H e O por último** (geralmente)
+
+**Método prático:**
+
+**Passo 1:** Escreva a equação não balanceada
+**Passo 2:** Conte os átomos de cada elemento
+**Passo 3:** Ajuste os coeficientes
+**Passo 4:** Verifique
+
+### Exemplos de Balanceamento
+
+#### Exemplo 1: Combustão do metano
+```
+CH₄ + O₂ → CO₂ + H₂O  (não balanceada)
+```
+
+**Contando átomos:**
+- Reagentes: C=1, H=4, O=2
+- Produtos: C=1, H=2, O=3
+
+**Balanceando H:**
+```
+CH₄ + O₂ → CO₂ + 2 H₂O
+```
+Agora: H=4 nos dois lados
+
+**Balanceando O:**
+Produtos têm: 2 (do CO₂) + 2 (das 2 H₂O) = 4 oxigênios
+Reagentes precisam de 4 O → 2 O₂
+
+**Equação balanceada:**
+```
+CH₄ + 2 O₂ → CO₂ + 2 H₂O
+```
+
+**Verificação:**
+- C: 1 = 1 ✓
+- H: 4 = 4 ✓
+- O: 4 = 4 ✓
+
+#### Exemplo 2: Formação da água
+```
+H₂ + O₂ → H₂O  (não balanceada)
+```
+
+**Balanceando:**
+```
+2 H₂ + O₂ → 2 H₂O
+```
+
+**Verificação:**
+- H: 4 = 4 ✓
+- O: 2 = 2 ✓
+
+#### Exemplo 3: Fotossíntese
+```
+CO₂ + H₂O → C₆H₁₂O₆ + O₂  (não balanceada)
+```
+
+**Balanceando carbono:**
+```
+6 CO₂ + H₂O → C₆H₁₂O₆ + O₂
+```
+
+**Balanceando hidrogênio:**
+```
+6 CO₂ + 6 H₂O → C₆H₁₂O₆ + O₂
+```
+
+**Balanceando oxigênio:**
+Reagentes: 6×2 + 6×1 = 18 O
+Produtos: 6 (na glicose) + ? (no O₂)
+18 = 6 + ?
+? = 12 → 6 O₂
+
+**Equação balanceada:**
+```
+6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂
+```
+
+### Tipos de Reações Químicas
+
+**1. Síntese (Adição)**
+```
+A + B → AB
+```
+Exemplo: 2 H₂ + O₂ → 2 H₂O
+
+**2. Decomposição (Análise)**
+```
+AB → A + B
+```
+Exemplo: 2 H₂O → 2 H₂ + O₂ (eletrólise)
+
+**3. Simples Troca (Deslocamento)**
+```
+A + BC → AC + B
+```
+Exemplo: Zn + 2 HCl → ZnCl₂ + H₂
+
+**4. Dupla Troca**
+```
+AB + CD → AD + CB
+```
+Exemplo: NaCl + AgNO₃ → NaNO₃ + AgCl
+
+**5. Combustão**
+```
+Combustível + O₂ → CO₂ + H₂O + energia
+```
+Exemplo: CH₄ + 2 O₂ → CO₂ + 2 H₂O
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+Balanceie: Fe + O₂ → Fe₂O₃
+
+**Solução:**
+Fe: 2 nos produtos, precisa de 2 nos reagentes
+O: 3 nos produtos, mas O₂ vem em pares
+
+Múltiplo comum: 6 oxigênios
+```
+4 Fe + 3 O₂ → 2 Fe₂O₃
+```
+
+**Verificação:**
+- Fe: 4 = 4 ✓
+- O: 6 = 6 ✓
+
+*[Ver resposta 11 no final do documento]*
+
+#### Exercício 2
+Balanceie: Al + HCl → AlCl₃ + H₂
+
+**Solução:**
+```
+2 Al + 6 HCl → 2 AlCl₃ + 3 H₂
+```
+
+**Verificação:**
+- Al: 2 = 2 ✓
+- H: 6 = 6 ✓
+- Cl: 6 = 6 ✓
+
+*[Ver resposta 12 no final do documento]*
+
+#### Exercício 3
+(UFMG) Qual evidência indica que houve reação química quando se mistura bicarbonato de sódio com vinagre?
+
+**Solução:**
+Ocorre efervescência (liberação de gás CO₂), que é uma evidência de reação química.
+
+*[Ver resposta 13 no final do documento]*
+
+#### Exercício 4
+Balanceie: C₃H₈ + O₂ → CO₂ + H₂O
+
+**Solução:**
+```
+C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O
+```
+
+**Passo a passo:**
+- C: 3 → 3 CO₂
+- H: 8 → 4 H₂O
+- O: (3×2) + (4×1) = 10 → 5 O₂
+
+*[Ver resposta 14 no final do documento]*
+
+#### Exercício 5
+Classifique: 2 HgO → 2 Hg + O₂
+
+**Solução:**
+Uma substância composta (HgO) se decompõe em duas substâncias simples (Hg e O₂).
+
+*[Ver resposta 15 no final do documento]*
+
+### Reações no Cotidiano
+
+**1. Respiração celular:**
+```
+C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energia
+```
+
+**2. Fotossíntese:**
+```
+6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂
+(luz solar)
+```
+
+**3. Combustão de gasolina:**
+```
+2 C₈H₁₈ + 25 O₂ → 16 CO₂ + 18 H₂O
+```
+
+**4. Ferrugem:**
+```
+4 Fe + 3 O₂ → 2 Fe₂O₃
+```
+
+**5. Digestão:**
+Quebra de proteínas, carboidratos, lipídios
+
+### Dicas para a Prova
+
+1. **Balanceamento:** ajustar apenas coeficientes, nunca índices
+2. **Lei de Lavoisier:** massa se conserva
+3. **Evidências:** cor, gás, precipitado, temperatura, luz
+4. **Ordem de balanceamento:** elementos complexos primeiro, H e O por último
+5. **Verificação:** sempre contar átomos ao final
+6. **Estados físicos:** (s), (l), (g), (aq)
+7. **Coeficientes:** usar menores inteiros possíveis
+
+### Conceitos-Chave para Memorizar
+
+**Reação Química:**
+- Transformação de substâncias
+- Rearranjo de átomos
+- Conservação da massa (Lavoisier)
+
+**Evidências:**
+- Mudança de cor, odor
+- Gás, precipitado
+- Variação de temperatura, luz
+
+**Balanceamento:**
+- Igualar número de átomos
+- Ajustar coeficientes (não índices)
+- Usar menores inteiros
+
+**Tipos:**
+- Síntese: A + B → AB
+- Decomposição: AB → A + B
+- Simples troca: A + BC → AC + B
+- Dupla troca: AB + CD → AD + CB
+- Combustão: combustível + O₂ → CO₂ + H₂O
+
+### Fórmulas Essenciais
+
+```
+Lei de Lavoisier (Conservação das Massas):
+m_reagentes = m_produtos
+
+Equação Química:
+Reagentes → Produtos
+(coeficientes) Fórmulas (estados físicos)
+
+Tipos de Reações:
+Síntese:        A + B → AB
+Decomposição:   AB → A + B
+Simples troca:  A + BC → AC + B
+Dupla troca:    AB + CD → AD + CB
+Combustão:      CₓHᵧ + O₂ → CO₂ + H₂O
+
+Estados Físicos:
+(s) = sólido
+(l) = líquido
+(g) = gás
+(aq) = aquoso
+```
+
+### Resumo Visual
+
+```
+REAÇÃO QUÍMICA:
+
+Reagentes  →  Produtos
+   A + B   →    AB
+
+EVIDÊNCIAS:
+🎨 Mudança de cor
+💨 Liberação de gás
+⬇️ Formação de precipitado
+🌡️ Variação de temperatura
+💡 Liberação de luz
+
+BALANCEAMENTO:
+
+   CH₄  +  O₂  →  CO₂  +  H₂O
+    ↓      ↓      ↓       ↓
+   1 CH₄ + 2 O₂ → 1 CO₂ + 2 H₂O
+   
+   C: 1 = 1 ✓
+   H: 4 = 4 ✓
+   O: 4 = 4 ✓
+
+TIPOS:
+Síntese:    ⚫ + ⚫ → ⚫⚫
+Decomposição: ⚫⚫ → ⚫ + ⚫
+Simples troca: ⚫ + ⚫⚪ → ⚫⚪ + ⚫
+Dupla troca: ⚫⚪ + ⚫🔴 → ⚫🔴 + ⚫⚪
+```
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - base para estequiometria)
+
+---
+
+## Aula 47 - Geografia: Estrutura Geológica, Relevo, Tectônica e Mineração - 60min
+
+### Estrutura Interna da Terra
+
+**Camadas da Terra (do centro para fora):**
+
+**1. Núcleo Interno**
+- Estado: **sólido**
+- Composição: ferro e níquel
+- Temperatura: ~5.000°C
+- Espessura: ~1.200 km
+
+**2. Núcleo Externo**
+- Estado: **líquido**
+- Composição: ferro e níquel fundidos
+- Responsável pelo campo magnético terrestre
+- Espessura: ~2.300 km
+
+**3. Manto**
+- Estado: **pastoso/viscoso** (magma)
+- Composição: silicatos de ferro e magnésio
+- Movimento das correntes de convecção (movem placas tectônicas)
+- Espessura: ~2.900 km (maior camada!)
+
+**4. Crosta (Litosfera)**
+- Estado: **sólido**
+- Camada mais fina e externa
+- Onde vivemos
+- Tipos:
+  - **Crosta oceânica:** mais densa, mais fina (5-10 km)
+  - **Crosta continental:** menos densa, mais espessa (30-70 km)
+
+### Placas Tectônicas
+
+**Teoria da Deriva Continental (Alfred Wegener, 1912):**
+- Os continentes já formaram um supercontinente: **Pangeia**
+- Evidências: fósseis iguais em continentes distantes, encaixe da África com América do Sul
+
+**Tectônica de Placas:**
+- A litosfera é dividida em **placas tectônicas**
+- Placas flutuam sobre o manto
+- Movimento causado por **correntes de convecção** no manto
+
+**Principais placas:**
+- Placa Sul-Americana
+- Placa de Nazca
+- Placa Africana
+- Placa Euroasiática
+- Placa do Pacífico
+- Placa Norte-Americana
+
+### Tipos de Limites entre Placas
+
+**1. Limites Divergentes (Construtivos)**
+- Placas se **afastam**
+- Formam **dorsais oceânicas** (cadeias de montanhas submarinas)
+- Novo magma sobe e cria nova crosta
+- Exemplo: Dorsal Meso-Atlântica (separa América da África/Europa)
+
+**2. Limites Convergentes (Destrutivos)**
+- Placas se **aproximam**
+- Três tipos:
+
+**a) Oceânica + Oceânica:**
+- Forma **fossas oceânicas** e **arcos de ilhas vulcânicas**
+- Exemplo: Fossa das Marianas (11 km de profundidade!)
+
+**b) Oceânica + Continental:**
+- Placa oceânica **subducta** (mergulha) sob a continental
+- Forma **cadeias montanhosas** e **vulcões**
+- Exemplo: Cordilheira dos Andes (Nazca + Sul-Americana)
+
+**c) Continental + Continental:**
+- Nenhuma subduz (mesma densidade)
+- Forma **cadeias montanhosas gigantes**
+- Exemplo: Himalaia (Índia + Eurásia) - Monte Everest!
+
+**3. Limites Transformantes (Conservativos)**
+- Placas **deslizam lateralmente**
+- Não criam nem destroem crosta
+- Causam **terremotos**
+- Exemplo: Falha de San Andreas (Califórnia, EUA)
+
+### Atividades Vulcânicas e Sísmicas
+
+**Vulcanismo:**
+- Ocorre principalmente em:
+  - Limites convergentes (subducção)
+  - Limites divergentes (dorsais)
+  - Pontos quentes (hot spots) - Havaí
+
+**Círculo de Fogo do Pacífico:**
+- Região com maior atividade sísmica e vulcânica
+- Contorna o Oceano Pacífico
+- 90% dos terremotos mundiais
+
+**Terremotos (Abalos Sísmicos):**
+- Causados por movimento brusco de placas
+- **Hipocentro (foco):** ponto onde se origina
+- **Epicentro:** ponto na superfície acima do hipocentro
+- **Escala Richter:** mede magnitude (energia liberada)
+- **Escala Mercalli:** mede intensidade (danos causados)
+
+**Brasil e Terremotos:**
+- Brasil está no **centro da Placa Sul-Americana**
+- Longe de bordas de placas
+- Poucos e fracos terremotos
+
+### Tipos de Rochas
+
+**1. Rochas Magmáticas (Ígneas)**
+- Formadas pela **solidificação do magma**
+- Tipos:
+  - **Intrusivas (plutônicas):** magma esfria lentamente no interior - cristais grandes
+    - Exemplo: granito
+  - **Extrusivas (vulcânicas):** magma esfria rapidamente na superfície - cristais pequenos
+    - Exemplo: basalto
+
+**2. Rochas Sedimentares**
+- Formadas por **acúmulo e compactação de sedimentos**
+- Processo: intemperismo → erosão → transporte → deposição → compactação
+- Podem conter **fósseis**
+- Exemplos: arenito, calcário, argila
+
+**3. Rochas Metamórficas**
+- Formadas pela **transformação** de outras rochas (calor e pressão)
+- Não derretem
+- Exemplos:
+  - Mármore (de calcário)
+  - Gnaisse (de granito)
+  - Ardósia (de argila)
+
+**Ciclo das Rochas:**
+```
+Magmática → (intemperismo) → Sedimentar
+    ↑                              ↓
+    ←── (metamorfismo) ←── Metamórfica
+```
+
+### Formas de Relevo
+
+**Relevo:** conjunto de formas da superfície terrestre
+
+**Principais formas:**
+
+**1. Planícies**
+- Terrenos **planos e baixos** (altitude < 300m geralmente)
+- Formadas por deposição de sedimentos
+- Exemplo: Planície Amazônica, Planície do Pantanal
+
+**2. Planaltos**
+- Terrenos **elevados e planos no topo**
+- Sofrem erosão
+- Altitude > 300m
+- Exemplo: Planalto Central, Planalto da Borborema
+
+**3. Montanhas**
+- Terrenos muito **elevados** com **topos pontiagudos**
+- Formadas por tectonismo (dobramento/falha)
+- Exemplo: Cordilheira dos Andes, Himalaia, Alpes
+
+**4. Depressões**
+- Terrenos **rebaixados**
+- Podem estar abaixo ou acima do nível do mar
+- Exemplo: Depressão Sertaneja
+
+**5. Vales**
+- Áreas **baixas entre montanhas**
+- Formados por erosão (rios)
+
+### Agentes Modeladores do Relevo
+
+**Agentes Internos (Endógenos):**
+- **Tectonismo:** movimento de placas (dobramento, falhas)
+- **Vulcanismo:** erupções vulcânicas
+- **Abalos sísmicos:** terremotos
+
+**Agentes Externos (Exógenos):**
+- **Intemperismo:** decomposição de rochas (físico, químico, biológico)
+- **Erosão:** desgaste e transporte de material
+  - Erosão fluvial (rios)
+  - Erosão eólica (ventos)
+  - Erosão glacial (geleiras)
+  - Erosão marinha (ondas)
+- **Ação humana:** desmatamento, mineração, urbanização
+
+### Mineração no Brasil
+
+**Principais minérios:**
+
+**Ferro:**
+- Maior produtor: Minas Gerais (Quadrilátero Ferrífero)
+- Pará (Serra dos Carajás)
+- Uso: siderurgia (aço)
+
+**Bauxita (Alumínio):**
+- Pará (maior produtor)
+- Uso: indústria de alumínio
+
+**Ouro:**
+- Minas Gerais, Pará
+- Histórico: Ciclo do Ouro (século XVIII)
+
+**Manganês:**
+- Pará, Minas Gerais
+- Uso: ligas metálicas
+
+**Nióbio:**
+- Brasil detém ~98% das reservas mundiais!
+- Minas Gerais, Goiás
+- Uso: ligas de aço especiais
+
+**Impactos da Mineração:**
+
+**Positivos:**
+- Geração de empregos
+- Desenvolvimento econômico
+- Exportações
+
+**Negativos:**
+- Desmatamento
+- Poluição de rios e solo
+- Rompimento de barragens (Mariana 2015, Brumadinho 2019)
+- Conflitos com comunidades
+
+### Conceitos-Chave para Memorizar
+
+**Estrutura da Terra:**
+- Núcleo (interno sólido, externo líquido) → Manto (pastoso) → Crosta (sólida)
+
+**Placas Tectônicas:**
+- Divergentes: afastam (dorsais)
+- Convergentes: aproximam (montanhas, vulcões)
+- Transformantes: deslizam (terremotos)
+
+**Rochas:**
+- Magmáticas: do magma
+- Sedimentares: de sedimentos (podem ter fósseis)
+- Metamórficas: transformação de outras
+
+**Relevo:**
+- Planícies: baixas, deposição
+- Planaltos: elevados, erosão
+- Montanhas: muito elevadas
+
+### Dicas para a Prova
+
+1. **Brasil:** centro da Placa Sul-Americana (poucos terremotos)
+2. **Círculo de Fogo do Pacífico:** maior atividade sísmica/vulcânica
+3. **Pangeia:** supercontinente (Wegener)
+4. **Convergente:** placas se aproximam (Andes, Himalaia)
+5. **Rochas sedimentares:** únicas com fósseis
+6. **Planícies:** deposição; Planaltos: erosão
+7. **Nióbio:** Brasil tem 98% das reservas
+8. **Impactos da mineração:** desmatamento, poluição, barragens
+
+### Resumo Visual
+
+```
+ESTRUTURA DA TERRA:
+        Crosta (sólida)
+    ─────────────────────
+     Manto (pastoso)
+    ═════════════════════
+    Núcleo Ext. (líquido)
+    ━━━━━━━━━━━━━━━━━━━
+    Núcleo Int. (sólido)
+
+LIMITES DE PLACAS:
+
+Divergente:    ←  →  (dorsais)
+Convergente:   →  ←  (montanhas)
+Transformante: ↑  ↓  (terremotos)
+
+TIPOS DE ROCHAS:
+
+Magmática ──intemperismo──→ Sedimentar
+    ↑                           ↓
+    └────── metamorfismo ───────┘
+         Metamórfica
+
+RELEVO BRASILEIRO:
+Planície: _____ (baixa)
+Planalto: ‾‾‾‾‾ (alto, plano)
+Depressão: ____ (rebaixada)
+```
+
+### Fórmulas/Dados Essenciais
+
+```
+Camadas da Terra:
+- Crosta: 5-70 km (mais fina)
+- Manto: 2.900 km (maior)
+- Núcleo externo: 2.300 km (líquido)
+- Núcleo interno: 1.200 km (sólido)
+
+Limites de Placas:
+- Divergente → Dorsais oceânicas
+- Convergente → Montanhas, vulcões, fossas
+- Transformante → Terremotos
+
+Rochas:
+- Magmáticas: do magma (granito, basalto)
+- Sedimentares: sedimentos (arenito, calcário) → fósseis
+- Metamórficas: transformação (mármore, gnaisse)
+
+Mineração Brasil:
+- Ferro: MG (Quadrilátero Ferrífero), PA (Carajás)
+- Nióbio: 98% das reservas mundiais
+- Bauxita: PA
+```
+
+---
+
+**Tempo de estudo recomendado:** 60 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐ (muito importante - tópico recorrente em Geografia física)
+
+---
+
+## Aula 48 - Ciências Humanas: Antiguidade Tardia e Mundo Medieval - 60min
+
+### Crise do Império Romano e Antiguidade Tardia (séculos III-V d.C.)
+
+**Antiguidade Tardia:** período de transição entre o mundo antigo e medieval (séculos III-VI d.C.)
+
+**Crise do Século III:**
+
+**Problemas políticos:**
+- **Anarquia militar:** generais disputam poder
+- Imperadores fracos e de curta duração (26 imperadores em 50 anos!)
+- Instabilidade política
+
+**Problemas econômicos:**
+- Crise agrícola e inflação
+- Diminuição do comércio
+- Crise do escravismo (sem novas conquistas → falta de escravos)
+
+**Problemas sociais:**
+- Êxodo urbano (pessoas fogem para o campo)
+- Formação de **vilas (villae):** propriedades rurais autossuficientes (origem do feudalismo!)
+
+**Problemas externos:**
+- **Invasões bárbaras** aumentam
+- Pressão nas fronteiras
+
+### Divisão do Império Romano (395 d.C.)
+
+**Teodósio** divide o império entre seus dois filhos:
+
+**Império Romano do Ocidente:**
+- Capital: **Roma** (depois Ravena)
+- Mais vulnerável às invasões
+- **Cai em 476 d.C.** (Odoacro depõe Rômulo Augusto)
+- Marca o fim da Antiguidade e início da Idade Média
+
+**Império Romano do Oriental (Bizantino):**
+- Capital: **Constantinopla** (antiga Bizâncio)
+- Mais rico e urbanizado
+- Sobrevive até **1453** (queda para os turcos otomanos)
+
+### Invasões Bárbaras (séculos IV-V)
+
+**Bárbaros:** povos germânicos fora das fronteiras romanas
+
+**Principais povos:**
+- **Francos:** Gália (França)
+- **Visigodos:** Península Ibérica (Espanha/Portugal)
+- **Ostrogodos:** Itália
+- **Vândalos:** Norte da África
+- **Anglos e Saxões:** Britânia (Inglaterra)
+- **Hunos:** (não germânicos) vindos da Ásia - Átila
+
+**Consequências:**
+- **Fim do Império Romano do Ocidente (476 d.C.)**
+- Formação dos **reinos germânicos**
+- Ruralização da Europa
+- Fusão da cultura romana com germânica
+
+### Cristianismo
+
+**Origem:**
+- Século I d.C., na Judeia (província romana)
+- Fundador: **Jesus Cristo**
+- Apóstolos espalham a mensagem
+
+**Perseguições:**
+- Romanos perseguem cristãos (culto ao imperador era obrigatório)
+- Exemplos: Nero, Diocleciano
+
+**Legalização:**
+- **313 d.C. - Édito de Milão** (Constantino): liberdade religiosa
+- **380 d.C. - Édito de Tessalônica** (Teodósio): cristianismo como **religião oficial**
+
+**Papel na Idade Média:**
+- Igreja única instituição organizada após queda de Roma
+- Preserva cultura clássica (mosteiros copiam livros)
+- Grande poder político e econômico
+
+### Feudalismo (Idade Média - séculos V-XV)
+
+**Feudalismo:** sistema político, econômico e social da Idade Média europeia
+
+**Características:**
+
+**1. Economia:**
+- **Agricultura de subsistência** (produz para consumo próprio)
+- Pouco comércio
+- **Manorialismo:** organização em **feudos** (propriedades rurais autossuficientes)
+
+**2. Sociedade:**
+- **Estamental:** sem mobilidade social
+- Três ordens (estados):
+  - **Clero (oratores):** rezam, Igreja
+  - **Nobreza (bellatores):** guerreiros, senhores feudais
+  - **Servos (laboratores):** trabalham, maioria da população
+
+**3. Política:**
+- **Descentralização:** poder fragmentado entre senhores feudais
+- Rei fraco
+- **Relações de suserania e vassalagem:**
+  - **Suserano:** concede feudo
+  - **Vassalo:** recebe feudo e jura fidelidade
+
+### O Feudo
+
+**Feudo:** unidade produtiva básica
+
+**Partes:**
+- **Manso senhorial:** terras do senhor (castelo, melhores terras)
+- **Manso servil:** terras dos servos (lotes individuais)
+- **Manso comunal:** terras comuns (pastos, bosques)
+
+**Obrigações servis:**
+- **Corveia:** trabalho gratuito nas terras do senhor (3 dias/semana)
+- **Talha:** parte da produção para o senhor (geralmente metade)
+- **Banalidades:** taxas pelo uso de moinho, forno, etc.
+- **Capitação:** imposto por indivíduo
+- **Mão morta:** taxa para herdar terra
+
+**Servo ≠ Escravo:**
+- Servo está **preso à terra** (não pode sair)
+- Mas não é propriedade do senhor
+- Tem direito ao lote de terra
+
+### Igreja Medieval
+
+**Poder da Igreja:**
+- Único elo de unidade na Europa fragmentada
+- Controla educação
+- Grande proprietária de terras
+- Influência política
+
+**Clero:**
+- **Secular:** vive no "século" (mundo) - padres, bispos, papa
+- **Regular:** segue regra (ordem religiosa) - monges em mosteiros
+
+**Práticas:**
+- **Dízimo:** 10% da produção para Igreja
+- **Excomunhão:** expulsão da Igreja (grave!)
+- **Indulgências:** perdão de pecados (vendidas)
+
+### Império Carolíngio (séculos VIII-IX)
+
+**Francos:** povo germânico que domina Gália
+
+**Carlos Magno (768-814):**
+- Rei dos francos
+- Expande território (França, Alemanha, Itália)
+- **800 d.C.:** coroado **Imperador** pelo Papa
+- Tenta restaurar unidade do antigo Império Romano do Ocidente
+- Incentiva educação (Renascimento Carolíngio)
+
+**Tratado de Verdun (843):**
+- Após morte de Carlos Magno
+- Império dividido entre 3 netos:
+  - **Carlos, o Calvo:** França Ocidental (origem da França)
+  - **Luís, o Germânico:** França Oriental (origem da Alemanha)
+  - **Lotário:** faixa central (Lotaríngia)
+
+### Alta Idade Média × Baixa Idade Média
+
+**Alta Idade Média (séc. V-X):**
+- Formação do feudalismo
+- Invasões (vikings, muçulmanos, húngaros)
+- Economia fechada
+- Descentralização política
+- "Idade das Trevas" (declínio urbano e cultural)
+
+**Baixa Idade Média (séc. XI-XV):**
+- Crescimento populacional
+- Expansão agrícola (inovações: arado pesado, rotação trienal)
+- **Renascimento comercial e urbano**
+- **Cruzadas** (1095-1291)
+- Crise do feudalismo
+- Peste Negra (1347-1353) - mata 1/3 da Europa
+
+### Arte Medieval
+
+**Arte Românica (séc. XI-XII):**
+- Arquitetura: igrejas pesadas, paredes grossas, pequenas janelas
+- Arcos de volta perfeita (semicirculares)
+- Interior escuro
+
+**Arte Gótica (séc. XII-XV):**
+- Arquitetura: catedrais altas, grandes vitrais coloridos
+- Arcos ogivais (pontiagudos)
+- Arquitetura verticalizada (aponta para o céu)
+- Luz interior
+- Exemplo: Catedral de Notre-Dame (Paris)
+
+### Conceitos-Chave para Memorizar
+
+**Queda de Roma:**
+- **476 d.C.:** fim do Império Romano do Ocidente
+- Invasões bárbaras
+- Início da Idade Média
+
+**Feudalismo:**
+- Economia: agricultura de subsistência
+- Sociedade: estamental (clero, nobreza, servos)
+- Política: descentralização, suserania e vassalagem
+
+**Igreja:**
+- Instituição mais poderosa
+- Controle ideológico, político, econômico
+- Cristianismo religião oficial (Teodósio, 380)
+
+**Carlos Magno:**
+- Rei dos Francos
+- Coroado Imperador (800)
+- Império dividido em Verdun (843)
+
+### Dicas para a Prova
+
+1. **476 d.C.:** queda de Roma (início Idade Média)
+2. **Feudalismo:** descentralizado, rural, estamental
+3. **Servo ≠ Escravo:** servo preso à terra, não é propriedade
+4. **Corveia, talha, banalidades:** obrigações servis
+5. **Carlos Magno:** coroado imperador (800), Tratado de Verdun (843)
+6. **Cristianismo oficial:** Édito de Tessalônica (380, Teodósio)
+7. **Império Bizantino:** sobrevive até 1453
+8. **Arte:** Românica (pesada, escura) → Gótica (vertical, luz)
+
+### Resumo Visual
+
+```
+LINHA DO TEMPO:
+
+27 a.C.     313       380        395        476       800       843
+  │          │         │          │          │         │         │
+Império   Édito    Cristo   Divisão     Queda    Carlos   Tratado
+Romano    Milão    oficial  Império     Roma     Magno    Verdun
+
+FEUDALISMO:
+
+    ┌─────────────┐
+    │  NOBREZA    │ (guerreiros)
+    │  ↕ ↕ ↕      │
+    │ VASSALAGEM  │
+    └─────────────┘
+         ↓
+    ┌─────────────┐
+    │   CLERO     │ (Igreja)
+    └─────────────┘
+         ↓
+    ┌─────────────┐
+    │   SERVOS    │ (trabalham)
+    └─────────────┘
+
+FEUDO:
+┌──────────────────────┐
+│  Manso Senhorial     │ (castelo)
+├──────────────────────┤
+│  Manso Servil        │ (lotes servos)
+├──────────────────────┤
+│  Manso Comunal       │ (pastos comuns)
+└──────────────────────┘
+
+OBRIGAÇÕES:
+Corveia → Trabalho gratuito
+Talha → Parte da produção
+Banalidades → Taxas de uso
+```
+
+### Fórmulas/Datas Essenciais
+
+```
+Datas Importantes:
+- 313: Édito de Milão (liberdade religiosa)
+- 380: Édito de Tessalônica (cristianismo oficial)
+- 395: Divisão do Império Romano
+- 476: Queda do Império Romano do Ocidente
+- 800: Carlos Magno coroado Imperador
+- 843: Tratado de Verdun (divisão império)
+- 1453: Queda de Constantinopla (fim Bizantino)
+
+Feudalismo:
+- Sociedade: Clero + Nobreza + Servos
+- Economia: Agricultura de subsistência
+- Política: Descentralização, suserania/vassalagem
+
+Obrigações Servis:
+- Corveia (trabalho)
+- Talha (produção)
+- Banalidades (taxas)
+- Capitação (imposto pessoal)
+- Mão morta (herança)
+
+Povos Bárbaros:
+- Francos → Gália (França)
+- Visigodos → Ibéria (Espanha)
+- Anglos/Saxões → Britânia (Inglaterra)
+```
+
+---
+
+**Tempo de estudo recomendado:** 60 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐ (muito importante - base para entender história medieval)
+
+---
+
+# 12/04 - Semana 2, Dia 2
+
+## Aula 49 - Matemática: Geometria Plana - Triângulos, Círculos e Teorema de Pitágoras - 120min
+
+### Triângulos - Definição e Classificação
+
+
+```
+    TIPOS DE TRIÂNGULOS
+
+    QUANTO AOS LADOS:
+    
+    Equilátero              Isósceles              Escaleno
+    (3 lados iguais)        (2 lados iguais)       (lados diferentes)
+    
+         /\                      /\                     /\
+        /  \                    /  \                   /  \
+       /____\                  /____\                 /____\
+      ℓ  ℓ   ℓ                ℓ  b   ℓ              a   b   c
+      
+    • 3 ângulos 60°         • 2 ângulos iguais     • 3 ângulos diferentes
+    
+    
+    QUANTO AOS ÂNGULOS:
+    
+    Acutângulo              Retângulo              Obtusângulo
+    (3 ângulos agudos)      (1 ângulo reto)        (1 ângulo obtuso)
+    
+         /\                      |\                     /\
+        /  \                     | \                   /  \___
+       /____\                    |__\                 /      \
+      <90° <90° <90°            90°                   >90°
+      
+    • Todos < 90°           • Um = 90°             • Um > 90°
+```
+
+
+**Triângulo:** polígono de 3 lados e 3 ângulos
+
+**Propriedade fundamental:**
+```
+Soma dos ângulos internos = 180°
+α + β + γ = 180°
+```
+
+**Classificação quanto aos lados:**
+
+**1. Equilátero**
+- 3 lados **iguais**
+- 3 ângulos iguais (60° cada)
+
+**2. Isósceles**
+- 2 lados **iguais**
+- 2 ângulos iguais (base)
+
+**3. Escaleno**
+- 3 lados **diferentes**
+- 3 ângulos diferentes
+
+**Classificação quanto aos ângulos:**
+
+**1. Acutângulo**
+- 3 ângulos **agudos** (< 90°)
+
+**2. Retângulo**
+- 1 ângulo **reto** (= 90°)
+
+**3. Obtusângulo**
+- 1 ângulo **obtuso** (> 90°)
+
+### Elementos do Triângulo
+
+**Altura (h):**
+- Segmento perpendicular do vértice à base
+- Todo triângulo tem **3 alturas**
+
+**Mediana:**
+- Segmento do vértice ao ponto médio do lado oposto
+
+**Bissetriz:**
+- Divide o ângulo ao meio
+
+**Base (b):**
+- Lado de referência (geralmente o horizontal)
+
+### Área do Triângulo
+
+**Fórmula geral:**
+```
+A = (base × altura) / 2
+A = (b × h) / 2
+```
+
+**"Base vezes altura dividido por dois"**
+
+**Exemplo:**
+Triângulo com b = 10 cm e h = 6 cm
+A = (10 × 6) / 2 = 30 cm²
+
+### Triângulo Retângulo
+
+
+```
+    TEOREMA DE PITÁGORAS
+    
+    Triângulo Retângulo:
+    
+              c (hipotenusa)
+            ╱│
+          ╱  │
+        ╱    │ b (cateto)
+      ╱      │
+    ╱________│
+         a
+    (cateto)
+    
+    FÓRMULA: a² + b² = c²
+    
+    Onde:
+    • c = hipotenusa (lado maior, oposto ao ângulo reto)
+    • a, b = catetos (lados menores)
+    
+    
+    TERNAS PITAGÓRICAS CLÁSSICAS:
+    
+    (3, 4, 5):      3² + 4² = 5²  →  9 + 16 = 25 ✓
+    (5, 12, 13):    5² + 12² = 13²  →  25 + 144 = 169 ✓
+    (8, 15, 17):    8² + 15² = 17²  →  64 + 225 = 289 ✓
+    (7, 24, 25):    7² + 24² = 25²  →  49 + 576 = 625 ✓
+    
+    Múltiplos também funcionam:
+    (6, 8, 10) = 2×(3, 4, 5)
+    (9, 12, 15) = 3×(3, 4, 5)
+```
+
+
+**Elementos:**
+- **Hipotenusa (a):** lado oposto ao ângulo reto (maior lado)
+- **Catetos (b e c):** lados que formam o ângulo reto
+
+```
+       |\
+       | \
+    c  |  \ a (hipotenusa)
+       |   \
+       |____\
+          b
+```
+
+**Teorema de Pitágoras:**
+```
+a² = b² + c²
+```
+
+**"O quadrado da hipotenusa é igual à soma dos quadrados dos catetos"**
+
+**Exemplo:**
+Catetos: b = 3, c = 4
+a² = 3² + 4² = 9 + 16 = 25
+a = 5
+
+**Ternas pitagóricas famosas:**
+- 3, 4, 5
+- 5, 12, 13
+- 8, 15, 17
+- 6, 8, 10 (múltiplo de 3, 4, 5)
+
+### Triângulo Equilátero
+
+**Propriedades:**
+- Todos os lados iguais (l)
+- Todos os ângulos = 60°
+
+**Altura:**
+```
+h = (l√3) / 2
+```
+
+**Área:**
+```
+A = (l²√3) / 4
+```
+
+**Exemplo:**
+Triângulo equilátero com l = 6 cm
+h = (6√3) / 2 = 3√3 cm
+A = (36√3) / 4 = 9√3 cm²
+
+### Círculo e Circunferência
+
+
+```
+    CÍRCULO E CIRCUNFERÊNCIA - ELEMENTOS
+    
+                  Diâmetro (d = 2r)
+                 ←─────────→
+              ╭─────────────╮
+            ╱        │        ╲
+          ╱          │          ╲  ← Circunferência
+         │           ●───────────│    (linha)
+         │         Centro        │
+         │     (raio r) →        │
+          ╲                     ╱
+            ╲                 ╱
+              ╰─────────────╯
+         └──────────────────────┘
+              Círculo (área)
+    
+    Elementos:
+    • Centro: ponto fixo
+    • Raio (r): distância do centro até a borda
+    • Diâmetro (d): d = 2r
+    • Circunferência (C): perímetro = 2πr = πd
+    • Área (A): A = πr²
+    
+    Relações:
+    • d = 2r
+    • C = 2πr = πd
+    • A = πr² = π(d/2)²
+```
+
+
+**Circunferência:** linha curva fechada (borda)
+**Círculo:** região interna (área)
+
+**Elementos:**
+
+**Centro (O):** ponto central
+
+**Raio (r):** distância do centro a qualquer ponto da circunferência
+
+**Diâmetro (d):** maior distância entre dois pontos
+```
+d = 2r
+```
+
+**Corda:** segmento que une dois pontos da circunferência
+
+**Arco:** parte da circunferência
+
+**Setor circular:** "fatia" do círculo
+
+### Comprimento da Circunferência
+
+```
+C = 2πr
 ou
-
-ΔP = ρgΔh
+C = πd
 ```
 
 **Onde:**
-- P = pressão total no ponto
-- P_atm = pressão atmosférica
-- ρ = densidade do fluido
-- g = gravidade (10 m/s²)
-- h = profundidade
+- π (pi) ≈ 3,14 ou 3,1416
+- r = raio
+- d = diâmetro
+
+**Exemplo:**
+Circunferência com r = 5 cm
+C = 2 × 3,14 × 5 = 31,4 cm
+
+### Área do Círculo
+
+```
+A = πr²
+```
+
+**Exemplo:**
+Círculo com r = 4 cm
+A = 3,14 × 4² = 3,14 × 16 = 50,24 cm²
+
+### Setor Circular
+
+**Setor:** "fatia" do círculo
+
+**Área do setor:**
+```
+A_setor = (θ/360°) × πr²
+```
+
+**Onde θ é o ângulo central em graus**
+
+**Exemplo:**
+Setor de 90° (1/4 do círculo) com r = 6
+A_setor = (90/360) × π × 36 = (1/4) × 36π = 9π cm²
+
+### Perímetro e Área - Resumo
+
+**Triângulos:**
+```
+┌──────────────┬────────────────┬─────────────┐
+│   Tipo       │     Área       │  Perímetro  │
+├──────────────┼────────────────┼─────────────┤
+│ Qualquer     │   (b×h)/2      │  a + b + c  │
+│ Equilátero   │  (l²√3)/4      │     3l      │
+│ Retângulo    │   (b×c)/2      │  a + b + c  │
+└──────────────┴────────────────┴─────────────┘
+```
+
+**Círculo:**
+```
+Área: A = πr²
+Comprimento: C = 2πr = πd
+```
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+Um triângulo tem ângulos de 50° e 60°. Qual o terceiro ângulo?
+
+**Solução:**
+α + β + γ = 180°
+50° + 60° + γ = 180°
+γ = 70°
+
+*[Ver resposta 16 no final do documento]*
+
+#### Exercício 2
+Triângulo retângulo com catetos 6 cm e 8 cm. Calcule a hipotenusa.
+
+**Solução:**
+a² = b² + c²
+a² = 6² + 8²
+a² = 36 + 64 = 100
+a = 10 cm
+
+*[Ver resposta 17 no final do documento]*
+
+#### Exercício 3
+(UFMG) Um círculo tem diâmetro 10 cm. Qual sua área? (Use π = 3,14)
+
+**Solução:**
+d = 10 → r = 5
+A = πr² = 3,14 × 5² = 3,14 × 25 = 78,5 cm²
+
+*[Ver resposta 18 no final do documento]*
+
+#### Exercício 4
+Triângulo com base 12 cm e altura 5 cm. Calcule a área.
+
+**Solução:**
+A = (b × h) / 2 = (12 × 5) / 2 = 30 cm²
+
+*[Ver resposta 19 no final do documento]*
+
+#### Exercício 5
+Uma roda tem raio 0,5 m. Quantos metros ela percorre em uma volta completa?
+
+**Solução:**
+C = 2πr = 2 × 3,14 × 0,5 = 3,14 m
+
+*[Ver resposta 20 no final do documento]*
+
+#### Exercício 6
+Triângulo equilátero com lado 4 cm. Calcule a área.
+
+**Solução:**
+A = (l²√3) / 4 = (16√3) / 4 = 4√3 cm²
+A ≈ 4 × 1,73 = 6,92 cm²
+
+*[Ver resposta 21 no final do documento]*
+
+#### Exercício 7
+Uma escada de 5 m está apoiada a 3 m do chão. Qual a distância da base da escada até a parede?
+
+**Solução:**
+Triângulo retângulo: hipotenusa = 5, um cateto = 3
+5² = 3² + c²
+25 = 9 + c²
+c² = 16
+c = 4 m
+
+*[Ver resposta 22 no final do documento]*
+
+### Aplicações Práticas
+
+**1. Construção civil:**
+- Esquadro (triângulo 3-4-5) para garantir ângulos retos
+- Telhados (cálculo de vigas)
+
+**2. Navegação:**
+- Triangulação para determinar posições
+
+**3. Engenharia:**
+- Estruturas triangulares (estáveis)
+- Rodas (círculos)
+
+### Dicas para a Prova
+
+1. **Soma dos ângulos do triângulo:** sempre 180°
+2. **Área do triângulo:** (base × altura) / 2
+3. **Pitágoras:** a² = b² + c² (só triângulo retângulo!)
+4. **Ternas pitagóricas:** 3-4-5, 5-12-13, 8-15-17
+5. **Círculo:** área = πr², comprimento = 2πr
+6. **π ≈ 3,14** ou deixe em função de π
+7. **Equilátero:** altura = (l√3)/2, área = (l²√3)/4
+8. **Diâmetro = 2 × raio**
+
+### Conceitos-Chave para Memorizar
+
+**Triângulo:**
+- 3 lados, soma ângulos = 180°
+- Área = (b×h)/2
+
+**Triângulo Retângulo:**
+- Pitágoras: a² = b² + c²
+- Hipotenusa = maior lado
+
+**Triângulo Equilátero:**
+- 3 lados iguais, 3 ângulos de 60°
+- Área = (l²√3)/4
+
+**Círculo:**
+- Área = πr²
+- Comprimento = 2πr
+- d = 2r
+
+### Fórmulas Essenciais
+
+```
+TRIÂNGULOS:
+
+Soma ângulos internos:
+α + β + γ = 180°
+
+Área (geral):
+A = (b × h) / 2
+
+Teorema de Pitágoras (retângulo):
+a² = b² + c²
+
+Triângulo Equilátero:
+Altura: h = (l√3) / 2
+Área: A = (l²√3) / 4
+
+CÍRCULO:
+
+Área:
+A = πr²
+
+Comprimento (perímetro):
+C = 2πr = πd
+
+Relação raio-diâmetro:
+d = 2r
+
+Setor circular:
+A_setor = (θ/360°) × πr²
+
+Valores de π:
+π ≈ 3,14 ou 3,1416
+```
+
+### Resumo Visual
+
+```
+TRIÂNGULOS:
+
+Equilátero:    Isósceles:    Escaleno:
+   /\              /\            /\
+  /  \            /  \          /  \
+ /____\          /____\        /____\
+ l    l          a    a       a  b  c
+(todos iguais)  (2 iguais)   (todos diferentes)
+
+TRIÂNGULO RETÂNGULO:
+       |\
+       | \
+    c  |  \ a (hipotenusa)
+       |   \
+       |____\
+          b
+   a² = b² + c²
+
+CÍRCULO:
+      ___
+    /     \
+   |   r   |  A = πr²
+    \     /   C = 2πr
+      ‾‾‾
+
+ÁREA DO TRIÂNGULO:
+    /|\
+   / | \
+  /  |h \
+ /   |   \
+/____|____\
+     b
+A = (b×h)/2
+```
+
+---
+
+**Tempo de estudo recomendado:** 120 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - sempre cai!)
+
+---
+
+## Aula 50 - Física: Princípio de Pascal, Teorema de Stevin e Princípio de Arquimedes - 90min
+
+### Revisão: Hidrostática Básica
+
+**Pressão hidrostática (Lei de Stevin):**
+```
+P = ρgh
+```
+
+**Pressão total:**
+```
+P_total = P_atm + ρgh
+```
+
+### Teorema de Stevin (Aprofundamento)
+
+**Enunciado:**
+"A diferença de pressão entre dois pontos de um fluido em equilíbrio é igual ao produto da densidade do fluido pela aceleração da gravidade e pela diferença de profundidade."
+
+```
+ΔP = P₂ - P₁ = ρg(h₂ - h₁) = ρgΔh
+```
 
 **Consequências:**
 
-**1. Mesma profundidade, mesma pressão:**
-- Pontos à mesma altura têm mesma pressão
+**1. Vasos comunicantes:**
+- Líquidos em recipientes conectados ficam no **mesmo nível**
+- Mesma profundidade → mesma pressão
 
 **2. Paradoxo hidrostático:**
-- Pressão não depende da forma do recipiente
+- Pressão **não depende** da forma do recipiente
 - Depende apenas de ρ, g, h
 
-**3. Vasos comunicantes:**
-- Líquido fica no mesmo nível
+**Exemplo:**
+Três recipientes com formas diferentes, mesma altura de água (h = 2 m):
+- Pressão no fundo é a mesma nos três!
+- P = 1000 × 10 × 2 = 20.000 Pa
 
-**Exemplo rápido:**
-Pressão a 5 m de profundidade na água:
-```
-P = P_atm + ρgh
-P = 10⁵ + 1000 × 10 × 5
-P = 10⁵ + 50.000
-P = 150.000 Pa = 1,5 × 10⁵ Pa
-```
-
-### 3. Princípio de Pascal
+### Princípio de Pascal
 
 **Enunciado:**
-"A variação de pressão aplicada em um ponto de um fluido em equilíbrio transmite-se integralmente a todos os pontos do fluido."
+"A pressão aplicada em um ponto de um fluido em equilíbrio transmite-se integralmente a todos os pontos do fluido."
 
-**Aplicação: Prensa Hidráulica**
+**Em outras palavras:**
+Se você aumenta a pressão em um ponto do líquido, **todos os pontos** sofrem o mesmo aumento de pressão.
 
 ```
-P₁ = P₂
+ΔP₁ = ΔP₂ = ΔP₃ = ... = constante
+```
 
+### Prensa Hidráulica (Aplicação do Princípio de Pascal)
+
+**Princípio:**
+Força pequena aplicada em êmbolo pequeno gera força grande em êmbolo grande.
+
+**Sistema:**
+```
+┌───┐         ┌─────────┐
+│ F₁│         │   F₂    │
+└─┬─┘         └────┬────┘
+  │ A₁             │ A₂
+──┴────────────────┴────
+     Fluido (óleo)
+```
+
+**Equação:**
+```
 F₁/A₁ = F₂/A₂
+
+ou
 
 F₂ = F₁ × (A₂/A₁)
 ```
@@ -698,2074 +2225,3077 @@ GM = F₂/F₁ = A₂/A₁
 ```
 
 **Exemplo:**
-```
-A₁ = 5 cm², F₁ = 20 N
-A₂ = 100 cm²
+Êmbolo 1: A₁ = 10 cm², F₁ = 50 N
+Êmbolo 2: A₂ = 100 cm²
 
-F₂ = 20 × (100/5) = 20 × 20 = 400 N
+F₂ = F₁ × (A₂/A₁) = 50 × (100/10) = 50 × 10 = 500 N
 
-Ganho de 20 vezes!
-```
+**Ganho:** força multiplicada por 10!
 
-**Observação importante:**
-- Ganha-se força, mas não energia
-- Se êmbolo pequeno desce muito, grande sobe pouco
+**Aplicações:**
+- Freios hidráulicos (carros)
+- Elevadores de postos
+- Máquinas hidráulicas
+- Cadeiras de dentista
 
-### 4. Princípio de Arquimedes (Empuxo)
+**Importante:**
+- Ganha-se **força**, mas **não se ganha trabalho** (energia conservada)
+- Se êmbolo pequeno desce muito, êmbolo grande sobe pouco
+
+### Princípio de Arquimedes (Empuxo)
 
 **Enunciado:**
-"Todo corpo mergulhado em um fluido recebe uma força vertical para cima (empuxo) igual ao peso do fluido deslocado."
+"Todo corpo mergulhado em um fluido recebe uma força vertical para cima, chamada empuxo, igual ao peso do fluido deslocado."
 
-**Fórmula:**
+**Empuxo (E):**
 ```
 E = ρ_fluido × V_deslocado × g
-
-ou
-
-E = m_fluido × g
 ```
 
-**Flutuação - Três casos:**
+**Onde:**
+- E = empuxo (N)
+- ρ_fluido = densidade do fluido (kg/m³)
+- V_deslocado = volume de fluido deslocado (m³)
+- g = gravidade (m/s²)
 
-**1. Afunda (E < P):**
+**Simplificando:**
+```
+E = m_fluido × g = P_fluido deslocado
+```
+
+**"Empuxo = peso do líquido deslocado"**
+
+### Flutuação (Afunda, Flutua ou Fica em Equilíbrio?)
+
+**Forças atuantes:**
+- **Peso (P):** para baixo, P = m_corpo × g
+- **Empuxo (E):** para cima, E = ρ_fluido × V_des × g
+
+**3 Casos:**
+
+**1. Corpo afunda (E < P)**
 ```
 ρ_corpo > ρ_fluido
 ```
+- Exemplo: pedra na água (ρ_pedra > ρ_água)
 
-**2. Flutua (E = P):**
+**2. Corpo flutua (E = P, parcialmente imerso)**
 ```
 ρ_corpo < ρ_fluido
-
-Fração submersa:
-f = ρ_corpo / ρ_fluido
 ```
+- Exemplo: madeira na água, gelo na água
 
-**3. Equilíbrio (E = P, totalmente imerso):**
+**3. Corpo em equilíbrio (E = P, totalmente imerso)**
 ```
 ρ_corpo = ρ_fluido
 ```
+- Exemplo: submarino em profundidade constante
 
-**Peso aparente:**
-```
-P_aparente = P_real - E
-```
+**Por que o gelo flutua?**
+- ρ_gelo = 920 kg/m³
+- ρ_água = 1000 kg/m³
+- ρ_gelo < ρ_água → flutua!
+- ~92% do gelo fica submerso
 
-**Exemplo - Gelo na água:**
-```
-ρ_gelo = 920 kg/m³
-ρ_água = 1000 kg/m³
+**Por que navios de aço flutuam?**
+- ρ_aço > ρ_água (aço afundaria)
+- Mas navio tem **volume oco** (ar dentro)
+- Densidade média do navio < densidade da água
+- Empuxo > Peso → flutua!
 
-f = 920/1000 = 0,92 = 92%
+### Exercícios Resolvidos
 
-92% do gelo fica submerso
-```
+#### Exercício 1
+Prensa hidráulica com êmbolos de áreas 20 cm² e 100 cm². Aplicando 40 N no menor, qual a força no maior?
 
-### 5. Teorema de Torricelli
+**Solução:**
+F₂ = F₁ × (A₂/A₁) = 40 × (100/20) = 40 × 5 = 200 N
 
-**Enunciado:**
-"A velocidade de saída de um fluido por um orifício é igual à velocidade que um corpo teria em queda livre da altura h."
+*[Ver resposta 23 no final do documento]*
 
-**Fórmula:**
-```
-v = √(2gh)
-```
+#### Exercício 2
+(UFMG) Um cubo de 8 cm de aresta e densidade 0,6 g/cm³ é colocado na água (ρ = 1 g/cm³). Ele flutua ou afunda?
 
-**Vazão:**
-```
-Q = A × v = A × √(2gh)
+**Solução:**
+ρ_cubo = 0,6 g/cm³ < ρ_água = 1 g/cm³
+ρ_cubo < ρ_água → **flutua**
 
-Unidade: m³/s ou L/s
-```
+Fração submersa: 0,6/1 = 0,6 = 60%
 
-**Exemplo:**
-```
-Orifício a h = 5 m de profundidade:
-v = √(2 × 10 × 5) = √100 = 10 m/s
-```
+*[Ver resposta 24 no final do documento]*
 
-### Questões de Fixação Rápida
+#### Exercício 3
+Um corpo de volume 0,01 m³ está totalmente imerso na água. Qual o empuxo? (ρ_água = 1000 kg/m³, g = 10 m/s²)
 
-#### Questão 1
-Calcule a pressão a 10 m de profundidade na água.
+**Solução:**
+E = ρ × V × g = 1000 × 0,01 × 10 = 100 N
 
-**Resposta:**
-```
-P = ρgh = 1000 × 10 × 10 = 100.000 Pa = 10⁵ Pa
-```
+*[Ver resposta 25 no final do documento]*
 
-#### Questão 2
-Prensa hidráulica: A₁ = 10 cm², A₂ = 50 cm², F₁ = 30 N. Calcule F₂.
+#### Exercício 4
+Uma pedra de 5 kg é mergulhada na água e sofre empuxo de 20 N. Qual a tensão no fio que a suspende?
 
-**Resposta:**
-```
-F₂ = 30 × (50/10) = 30 × 5 = 150 N
-```
+**Solução:**
+P = m × g = 5 × 10 = 50 N
 
-#### Questão 3
-Um cubo de 8 cm de aresta e densidade 0,7 g/cm³ é colocado na água. Ele afunda ou flutua? Qual porcentagem fica submersa?
+Equilíbrio: T + E = P
+T = P - E = 50 - 20 = 30 N
 
-**Resposta:**
-```
-ρ_cubo = 0,7 g/cm³ < ρ_água = 1 g/cm³
-Flutua!
-f = 0,7/1 = 0,7 = 70% submerso
-```
+*[Ver resposta 26 no final do documento]*
 
-#### Questão 4
-Uma pedra de 80 N no ar "pesa" 50 N dentro d'água. Qual o empuxo?
+#### Exercício 5
+Dois pontos A e B estão a 3 m e 8 m de profundidade em um lago. Qual a diferença de pressão? (ρ = 1000 kg/m³, g = 10 m/s²)
 
-**Resposta:**
-```
-P_aparente = P_real - E
-50 = 80 - E
-E = 30 N
-```
+**Solução:**
+ΔP = ρgΔh = 1000 × 10 × (8-3) = 1000 × 10 × 5 = 50.000 Pa = 50 kPa
 
-#### Questão 5
-Qual a velocidade de saída de água por um orifício a 3,2 m de profundidade?
+*[Ver resposta 27 no final do documento]*
 
-**Resposta:**
-```
-v = √(2gh) = √(2 × 10 × 3,2) = √64 = 8 m/s
-```
+### Aplicações Práticas
 
-### Fórmulas Essenciais - Resumo Completo
+**Princípio de Pascal:**
+- Freios hidráulicos
+- Direção hidráulica
+- Prensas industriais
+- Macacos hidráulicos
 
-```
-DENSIDADE:
-ρ = m/V
+**Princípio de Arquimedes:**
+- Navios e barcos
+- Submarinos (tanques de lastro)
+- Balões (ar quente menos denso)
+- Hidrometria (densímetros)
 
-PRESSÃO:
-P = F/A
+**Teorema de Stevin:**
+- Barragens
+- Caixas d'água
+- Sistemas de abastecimento
+- Vasos comunicantes (sifão)
 
-STEVIN:
-P = P_atm + ρgh
-ΔP = ρgΔh
+### Dicas para a Prova
 
-PASCAL (Prensa Hidráulica):
-F₁/A₁ = F₂/A₂
-F₂ = F₁ × (A₂/A₁)
+1. **Stevin:** P = ρgh (pressão não depende da forma)
+2. **Pascal:** pressão transmitida integralmente (prensa hidráulica)
+3. **Prensa:** F₂/F₁ = A₂/A₁ (multiplicador de força)
+4. **Empuxo:** E = ρ_fluido × V_deslocado × g
+5. **Flutuação:** compara ρ_corpo com ρ_fluido
+6. **Afunda:** ρ_corpo > ρ_fluido
+7. **Flutua:** ρ_corpo < ρ_fluido
+8. **Peso aparente:** P_aparente = P - E
 
-ARQUIMEDES (Empuxo):
-E = ρ_fluido × V_deslocado × g
-E = m_fluido × g
+### Conceitos-Chave para Memorizar
 
-Flutuação:
-- Afunda: ρ_corpo > ρ_fluido
-- Flutua: ρ_corpo < ρ_fluido
-- Fração submersa: f = ρ_corpo/ρ_fluido
+**Teorema de Stevin:**
+- ΔP = ρgΔh
+- Mesma profundidade, mesma pressão
+- Pressão não depende da forma
 
-Peso aparente:
-P_aparente = P_real - E
-
-TORRICELLI:
-v = √(2gh)
-
-Vazão:
-Q = A × v
-
-DADOS:
-ρ_água = 1000 kg/m³ = 1 g/cm³
-g = 10 m/s²
-P_atm = 10⁵ Pa
-```
-
-### Checklist de Revisão
-
-- [ ] Sei calcular densidade
-- [ ] Sei calcular pressão hidrostática (Stevin)
-- [ ] Sei resolver problemas de prensa hidráulica (Pascal)
-- [ ] Sei calcular empuxo
-- [ ] Sei determinar se um corpo flutua ou afunda
-- [ ] Sei calcular fração submersa
-- [ ] Sei calcular peso aparente
-- [ ] Sei aplicar Torricelli
-- [ ] Sei calcular vazão
-
----
-
-**Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
-
----
-
-## Aula 67 - Química: Revisão Final - Modelos Atômicos e Tabela Periódica - 90min
-
-### Objetivo da Revisão
-
-Consolidar evolução dos modelos atômicos e organização da Tabela Periódica.
-
-### PARTE 1: Modelos Atômicos
-
-**1. Dalton (1808) - "Bola de Bilhar"**
-
-**Ideias principais:**
-- Átomos são esferas maciças, indivisíveis e indestrutíveis
-- Átomos do mesmo elemento são idênticos
-- Átomos de elementos diferentes têm massas diferentes
-- Reações químicas: rearranjo de átomos
-
-**Limitação:** não explica fenômenos elétricos
-
-**2. Thomson (1897) - "Pudim de Passas"**
-
-**Descoberta:** elétron (partícula negativa)
-
-**Modelo:**
-- Átomo é esfera positiva
-- Elétrons (negativos) incrustados na massa positiva
-- Átomo neutro (cargas equilibradas)
-
-**Limitação:** não explica espalhamento de partículas alfa
-
-**3. Rutherford (1911) - "Planetário"**
-
-**Experimento:** bombardeio de folha de ouro com partículas alfa
-
-**Descobertas:**
-- Núcleo pequeno, denso e positivo (prótons)
-- Maior parte do átomo é vazio
-- Elétrons giram ao redor do núcleo
-
-**Modelo:**
-```
-    e⁻ →  ●  ← e⁻  (eletrosfera)
-          ⊕        (núcleo)
-    e⁻ →     ← e⁻
-```
-
-**Limitação:** não explica estabilidade (elétron deveria perder energia e cair)
-
-**4. Bohr (1913) - Níveis de Energia**
-
-**Postulados:**
-- Elétrons em órbitas circulares definidas (níveis de energia)
-- Elétron não perde energia na órbita estacionária
-- Mudança de nível: absorve ou emite energia (fóton)
-
-**Níveis de energia:** K, L, M, N, O, P, Q
-
-**Capacidade máxima:**
-```
-K: 2 elétrons
-L: 8 elétrons
-M: 18 elétrons
-N: 32 elétrons
-
-Fórmula: 2n²
-```
-
-**Saltos quânticos:**
-```
-Absorve energia: elétron sobe de nível
-Emite energia: elétron desce de nível
-```
-
-**5. Modelo Atual - Quântico/Orbital**
-
-**Contribuições:**
-- Orbitais (regiões de probabilidade)
-- Números quânticos
-- Princípio da Incerteza de Heisenberg
-
-**Subníveis:** s, p, d, f
-
-### PARTE 2: Estrutura Atômica
-
-**Partículas fundamentais:**
-
-```
-┌──────────┬────────┬────────┬─────────┐
-│ Partícula│ Símbolo│ Carga  │ Massa   │
-├──────────┼────────┼────────┼─────────┤
-│ Próton   │   p⁺   │  +1    │ ~1 u    │
-│ Nêutron  │   n⁰   │   0    │ ~1 u    │
-│ Elétron  │   e⁻   │  -1    │ ~1/1836u│
-└──────────┴────────┴────────┴─────────┘
-```
-
-**Notação:**
-```
-  A
- ᴢX
-
-A = número de massa = p + n
-Z = número atômico = p = e⁻ (átomo neutro)
-```
-
-**Relações:**
-```
-Z = número de prótons
-A = Z + N (N = número de nêutrons)
-N = A - Z
-```
-
-**Íons:**
-```
-Cátion: perde elétrons (carga +)
-Ânion: ganha elétrons (carga -)
-
-Exemplo: Na⁺ (perdeu 1 e⁻), Cl⁻ (ganhou 1 e⁻)
-```
-
-**Isótopos, Isóbaros, Isótonos:**
-
-```
-Isótopos: mesmo Z, A diferente
-  Exemplo: ¹²C e ¹⁴C
-
-Isóbaros: mesmo A, Z diferente
-  Exemplo: ⁴⁰K e ⁴⁰Ca
-
-Isótonos: mesmo N, Z e A diferentes
-  Exemplo: ¹⁴C e ¹⁵N (ambos com 7 nêutrons)
-```
-
-### PARTE 3: Tabela Periódica
-
-**Organização:**
-
-**Lei Periódica:**
-"As propriedades dos elementos são funções periódicas de seus números atômicos."
-
-**Períodos (linhas horizontais):** 7 períodos
-- Indicam número de camadas eletrônicas
-
-**Famílias/Grupos (colunas verticais):** 18 grupos
-- Elementos com propriedades químicas semelhantes
-- Mesma quantidade de elétrons na camada de valência
-
-**Principais famílias:**
-
-```
-Grupo 1: Metais Alcalinos (Li, Na, K, Rb, Cs, Fr)
-Grupo 2: Metais Alcalino-Terrosos (Be, Mg, Ca, Sr, Ba, Ra)
-Grupo 13: Família do Boro
-Grupo 14: Família do Carbono
-Grupo 15: Família do Nitrogênio
-Grupo 16: Calcogênios (O, S, Se, Te, Po)
-Grupo 17: Halogênios (F, Cl, Br, I, At)
-Grupo 18: Gases Nobres (He, Ne, Ar, Kr, Xe, Rn)
-```
-
-**Classificação:**
-
-**Metais:**
-- Maioria dos elementos
-- Brilhantes, condutores, maleáveis
-- Lado esquerdo e centro da tabela
-
-**Não-metais (ametais):**
-- Lado direito superior
-- C, N, O, P, S, Se, F, Cl, Br, I
-
-**Semimetais (metaloides):**
-- Propriedades intermediárias
-- B, Si, Ge, As, Sb, Te, Po, At
-
-**Gases nobres:**
-- Grupo 18
-- Inertes (estáveis)
-- Camada de valência completa
-
-**Hidrogênio (H):**
-- Elemento especial
-- Não se encaixa perfeitamente em nenhuma família
-
-### Propriedades Periódicas
-
-**1. Raio Atômico:**
-```
-↑ Na família (grupo): raio aumenta (mais camadas)
-→ No período: raio diminui (mais prótons, maior atração)
-```
-
-**2. Energia de Ionização:**
-- Energia para remover 1 elétron
-```
-↑ Na família: diminui (elétrons mais afastados)
-→ No período: aumenta (maior atração nuclear)
-```
-
-**3. Eletronegatividade:**
-- Capacidade de atrair elétrons em ligação
-```
-↑ Na família: diminui
-→ No período: aumenta
-
-Mais eletronegativo: F (flúor)
-Menos eletronegativo: Fr (frâncio)
-
-Ordem: F > O > N > Cl
-```
-
-**4. Eletroafinidade:**
-- Energia liberada ao receber 1 elétron
-- Segue tendência similar à eletronegatividade
-
-### Questões de Fixação
-
-#### Questão 1
-Qual modelo atômico descobriu o núcleo?
-
-**Resposta:** Rutherford (1911)
-
-#### Questão 2
-Um elemento tem Z = 17 e A = 35. Quantos nêutrons possui?
-
-**Resposta:**
-```
-N = A - Z = 35 - 17 = 18 nêutrons
-```
-
-#### Questão 3
-Quantos elétrons cabem na camada M?
-
-**Resposta:**
-```
-n = 3
-2n² = 2(3)² = 18 elétrons
-```
-
-#### Questão 4
-¹²C e ¹⁴C são:
-
-**Resposta:** Isótopos (mesmo Z, A diferente)
-
-#### Questão 5
-Qual elemento é mais eletronegativo: O ou S?
-
-**Resposta:** O (oxigênio) - está mais acima no período
-
-### Resumo de Modelos
-
-```
-Dalton → Esfera maciça
-Thomson → Pudim de passas
-Rutherford → Núcleo + eletrosfera
-Bohr → Níveis de energia
-Atual → Orbitais (probabilidade)
-```
+**Princípio de Pascal:**
+- Pressão transmitida integralmente
+- Prensa hidráulica: F₂/F₁ = A₂/A₁
+
+**Princípio de Arquimedes:**
+- Empuxo = peso do fluido deslocado
+- E = ρ_fluido × V × g
+- Flutuação: comparar densidades
 
 ### Fórmulas Essenciais
 
 ```
-ESTRUTURA ATÔMICA:
-Z = número de prótons
-A = Z + N
-N = A - Z
-
-Capacidade de camada:
-Máximo = 2n²
-
-TABELA PERIÓDICA:
-Períodos: 7 (linhas)
-Grupos: 18 (colunas)
-
-PROPRIEDADES PERIÓDICAS:
-Raio atômico: ↑ família, ← período
-Energia ionização: ↓ família, → período
-Eletronegatividade: ↓ família, → período
-
-Mais eletronegativo: F
-Ordem: F > O > N > Cl
-```
-
-### Checklist de Revisão
-
-- [ ] Sei os principais modelos atômicos em ordem
-- [ ] Sei calcular número de nêutrons (N = A - Z)
-- [ ] Sei diferenciar isótopos, isóbaros, isótonos
-- [ ] Sei a organização da Tabela Periódica
-- [ ] Conheço as principais famílias
-- [ ] Sei classificar metais, não-metais, semimetais
-- [ ] Sei as tendências das propriedades periódicas
-- [ ] Sei que F é o mais eletronegativo
-
----
-
-**Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (fundamental!)
-
----
-
-## Aula 68 - Química: Revisão Final - Estequiometria Completa - 60min
-
-### Objetivo da Revisão
-
-Consolidar mol, massa molar, leis ponderais e cálculos estequiométricos.
-
-### PARTE 1: Conceito de Mol
-
-**Mol:** unidade de quantidade de matéria
-
-**Constante de Avogadro:**
-```
-1 mol = 6,02 × 10²³ entidades
-N_A = 6,02 × 10²³ /mol
-```
-
-**Massa Molar (M):**
-```
-Massa de 1 mol da substância
-Unidade: g/mol
-Valor numérico = massa molecular
-```
-
-**Exemplos:**
-```
-H₂O: M = 18 g/mol
-CO₂: M = 44 g/mol
-NaCl: M = 58,5 g/mol
-```
-
-**Relações fundamentais:**
-```
-n = m/M  (mol a partir da massa)
-m = n × M  (massa a partir de mol)
-N = n × N_A  (número de partículas)
-```
-
-**Volume molar (CNTP):**
-```
-V_m = 22,4 L/mol
-V = n × 22,4 L
-```
-
-### PARTE 2: Leis Ponderais
-
-**1. Lei de Lavoisier (Conservação das Massas):**
-```
-Σ m_reagentes = Σ m_produtos
-```
-"Nada se cria, nada se perde, tudo se transforma"
-
-**2. Lei de Proust (Proporções Constantes):**
-```
-Mesma substância, mesma proporção em massa
-```
-
-**Exemplo:**
-```
-H₂O sempre: H:O = 1:8
-2g H + 16g O → 18g H₂O
-4g H + 32g O → 36g H₂O
-```
-
-**3. Lei de Dalton (Proporções Múltiplas):**
-```
-Compostos diferentes, proporções inteiras
-```
-
-**Exemplo:**
-```
-CO:  12g C + 16g O
-CO₂: 12g C + 32g O
-Razão de O: 16:32 = 1:2 (inteiros!)
-```
-
-### PARTE 3: Cálculos Estequiométricos
-
-**Método geral:**
-
-**1. Escrever a equação balanceada**
-**2. Identificar dados e pergunta**
-**3. Calcular massas molares necessárias**
-**4. Usar proporção estequiométrica**
-**5. Resolver por regra de três**
-
-**Exemplo completo:**
-
-**Reação:** 2 H₂ + O₂ → 2 H₂O
-
-Quantos gramas de H₂O são produzidos a partir de 8 g de H₂?
-
-**Passo 1:** Equação balanceada ✓
-
-**Passo 2:** Dados:
-- m(H₂) = 8 g
-- m(H₂O) = ?
-
-**Passo 3:** Massas molares:
-- M(H₂) = 2 g/mol
-- M(H₂O) = 18 g/mol
-
-**Passo 4:** Proporção estequiométrica:
-```
-2 H₂ : 2 H₂O
-2 mol : 2 mol
-```
-
-Em massa:
-```
-2 × 2g : 2 × 18g
-4g : 36g
-```
-
-**Passo 5:** Regra de três:
-```
-4 g H₂  ──  36 g H₂O
-8 g H₂  ──  x
-
-x = (8 × 36)/4 = 72 g
-```
-
-**Resposta:** 72 g de H₂O
-
-### PARTE 4: Tipos de Cálculos
-
-**1. Massa → Massa**
-
-**Exemplo:** N₂ + 3 H₂ → 2 NH₃
-
-Quantos gramas de NH₃ são produzidos a partir de 28 g de N₂?
-
-```
-M(N₂) = 28 g/mol
-M(NH₃) = 17 g/mol
-
-Proporção:
-1 mol N₂ : 2 mol NH₃
-28 g N₂ : 34 g NH₃
-
-28 g N₂ ── 34 g NH₃
-28 g N₂ ── x
-
-x = 34 g NH₃
-```
-
-**2. Massa → Volume (CNTP)**
-
-**Exemplo:** CaCO₃ → CaO + CO₂
-
-Qual o volume de CO₂ produzido a partir de 100 g de CaCO₃? (CNTP)
-
-```
-M(CaCO₃) = 100 g/mol
-
-n(CaCO₃) = 100/100 = 1 mol
-
-Proporção: 1 mol CaCO₃ → 1 mol CO₂
-
-n(CO₂) = 1 mol
-V = 1 × 22,4 = 22,4 L
-```
-
-**3. Volume → Volume (CNTP)**
-
-**Exemplo:** N₂ + 3 H₂ → 2 NH₃
-
-Qual o volume de NH₃ produzido a partir de 60 L de H₂? (CNTP)
-
-```
-Proporção:
-3 H₂ : 2 NH₃
-3 volumes : 2 volumes
-
-3 L H₂ ── 2 L NH₃
-60 L H₂ ── x
-
-x = (60 × 2)/3 = 40 L NH₃
-```
-
-**4. Pureza**
-
-Quando o reagente não é 100% puro:
-
-**Exemplo:** 200 g de calcário com 90% de CaCO₃. Qual a massa pura?
-
-```
-m_pura = m_total × pureza%
-m_pura = 200 × 0,90 = 180 g de CaCO₃
-```
-
-**5. Rendimento**
-
-Quando a reação não é completa:
-
-```
-Rendimento = (massa obtida / massa teórica) × 100%
-```
-
-**Exemplo:** Teoria prevê 50 g, obteve-se 40 g.
-
-```
-Rendimento = (40/50) × 100% = 80%
-```
-
-### Questões de Fixação Rápida
-
-#### Questão 1
-Quantos mols há em 44 g de CO₂? (M = 44 g/mol)
-
-**Resposta:**
-```
-n = m/M = 44/44 = 1 mol
+Teorema de Stevin:
+P = ρgh
+ΔP = ρgΔh
+
+Princípio de Pascal (Prensa Hidráulica):
+P₁ = P₂
+F₁/A₁ = F₂/A₂
+F₂ = F₁ × (A₂/A₁)
+Ganho mecânico: GM = A₂/A₁
+
+Princípio de Arquimedes (Empuxo):
+E = ρ_fluido × V_deslocado × g
+E = m_fluido × g
+E = P_fluido deslocado
+
+Flutuação:
+- Afunda: ρ_corpo > ρ_fluido (E < P)
+- Flutua: ρ_corpo < ρ_fluido (E ≥ P)
+- Equilíbrio: ρ_corpo = ρ_fluido (E = P)
+
+Peso Aparente:
+P_aparente = P_real - E
+
+Dados úteis:
+ρ_água = 1000 kg/m³ = 1 g/cm³
+ρ_gelo = 920 kg/m³
+g = 10 m/s²
 ```
-
-#### Questão 2
-Qual a massa de 2 mols de H₂O? (M = 18 g/mol)
-
-**Resposta:**
-```
-m = n × M = 2 × 18 = 36 g
-```
-
-#### Questão 3
-Quantas moléculas há em 0,5 mol de qualquer substância?
-
-**Resposta:**
-```
-N = n × N_A = 0,5 × 6,02×10²³ = 3,01×10²³ moléculas
-```
-
-#### Questão 4
-Qual o volume de 3 mols de gás nas CNTP?
-
-**Resposta:**
-```
-V = n × 22,4 = 3 × 22,4 = 67,2 L
-```
-
-#### Questão 5
-Na reação 2 H₂ + O₂ → 2 H₂O, se 10 g de H₂O são obtidos a partir de 100 g de reagentes, verifique Lavoisier.
-
-**Resposta:**
-```
-Lavoisier: m_reagentes = m_produtos
-Mas só formou 10g? Não! Falta informação.
-Se 10g de H₂O formados, então:
-m(reagentes restantes) = 100 - 10 = 90g
-Massa total conservada ✓
-```
-
-### Fórmulas Essenciais - Resumo
-
-```
-MOL:
-1 mol = 6,02 × 10²³ entidades
-N_A = 6,02 × 10²³ /mol
-
-RELAÇÕES:
-n = m/M
-m = n × M
-N = n × N_A
-V = n × 22,4 L (CNTP)
-
-LEIS PONDERAIS:
-Lavoisier: m_reagentes = m_produtos
-Proust: proporção constante
-Dalton: proporções inteiras
-
-MASSAS MOLARES COMUNS:
-H₂ = 2 g/mol
-O₂ = 32 g/mol
-H₂O = 18 g/mol
-CO₂ = 44 g/mol
-NaCl = 58,5 g/mol
-C = 12 g/mol
-O = 16 g/mol
-N = 14 g/mol
-
-VOLUME MOLAR:
-CNTP: V_m = 22,4 L/mol
-
-PUREZA:
-m_pura = m_total × pureza%
-
-RENDIMENTO:
-R = (m_obtida / m_teórica) × 100%
-```
-
-### Checklist de Revisão
-
-- [ ] Sei calcular número de mols (n = m/M)
-- [ ] Sei calcular massa a partir de mols
-- [ ] Sei calcular número de partículas
-- [ ] Sei as três leis ponderais
-- [ ] Sei balancear equações químicas
-- [ ] Sei fazer cálculos massa → massa
-- [ ] Sei fazer cálculos com volume (CNTP)
-- [ ] Sei calcular pureza
-- [ ] Sei calcular rendimento
-
----
-
-**Tempo de estudo recomendado:** 60 minutos
-**Nível de dificuldade:** Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
-
----
-
-## Aula 69 - Biologia: A Célula - Estruturas, Respiração, Fotossíntese - 60min
-
-### Objetivo
-
-Compreender estruturas celulares e principais processos metabólicos (respiração celular, fotossíntese, fermentação).
-
-### PARTE 1: Estruturas Celulares
-
-**Célula:** unidade básica da vida
-
-**Tipos celulares:**
-
-**Procariótica:**
-- Sem núcleo definido
-- Sem organelas membranosas
-- Simples
-- Exemplo: bactérias
-
-**Eucariótica:**
-- Núcleo definido
-- Organelas membranosas
-- Complexa
-- Exemplo: células animais, vegetais, fungos
-
-**Principais organelas:**
-
-**1. Núcleo:**
-- Contém DNA (material genético)
-- Controla atividades celulares
-- Envolvido por membrana nuclear (carioteca)
-
-**2. Mitocôndria:**
-- **"Usina de energia"**
-- Respiração celular
-- Produz ATP (energia)
-- Presente em células animais e vegetais
-
-**3. Cloroplasto (só células vegetais):**
-- **Fotossíntese**
-- Contém clorofila (verde)
-- Produz glicose a partir de luz
-
-**4. Retículo Endoplasmático:**
-- **RE rugoso:** síntese de proteínas (tem ribossomos)
-- **RE liso:** síntese de lipídios
-
-**5. Complexo de Golgi:**
-- Modifica e secreta proteínas
-- Forma vesículas
-
-**6. Ribossomos:**
-- Síntese de proteínas
-- Podem estar livres ou no RE rugoso
-
-**7. Lisossomos:**
-- Digestão intracelular
-- Contém enzimas digestivas
-
-**8. Vacúolos:**
-- Armazenamento
-- **Grande em células vegetais**
-
-**9. Parede celular (só células vegetais):**
-- Celulose
-- Proteção e sustentação
-
-### PARTE 2: Respiração Celular
-
-**Definição:** processo de quebra da glicose para produzir ATP (energia)
-
-**Equação geral:**
-```
-C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + ATP
-(glicose + oxigênio → gás carbônico + água + energia)
-```
-
-**Local:** mitocôndria
-
-**Etapas:**
-
-**1. Glicólise (citoplasma):**
-- Glicose → 2 piruvatos
-- Produz: 2 ATP
-
-**2. Ciclo de Krebs (matriz mitocondrial):**
-- Piruvato é oxidado
-- Libera CO₂
-- Produz: 2 ATP
-
-**3. Cadeia respiratória (cristas mitocondriais):**
-- Maior produção de ATP
-- Produz: ~34 ATP
-
-**Total: ~38 ATP por molécula de glicose**
-
-**Características:**
-- **Aeróbia:** precisa de O₂
-- **Eficiente:** muito ATP produzido
-- Ocorre em todos os seres eucarióticos
-
-### PARTE 3: Fotossíntese
-
-**Definição:** processo de produção de glicose usando luz solar
-
-**Equação geral:**
-```
-6 CO₂ + 6 H₂O + luz → C₆H₁₂O₆ + 6 O₂
-(gás carbônico + água + luz → glicose + oxigênio)
-```
-
-**Local:** cloroplasto (células vegetais)
-
-**Etapas:**
-
-**1. Fase clara (tilacoides):**
-- Depende de luz
-- Quebra H₂O (fotólise)
-- Libera O₂
-- Produz ATP e NADPH
-
-**2. Fase escura / Ciclo de Calvin (estroma):**
-- Não depende diretamente de luz
-- Fixa CO₂
-- Produz glicose
-
-**Características:**
-- Ocorre em plantas, algas, cianobactérias
-- Responsável por O₂ atmosférico
-- Base das cadeias alimentares
-
-**Importância:**
-- Produz alimento (glicose)
-- Libera O₂
-- Remove CO₂ da atmosfera
-
-### PARTE 4: Fermentação
-
-**Definição:** processo anaeróbio (sem O₂) de produção de energia
-
-**Tipos:**
-
-**1. Fermentação Alcoólica:**
-```
-C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP
-(glicose → etanol + gás carbônico + energia)
-```
-
-**Realizadores:** leveduras (Saccharomyces)
-
-**Aplicações:**
-- Produção de bebidas (vinho, cerveja)
-- Pão (CO₂ faz crescer)
-
-**2. Fermentação Lática:**
-```
-C₆H₁₂O₆ → 2 C₃H₆O₃ + 2 ATP
-(glicose → ácido lático + energia)
-```
-
-**Realizadores:**
-- Lactobacilos
-- Músculos humanos (em exercício intenso)
-
-**Aplicações:**
-- Produção de iogurte, queijo
-- Conservação de alimentos
-
-**Características:**
-- **Anaeróbia:** sem O₂
-- **Pouco eficiente:** apenas 2 ATP
-- Produtos finais variados (etanol ou ácido lático)
-
-### PARTE 5: Quimiossíntese
-
-**Definição:** produção de matéria orgânica a partir de substâncias inorgânicas (sem luz)
-
-**Realizadores:** algumas bactérias
-
-**Exemplo:**
-```
-Nitrosomonas: oxida NH₃ → produz energia
-Nitrobacter: oxida NO₂⁻ → produz energia
-```
-
-**Importância:**
-- Ciclo do nitrogênio
-- Produtores em ambientes sem luz (fontes hidrotermais)
-
-### Comparação dos Processos
-
-```
-┌──────────────┬────────────┬──────────┬─────────┐
-│   Processo   │  Local     │    O₂    │   ATP   │
-├──────────────┼────────────┼──────────┼─────────┤
-│ Respiração   │Mitocôndria │ Precisa  │  ~38    │
-│ Fotossíntese │Cloroplasto │ Libera   │   ATP*  │
-│ Fermentação  │Citoplasma  │ Não usa  │    2    │
-│Quimiossíntese│    -       │ Variável │ Variável│
-└──────────────┴────────────┴──────────┴─────────┘
-
-*ATP usado internamente
-```
-
-### Questões de Fixação
-
-#### Questão 1
-Qual organela realiza respiração celular?
-
-**Resposta:** Mitocôndria
-
-#### Questão 2
-Qual organela realiza fotossíntese?
-
-**Resposta:** Cloroplasto
-
-#### Questão 3
-Qual a equação geral da fotossíntese?
-
-**Resposta:**
-```
-6 CO₂ + 6 H₂O + luz → C₆H₁₂O₆ + 6 O₂
-```
-
-#### Questão 4
-Qual processo produz mais ATP: respiração ou fermentação?
-
-**Resposta:** Respiração (~38 ATP vs 2 ATP)
-
-#### Questão 5
-O que é fermentação lática? Dê um exemplo.
-
-**Resposta:** Processo anaeróbio que produz ácido lático. Exemplo: produção de iogurte, músculos em exercício intenso.
-
-#### Questão 6
-Qual a diferença entre célula procariótica e eucariótica?
-
-**Resposta:** Procariótica não tem núcleo definido nem organelas membranosas (bactérias). Eucariótica tem núcleo e organelas (animais, plantas, fungos).
 
 ### Resumo Visual
 
 ```
-CÉLULA VEGETAL:
-┌─────────────────────┐
-│  Parede celular     │
-│ ┌─────────────────┐ │
-│ │ Cloroplasto ● ● │ │
-│ │                 │ │
-│ │   ┌───────┐     │ │
-│ │   │Núcleo │     │ │
-│ │   └───────┘     │ │
-│ │  Mitocôndria ○  │ │
-│ │  Vacúolo grande │ │
-│ └─────────────────┘ │
-└─────────────────────┘
+PRENSA HIDRÁULICA:
+   F₁ ↓        F₂ ↑
+   ┌─┐         ┌───┐
+   │ │         │   │
+   └┬┘         └─┬─┘
+    │A₁          │A₂
+────┴───────────┴────
+      Fluido
+   
+F₂/F₁ = A₂/A₁
 
-PROCESSOS:
+EMPUXO:
+        E ↑
+        │
+    ┌───┴───┐
+    │ Corpo │
+    └───┬───┘
+        │
+        P ↓
 
-Fotossíntese (cloroplasto):
-CO₂ + H₂O + luz → Glicose + O₂
+E = ρ_fluido × V × g
 
-Respiração (mitocôndria):
-Glicose + O₂ → CO₂ + H₂O + ATP
+FLUTUAÇÃO:
 
-Fermentação (citoplasma):
-Glicose → Etanol/Lático + CO₂ + 2 ATP
+Afunda:         Flutua:
+  ┌───┐           ≈≈≈
+  │   │         ┌─┴─┐
+  │ ● │         │ ● │
+  └───┘         └───┘
+ρ_corpo > ρ_fluido   ρ_corpo < ρ_fluido
+
+VASOS COMUNICANTES:
+   │    │
+   │ ┌──┴──┐
+   └─┤ líq │─┐
+     └─────┘ │
+        └────┘
+  Mesmo nível!
 ```
 
-### Fórmulas e Equações Essenciais
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - conceitos fundamentais + aplicações)
+
+---
+
+## Aula 51 - Química: Estequiometria - Conceito de Mol e Massa Molar - 90min
+
+### O que é Estequiometria?
+
+**Estequiometria:** estudo das **relações quantitativas** entre reagentes e produtos em reações químicas.
+
+**Permite calcular:**
+- Quanto de reagente é necessário?
+- Quanto de produto será formado?
+- Qual reagente está em excesso?
+- Qual o rendimento da reação?
+
+**Base:** Lei de Lavoisier (conservação das massas) + coeficientes das equações químicas
+
+### O Conceito de Mol
+
+**Mol:** unidade de quantidade de matéria (SI)
+
+**Definição:**
+**1 mol = 6,02 × 10²³ entidades** (átomos, moléculas, íons, etc.)
+
+**Constante de Avogadro:**
+```
+N_A = 6,02 × 10²³ /mol
+```
+
+**Analogias:**
+- 1 dúzia = 12 unidades
+- 1 resma = 500 folhas
+- **1 mol = 6,02 × 10²³ entidades**
+
+**Por que usar mol?**
+- Átomos são extremamente pequenos
+- Impossível contar individualmente
+- Mol permite trabalhar com quantidades macroscópicas
+
+**Exemplo:**
+- 1 mol de átomos de carbono = 6,02 × 10²³ átomos de C
+- 1 mol de moléculas de H₂O = 6,02 × 10²³ moléculas de H₂O
+- 1 mol de íons Na⁺ = 6,02 × 10²³ íons Na⁺
+
+### Massa Atômica e Massa Molecular
+
+**Massa Atômica (MA):**
+- Massa de 1 átomo do elemento
+- Unidade: **u** (unidade de massa atômica)
+- Encontrada na **tabela periódica**
+
+**Exemplos:**
+- H = 1 u
+- C = 12 u
+- O = 16 u
+- Na = 23 u
+- Cl = 35,5 u
+
+**Massa Molecular (MM):**
+- Soma das massas atômicas dos átomos na molécula
+- Unidade: u
+
+**Exemplos:**
+
+**H₂O:**
+MM = 2×H + 1×O = 2×1 + 1×16 = 18 u
+
+**CO₂:**
+MM = 1×C + 2×O = 1×12 + 2×16 = 44 u
+
+**H₂SO₄:**
+MM = 2×1 + 1×32 + 4×16 = 2 + 32 + 64 = 98 u
+
+**NaCl:**
+MM = 1×23 + 1×35,5 = 58,5 u
+
+### Massa Molar (M)
+
+**Massa Molar:** massa de 1 mol de substância
+
+**Unidade: g/mol**
+
+**Relação:**
+```
+Massa molar (g/mol) = Massa molecular (u)
+```
+
+**Apenas muda a unidade!**
+
+**Exemplos:**
+- H₂O: MM = 18 u → M = 18 g/mol
+  - **1 mol de H₂O = 18 g**
+- CO₂: MM = 44 u → M = 44 g/mol
+  - **1 mol de CO₂ = 44 g**
+- NaCl: MM = 58,5 u → M = 58,5 g/mol
+  - **1 mol de NaCl = 58,5 g**
+
+### Relação entre Massa, Mol e Número de Partículas
+
+**Três grandezas relacionadas:**
+
+**1. Massa (m):** em gramas (g)
+**2. Quantidade de matéria (n):** em mols (mol)
+**3. Número de partículas (N):** unidades
+
+**Fórmulas:**
 
 ```
-FOTOSSÍNTESE:
-6 CO₂ + 6 H₂O + luz → C₆H₁₂O₆ + 6 O₂
+n = m / M
+```
+**Onde:**
+- n = número de mols (mol)
+- m = massa (g)
+- M = massa molar (g/mol)
 
-RESPIRAÇÃO CELULAR:
-C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + ~38 ATP
+```
+N = n × N_A
+```
+**Onde:**
+- N = número de partículas
+- n = número de mols
+- N_A = 6,02 × 10²³
 
-FERMENTAÇÃO ALCOÓLICA:
-C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP
-
-FERMENTAÇÃO LÁTICA:
-C₆H₁₂O₆ → 2 C₃H₆O₃ + 2 ATP
+**Combinando:**
+```
+N = (m/M) × N_A
 ```
 
-### Checklist de Revisão
+### Exercícios Resolvidos - Cálculos com Mol
 
-- [ ] Sei diferenciar célula procariótica e eucariótica
-- [ ] Conheço as principais organelas e suas funções
-- [ ] Sei a equação da respiração celular
-- [ ] Sei a equação da fotossíntese
-- [ ] Sei onde ocorre cada processo
-- [ ] Sei diferenciar fermentação alcoólica e lática
-- [ ] Sei que respiração produz mais ATP que fermentação
-- [ ] Sei que mitocôndria é a "usina de energia"
-- [ ] Sei que cloroplasto faz fotossíntese
+#### Exercício 1
+Quantos mols há em 36 g de água (H₂O)?
+
+**Dados:**
+- m = 36 g
+- M(H₂O) = 18 g/mol
+
+**Solução:**
+n = m/M = 36/18 = 2 mol
+
+*[Ver resposta 28 no final do documento]*
+
+#### Exercício 2
+Qual a massa de 0,5 mol de NaCl?
+
+**Dados:**
+- n = 0,5 mol
+- M(NaCl) = 58,5 g/mol
+
+**Solução:**
+m = n × M = 0,5 × 58,5 = 29,25 g
+
+*[Ver resposta 29 no final do documento]*
+
+#### Exercício 3
+Quantas moléculas há em 2 mols de CO₂?
+
+**Dados:**
+- n = 2 mol
+- N_A = 6,02 × 10²³
+
+**Solução:**
+N = n × N_A = 2 × 6,02 × 10²³ = 1,204 × 10²⁴ moléculas
+
+*[Ver resposta 30 no final do documento]*
+
+#### Exercício 4
+Quantos mols de átomos de carbono há em 24 g de C?
+
+**Dados:**
+- m = 24 g
+- M(C) = 12 g/mol
+
+**Solução:**
+n = m/M = 24/12 = 2 mol
+
+*[Ver resposta 31 no final do documento]*
+
+#### Exercício 5
+(UFMG) Quantos átomos há em 4 g de hélio (He = 4 g/mol)?
+
+**Solução:**
+n = m/M = 4/4 = 1 mol
+N = n × N_A = 1 × 6,02 × 10²³ = 6,02 × 10²³ átomos
+
+*[Ver resposta 32 no final do documento]*
+
+### Volume Molar de Gases (CNTP)
+
+**CNTP:** Condições Normais de Temperatura e Pressão
+- Temperatura: 0°C = 273 K
+- Pressão: 1 atm = 101.325 Pa
+
+**Lei de Avogadro:**
+"Volumes iguais de gases diferentes, nas mesmas condições de temperatura e pressão, contêm o mesmo número de moléculas."
+
+**Volume molar nas CNTP:**
+```
+V_m = 22,4 L/mol
+```
+
+**1 mol de qualquer gás ocupa 22,4 L nas CNTP**
+
+**Relação:**
+```
+V = n × V_m
+V = n × 22,4
+```
+
+**Onde:**
+- V = volume (L)
+- n = número de mols
+- V_m = 22,4 L/mol (CNTP)
+
+**Exemplo:**
+2 mols de O₂ nas CNTP ocupam:
+V = n × 22,4 = 2 × 22,4 = 44,8 L
+
+### Exercícios com Volume Molar
+
+#### Exercício 6
+Qual o volume de 3 mols de N₂ nas CNTP?
+
+**Solução:**
+V = n × 22,4 = 3 × 22,4 = 67,2 L
+
+*[Ver resposta 33 no final do documento]*
+
+#### Exercício 7
+Quantos mols de gás há em 11,2 L nas CNTP?
+
+**Solução:**
+n = V/22,4 = 11,2/22,4 = 0,5 mol
+
+*[Ver resposta 34 no final do documento]*
+
+#### Exercício 8
+Qual a massa de 44,8 L de CO₂ nas CNTP? (M = 44 g/mol)
+
+**Solução:**
+n = V/22,4 = 44,8/22,4 = 2 mol
+m = n × M = 2 × 44 = 88 g
+
+*[Ver resposta 35 no final do documento]*
+
+### Dicas para a Prova
+
+1. **1 mol = 6,02 × 10²³ entidades** (Constante de Avogadro)
+2. **Massa molar (g/mol)** = valor numérico da massa molecular
+3. **n = m/M** (relação fundamental)
+4. **N = n × N_A** (número de partículas)
+5. **Volume molar (CNTP) = 22,4 L/mol**
+6. **Sempre identificar: o que é dado? O que é pedido?**
+7. **Calcular massa molar antes** de resolver problemas
+8. **CNTP:** 0°C e 1 atm
+
+### Principais Massas Molares para Memorizar
+
+```
+Elementos:
+H = 1 g/mol
+C = 12 g/mol
+N = 14 g/mol
+O = 16 g/mol
+Na = 23 g/mol
+S = 32 g/mol
+Cl = 35,5 g/mol
+Ca = 40 g/mol
+
+Substâncias comuns:
+H₂O = 18 g/mol
+O₂ = 32 g/mol
+CO₂ = 44 g/mol
+H₂SO₄ = 98 g/mol
+NaCl = 58,5 g/mol
+```
+
+### Conceitos-Chave para Memorizar
+
+**Mol:**
+- Unidade de quantidade de matéria
+- 1 mol = 6,02 × 10²³ entidades
+
+**Massa Molar:**
+- Massa de 1 mol
+- Unidade: g/mol
+- Valor numérico = massa molecular
+
+**Relações:**
+- n = m/M (massa ↔ mol)
+- N = n × N_A (mol ↔ partículas)
+- V = n × 22,4 (mol ↔ volume, CNTP)
+
+### Fórmulas Essenciais
+
+```
+Constante de Avogadro:
+N_A = 6,02 × 10²³ /mol
+
+Quantidade de matéria:
+n = m / M
+
+Número de partículas:
+N = n × N_A
+
+Volume de gás (CNTP):
+V = n × 22,4 L
+
+Volume molar (CNTP):
+V_m = 22,4 L/mol
+
+Massa a partir de mols:
+m = n × M
+
+Mols a partir de volume (CNTP):
+n = V / 22,4
+
+Cálculo de massa molar:
+M = Σ (massa atômica × quantidade de átomos)
+
+Exemplo:
+H₂SO₄: M = 2×1 + 1×32 + 4×16 = 98 g/mol
+```
+
+### Resumo Visual
+
+```
+TRIÂNGULO DAS GRANDEZAS:
+
+         m (massa, g)
+        /  \
+       /    \
+      /  M   \
+     /_______ \
+    n          N
+  (mol)    (partículas)
+  
+  n = m/M
+  N = n × N_A
+  
+CONVERSÕES:
+
+Massa ←─────→ Mol ←─────→ Partículas
+  m     n=m/M   n    N=n×N_A    N
+(gramas)      (mol)            (unidades)
+  
+  ↓ (gases, CNTP)
+  
+Volume
+  V = n × 22,4 L
+
+MOL:
+📦 1 mol = 6,02×10²³ entidades
+📦 1 mol = Massa molar (g)
+📦 1 mol gás = 22,4 L (CNTP)
+```
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - base para toda estequiometria!)
+
+---
+
+## Aula 52 - Biologia: Composição Química dos Seres Vivos - 60min
+
+### Introdução à Bioquímica
+
+**Bioquímica:** estuda a composição química dos seres vivos
+
+**Elementos químicos nos seres vivos:**
+
+**Mais abundantes (96%):**
+- **C (Carbono):** 18% - base das moléculas orgânicas
+- **O (Oxigênio):** 65% - na água e compostos orgânicos
+- **H (Hidrogênio):** 10% - na água e compostos orgânicos
+- **N (Nitrogênio):** 3% - em proteínas e ácidos nucleicos
+
+**Outros importantes:**
+- **P (Fósforo):** ATP, DNA, RNA, ossos
+- **S (Enxofre):** algumas proteínas
+- **Ca (Cálcio):** ossos, dentes, contração muscular
+- **Na, K, Cl:** equilíbrio iônico, impulso nervoso
+- **Fe:** hemoglobina (transporte de O₂)
+- **Mg:** clorofila
+
+### Substâncias Inorgânicas
+
+**1. Água (H₂O)**
+
+**Substância mais abundante nos seres vivos:**
+- 70-85% da massa corporal
+- Solvente universal
+- Meio para reações químicas
+
+**Propriedades:**
+
+**Polaridade:**
+- Molécula polar (δ+ no H, δ- no O)
+- Dissolve substâncias polares e iônicas
+- "Semelhante dissolve semelhante"
+
+**Alto calor específico:**
+- Regula temperatura corporal
+- Evita variações bruscas de temperatura
+
+**Coesão e adesão:**
+- Coesão: moléculas de água se atraem
+- Adesão: água adere a outras superfícies
+- Permite transporte de seiva nas plantas
+
+**Funções da água:**
+- **Solvente:** dissolve nutrientes, gases, íons
+- **Transporte:** sangue, seiva, linfa
+- **Regulação térmica:** suor, evaporação
+- **Reações químicas:** hidrólise, fotossíntese
+- **Lubrificação:** articulações, olhos
+
+**2. Sais Minerais**
+
+**Funções:**
+- Componentes estruturais (ossos, dentes)
+- Equilíbrio osmótico
+- Cofatores enzimáticos
+- Transmissão de impulsos nervosos
+
+**Principais sais:**
+
+**Cálcio (Ca):**
+- Ossos e dentes
+- Contração muscular
+- Coagulação sanguínea
+- Fontes: leite, queijo, vegetais verdes
+
+**Ferro (Fe):**
+- Hemoglobina (transporte de O₂)
+- Mioglobina (músculos)
+- Deficiência → anemia
+- Fontes: carne, feijão, vegetais verdes
+
+**Fósforo (P):**
+- Ossos e dentes
+- ATP (energia)
+- DNA e RNA
+- Fontes: leite, carnes, ovos
+
+**Sódio (Na) e Potássio (K):**
+- Impulso nervoso
+- Equilíbrio osmótico
+- Contração muscular
+- Fontes: sal, frutas, legumes
+
+**Iodo (I):**
+- Hormônios da tireoide (T3, T4)
+- Deficiência → bócio
+- Fonte: sal iodado, peixes
+
+**Magnésio (Mg):**
+- Clorofila (plantas)
+- Cofator enzimático
+- Fontes: vegetais verdes, cereais
+
+### Substâncias Orgânicas
+
+**Moléculas orgânicas:** contêm carbono (C) ligado a hidrogênio (H)
+
+**Principais classes:**
+
+### 1. Carboidratos (Glicídios)
+
+**Fórmula geral:** (CH₂O)_n ou C_nH₂nO_n
+
+**Funções:**
+- **Energética:** principal fonte de energia (glicose)
+- **Estrutural:** celulose (parede celular vegetal), quitina (exoesqueleto)
+
+**Classificação:**
+
+**Monossacarídeos (açúcares simples):**
+- Glicose (C₆H₁₂O₆) - principal combustível celular
+- Frutose - açúcar das frutas
+- Ribose e Desoxirribose - RNA e DNA
+
+**Dissacarídeos (2 monossacarídeos):**
+- Sacarose = glicose + frutose (açúcar de mesa)
+- Lactose = glicose + galactose (leite)
+- Maltose = glicose + glicose (malte)
+
+**Polissacarídeos (muitos monossacarídeos):**
+- **Amido:** reserva energética vegetal (batata, arroz)
+- **Glicogênio:** reserva energética animal (fígado, músculos)
+- **Celulose:** estrutural vegetal (não digerimos!)
+
+**Fontes:**
+- Pães, massas, arroz, batata, frutas, doces
+
+### 2. Lipídios (Gorduras)
+
+**Características:**
+- Insolúveis em água (apolares)
+- Solúveis em solventes orgânicos
+
+**Funções:**
+- **Energética:** reserva de energia (mais que carboidratos!)
+- **Estrutural:** membranas celulares (fosfolipídios)
+- **Isolamento térmico:** gordura subcutânea
+- **Proteção:** amortecimento de órgãos
+- **Hormonal:** hormônios esteroides (testosterona, estrogênio)
+
+**Tipos:**
+
+**Triglicerídeos:**
+- Gorduras e óleos
+- Formados por glicerol + 3 ácidos graxos
+- Reserva energética
+
+**Fosfolipídios:**
+- Membrana celular
+- Cabeça polar + caudas apolares
+
+**Esteroides:**
+- Colesterol (precursor de hormônios)
+- Hormônios sexuais
+- Vitamina D
+
+**Ceras:**
+- Impermeabilização (folhas, ouvido)
+
+**Fontes:**
+- Óleos vegetais, manteiga, carnes gordas, abacate, oleaginosas
+
+### 3. Proteínas
+
+**Formadas por:** aminoácidos ligados por ligações peptídicas
+
+**20 aminoácidos diferentes** combinados formam proteínas variadas
+
+**Funções (as mais versáteis!):**
+
+**Estrutural:**
+- Colágeno (pele, tendões)
+- Queratina (cabelo, unhas)
+- Actina e miosina (músculos)
+
+**Enzimática:**
+- Catalisam reações (aceleram)
+- Ex: amilase, lipase, DNA polimerase
+
+**Transporte:**
+- Hemoglobina (O₂ no sangue)
+- Mioglobina (O₂ nos músculos)
+
+**Defesa:**
+- Anticorpos (imunoglobulinas)
+- Fibrinogênio (coagulação)
+
+**Hormonal:**
+- Insulina (regula glicose)
+- Glucagon, hormônio do crescimento
+
+**Contrátil:**
+- Movimento muscular
+
+**Níveis de organização:**
+- **Primária:** sequência de aminoácidos
+- **Secundária:** hélice alfa, folha beta
+- **Terciária:** dobramento 3D
+- **Quaternária:** várias cadeias unidas
+
+**Desnaturação:**
+- Perda da estrutura por calor, pH, etc.
+- Proteína perde função
+- Ex: clara do ovo cozida
+
+**Fontes:**
+- Carnes, ovos, leite, leguminosas (feijão, soja)
+
+### 4. Ácidos Nucleicos
+
+**DNA (Ácido Desoxirribonucleico):**
+- Material genético
+- Dupla hélice
+- Bases: A, T, C, G
+- Açúcar: desoxirribose
+
+**RNA (Ácido Ribonucleico):**
+- Síntese de proteínas
+- Fita simples
+- Bases: A, U, C, G
+- Açúcar: ribose
+
+**Nucleotídeos:**
+- Unidades que formam DNA e RNA
+- Fosfato + açúcar + base nitrogenada
+
+**ATP (Adenosina Trifosfato):**
+- "Moeda energética" da célula
+- Armazena e fornece energia
+- Usado em todas as atividades celulares
+
+### Resumo das Biomoléculas
+
+```
+┌─────────────┬──────────────┬──────────────┬──────────────┐
+│ Biomolécula │  Monômeros   │   Elementos  │ Função Principal│
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Carboidratos│ Monossacar.  │ C, H, O      │ Energia      │
+│ Lipídios    │ Ác. graxos   │ C, H, O      │ Reserva/Membr│
+│ Proteínas   │ Aminoácidos  │ C, H, O, N, S│ Estrut/Enzimas│
+│ Áciados Nucl│ Nucleotídeos │ C, H, O, N, P│ Informação   │
+└─────────────┴──────────────┴──────────────┴──────────────┘
+```
+
+### Dicas para a Prova
+
+1. **Água:** substância mais abundante (70-85%)
+2. **C, O, H, N:** elementos mais abundantes
+3. **Carboidratos:** C_nH₂nO_n, função energética
+4. **Lipídios:** reserva energética, membrana celular
+5. **Proteínas:** formadas por aminoácidos, funções variadas
+6. **DNA:** dupla hélice, A-T e C-G
+7. **RNA:** fita simples, A-U e C-G
+8. **ATP:** moeda energética
+9. **Celulose:** estrutural vegetal, não digerimos
+10. **Anemia:** deficiência de ferro
+
+### Conceitos-Chave para Memorizar
+
+**Água:**
+- Mais abundante (70-85%)
+- Solvente universal
+- Regula temperatura
+
+**Elementos:**
+- C, O, H, N (96% da massa)
+- P, S, Ca, Fe, Na, K também importantes
+
+**Carboidratos:**
+- Energia
+- Mono, di, polissacarídeos
+
+**Lipídios:**
+- Reserva energética
+- Membrana (fosfolipídios)
+- Insolúveis em água
+
+**Proteínas:**
+- Aminoácidos
+- Funções: estrutural, enzimática, transporte, defesa, hormonal
+
+**Ácidos Nucleicos:**
+- DNA: informação genética
+- RNA: síntese de proteínas
+- ATP: energia
+
+### Resumo Visual
+
+```
+COMPOSIÇÃO DOS SERES VIVOS:
+
+Água: 70-85% ████████████████████
+Proteínas: 10-15% ███
+Lipídios: 2-3% █
+Carboidratos: 1% 
+Sais minerais: 1%
+Ácidos nucleicos: <1%
+
+BIOMOLÉCULAS:
+
+Carboidratos:     Lipídios:
+  Glicose           Membrana
+     ↓                ↓
+  Energia         Fosfolipídios
+     
+Proteínas:        Ác. Nucleicos:
+ Aminoácidos         DNA/RNA
+     ↓                ↓
+  Enzimas         Informação
+  
+ELEMENTOS:
+C - Carbono (base orgânica)
+O - Oxigênio (água)
+H - Hidrogênio (água, orgânicos)
+N - Nitrogênio (proteínas, DNA)
+P - Fósforo (ATP, DNA)
+```
 
 ---
 
 **Tempo de estudo recomendado:** 60 minutos
 **Nível de dificuldade:** Médio
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
+**Importância para a prova:** ⭐⭐⭐⭐ (muito importante - base da biologia celular)
 
 ---
 
-## 🎯 Segunda-feira 09/12 - Completa!
+# 12/05 - Semana 2, Dia 3
 
-**Parabéns! Você completou o primeiro dia da Semana 3!**
+## Aula 53 - Matemática: Trigonometria no Triângulo Retângulo - 120min
 
-**Aulas criadas hoje:**
-- ✅ Aula 64: Revisão Conjuntos, MMC/MDC, Razão (90min)
-- ✅ Aula 65: Revisão Funções Afim e Quadrática (90min)
-- ✅ Aula 66: Revisão Hidrostática Completa (90min)
-- ✅ Aula 67: Revisão Modelos Atômicos e Tabela Periódica (90min)
-- ✅ Aula 68: Revisão Estequiometria Completa (60min)
-- ✅ Aula 69: A Célula - Estruturas e Metabolismo (60min)
+### 
 
-**Total: 6 aulas (480 minutos = 8 horas de estudo)**
-
-**Progresso total: 69/96 (71,9%)** 🎉
-
-**Faltam apenas 4 dias para a prova!**
-
-**Próximos passos:**
-- Terça 10/12: Mais revisões (exponenciais, logaritmos, geometria, cinemática, dinâmica)
-- Continue firme! Você está quase lá! 💪📚
-
----
-
-# 12/10 - Semana 3, Dia 2 (Terça-feira)
-
-## Aula 70 - Matemática: Revisão Final - Função Exponencial e Logarítmica - 120min
-
-### Objetivo da Revisão
-
-Consolidar completamente exponenciais e logaritmos para a prova.
-
-### PARTE 1: Função Exponencial
-
-**Definição:**
 ```
-f(x) = aˣ, onde a > 0 e a ≠ 1
-```
-
-**Propriedades das Potências:**
-```
-a⁰ = 1
-a¹ = a
-aˣ · aʸ = aˣ⁺ʸ
-aˣ / aʸ = aˣ⁻ʸ
-(aˣ)ʸ = aˣʸ
-(a·b)ˣ = aˣ · bˣ
-a⁻ˣ = 1/aˣ
-```
-
-**Gráfico e comportamento:**
-
-**Se a > 1:** função CRESCENTE
-- x aumenta → f(x) aumenta
-- Exemplo: f(x) = 2ˣ
-
-**Se 0 < a < 1:** função DECRESCENTE
-- x aumenta → f(x) diminui
-- Exemplo: f(x) = (1/2)ˣ
-
-**Características do gráfico:**
-- Passa sempre por (0, 1)
-- Nunca toca o eixo x (assíntota y = 0)
-- Domínio: ℝ
-- Imagem: ℝ₊* (y > 0)
-
-### Equações Exponenciais
-
-**Estratégia principal:** igualar as bases
-
-**Método:**
-1. Escrever tudo com a mesma base
-2. Igualar os expoentes
-3. Resolver a equação resultante
-
-**Exemplos:**
-
-**Tipo 1: Bases iguais diretas**
-```
-2ˣ = 32
-2ˣ = 2⁵
-x = 5
+    RAZÕES TRIGONOMÉTRICAS - TRIÂNGULO RETÂNGULO
+    
+              hipotenusa
+                 c
+               ╱ │
+             ╱   │
+           ╱ θ   │ b (cateto oposto)
+         ╱       │
+       ╱_________│
+            a
+      (cateto adjacente)
+    
+    Definições em relação ao ângulo θ:
+    
+    sen θ = cateto oposto    =  b
+            ─────────────       ─
+            hipotenusa          c
+    
+    cos θ = cateto adjacente =  a
+            ────────────────    ─
+            hipotenusa          c
+    
+    tan θ = cateto oposto    =  b   = sen θ
+            ─────────────       ─     ─────
+            cateto adjacente    a     cos θ
+    
+    
+    TRIÂNGULOS NOTÁVEIS:
+    
+    30°-60°-90°:                 45°-45°-90°:
+    
+         2                            √2
+        ╱│                           ╱│
+       ╱ │√3                        ╱ │
+      ╱60°│                        ╱45°│ 1
+     ╱    │                       ╱    │
+    ╱30°__│                      ╱45°__│
+       1                            1
+    
+    sen 30° = 1/2              sen 45° = √2/2
+    cos 30° = √3/2             cos 45° = √2/2
+    tan 30° = √3/3             tan 45° = 1
+    
+    sen 60° = √3/2
+    cos 60° = 1/2
+    tan 60° = √3
+    
+    
+    TABELA TRIGONOMÉTRICA:
+    
+    ┌───────┬────────┬────────┬────────┐
+    │ Ângulo│  sen   │  cos   │  tan   │
+    ├───────┼────────┼────────┼────────┤
+    │  0°   │   0    │   1    │   0    │
+    │ 30°   │  1/2   │  √3/2  │  √3/3  │
+    │ 45°   │  √2/2  │  √2/2  │   1    │
+    │ 60°   │  √3/2  │  1/2   │   √3   │
+    │ 90°   │   1    │   0    │   ∞    │
+    └───────┴────────┴────────┴────────┘
+    
+    Relação Fundamental: sen²θ + cos²θ = 1
 ```
 
-**Tipo 2: Redução à mesma base**
-```
-4ˣ = 64
-(2²)ˣ = 2⁶
-2²ˣ = 2⁶
-2x = 6
-x = 3
-```
 
-**Tipo 3: Bases diferentes**
+### Introdução à Trigonometria
+
+**Trigonometria:** estudo das relações entre ângulos e lados de triângulos
+
+**Origem:** medição de terras, astronomia, navegação
+
+**Aplicações:** engenharia, física, arquitetura, GPS
+
+### Triângulo Retângulo - Revisão
+
+**Elementos:**
+- **Hipotenusa (a):** lado oposto ao ângulo reto (maior lado)
+- **Catetos (b e c):** lados que formam o ângulo reto
+- **Ângulos:** um ângulo de 90° + dois ângulos agudos
+
 ```
-9ˣ⁺¹ = 27ˣ
-(3²)ˣ⁺¹ = (3³)ˣ
-3²⁽ˣ⁺¹⁾ = 3³ˣ
-2(x+1) = 3x
-2x + 2 = 3x
-x = 2
-```
-
-**Tipo 4: Substituição**
-```
-4ˣ - 5·2ˣ + 4 = 0
-(2²)ˣ - 5·2ˣ + 4 = 0
-(2ˣ)² - 5·2ˣ + 4 = 0
-
-Faça y = 2ˣ:
-y² - 5y + 4 = 0
-(y-4)(y-1) = 0
-y = 4 ou y = 1
-
-Se 2ˣ = 4 → x = 2
-Se 2ˣ = 1 → x = 0
-
-S = {0, 2}
+       C
+       |\
+       | \
+    b  |  \ a (hipotenusa)
+       |   \
+       |____\
+      A  c  B
 ```
 
-### PARTE 2: Logaritmo
-
-**Definição:**
+**Teorema de Pitágoras:**
 ```
-logₐ b = x ⟺ aˣ = b
-
-Onde:
-a > 0, a ≠ 1 (base)
-b > 0 (logaritmando)
-x ∈ ℝ (logaritmo)
+a² = b² + c²
 ```
 
-**Significado:** "A que expoente devo elevar a base a para obter b?"
+### Razões Trigonométricas
 
-**Casos especiais:**
-```
-logₐ 1 = 0 (sempre!)
-logₐ a = 1 (sempre!)
-logₐ aˣ = x
-a^(logₐ x) = x
-```
+**Para um ângulo agudo θ (theta) em um triângulo retângulo:**
 
-**Exemplos básicos:**
+**1. Seno (sen θ):**
 ```
-log₂ 8 = 3 (pois 2³ = 8)
-log₁₀ 100 = 2 (pois 10² = 100)
-log₅ 1 = 0 (pois 5⁰ = 1)
-log₃ 3 = 1 (pois 3¹ = 3)
-log₂ ¼ = -2 (pois 2⁻² = ¼)
+sen θ = cateto oposto / hipotenusa
+sen θ = CO / H
 ```
 
-### Propriedades dos Logaritmos
-
-**1. Produto:**
+**2. Cosseno (cos θ):**
 ```
-logₐ (b · c) = logₐ b + logₐ c
-```
-
-**2. Quociente:**
-```
-logₐ (b/c) = logₐ b - logₐ c
+cos θ = cateto adjacente / hipotenusa
+cos θ = CA / H
 ```
 
-**3. Potência:**
+**3. Tangente (tan θ ou tg θ):**
 ```
-logₐ bⁿ = n · logₐ b
-```
-
-**4. Mudança de base:**
-```
-logₐ b = log_c b / log_c a
-
-Caso particular (base 10):
-logₐ b = log b / log a
+tan θ = cateto oposto / cateto adjacente
+tan θ = CO / CA
 ```
 
-**5. Inversão de base:**
-```
-logₐ b · log_b a = 1
-logₐ b = 1 / log_b a
-```
+**Mnemônico: SOH-CAH-TOA**
+- **S**eno = **O**posto / **H**ipotenusa
+- **C**osseno = **A**djacente / **H**ipotenusa
+- **T**angente = **O**posto / **A**djacente
 
-**Exemplos de aplicação:**
+### Identificando Catetos
 
-**Exemplo 1:**
-```
-log₂ 8 + log₂ 4 = log₂ (8·4) = log₂ 32 = log₂ 2⁵ = 5
-```
-
-**Exemplo 2:**
-```
-log 100 - log 10 = log (100/10) = log 10 = 1
-```
-
-**Exemplo 3:**
-```
-log₅ 125 = log₅ 5³ = 3 · log₅ 5 = 3 · 1 = 3
-```
-
-**Exemplo 4: Mudança de base:**
-```
-log₂ 10 = log 10 / log 2 = 1 / log 2 ≈ 1 / 0,301 ≈ 3,32
-```
-
-### Equações Logarítmicas
-
-**Estratégia:**
-1. Usar propriedades para simplificar
-2. Aplicar definição de logaritmo
-3. Verificar condição de existência (logaritmando > 0)
-
-**Exemplos:**
-
-**Tipo 1: Direto**
-```
-log₂ x = 5
-x = 2⁵
-x = 32
-
-Verificação: x > 0 ✓
-```
-
-**Tipo 2: Usar propriedades**
-```
-log x + log (x-3) = 1  (base 10)
-log [x(x-3)] = 1
-x(x-3) = 10¹
-x² - 3x = 10
-x² - 3x - 10 = 0
-(x-5)(x+2) = 0
-
-x = 5 ou x = -2
-
-Verificar condições:
-x > 0 e x-3 > 0 → x > 3
-
-Solução: x = 5 ✓
-(x = -2 não serve)
-```
-
-**Tipo 3: Mesma base**
-```
-log₂ (x+1) = log₂ (2x-3)
-
-x + 1 = 2x - 3
-4 = x
-x = 4
-
-Verificar: x+1 > 0 e 2x-3 > 0
-4+1 = 5 > 0 ✓
-2(4)-3 = 5 > 0 ✓
-
-Solução: x = 4
-```
-
-### Inequações
-
-**Exponencial:**
-```
-Se a > 1: aˣ > aʸ ⟺ x > y
-Se 0 < a < 1: aˣ > aʸ ⟺ x < y (inverte!)
-```
+**Cateto oposto:** lado oposto ao ângulo considerado
+**Cateto adjacente:** lado ao lado do ângulo (que não é a hipotenusa)
 
 **Exemplo:**
 ```
-2ˣ > 8
-2ˣ > 2³
-x > 3 (pois base 2 > 1)
+       C
+       |\
+       | \
+    5  |  \ 13
+       |   \
+       |____\
+      A  12  B
 ```
 
-**Logarítmica:**
-```
-Se a > 1: logₐ x > logₐ y ⟺ x > y
-Se 0 < a < 1: logₐ x > logₐ y ⟺ x < y (inverte!)
-```
+Para o ângulo em B:
+- Cateto oposto = 5 (AC)
+- Cateto adjacente = 12 (AB)
+- Hipotenusa = 13
 
-**Exemplo:**
-```
-log₂ x > 3
-x > 2³
-x > 8
-```
+sen B = 5/13
+cos B = 12/13
+tan B = 5/12
 
-### Função Logarítmica
+### Ângulos Notáveis (30°, 45°, 60°)
 
-**Definição:**
-```
-f(x) = logₐ x
-```
-
-**Características:**
-
-**Se a > 1:** CRESCENTE
-- Passa por (1, 0)
-- Domínio: x > 0
-- Imagem: ℝ
-
-**Se 0 < a < 1:** DECRESCENTE
-- Passa por (1, 0)
-- Domínio: x > 0
-- Imagem: ℝ
-
-**Relação com exponencial:**
-```
-f(x) = aˣ e g(x) = logₐ x são INVERSAS
-
-Reflexão pela reta y = x
-```
-
-### Questões de Fixação
-
-#### Questão 1
-Calcule: a) 2⁵  b) 2⁻³  c) (1/2)²
-
-**Resposta:**
-```
-a) 32
-b) 1/8
-c) 1/4
-```
-
-#### Questão 2
-Resolva: 3ˣ = 81
-
-**Resposta:**
-```
-3ˣ = 3⁴
-x = 4
-```
-
-#### Questão 3
-Resolva: 4ˣ⁺¹ = 8ˣ
-
-**Resposta:**
-```
-(2²)ˣ⁺¹ = (2³)ˣ
-2²⁽ˣ⁺¹⁾ = 2³ˣ
-2(x+1) = 3x
-2x + 2 = 3x
-x = 2
-```
-
-#### Questão 4
-Calcule: a) log₂ 16  b) log₁₀ 1000  c) log₅ 1
-
-**Resposta:**
-```
-a) log₂ 16 = log₂ 2⁴ = 4
-b) log₁₀ 1000 = log₁₀ 10³ = 3
-c) log₅ 1 = 0
-```
-
-#### Questão 5
-Calcule: log₂ 8 + log₂ 4
-
-**Resposta:**
-```
-log₂ (8·4) = log₂ 32 = log₂ 2⁵ = 5
-
-Ou:
-log₂ 8 + log₂ 4 = 3 + 2 = 5
-```
-
-#### Questão 6
-Resolva: log x = 2 (base 10)
-
-**Resposta:**
-```
-x = 10² = 100
-```
-
-#### Questão 7
-Resolva: log₃ (x+2) = 2
-
-**Resposta:**
-```
-x + 2 = 3²
-x + 2 = 9
-x = 7
-```
-
-### Fórmulas Essenciais - Resumo
+**Valores para memorizar:**
 
 ```
-EXPONENCIAL:
-f(x) = aˣ
-
-Propriedades:
-a⁰ = 1
-aˣ · aʸ = aˣ⁺ʸ
-aˣ / aʸ = aˣ⁻ʸ
-(aˣ)ʸ = aˣʸ
-a⁻ˣ = 1/aˣ
-
-Crescimento:
-a > 1: crescente
-0 < a < 1: decrescente
-
-LOGARITMO:
-logₐ b = x ⟺ aˣ = b
-
-Casos especiais:
-logₐ 1 = 0
-logₐ a = 1
-logₐ aˣ = x
-
-Propriedades:
-logₐ (bc) = logₐ b + logₐ c
-logₐ (b/c) = logₐ b - logₐ c
-logₐ bⁿ = n · logₐ b
-
-Mudança de base:
-logₐ b = log b / log a
-
-Função logarítmica:
-f(x) = logₐ x
-Domínio: x > 0
-Imagem: ℝ
+┌────────┬────────┬────────┬────────┐
+│ Ângulo │  Seno  │Cosseno │Tangente│
+├────────┼────────┼────────┼────────┤
+│  30°   │  1/2   │ √3/2   │ √3/3   │
+│  45°   │ √2/2   │ √2/2   │   1    │
+│  60°   │ √3/2   │  1/2   │  √3    │
+└────────┴────────┴────────┴────────┘
 ```
 
-### Checklist de Revisão
+**Tabela completa com valores decimais:**
 
-- [ ] Sei todas as propriedades de potências
-- [ ] Sei resolver equações exponenciais por redução de base
-- [ ] Sei resolver equações exponenciais por substituição
-- [ ] Sei a definição de logaritmo
-- [ ] Sei os casos especiais (logₐ 1 = 0, logₐ a = 1)
-- [ ] Sei todas as propriedades dos logaritmos
-- [ ] Sei aplicar mudança de base
-- [ ] Sei resolver equações logarítmicas
-- [ ] Sei verificar condições de existência
-- [ ] Sei resolver inequações exponenciais e logarítmicas
-- [ ] Sei esboçar gráficos de exponencial e logaritmo
+```
+┌────────┬────────┬────────┬────────┐
+│ Ângulo │  sen   │  cos   │  tan   │
+├────────┼────────┼────────┼────────┤
+│  30°   │  0,5   │  0,87  │  0,58  │
+│  45°   │  0,71  │  0,71  │  1,0   │
+│  60°   │  0,87  │  0,5   │  1,73  │
+└────────┴────────┴────────┴────────┘
+```
+
+**Dica de memorização:**
+- **sen 30° = 1/2, sen 60° = √3/2** (opostos!)
+- **cos 30° = √3/2, cos 60° = 1/2** (opostos!)
+- **sen 45° = cos 45° = √2/2** (iguais!)
+- **tan 45° = 1** (catetos iguais!)
+
+### Triângulos Especiais
+
+**Triângulo 30-60-90:**
+```
+       60°
+       |\
+       | \
+     1 |  \ 2
+       |   \
+       |____\
+      30° √3
+```
+- Lados na razão 1 : √3 : 2
+
+**Triângulo 45-45-90:**
+```
+       45°
+       |\
+       | \
+     1 |  \ √2
+       |   \
+       |____\
+      45°  1
+```
+- Lados na razão 1 : 1 : √2
+
+### Relações Fundamentais
+
+**1. Relação Fundamental:**
+```
+sen²θ + cos²θ = 1
+```
+
+**2. Tangente em função de seno e cosseno:**
+```
+tan θ = sen θ / cos θ
+```
+
+**3. Ângulos complementares:**
+```
+sen θ = cos (90° - θ)
+cos θ = sen (90° - θ)
+```
+
+Exemplo: sen 30° = cos 60° = 0,5
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+Em um triângulo retângulo, a hipotenusa mede 10 cm e um dos ângulos mede 30°. Calcule os catetos.
+
+**Solução:**
+Cateto oposto ao ângulo de 30°:
+sen 30° = CO / 10
+0,5 = CO / 10
+CO = 5 cm
+
+Cateto adjacente:
+cos 30° = CA / 10
+0,87 = CA / 10
+CA = 8,7 cm (ou √3/2 × 10 = 5√3 cm)
+
+*[Ver resposta 36 no final do documento]*
+
+#### Exercício 2
+(UFMG) Uma escada de 6 m está apoiada em uma parede, formando 60° com o solo. Qual a altura alcançada na parede?
+
+**Solução:**
+```
+       |
+       |\ 6m
+     h |  \
+       |   \
+       |____\
+         60°
+```
+
+sen 60° = h / 6
+√3/2 = h / 6
+h = 6 × √3/2 = 3√3 ≈ 5,2 m
+
+*[Ver resposta 37 no final do documento]*
+
+#### Exercício 3
+Calcule x no triângulo:
+```
+       |\
+       | \
+     8 |  \ x
+       |   \
+       |____\
+        45°
+```
+
+**Solução:**
+sen 45° = 8 / x
+√2/2 = 8 / x
+x = 8 / (√2/2) = 16/√2 = 16√2/2 = 8√2 cm
+
+Ou usando cos:
+cos 45° = CA / x
+√2/2 = CA / x
+Como é 45-45-90, CA = 8 também
+Pitágoras: x² = 8² + 8² = 128
+x = √128 = 8√2 cm
+
+*[Ver resposta 38 no final do documento]*
+
+#### Exercício 4
+Em um triângulo retângulo, os catetos medem 3 e 4. Calcule o seno do menor ângulo.
+
+**Solução:**
+Hipotenusa: a² = 3² + 4² = 25 → a = 5
+
+Menor ângulo é oposto ao menor cateto (3)
+sen θ = 3/5 = 0,6
+
+*[Ver resposta 39 no final do documento]*
+
+#### Exercício 5
+Calcule tan 30° usando sen e cos.
+
+**Solução:**
+tan θ = sen θ / cos θ
+tan 30° = (1/2) / (√3/2) = 1/2 × 2/√3 = 1/√3 = √3/3
+
+*[Ver resposta 40 no final do documento]*
+
+#### Exercício 6
+Uma rampa tem 15 m de comprimento e faz 30° com o horizontal. Qual a altura da rampa?
+
+**Solução:**
+sen 30° = h / 15
+0,5 = h / 15
+h = 7,5 m
+
+*[Ver resposta 41 no final do documento]*
+
+#### Exercício 7
+Sabendo que sen θ = 0,6 e cos θ = 0,8, calcule tan θ.
+
+**Solução:**
+tan θ = sen θ / cos θ = 0,6 / 0,8 = 0,75
+
+Ou: tan θ = 3/5 ÷ 4/5 = 3/4 = 0,75
+
+*[Ver resposta 42 no final do documento]*
+
+### Aplicações Práticas
+
+**1. Construção civil:**
+- Inclinação de telhados
+- Rampas de acessibilidade
+- Escadas
+
+**2. Navegação:**
+- Determinar distâncias
+- Calcular altitudes
+
+**3. Topografia:**
+- Medição de terrenos
+- Alturas de montanhas
+
+**4. Astronomia:**
+- Distâncias entre corpos celestes
+- Ângulos de elevação
+
+### Dicas para a Prova
+
+1. **SOH-CAH-TOA:** memorize!
+2. **Ângulos notáveis:** decore a tabela 30°, 45°, 60°
+3. **Identifique:** qual cateto é oposto? Qual é adjacente?
+4. **Hipotenusa:** sempre o maior lado (oposto ao ângulo de 90°)
+5. **sen²θ + cos²θ = 1** (relação fundamental)
+6. **tan θ = sen θ / cos θ**
+7. **Triângulo 3-4-5:** terna pitagórica útil
+8. **Desenhe o triângulo** quando possível
+
+### Conceitos-Chave para Memorizar
+
+**Razões Trigonométricas:**
+- sen θ = oposto / hipotenusa
+- cos θ = adjacente / hipotenusa
+- tan θ = oposto / adjacente
+
+**Ângulos Notáveis:**
+- sen 30° = 1/2, cos 30° = √3/2, tan 30° = √3/3
+- sen 45° = √2/2, cos 45° = √2/2, tan 45° = 1
+- sen 60° = √3/2, cos 60° = 1/2, tan 60° = √3
+
+**Relações:**
+- sen²θ + cos²θ = 1
+- tan θ = sen θ / cos θ
+- sen θ = cos (90° - θ)
+
+### Fórmulas Essenciais
+
+```
+Razões Trigonométricas:
+
+sen θ = cateto oposto / hipotenusa
+cos θ = cateto adjacente / hipotenusa
+tan θ = cateto oposto / cateto adjacente
+
+Relação Fundamental:
+sen²θ + cos²θ = 1
+
+Tangente:
+tan θ = sen θ / cos θ
+
+Ângulos Complementares:
+sen θ = cos (90° - θ)
+cos θ = sen (90° - θ)
+
+Ângulos Notáveis:
+┌────────┬────────┬────────┬────────┐
+│   θ    │  sen   │  cos   │  tan   │
+├────────┼────────┼────────┼────────┤
+│  30°   │  1/2   │ √3/2   │ √3/3   │
+│  45°   │ √2/2   │ √2/2   │   1    │
+│  60°   │ √3/2   │  1/2   │  √3    │
+└────────┴────────┴────────┴────────┘
+
+Teorema de Pitágoras:
+a² = b² + c²
+(onde a = hipotenusa)
+```
+
+### Resumo Visual
+
+```
+TRIÂNGULO RETÂNGULO:
+
+       C
+       |\
+       | \
+   CO  |  \ H (hipotenusa)
+       |   \
+       |θ___\
+      A  CA  B
+
+sen θ = CO / H
+cos θ = CA / H
+tan θ = CO / CA
+
+SOH-CAH-TOA:
+Seno = Oposto/Hipotenusa
+Cosseno = Adjacente/Hipotenusa
+Tangente = Oposto/Adjacente
+
+ÂNGULOS NOTÁVEIS:
+
+30°-60°-90°:      45°-45°-90°:
+    60°               45°
+    |\                |\
+    | \               | \
+  1 |  \ 2          1 |  \ √2
+    |   \             |   \
+    |____\            |____\
+   30° √3            45°  1
+
+RELAÇÃO FUNDAMENTAL:
+  sen²θ + cos²θ = 1
+       ___
+      /   \
+     /     \
+   sen²    cos²
+    \_____/
+       1
+```
 
 ---
 
 **Tempo de estudo recomendado:** 120 minutos
-**Nível de dificuldade:** Médio-Alto (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - base para trigonometria avançada)
 
 ---
 
-## Aula 71 - Matemática: Revisão Final - Geometria Plana e Trigonometria - 90min
+## Aula 54 - Física: Princípio de Arquimedes Aprofundado e Teorema de Torricelli - 90min
 
-### Objetivo da Revisão
-
-Consolidar fórmulas de áreas, perímetros, Pitágoras e trigonometria básica.
-
-### PARTE 1: Geometria Plana - Áreas e Perímetros
-
-**1. Triângulo**
-
-**Área:**
-```
-A = (b × h) / 2
-
-Onde:
-b = base
-h = altura
-```
-
-**Perímetro:**
-```
-P = a + b + c (soma dos lados)
-```
-
-**Tipos de triângulo:**
-- **Equilátero:** 3 lados iguais
-- **Isósceles:** 2 lados iguais
-- **Escaleno:** todos diferentes
-- **Retângulo:** 1 ângulo de 90°
-
-**2. Quadrado**
-
-**Área:**
-```
-A = L²
-
-Onde L = lado
-```
-
-**Perímetro:**
-```
-P = 4L
-```
-
-**Diagonal:**
-```
-d = L√2
-```
-
-**3. Retângulo**
-
-**Área:**
-```
-A = b × h
-
-Onde:
-b = base
-h = altura
-```
-
-**Perímetro:**
-```
-P = 2(b + h)
-```
-
-**Diagonal:**
-```
-d = √(b² + h²)  (Pitágoras)
-```
-
-**4. Paralelogramo**
-
-**Área:**
-```
-A = b × h
-
-Onde:
-b = base
-h = altura (perpendicular!)
-```
-
-**5. Trapézio**
-
-**Área:**
-```
-A = [(B + b) × h] / 2
-
-Onde:
-B = base maior
-b = base menor
-h = altura
-```
-
-**6. Losango**
-
-**Área:**
-```
-A = (D × d) / 2
-
-Onde:
-D = diagonal maior
-d = diagonal menor
-```
-
-**7. Círculo**
-
-**Área:**
-```
-A = πr²
-
-Onde r = raio
-```
-
-**Perímetro (comprimento da circunferência):**
-```
-C = 2πr
-ou
-C = πd  (onde d = diâmetro)
-```
-
-**Comprimento de arco:**
-```
-ℓ = (α/360°) × 2πr
-
-Onde α = ângulo em graus
-```
-
-**Área de setor circular:**
-```
-A_setor = (α/360°) × πr²
-```
-
-### PARTE 2: Teorema de Pitágoras
+### Revisão: Princípio de Arquimedes
 
 **Enunciado:**
-"Em um triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos."
+"Todo corpo mergulhado em um fluido recebe uma força vertical para cima (empuxo) igual ao peso do fluido deslocado."
 
-**Fórmula:**
 ```
-a² = b² + c²
+E = ρ_fluido × V_deslocado × g
+```
 
-Onde:
-a = hipotenusa (lado oposto ao ângulo reto)
-b, c = catetos
+### Casos de Flutuação - Aprofundamento
+
+**Forças atuantes:**
+- **Peso (P):** P = m_corpo × g = ρ_corpo × V_corpo × g
+- **Empuxo (E):** E = ρ_fluido × V_deslocado × g
+
+**1. Corpo totalmente imerso:**
+
+**a) Afunda (acelera para baixo):**
+```
+P > E
+ρ_corpo > ρ_fluido
+```
+
+**b) Sobe (acelera para cima):**
+```
+P < E
+ρ_corpo < ρ_fluido
+```
+
+**c) Equilíbrio (fica parado):**
+```
+P = E
+ρ_corpo = ρ_fluido
+```
+
+**2. Corpo parcialmente imerso (flutuando):**
+```
+P = E
+ρ_corpo < ρ_fluido
+```
+
+**Fração submersa:**
+```
+f = V_submerso / V_total = ρ_corpo / ρ_fluido
 ```
 
 **Exemplo:**
-```
-Catetos: 3 e 4
-Hipotenusa: a² = 3² + 4² = 9 + 16 = 25
-a = 5
-```
+Gelo (ρ = 920 kg/m³) na água (ρ = 1000 kg/m³):
+f = 920/1000 = 0,92 = 92% submerso
 
-**Ternas pitagóricas importantes:**
-```
-(3, 4, 5)
-(5, 12, 13)
-(8, 15, 17)
-(7, 24, 25)
+### Peso Aparente
 
-E seus múltiplos:
-(6, 8, 10) = 2×(3,4,5)
-(9, 12, 15) = 3×(3,4,5)
-```
-
-### PARTE 3: Trigonometria no Triângulo Retângulo
-
-**Definições:**
-
-Em um triângulo retângulo com ângulo α:
+**Peso aparente:** força que o corpo parece ter quando imerso
 
 ```
-       |\
-       | \
-   CO  |  \ H
-       |   \
-       |____\
-         CA
-
-H = hipotenusa
-CO = cateto oposto a α
-CA = cateto adjacente a α
+P_aparente = P_real - E
 ```
 
-**Razões trigonométricas:**
-```
-sen α = CO / H  (cateto oposto / hipotenusa)
-cos α = CA / H  (cateto adjacente / hipotenusa)
-tg α = CO / CA  (cateto oposto / cateto adjacente)
-```
+**Consequências:**
+- Objetos "pesam menos" dentro d'água
+- Quanto maior o empuxo, menor o peso aparente
+- Se E = P, peso aparente = 0 (flutuação)
+- Se E > P, peso aparente é negativo (tende a subir)
 
-**Relação fundamental:**
-```
-sen² α + cos² α = 1
-```
+**Exemplo:**
+Pedra de 100 N no ar sofre empuxo de 30 N na água.
+P_aparente = 100 - 30 = 70 N
 
-**Outras relações:**
-```
-tg α = sen α / cos α
-```
+"Pesa" apenas 70 N dentro d'água!
 
-### Valores Notáveis (30°, 45°, 60°)
+### Densidade e Flutuação
 
-**Tabela obrigatória:**
-
+**Densidade relativa:**
 ```
-┌─────┬─────┬────────┬────────┐
-│  α  │ sen │  cos   │   tg   │
-├─────┼─────┼────────┼────────┤
-│ 30° │ 1/2 │ √3/2   │ √3/3   │
-│ 45° │√2/2 │ √2/2   │   1    │
-│ 60° │√3/2 │  1/2   │  √3    │
-└─────┴─────┴────────┴────────┘
+d = ρ_substância / ρ_água
 ```
 
-**Dica para memorizar seno:**
-```
-sen 30° = 1/2  = √1/2
-sen 45° = √2/2 = √2/2
-sen 60° = √3/2 = √3/2
+**Se d < 1:** flutua na água
+**Se d = 1:** equilíbrio na água
+**Se d > 1:** afunda na água
 
-Numerador: 1, 2, 3 (√)
-Denominador: sempre 2
-```
+**Exemplos:**
+- Madeira: d ≈ 0,6 → flutua
+- Gelo: d = 0,92 → flutua
+- Ferro: d ≈ 7,8 → afunda
+- Chumbo: d ≈ 11,3 → afunda
+- Óleo: d ≈ 0,9 → flutua sobre água
 
-**Cosseno:** inverso do seno
-```
-cos 30° = √3/2 = sen 60°
-cos 45° = √2/2 = sen 45°
-cos 60° = 1/2 = sen 30°
-```
+### Aplicações do Princípio de Arquimedes
 
-### Exemplos de Aplicação
+**1. Submarinos:**
+- **Tanques de lastro:** enchem com água para afundar, esvaziam para subir
+- Subir: expulsam água → diminui massa → diminui peso → E > P
+- Afundar: enchem com água → aumenta massa → aumenta peso → P > E
 
-**Exemplo 1:** Calcular a altura de um triângulo retângulo com hipotenusa 10 m e ângulo de 30°.
+**2. Balões e dirigíveis:**
+- Usam gases menos densos que o ar (hélio, ar quente)
+- ρ_gás < ρ_ar → empuxo levanta o balão
 
-```
-sen 30° = h / 10
-1/2 = h / 10
-h = 10 / 2 = 5 m
-```
+**3. Densímetro:**
+- Mede densidade de líquidos
+- Quanto mais denso o líquido, menos o densímetro afunda
 
-**Exemplo 2:** Uma rampa tem 13 m de comprimento e 5 m de altura. Qual sua base?
+**4. Icebergs:**
+- 92% submersos, apenas 8% visíveis
+- Perigo para navegação!
 
-```
-Pitágoras:
-13² = 5² + b²
-169 = 25 + b²
-b² = 144
-b = 12 m
-```
+### Teorema de Torricelli (Escoamento de Fluidos)
 
-**Exemplo 3:** Calcular x no triângulo retângulo com catetos 6 e 8.
+**Enunciado:**
+"A velocidade de saída de um fluido por um orifício em um recipiente é a mesma que um corpo teria se caísse livremente da altura da superfície do líquido até o orifício."
 
 ```
-x² = 6² + 8²
-x² = 36 + 64 = 100
-x = 10
+v = √(2gh)
 ```
 
-### Questões de Fixação
+**Onde:**
+- v = velocidade de saída (m/s)
+- g = gravidade (m/s²)
+- h = altura da coluna de líquido acima do orifício (m)
 
-#### Questão 1
-Qual a área de um triângulo de base 8 m e altura 5 m?
+**Observações:**
+- Fórmula idêntica à queda livre!
+- v não depende da densidade do líquido
+- v aumenta com h (quanto maior a altura, maior a velocidade)
 
-**Resposta:**
-```
-A = (8 × 5) / 2 = 40 / 2 = 20 m²
-```
+**Exemplo:**
+Orifício a 5 m abaixo da superfície:
+v = √(2 × 10 × 5) = √100 = 10 m/s
 
-#### Questão 2
-Qual a área de um círculo de raio 3 m? (use π ≈ 3)
+### Vazão (Taxa de Escoamento)
 
-**Resposta:**
-```
-A = πr² = 3 × 3² = 3 × 9 = 27 m²
-```
-
-#### Questão 3
-Calcule a hipotenusa de um triângulo com catetos 5 e 12.
-
-**Resposta:**
-```
-a² = 5² + 12² = 25 + 144 = 169
-a = 13
-```
-
-#### Questão 4
-Calcule sen 30° + cos 60°.
-
-**Resposta:**
-```
-sen 30° = 1/2
-cos 60° = 1/2
-Soma = 1/2 + 1/2 = 1
-```
-
-#### Questão 5
-Em um triângulo retângulo, a hipotenusa é 20 m e um ângulo é 60°. Qual o cateto oposto?
-
-**Resposta:**
-```
-sen 60° = CO / 20
-√3/2 = CO / 20
-CO = 20√3/2 = 10√3 m
-```
-
-### Fórmulas Essenciais - Resumo
+**Vazão (Q):** volume de fluido que atravessa uma seção por unidade de tempo
 
 ```
-ÁREAS:
-Triângulo: A = (b×h)/2
-Quadrado: A = L²
-Retângulo: A = b×h
-Paralelogramo: A = b×h
-Trapézio: A = [(B+b)×h]/2
-Losango: A = (D×d)/2
-Círculo: A = πr²
-
-PERÍMETROS:
-Quadrado: P = 4L
-Retângulo: P = 2(b+h)
-Círculo: C = 2πr = πd
-
-PITÁGORAS:
-a² = b² + c²
-(a = hipotenusa, b e c = catetos)
-
-TRIGONOMETRIA:
-sen α = CO / H
-cos α = CA / H
-tg α = CO / CA
-
-Relação fundamental:
-sen² α + cos² α = 1
-tg α = sen α / cos α
-
-VALORES NOTÁVEIS:
-       30°    45°    60°
-sen:   1/2    √2/2   √3/2
-cos:   √3/2   √2/2   1/2
-tg:    √3/3   1      √3
-
-TERNAS PITAGÓRICAS:
-(3, 4, 5)
-(5, 12, 13)
-(8, 15, 17)
+Q = A × v
 ```
 
-### Checklist de Revisão
+**Onde:**
+- Q = vazão (m³/s ou L/s)
+- A = área do orifício (m²)
+- v = velocidade de saída (m/s)
 
-- [ ] Sei as fórmulas de áreas de todas as figuras
-- [ ] Sei calcular perímetros
-- [ ] Sei aplicar Pitágoras
-- [ ] Sei as ternas pitagóricas mais comuns
-- [ ] Sei as definições de seno, cosseno e tangente
-- [ ] Memorizei a tabela de valores notáveis (30°, 45°, 60°)
-- [ ] Sei aplicar trigonometria em problemas práticos
-- [ ] Sei a relação fundamental: sen² + cos² = 1
+**Combinando com Torricelli:**
+```
+Q = A × √(2gh)
+```
+
+**Exemplo:**
+Orifício circular de raio 2 cm (área = πr² = 3,14 × 0,02² = 0,001256 m²) a 5 m de profundidade:
+v = √(2 × 10 × 5) = 10 m/s
+Q = 0,001256 × 10 = 0,01256 m³/s = 12,56 L/s
+
+### Equação da Continuidade
+
+**Para fluido incompressível (líquido):**
+
+"A vazão é constante em todas as seções do tubo"
+
+```
+A₁ × v₁ = A₂ × v₂ = Q
+```
+
+**Consequência:**
+- Tubo estreito → velocidade alta
+- Tubo largo → velocidade baixa
+
+**Exemplo:**
+Mangueira com A₁ = 4 cm², v₁ = 2 m/s
+Bico com A₂ = 1 cm²
+
+A₁v₁ = A₂v₂
+4 × 2 = 1 × v₂
+v₂ = 8 m/s
+
+Velocidade quadruplica!
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+Um bloco de 2 kg e volume 0,002 m³ é mergulhado totalmente na água. Ele afunda ou sobe? (ρ_água = 1000 kg/m³, g = 10 m/s²)
+
+**Solução:**
+P = m × g = 2 × 10 = 20 N
+E = ρ × V × g = 1000 × 0,002 × 10 = 20 N
+
+E = P → **equilíbrio** (fica parado no lugar onde for solto)
+
+ρ_corpo = m/V = 2/0,002 = 1000 kg/m³ = ρ_água
+
+*[Ver resposta 43 no final do documento]*
+
+#### Exercício 2
+Um cubo de madeira (ρ = 600 kg/m³) flutua na água. Qual fração fica submersa?
+
+**Solução:**
+f = ρ_madeira / ρ_água = 600/1000 = 0,6 = 60%
+
+*[Ver resposta 44 no final do documento]*
+
+#### Exercício 3
+Uma pedra de 50 N no ar "pesa" 40 N dentro d'água. Qual o empuxo?
+
+**Solução:**
+P_aparente = P_real - E
+40 = 50 - E
+E = 10 N
+
+*[Ver resposta 45 no final do documento]*
+
+#### Exercício 4
+(UFMG) Um tanque tem um orifício a 3,2 m abaixo da superfície da água. Qual a velocidade de saída?
+
+**Solução:**
+v = √(2gh) = √(2 × 10 × 3,2) = √64 = 8 m/s
+
+*[Ver resposta 46 no final do documento]*
+
+#### Exercício 5
+Um iceberg tem volume total de 1000 m³. Qual o volume emerso? (ρ_gelo = 920 kg/m³, ρ_água do mar = 1025 kg/m³)
+
+**Solução:**
+f_submerso = ρ_gelo / ρ_água = 920/1025 ≈ 0,898 = 89,8%
+
+V_submerso = 0,898 × 1000 = 898 m³
+V_emerso = 1000 - 898 = 102 m³
+
+*[Ver resposta 47 no final do documento]*
+
+#### Exercício 6
+Um objeto de 8 kg tem volume 0,01 m³. Qual seu peso aparente na água?
+
+**Solução:**
+P = m × g = 8 × 10 = 80 N
+E = ρ × V × g = 1000 × 0,01 × 10 = 100 N
+
+P_aparente = P - E = 80 - 100 = -20 N
+
+Negativo! Objeto sobe (tende a flutuar).
+
+*[Ver resposta 48 no final do documento]*
+
+### Dicas para a Prova
+
+1. **Empuxo:** E = ρ_fluido × V_deslocado × g
+2. **Flutuação:** comparar ρ_corpo com ρ_fluido
+3. **Afunda:** ρ_corpo > ρ_fluido
+4. **Flutua:** ρ_corpo < ρ_fluido
+5. **Fração submersa:** f = ρ_corpo / ρ_fluido
+6. **Peso aparente:** P_ap = P - E
+7. **Torricelli:** v = √(2gh)
+8. **Vazão:** Q = A × v
+9. **Continuidade:** A₁v₁ = A₂v₂
+
+### Conceitos-Chave para Memorizar
+
+**Arquimedes:**
+- Empuxo = peso do fluido deslocado
+- E = ρ_fluido × V × g
+- Flutuação: comparar densidades
+
+**Peso Aparente:**
+- P_aparente = P_real - E
+- Objetos "pesam menos" na água
+
+**Torricelli:**
+- v = √(2gh)
+- Velocidade de saída independe de ρ
+- Depende apenas de h
+
+**Vazão:**
+- Q = A × v
+- A₁v₁ = A₂v₂ (continuidade)
+
+### Fórmulas Essenciais
+
+```
+Princípio de Arquimedes:
+E = ρ_fluido × V_deslocado × g
+
+Flutuação:
+ρ_corpo > ρ_fluido → afunda
+ρ_corpo < ρ_fluido → flutua
+ρ_corpo = ρ_fluido → equilíbrio
+
+Fração submersa (corpo flutuando):
+f = V_submerso / V_total = ρ_corpo / ρ_fluido
+
+Peso Aparente:
+P_aparente = P_real - E
+
+Teorema de Torricelli:
+v = √(2gh)
+
+Vazão:
+Q = A × v
+Q = A × √(2gh)
+
+Equação da Continuidade:
+A₁ × v₁ = A₂ × v₂
+
+Dados úteis:
+ρ_água = 1000 kg/m³
+ρ_gelo = 920 kg/m³
+ρ_água do mar ≈ 1025 kg/m³
+g = 10 m/s²
+```
+
+### Resumo Visual
+
+```
+FLUTUAÇÃO:
+
+Afunda:          Flutua:         Equilíbrio:
+  ┌───┐           ≈≈≈              ≈≈≈
+  │   │         ┌─┴─┐            ┌─┴─┐
+  │ ● │         │ ● │            │ ● │
+  └───┘         └───┘            └───┘
+   P>E           P=E              P=E
+ρ_c > ρ_f     ρ_c < ρ_f        ρ_c = ρ_f
+
+PESO APARENTE:
+  Ar:        Água:
+   ↓ P        ↓ P
+  ┌─┐        ┌─┐ ↑ E
+  │●│        │●│
+  └─┘        └─┘ ↓ P_ap=P-E
+
+TORRICELLI:
+  ═════════  h
+      ●───→ v = √(2gh)
+      
+CONTINUIDADE:
+  ████  →  ██  →  ████
+  largo    estreito  largo
+  v baixa  v alta    v baixa
+  
+  A₁v₁ = A₂v₂ = constante
+```
 
 ---
 
 **Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - conceitos fundamentais de hidrostática)
 
 ---
 
-## Aula 72 - Física: Revisão Final - Cinemática e Dinâmica - 90min
+## Aula 55 - Química: Estequiometria - Cálculos Estequiométricos - 90min
 
-### Objetivo da Revisão
+### Revisão: Conceitos Fundamentais
 
-Consolidar movimento uniforme, uniformemente variado e Leis de Newton.
+**Mol:** 1 mol = 6,02 × 10²³ entidades
 
-### PARTE 1: Cinemática - Conceitos Fundamentais
+**Massa molar:** massa de 1 mol (g/mol)
 
-**Posição (S):** localização do móvel
-- Unidade: m (metros)
+**n = m/M** (relação fundamental)
 
-**Deslocamento (ΔS):**
-```
-ΔS = S_final - S_inicial
-```
+**Volume molar (CNTP):** 22,4 L/mol
 
-**Velocidade (v):**
-```
-v = ΔS / Δt
-Unidade: m/s (SI) ou km/h
-```
+### Introdução aos Cálculos Estequiométricos
 
-**Conversão:**
-```
-km/h → m/s: dividir por 3,6
-m/s → km/h: multiplicar por 3,6
+**Estequiometria:** cálculos quantitativos em reações químicas
 
-Exemplo: 72 km/h = 72/3,6 = 20 m/s
-```
+**Base:** **coeficientes da equação balanceada**
 
-**Aceleração (a):**
-```
-a = Δv / Δt
-Unidade: m/s²
-```
-
-### PARTE 2: Movimento Retilíneo Uniforme (MRU)
-
-**Características:**
-- Velocidade constante (v = cte)
-- Aceleração nula (a = 0)
-- Trajetória reta
-
-**Função horária:**
-```
-S = S₀ + vt
-
-Onde:
-S = posição final
-S₀ = posição inicial
-v = velocidade (constante)
-t = tempo
-```
-
-**Gráficos:**
-
-**S × t:** reta inclinada
-- Inclinação = velocidade
-
-**v × t:** reta horizontal
-- Área = deslocamento
+**Os coeficientes indicam:**
+- Proporção em **mols**
+- Proporção em **moléculas**
+- Proporção em **volumes** (gases, CNTP)
 
 **Exemplo:**
 ```
-Um carro parte de S₀ = 10 m com v = 15 m/s.
-Onde estará após 4 segundos?
-
-S = 10 + 15(4) = 10 + 60 = 70 m
+2 H₂ + O₂ → 2 H₂O
 ```
 
-### PARTE 3: Movimento Retilíneo Uniformemente Variado (MRUV)
+**Interpretações:**
+- **Mol:** 2 mol H₂ + 1 mol O₂ → 2 mol H₂O
+- **Moléculas:** 2 moléculas H₂ + 1 molécula O₂ → 2 moléculas H₂O
+- **Massa:** 4 g H₂ + 32 g O₂ → 36 g H₂O
+- **Volume (CNTP):** 44,8 L H₂ + 22,4 L O₂ → não se aplica (H₂O é líquida!)
+
+### Método Geral para Cálculos Estequiométricos
+
+**Passo a passo:**
+
+**1.** Escreva a equação química **balanceada**
+
+**2.** Identifique o que é dado e o que é pedido
+
+**3.** Escreva a proporção em mols (coeficientes)
+
+**4.** Converta as grandezas conforme necessário:
+   - massa → mol (n = m/M)
+   - mol → massa (m = n × M)
+   - mol → volume (V = n × 22,4, CNTP)
+   - volume → mol (n = V/22,4, CNTP)
+
+**5.** Monte e resolva a regra de três
+
+**6.** Verifique unidades e resultado
+
+### Relações Estequiométricas
+
+**Massa-Massa:**
+Dada massa de reagente, calcular massa de produto
+
+**Massa-Volume:**
+Dada massa de reagente, calcular volume de produto gasoso
+
+**Volume-Volume:**
+Dado volume de gás reagente, calcular volume de gás produto
+
+**Mol-Mol:**
+Dado número de mols de reagente, calcular mols de produto
+
+### Exercícios Resolvidos - Passo a Passo
+
+#### Exercício 1: Massa-Massa
+Qual a massa de água formada pela combustão completa de 4 g de H₂?
+(Dados: H = 1, O = 16)
+
+**Solução:**
+
+**1.** Equação balanceada:
+```
+2 H₂ + O₂ → 2 H₂O
+```
+
+**2.** Dado: m(H₂) = 4 g | Pedido: m(H₂O) = ?
+
+**3.** Massas molares:
+- M(H₂) = 2 g/mol
+- M(H₂O) = 18 g/mol
+
+**4.** Proporção em mols (coeficientes):
+```
+2 mol H₂ → 2 mol H₂O
+```
+
+**5.** Convertendo para massa:
+```
+2 × 2 g H₂ → 2 × 18 g H₂O
+4 g H₂ → 36 g H₂O
+```
+
+**6.** Regra de três:
+```
+4 g H₂ ─── 36 g H₂O
+4 g H₂ ─── x
+
+x = 36 g
+```
+
+*[Ver resposta 49 no final do documento]*
+
+#### Exercício 2: Massa-Massa
+(UFMG) Quantos gramas de O₂ são necessários para queimar completamente 6 g de C?
+(C = 12, O = 16)
+
+**Solução:**
+
+**1.** Equação:
+```
+C + O₂ → CO₂
+```
+
+**2.** Dado: m(C) = 6 g | Pedido: m(O₂) = ?
+
+**3.** Massas molares:
+- M(C) = 12 g/mol
+- M(O₂) = 32 g/mol
+
+**4.** Proporção:
+```
+1 mol C → 1 mol O₂
+12 g C → 32 g O₂
+```
+
+**5.** Regra de três:
+```
+12 g C ─── 32 g O₂
+6 g C  ─── x
+
+x = (6 × 32) / 12 = 16 g
+```
+
+*[Ver resposta 50 no final do documento]*
+
+#### Exercício 3: Massa-Volume (CNTP)
+Qual o volume de CO₂ (CNTP) produzido pela queima de 12 g de C?
+(C = 12)
+
+**Solução:**
+
+**1.** Equação:
+```
+C + O₂ → CO₂
+```
+
+**2.** Dado: m(C) = 12 g | Pedido: V(CO₂) = ? (CNTP)
+
+**3.** Proporção em mols:
+```
+1 mol C → 1 mol CO₂
+```
+
+**4.** Convertendo:
+- 1 mol C = 12 g
+- 1 mol CO₂ = 22,4 L (CNTP)
+
+```
+12 g C → 22,4 L CO₂
+```
+
+**5.** Regra de três:
+```
+12 g C ─── 22,4 L CO₂
+12 g C ─── x
+
+x = 22,4 L
+```
+
+*[Ver resposta 51 no final do documento]*
+
+#### Exercício 4: Volume-Volume (CNTP)
+No reaction: N₂ + 3 H₂ → 2 NH₃, qual o volume de NH₃ formado a partir de 60 L de H₂? (CNTP)
+
+**Solução:**
+
+**1.** Equação (já balanceada):
+```
+N₂ + 3 H₂ → 2 NH₃
+```
+
+**2.** Dado: V(H₂) = 60 L | Pedido: V(NH₃) = ?
+
+**3.** Proporção em volumes (coeficientes, CNTP):
+```
+3 vol H₂ → 2 vol NH₃
+```
+
+**4.** Regra de três:
+```
+3 L H₂ ─── 2 L NH₃
+60 L H₂ ─── x
+
+x = (60 × 2) / 3 = 40 L
+```
+
+*[Ver resposta 52 no final do documento]*
+
+#### Exercício 5: Mol-Mol
+Na reação 2 Al + 3 Cl₂ → 2 AlCl₃, quantos mols de AlCl₃ são formados a partir de 6 mols de Cl₂?
+
+**Solução:**
+
+**Proporção direta dos coeficientes:**
+```
+3 mol Cl₂ → 2 mol AlCl₃
+```
+
+**Regra de três:**
+```
+3 mol Cl₂ ─── 2 mol AlCl₃
+6 mol Cl₂ ─── x
+
+x = (6 × 2) / 3 = 4 mol
+```
+
+*[Ver resposta 53 no final do documento]*
+
+#### Exercício 6: Cálculo Completo
+Quantos gramas de NaCl são formados pela reação de 4,6 g de Na com HCl em excesso?
+(Na = 23, Cl = 35,5)
+
+**Solução:**
+
+**1.** Equação:
+```
+2 Na + 2 HCl → 2 NaCl + H₂
+```
+Simplificando:
+```
+Na + HCl → NaCl + ½ H₂
+```
+Ou mantendo inteiros:
+```
+2 Na + 2 HCl → 2 NaCl + H₂
+```
+
+**2.** Dado: m(Na) = 4,6 g | Pedido: m(NaCl) = ?
+
+**3.** Massas molares:
+- M(Na) = 23 g/mol
+- M(NaCl) = 58,5 g/mol
+
+**4.** Proporção:
+```
+2 mol Na → 2 mol NaCl
+2 × 23 g Na → 2 × 58,5 g NaCl
+46 g Na → 117 g NaCl
+```
+
+**5.** Regra de três:
+```
+46 g Na ─── 117 g NaCl
+4,6 g Na ─── x
+
+x = (4,6 × 117) / 46 = 11,7 g
+```
+
+*[Ver resposta 54 no final do documento]*
+
+### Reagente Limitante e Reagente em Excesso
+
+**Reagente limitante:** aquele que é totalmente consumido primeiro, limitando a quantidade de produto
+
+**Reagente em excesso:** sobra após a reação
+
+**Como identificar:**
+
+**1.** Calcule quantos mols de cada reagente você tem
+
+**2.** Veja a proporção necessária pela equação
+
+**3.** O que "falta" primeiro é o limitante
+
+**Exemplo:**
+```
+2 H₂ + O₂ → 2 H₂O
+```
+
+Temos: 3 mols de H₂ e 2 mols de O₂
+
+Proporção necessária: 2 mol H₂ : 1 mol O₂
+
+Para 3 mols de H₂, precisamos de 3/2 = 1,5 mols de O₂
+Temos 2 mols de O₂ → **H₂ é limitante**
+
+Ou: Para 2 mols de O₂, precisamos de 4 mols de H₂
+Temos apenas 3 mols de H₂ → **H₂ é limitante**
+
+### Pureza e Rendimento
+
+**Pureza:**
+```
+Pureza (%) = (massa da substância pura / massa total) × 100
+```
+
+**Rendimento:**
+```
+Rendimento (%) = (quantidade obtida / quantidade teórica) × 100
+```
+
+### Dicas para a Prova
+
+1. **Sempre balancear** a equação primeiro
+2. **Identificar** dado e pedido
+3. **Calcular massas molares** necessárias
+4. **Usar coeficientes** como proporção em mols
+5. **Regra de três** é sua amiga
+6. **Verificar unidades** (g, mol, L)
+7. **CNTP:** 1 mol gás = 22,4 L
+8. **Reagente limitante:** calcular mols de cada um
+
+### Conceitos-Chave para Memorizar
+
+**Cálculos Estequiométricos:**
+- Baseados em equação balanceada
+- Coeficientes = proporção em mols
+- Sempre converter para mols quando necessário
+
+**Conversões:**
+- massa ↔ mol: n = m/M
+- mol ↔ volume (CNTP): V = n × 22,4
+- mol ↔ partículas: N = n × 6,02×10²³
+
+**Método:**
+1. Balancear equação
+2. Calcular M (massas molares)
+3. Usar coeficientes como proporção
+4. Regra de três
+
+### Fórmulas Essenciais
+
+```
+Relação Fundamental:
+n = m / M
+
+Volume (CNTP):
+V = n × 22,4 L
+
+Proporção Estequiométrica:
+Coeficientes da equação balanceada
+
+Regra de Três:
+a_reagente / b_reagente = a_produto / b_produto
+
+Pureza:
+P% = (m_pura / m_total) × 100
+
+Rendimento:
+R% = (quantidade_real / quantidade_teórica) × 100
+
+Reagente Limitante:
+Comparar proporção disponível vs necessária
+
+Dados Úteis:
+1 mol = 6,02 × 10²³ entidades
+1 mol gás (CNTP) = 22,4 L
+CNTP: 0°C, 1 atm
+```
+
+### Resumo Visual
+
+```
+CÁLCULOS ESTEQUIOMÉTRICOS:
+
+Equação Balanceada:
+  2 H₂  +  O₂  →  2 H₂O
+   ↓      ↓       ↓
+Coeficientes = Proporção em MOLS
+
+CONVERSÕES:
+
+  Massa (g) ←──n=m/M──→ Mol ←──V=n×22,4──→ Volume(L)
+                         │                  (CNTP)
+                         │
+                    N=n×6,02×10²³
+                         │
+                         ↓
+                  Partículas
+
+MÉTODO:
+1. Balancear
+2. Calcular M
+3. Proporção (coeficientes)
+4. Regra de 3
+
+EXEMPLO:
+  C + O₂ → CO₂
+  12g  32g   44g
+   ↓    ↓     ↓
+  1mol 1mol  1mol
+```
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - tipo de questão muito comum!)
+
+---
+
+## Aula 56 - Ciências Humanas: Renascimento Cultural e Científico - 60min
+
+### O que foi o Renascimento?
+
+**Renascimento:** movimento cultural, artístico e científico que surgiu na Itália (séculos XIV-XVI) e se espalhou pela Europa
+
+**Período:** Transição da Idade Média para Idade Moderna (séc. XIV-XVI)
+
+**"Renascimento":** renascimento da cultura clássica (greco-romana)
+
+**Contexto:**
+- Final da Idade Média
+- Crescimento do comércio e das cidades
+- Ascensão da burguesia
+- Crise do feudalismo
+
+### Características do Renascimento
+
+**1. Humanismo**
+- Valorização do ser humano e da razão
+- "O homem como medida de todas as coisas"
+- Estudo dos clássicos gregos e romanos
+- Contraste com teocentrismo medieval
+
+**2. Antropocentrismo**
+- Homem no centro (não Deus)
+- Valorização das capacidades humanas
+- Oposição ao teocentrismo medieval
+
+**3. Racionalismo**
+- Uso da razão e da ciência
+- Observação e experimentação
+- Método científico
+
+**4. Individualismo**
+- Valorização do indivíduo
+- Liberdade de expressão
+- Busca pela fama pessoal
+
+**5. Hedonismo**
+- Busca pelo prazer e beleza
+- Valorização da vida terrena
+- Contraste com ascetismo medieval
+
+**6. Naturalismo**
+- Representação realista da natureza
+- Estudo da anatomia humana
+- Perspectiva e proporção
+
+**7. Classicismo**
+- Inspiração na Antiguidade Clássica (Grécia e Roma)
+- Temas mitológicos
+- Arquitetura greco-romana
+
+### Por que surgiu na Itália?
+
+**1. Herança cultural greco-romana**
+- Ruínas romanas presentes
+- Preservação de manuscritos clássicos
+
+**2. Desenvolvimento urbano e comercial**
+- Cidades-Estado ricas (Florença, Veneza, Gênova)
+- Comércio com Oriente
+
+**3. Mecenato**
+- Famílias ricas (Médici em Florença) financiavam artistas
+- Igreja também era mecenas
+
+**4. Posição geográfica**
+- Contato com Império Bizantino (preservou cultura grega)
+- Rotas comerciais
+
+### Principais Artistas Renascentistas
+
+**Leonardo da Vinci (1452-1519):**
+- "Homem vitruviano" (proporções perfeitas)
+- "Mona Lisa" (Gioconda)
+- "A Última Ceia"
+- Cientista, inventor, anatomista, engenheiro
+
+**Michelangelo Buonarroti (1475-1564):**
+- Escultor, pintor, arquiteto
+- Escultura: "Davi", "Pietá"
+- Pintura: Capela Sistina ("A Criação de Adão")
+- "Gênio universal"
+
+**Rafael Sanzio (1483-1520):**
+- "Escola de Atenas" (retrata filósofos clássicos)
+- Madonas (Virgens)
+- Harmonia e equilíbrio
+
+**Sandro Botticelli (1445-1510):**
+- "O Nascimento de Vênus"
+- "A Primavera"
+- Temas mitológicos
+
+**Donatello (1386-1466):**
+- Escultor
+- "Davi" em bronze
+- Realismo nas esculturas
+
+### Renascimento Científico
+
+**Nicolau Copérnico (1473-1543):**
+- **Heliocentrismo:** Sol no centro (não Terra)
+- "Das Revoluções das Esferas Celestes"
+- Contrariou geocentrismo de Ptolomeu
+
+**Galileu Galilei (1564-1642):**
+- Aperfeiçoou telescópio
+- Confirmou heliocentrismo
+- Leis do movimento
+- Perseguido pela Inquisição
+
+**Johannes Kepler (1571-1630):**
+- Leis do movimento planetário
+- Órbitas elípticas (não circulares)
+
+**Andreas Vesalius (1514-1564):**
+- Pai da anatomia moderna
+- "De Humani Corporis Fabrica"
+- Dissecou cadáveres (proibido na Idade Média)
+
+**Francis Bacon (1561-1626):**
+- Método científico (empirismo)
+- Observação e experimentação
+
+### Renascimento Literário
+
+**Dante Alighieri (1265-1321):**
+- "A Divina Comédia" (Inferno, Purgatório, Paraíso)
+- Escreveu em italiano (não latim!)
+- Pré-Renascimento
+
+**Francesco Petrarca (1304-1374):**
+- Poesia lírica
+- Pai do Humanismo
+- Valorizou clássicos greco-romanos
+
+**Giovanni Boccaccio (1313-1375):**
+- "Decamerão"
+- Contos em prosa
+
+**William Shakespeare (1564-1616):**
+- Maior dramaturgo inglês
+- Tragédias: "Romeu e Julieta", "Hamlet", "Macbeth"
+- Comedias: "Sonho de uma Noite de Verão"
+
+**Miguel de Cervantes (1547-1616):**
+- "Dom Quixote" (Espanha)
+- Crítica à sociedade medieval
+
+**Luís de Camões (1524-1580):**
+- "Os Lusíadas" (Portugal)
+- Épico sobre navegações portuguesas
+
+### Renascimento em Outros Países
+
+**Flandres (Países Baixos):**
+- Jan van Eyck
+- Pieter Bruegel
+- Pintura realista, detalhista
+
+**Alemanha:**
+- Albrecht Dürer
+- Gravuras, pinturas
+
+**Inglaterra:**
+- William Shakespeare (teatro)
+- Thomas More ("Utopia")
+
+**Espanha:**
+- El Greco
+- Cervantes
+
+### A Igreja e o Renascimento
+
+**Contradição aparente:**
+- Igreja era grande mecenas
+- Mas alguns ideais renascentistas conflitavam com doutrina
+
+**Reformas:**
+- Muitos artistas trabalhavam para a Igreja
+- Papa Júlio II encomendou Capela Sistina
+- Construção da Basílica de São Pedro
+
+**Conflitos:**
+- Galileu perseguido por defender heliocentrismo
+- Censura de algumas obras
+
+### Legado do Renascimento
+
+**Impactos:**
+
+**1. Arte:**
+- Técnicas de perspectiva, anatomia, realismo
+- Valorização do artista como gênio
+
+**2. Ciência:**
+- Método científico
+- Observação e experimentação
+- Bases da ciência moderna
+
+**3. Pensamento:**
+- Humanismo
+- Valorização da razão
+- Questionamento de dogmas
+
+**4. Educação:**
+- Valorização do estudo dos clássicos
+- Universidades
+
+### Dicas para a Prova
+
+1. **Local de origem:** Itália (Florença)
+2. **Período:** séculos XIV-XVI (Idade Moderna)
+3. **Características:** antropocentrismo, racionalismo, humanismo
+4. **Artistas:** Leonardo, Michelangelo, Rafael (italianos)
+5. **Cientistas:** Copérnico (helio), Galileu (telescópio)
+6. **Literatura:** Shakespeare (Inglaterra), Camões (Portugal)
+7. **Mecenato:** Médici financiavam arte
+8. **Classicismo:** inspiração grego-romana
+9. **Oposição:** teocentrismo medieval
+10. **Heliocentrismo:** Sol no centro (Copérnico)
+
+### Conceitos-Chave para Memorizar
+
+**Renascimento:**
+- Século XIV-XVI
+- Itália → Europa
+- Transição Medieval → Moderna
 
 **Características:**
-- Aceleração constante (a = cte)
-- Velocidade varia linearmente
-- Trajetória reta
+- Antropocentrismo (homem no centro)
+- Humanismo (valorização humana)
+- Racionalismo (razão, ciência)
+- Classicismo (inspiração greco-romana)
+
+**Principais nomes:**
+- Arte: Leonardo, Michelangelo, Rafael
+- Ciência: Copérnico, Galileu
+- Literatura: Shakespeare, Camões
+
+**Contexto:**
+- Crise feudalismo
+- Ascensão burguesia
+- Crescimento urbano
+- Mecenato
+
+### Resumo Visual
+
+```
+LINHA DO TEMPO RENASCIMENTO:
+
+  1300        1400        1500        1600
+    │           │           │           │
+ Dante      Médici    Leonardo    Galileu
+          Florença  Michelangelo
+
+CARACTERÍSTICAS:
+
+Medieval (antes):     Renascentista:
+Teocentrismo    →    Antropocentrismo
+Deus centro     →    Homem centro
+Fé              →    Razão
+Coletivo        →    Individual
+Ascetismo       →    Hedonismo
+
+PRINCIPAIS CENTROS:
+
+Itália:
+Florença (Médici) ⭐
+Veneza
+Roma (Vaticano)
+
+Outros:
+Inglaterra (Shakespeare)
+Flandres (van Eyck)
+Espanha (Cervantes)
+
+ARTES:
+🎨 Leonardo - Mona Lisa
+🗿 Michelangelo - Davi, Capela Sistina
+🖼️ Rafael - Escola de Atenas
+
+CIÊNCIA:
+🔭 Copérnico - Heliocentrismo
+🌍 Galileu - Telescópio
+📐 Vesalius - Anatomia
+```
+
+### Principais Obras para Lembrar
+
+```
+Arte:
+- Mona Lisa (Leonardo)
+- Davi (Michelangelo)
+- Escola de Atenas (Rafael)
+- Nascimento de Vênus (Botticelli)
+- A Criação de Adão, Capela Sistina (Michelangelo)
+
+Literatura:
+- Divina Comédia (Dante)
+- Romeu e Julieta (Shakespeare)
+- Dom Quixote (Cervantes)
+- Os Lusíadas (Camões)
+
+Ciência:
+- Das Revoluções (Copérnico) - heliocentrismo
+- Telescópio (Galileu)
+- Anatomia (Vesalius)
+```
+
+---
+
+**Tempo de estudo recomendado:** 60 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐ (muito importante - período-chave da história)
+
+---
+
+# 12/06 - Semana 2, Dia 4
+
+## Aula 57 - Matemática: Unidades de Medida e Conversões - 90min
+
+### Sistema Internacional de Unidades (SI)
+
+**SI:** sistema padrão de medidas usado mundialmente (exceto EUA)
+
+**Grandezas fundamentais:**
+
+```
+┌──────────────┬─────────┬─────────┐
+│  Grandeza    │ Unidade │ Símbolo │
+├──────────────┼─────────┼─────────┤
+│ Comprimento  │  metro  │    m    │
+│ Massa        │quilograma│   kg    │
+│ Tempo        │ segundo │    s    │
+│ Temperatura  │ kelvin  │    K    │
+│ Corrente     │ ampere  │    A    │
+│ Intensidade  │ candela │   cd    │
+│ Quantidade   │   mol   │   mol   │
+└──────────────┴─────────┴─────────┘
+```
+
+### Prefixos do SI
+
+**Múltiplos e submúltiplos:**
+
+```
+┌────────┬────────┬───────────┐
+│Prefixo │Símbolo │   Valor   │
+├────────┼────────┼───────────┤
+│  kilo  │   k    │   10³     │
+│  hecto │   h    │   10²     │
+│  deca  │   da   │   10¹     │
+├────────┼────────┼───────────┤
+│  BASE  │   -    │   10⁰     │
+├────────┼────────┼───────────┤
+│  deci  │   d    │   10⁻¹    │
+│  centi │   c    │   10⁻²    │
+│  mili  │   m    │   10⁻³    │
+└────────┴────────┴───────────┘
+```
+
+**Exemplos:**
+- 1 km = 1000 m (quilo = mil)
+- 1 m = 100 cm (centi = centésimo)
+- 1 m = 1000 mm (mili = milésimo)
+
+### Comprimento
+
+**Unidade SI:** metro (m)
+
+**Conversões:**
+
+```
+km → hm → dam → m → dm → cm → mm
+×10  ×10  ×10   ×10  ×10  ×10
+```
+
+**Exemplos:**
+
+**1 km = 1000 m**
+- Para converter: km → m (×1000)
+- 2,5 km = 2500 m
+
+**1 m = 100 cm**
+- Para converter: m → cm (×100)
+- 1,5 m = 150 cm
+
+**1 m = 1000 mm**
+- Para converter: m → mm (×1000)
+- 0,5 m = 500 mm
+
+**1 cm = 10 mm**
+- Para converter: cm → mm (×10)
+- 2,3 cm = 23 mm
+
+**Regra prática:**
+- Cada "casa" = ×10 (para direita) ou ÷10 (para esquerda)
+- km → m: 3 casas → ×10³ = ×1000
+- m → mm: 3 casas → ×10³ = ×1000
+
+### Área
+
+**Unidade SI:** metro quadrado (m²)
+
+**Conversões:**
+
+```
+km² → hm² → dam² → m² → dm² → cm² → mm²
+×100  ×100  ×100   ×100  ×100  ×100
+```
+
+**Importante:** Cada "casa" = ×100 (não ×10!)
+
+**Exemplos:**
+
+**1 m² = 10.000 cm²**
+- m² → cm²: 2 casas → ×100² = ×10.000
+- 2 m² = 20.000 cm²
+
+**1 km² = 1.000.000 m²**
+- km² → m²: 3 casas → ×100³ = ×1.000.000
+
+**1 hectare (ha) = 10.000 m²**
+- Usado para terrenos, fazendas
+- 1 ha = 100 m × 100 m
+
+**1 m² = 1.000.000 mm²**
+- m² → mm²: 3 casas → ×100³ = ×1.000.000
+
+### Volume
+
+**Unidade SI:** metro cúbico (m³)
+
+**Conversões:**
+
+```
+km³ → hm³ → dam³ → m³ → dm³ → cm³ → mm³
+×1000 ×1000 ×1000  ×1000 ×1000 ×1000
+```
+
+**Importante:** Cada "casa" = ×1000 (não ×10!)
+
+**Exemplos:**
+
+**1 m³ = 1000 dm³**
+- m³ → dm³: 1 casa → ×1000
+
+**1 m³ = 1.000.000 cm³**
+- m³ → cm³: 2 casas → ×1000² = ×1.000.000
+
+**Relação com litro:**
+```
+1 m³ = 1000 L (litros)
+1 dm³ = 1 L
+1 cm³ = 1 mL (mililitro)
+```
+
+**Exemplos:**
+- 2 m³ = 2000 L
+- 500 cm³ = 500 mL = 0,5 L
+
+### Massa
+
+**Unidade SI:** quilograma (kg)
+
+**Conversões:**
+
+```
+kg → hg → dag → g → dg → cg → mg
+×10  ×10  ×10  ×10  ×10  ×10
+```
+
+**Exemplos:**
+
+**1 kg = 1000 g**
+- kg → g: 3 casas → ×10³ = ×1000
+- 2,5 kg = 2500 g
+
+**1 g = 1000 mg**
+- g → mg: 3 casas → ×10³ = ×1000
+- 0,5 g = 500 mg
+
+**Tonelada:**
+```
+1 t = 1000 kg
+```
+
+**Atenção:** Massa ≠ Peso
+- Massa: quantidade de matéria (kg)
+- Peso: força da gravidade (N, newtons)
+
+### Tempo
+
+**Unidade SI:** segundo (s)
+
+**Conversões:**
+
+```
+1 min = 60 s
+1 h = 60 min = 3600 s
+1 dia = 24 h = 1440 min = 86.400 s
+```
+
+**Exemplos:**
+
+**2,5 h em minutos:**
+2,5 h = 2,5 × 60 = 150 min
+
+**90 min em horas:**
+90 min = 90 ÷ 60 = 1,5 h
+
+**2 h 30 min em segundos:**
+2 h 30 min = (2 × 3600) + (30 × 60) = 7200 + 1800 = 9000 s
+
+### Velocidade
+
+**Unidade SI:** metro por segundo (m/s)
+
+**Conversão km/h ↔ m/s:**
+
+```
+km/h → m/s: dividir por 3,6
+m/s → km/h: multiplicar por 3,6
+```
+
+**Por quê?**
+- 1 km = 1000 m
+- 1 h = 3600 s
+- 1 km/h = 1000 m / 3600 s = 1/3,6 m/s
+
+**Exemplos:**
+
+**72 km/h em m/s:**
+72 km/h = 72 ÷ 3,6 = 20 m/s
+
+**10 m/s em km/h:**
+10 m/s = 10 × 3,6 = 36 km/h
+
+**108 km/h em m/s:**
+108 km/h = 108 ÷ 3,6 = 30 m/s
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+Converta 3,5 km em metros.
+
+**Solução:**
+km → m: ×1000
+3,5 km = 3,5 × 1000 = 3500 m
+
+*[Ver resposta 55 no final do documento]*
+
+#### Exercício 2
+Converta 250 cm em metros.
+
+**Solução:**
+cm → m: ÷100
+250 cm = 250 ÷ 100 = 2,5 m
+
+*[Ver resposta 56 no final do documento]*
+
+#### Exercício 3
+Quantos cm² há em 2 m²?
+
+**Solução:**
+m² → cm²: ×10.000 (2 casas)
+2 m² = 2 × 10.000 = 20.000 cm²
+
+*[Ver resposta 57 no final do documento]*
+
+#### Exercício 4
+Converta 5000 mL em litros.
+
+**Solução:**
+1 mL = 0,001 L
+5000 mL = 5000 × 0,001 = 5 L
+
+Ou: 1000 mL = 1 L
+5000 mL = 5000 ÷ 1000 = 5 L
+
+*[Ver resposta 58 no final do documento]*
+
+#### Exercício 5
+Converta 2,5 t (toneladas) em kg.
+
+**Solução:**
+1 t = 1000 kg
+2,5 t = 2,5 × 1000 = 2500 kg
+
+*[Ver resposta 59 no final do documento]*
+
+#### Exercício 6
+Converta 90 km/h em m/s.
+
+**Solução:**
+km/h → m/s: ÷3,6
+90 km/h = 90 ÷ 3,6 = 25 m/s
+
+*[Ver resposta 60 no final do documento]*
+
+#### Exercício 7
+Um terreno tem área de 2 hectares. Quantos m²?
+
+**Solução:**
+1 ha = 10.000 m²
+2 ha = 2 × 10.000 = 20.000 m²
+
+*[Ver resposta 61 no final do documento]*
+
+#### Exercício 8
+Converta 2 h 15 min em minutos.
+
+**Solução:**
+2 h = 2 × 60 = 120 min
+Total: 120 + 15 = 135 min
+
+*[Ver resposta 62 no final do documento]*
+
+### Outras Unidades Importantes
+
+**Temperatura:**
+```
+Celsius (°C) ↔ Kelvin (K):
+K = °C + 273
+°C = K - 273
+```
+
+**Pressão:**
+```
+1 atm = 101.325 Pa
+1 atm = 760 mmHg
+1 bar = 10⁵ Pa
+```
+
+**Energia:**
+```
+1 cal = 4,18 J (joule)
+1 kcal = 1000 cal
+1 kWh = 3,6 × 10⁶ J
+```
+
+### Dicas para a Prova
+
+1. **Comprimento:** cada casa = ×10 ou ÷10
+2. **Área:** cada casa = ×100 ou ÷100
+3. **Volume:** cada casa = ×1000 ou ÷1000
+4. **1 L = 1 dm³ = 1000 cm³ = 1000 mL**
+5. **1 m³ = 1000 L**
+6. **km/h → m/s: ÷3,6**
+7. **m/s → km/h: ×3,6**
+8. **1 ha = 10.000 m²**
+9. **1 t = 1000 kg**
+10. **Sempre verificar unidades no problema**
+
+### Conceitos-Chave para Memorizar
+
+**Prefixos:**
+- kilo (k) = 1000
+- centi (c) = 0,01 (centésimo)
+- mili (m) = 0,001 (milésimo)
+
+**Conversões importantes:**
+- 1 km = 1000 m
+- 1 m = 100 cm = 1000 mm
+- 1 m² = 10.000 cm²
+- 1 m³ = 1000 L
+- 1 L = 1000 mL
+- 1 kg = 1000 g
+- 1 h = 3600 s
+
+**Velocidade:**
+- km/h ÷ 3,6 = m/s
+- m/s × 3,6 = km/h
+
+### Fórmulas Essenciais
+
+```
+COMPRIMENTO (cada casa ×10):
+km - hm - dam - m - dm - cm - mm
+
+ÁREA (cada casa ×100):
+km² - hm² - dam² - m² - dm² - cm² - mm²
+
+VOLUME (cada casa ×1000):
+km³ - hm³ - dam³ - m³ - dm³ - cm³ - mm³
+
+MASSA (cada casa ×10):
+kg - hg - dag - g - dg - cg - mg
+
+VOLUME/CAPACIDADE:
+1 m³ = 1000 L
+1 dm³ = 1 L
+1 cm³ = 1 mL
+
+VELOCIDADE:
+km/h → m/s: ÷3,6
+m/s → km/h: ×3,6
+
+TEMPO:
+1 h = 60 min = 3600 s
+1 dia = 24 h
+
+ÁREA (especiais):
+1 hectare (ha) = 10.000 m²
+
+MASSA:
+1 tonelada (t) = 1000 kg
+```
+
+### Resumo Visual
+
+```
+ESCALA DE COMPRIMENTO:
+km → hm → dam → m → dm → cm → mm
+←÷10  ÷10  ÷10  ÷10  ÷10  ÷10←
+→×10  ×10  ×10  ×10  ×10  ×10→
+
+VOLUME E CAPACIDADE:
+   1 m³
+    │
+  1000 L
+    │
+ 1000 dm³
+
+   1 L
+    │
+ 1000 mL
+    │
+ 1000 cm³
+
+VELOCIDADE:
+  km/h  ←─×3,6──  m/s
+  km/h  ──÷3,6─→  m/s
+
+EXEMPLOS:
+72 km/h = 20 m/s
+90 km/h = 25 m/s
+108 km/h = 30 m/s
+```
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - conversões aparecem em todas as matérias!)
+
+---
+
+## Aula 58 - Física: Revisão de Cinemática (MRU, MRUV, Queda Livre, Lançamentos) - 90min
+
+### Conceitos Fundamentais de Cinemática
+
+**Cinemática:** estuda o movimento sem considerar suas causas (forças)
+
+**Grandezas fundamentais:**
+
+**Posição (s):** localização no espaço (m)
+
+**Deslocamento (Δs):**
+```
+Δs = s_final - s_inicial
+```
+
+**Velocidade (v):** taxa de variação da posição
+```
+v = Δs / Δt
+```
+- Unidade SI: m/s
+- Conversão: km/h ÷ 3,6 = m/s
+
+**Aceleração (a):** taxa de variação da velocidade
+```
+a = Δv / Δt
+```
+- Unidade SI: m/s²
+
+### Movimento Retilíneo Uniforme (MRU)
+
+**Características:**
+- Velocidade **constante**
+- Aceleração = 0
+- Trajetória **retilínea**
+
+**Equação horária:**
+```
+s = s₀ + vt
+```
+
+**Onde:**
+- s = posição final (m)
+- s₀ = posição inicial (m)
+- v = velocidade (m/s)
+- t = tempo (s)
+
+**Gráficos:**
+
+**s × t:** reta inclinada
+- Inclinação = velocidade
+
+**v × t:** reta horizontal
+- v = constante
+
+**Exemplo:**
+Carro a 20 m/s, parte de s₀ = 10 m. Posição em t = 5 s?
+s = 10 + 20×5 = 10 + 100 = 110 m
+
+### Movimento Retilíneo Uniformemente Variado (MRUV)
+
+**Características:**
+- Aceleração **constante** (≠ 0)
+- Velocidade **varia uniformemente**
+- Trajetória **retilínea**
 
 **Equações:**
 
-**1. Velocidade:**
+**1. Velocidade em função do tempo:**
 ```
 v = v₀ + at
 ```
 
-**2. Posição (Sorvetão):**
+**2. Posição em função do tempo:**
 ```
-S = S₀ + v₀t + (at²)/2
+s = s₀ + v₀t + ½at²
 ```
 
-**3. Torricelli (sem tempo):**
+**3. Equação de Torricelli (sem tempo):**
 ```
-v² = v₀² + 2aΔS
+v² = v₀² + 2aΔs
 ```
 
 **Onde:**
-- S = posição final
-- S₀ = posição inicial
-- v = velocidade final
-- v₀ = velocidade inicial
-- a = aceleração
-- t = tempo
-- ΔS = deslocamento
+- v = velocidade final (m/s)
+- v₀ = velocidade inicial (m/s)
+- a = aceleração (m/s²)
+- t = tempo (s)
+- Δs = deslocamento (m)
 
-**Exemplo completo:**
+**Gráficos:**
 
-Um carro a 10 m/s acelera a 2 m/s² por 5 segundos. Calcule:
+**v × t:** reta inclinada
+- Inclinação = aceleração
+- Área sob a reta = deslocamento
 
-**a) Velocidade final:**
-```
-v = v₀ + at = 10 + 2(5) = 10 + 10 = 20 m/s
-```
+**a × t:** reta horizontal
+- a = constante
 
-**b) Deslocamento:**
-```
-ΔS = v₀t + at²/2 = 10(5) + 2(5)²/2
-ΔS = 50 + 2(25)/2 = 50 + 25 = 75 m
-```
+**Exemplo:**
+Carro parte do repouso (v₀ = 0) com a = 2 m/s². Velocidade em t = 10 s?
+v = 0 + 2×10 = 20 m/s
 
-**Ou por Torricelli:**
-```
-v² = v₀² + 2aΔS
-20² = 10² + 2(2)ΔS
-400 = 100 + 4ΔS
-ΔS = 300/4 = 75 m ✓
-```
+### Queda Livre
 
-### PARTE 4: Queda Livre e Lançamento Vertical
+**Caso especial de MRUV:**
+- a = g = 10 m/s² (gravidade, para baixo)
+- v₀ = 0 (solta do repouso)
+- Movimento **vertical**
 
-**Queda Livre:**
-- Movimento vertical
-- v₀ = 0 (solto do repouso)
-- a = g = 10 m/s² (para baixo)
+**Equações (queda livre):**
 
-**Equações:**
 ```
 v = gt
-h = gt²/2
+h = ½gt²
 v² = 2gh
 ```
 
+**Onde h é a altura**
+
 **Exemplo:**
-```
-Objeto cai de 80 m. Com que velocidade chega ao chão?
+Objeto cai de 20 m. Velocidade ao chegar no chão?
+v² = 2×10×20 = 400
+v = 20 m/s
 
-v² = 2gh = 2(10)(80) = 1600
-v = 40 m/s
-```
+**Tempo de queda:**
+h = ½gt²
+20 = ½×10×t²
+20 = 5t²
+t² = 4
+t = 2 s
 
-**Lançamento Vertical para Cima:**
-- v₀ > 0
-- a = −g = −10 m/s² (contra o movimento)
-- Altura máxima: v = 0
+### Lançamento Vertical
+
+**Para cima:**
+- v₀ ≠ 0 (lançado)
+- a = -g = -10 m/s² (gravidade freia)
+- Sobe até v = 0 (altura máxima)
+- Depois cai
+
+**Equações:**
+
+```
+v = v₀ - gt
+h = v₀t - ½gt²
+v² = v₀² - 2gh
+```
 
 **Altura máxima:**
+v = 0 no ponto mais alto
 ```
 h_máx = v₀² / (2g)
 ```
@@ -2780,5675 +5310,3134 @@ t_subida = v₀ / g
 t_total = 2v₀ / g
 ```
 
-### PARTE 5: Dinâmica - Leis de Newton
-
-**1ª Lei (Inércia):**
-"Todo corpo permanece em repouso ou em movimento retilíneo uniforme, a menos que seja obrigado a mudar por forças aplicadas."
-
-**Consequência:**
-- Sem força resultante → velocidade constante
-- F_R = 0 → a = 0
-
-**2ª Lei (Fundamental):**
-```
-F_R = m · a
-
-Onde:
-F_R = força resultante (N)
-m = massa (kg)
-a = aceleração (m/s²)
-```
-
-**Unidade de força:** Newton (N)
-```
-1 N = 1 kg · m/s²
-```
-
-**Importante:**
-- Força e aceleração têm mesma direção e sentido
-- Maior massa → menor aceleração (mesma força)
-
-**3ª Lei (Ação e Reação):**
-"Para toda ação há uma reação de mesma intensidade, mesma direção e sentido oposto."
-
-**Características:**
-- Agem em corpos diferentes
-- Não se anulam
-- São simultâneas
-
-**Exemplos:**
-- Empurrar parede → parede empurra de volta
-- Foguete expele gases → gases empurram foguete
-
-### PARTE 6: Força Peso
-
-**Definição:** força da gravidade sobre um corpo
-
-**Fórmula:**
-```
-P = m · g
-
-Onde:
-P = peso (N)
-m = massa (kg)
-g = gravidade (≈ 10 m/s²)
-```
-
-**Importante:**
-- Peso é FORÇA (medida em N)
-- Massa é quantidade de matéria (medida em kg)
-- Peso varia com g, massa não
-
 **Exemplo:**
-```
-Massa: 60 kg
-Na Terra (g = 10 m/s²): P = 60 × 10 = 600 N
-Na Lua (g = 1,6 m/s²): P = 60 × 1,6 = 96 N
-```
-
-### PARTE 7: Força Normal e Atrito
-
-**Força Normal (N):**
-- Perpendicular à superfície
-- Reação da superfície ao contato
-
-**Em superfície horizontal:**
-```
-N = P = mg
-```
-
-**Força de Atrito (F_at):**
-
-**Atrito estático:** impede início do movimento
-```
-F_at ≤ μ_e · N
-```
-
-**Atrito cinético:** atua durante o movimento
-```
-F_at = μ_c · N
-
-Onde:
-μ = coeficiente de atrito (sem unidade)
-```
-
-**Importante:**
-- Atrito sempre opõe-se ao movimento
-- μ_estático > μ_cinético (mais difícil tirar do repouso)
-
-### Questões de Fixação
-
-#### Questão 1
-Um móvel em MRU parte de S₀ = 20 m com v = 5 m/s. Onde está em t = 6 s?
-
-**Resposta:**
-```
-S = 20 + 5(6) = 20 + 30 = 50 m
-```
-
-#### Questão 2
-Um carro freia de 20 m/s para 0 m/s em 4 s. Qual a aceleração?
-
-**Resposta:**
-```
-a = Δv/Δt = (0 - 20)/4 = -20/4 = -5 m/s²
-(negativa = freando)
-```
-
-#### Questão 3
-Objeto cai por 3 s. Qual a velocidade final? (g = 10 m/s²)
-
-**Resposta:**
-```
-v = gt = 10(3) = 30 m/s
-```
-
-#### Questão 4
-Calcule o peso de uma pessoa de 80 kg. (g = 10 m/s²)
-
-**Resposta:**
-```
-P = mg = 80 × 10 = 800 N
-```
-
-#### Questão 5
-Uma força de 50 N atua em um corpo de 10 kg. Qual a aceleração?
-
-**Resposta:**
-```
-F = ma
-50 = 10a
-a = 5 m/s²
-```
-
-### Fórmulas Essenciais - Resumo
-
-```
-CONCEITOS:
-v = ΔS/Δt
-a = Δv/Δt
-
-Conversão: km/h ↔ m/s (÷ ou × 3,6)
-
-MRU:
-S = S₀ + vt
-
-MRUV:
-v = v₀ + at
-S = S₀ + v₀t + at²/2
-v² = v₀² + 2aΔS
-
-QUEDA LIVRE (v₀ = 0):
-v = gt
-h = gt²/2
-v² = 2gh
-
-LANÇAMENTO VERTICAL:
-h_máx = v₀²/(2g)
-t_subida = v₀/g
-
-DINÂMICA:
-F_R = ma  (2ª Lei)
-P = mg  (Peso)
-F_at = μN  (Atrito)
-
-DADOS:
-g = 10 m/s²
-```
-
-### Checklist de Revisão
-
-- [ ] Sei a fórmula do MRU e resolver problemas
-- [ ] Sei as 3 equações do MRUV
-- [ ] Sei quando usar cada equação do MRUV
-- [ ] Sei resolver problemas de queda livre
-- [ ] Sei calcular altura máxima em lançamento vertical
-- [ ] Sei as 3 Leis de Newton
-- [ ] Sei aplicar F = ma
-- [ ] Sei calcular peso (P = mg)
-- [ ] Sei a diferença entre massa e peso
-- [ ] Sei converter km/h ↔ m/s
-
----
-
-**Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio (revisão)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (sempre cai!)
-
----
-
-## Aula 73 - Química: Revisão Geral - Conceitos-Chave - 60min
-
-### Objetivo da Revisão
-
-Revisar rapidamente os principais conceitos de Química para a prova.
-
-### 1. Modelos Atômicos - Resumo Rápido
-
-```
-Dalton (1808) → Bola de bilhar (maciça)
-Thomson (1897) → Pudim de passas (descobriu elétron)
-Rutherford (1911) → Planetário (descobriu núcleo)
-Bohr (1913) → Níveis de energia (K, L, M, N...)
-Atual → Orbitais (probabilidade)
-```
-
-### 2. Estrutura Atômica
-
-```
-Próton (p⁺): carga +1, massa ~1 u
-Nêutron (n⁰): carga 0, massa ~1 u
-Elétron (e⁻): carga -1, massa ~1/1836 u
-
-Notação: ᴬᴢX
-
-Z = número atômico = prótons
-A = número de massa = prótons + nêutrons
-N = nêutrons = A - Z
-
-Isótopos: mesmo Z, A diferente
-Isóbaros: mesmo A, Z diferente
-Isótonos: mesmo N, Z e A diferentes
-```
-
-### 3. Tabela Periódica - Essencial
-
-**Organização:**
-- 7 períodos (linhas) = número de camadas
-- 18 grupos (colunas) = propriedades semelhantes
-
-**Famílias principais:**
-```
-Grupo 1: Metais Alcalinos (Li, Na, K...)
-Grupo 2: Metais Alcalino-Terrosos (Be, Mg, Ca...)
-Grupo 16: Calcogênios (O, S, Se...)
-Grupo 17: Halogênios (F, Cl, Br, I...)
-Grupo 18: Gases Nobres (He, Ne, Ar...)
-```
-
-**Propriedades periódicas:**
-```
-Raio atômico: ↑ na família, ← no período
-Energia de ionização: ↓ na família, → no período
-Eletronegatividade: ↓ na família, → no período
-
-Mais eletronegativo: F (flúor)
-Ordem: F > O > N > Cl
-```
-
-### 4. Ligações Químicas
-
-**Iônica:**
-- Metal + não-metal
-- Transferência de elétrons
-- Cátion + ânion
-- Exemplo: NaCl (Na⁺ + Cl⁻)
-
-**Covalente:**
-- Não-metal + não-metal
-- Compartilhamento de elétrons
-- Exemplos: H₂, O₂, H₂O, CO₂
-
-**Metálica:**
-- Metal + metal
-- "Mar de elétrons"
-- Exemplo: Fe, Cu, Al
-
-### 5. Estequiometria - Fórmulas-Chave
-
-```
-1 mol = 6,02 × 10²³ entidades (Nᴀ)
-
-n = m/M  (mol)
-m = n × M  (massa)
-N = n × Nᴀ  (partículas)
-V = n × 22,4 L  (CNTP)
-
-Leis:
-Lavoisier: m_reagentes = m_produtos
-Proust: proporção constante
-```
-
-### 6. Funções Inorgânicas
-
-**Ácidos:** liberam H⁺ em água
-- Exemplos: HCl, H₂SO₄, HNO₃
-
-**Bases:** liberam OH⁻ em água
-- Exemplos: NaOH, Ca(OH)₂
-
-**Sais:** cátion + ânion
-- Exemplos: NaCl, K₂SO₄
-
-**Óxidos:** elemento + oxigênio
-- Exemplos: CO₂, H₂O, Fe₂O₃
-
-### 7. Separação de Misturas - Resumo
-
-```
-Filtração: sólido + líquido
-Destilação simples: líquido + sólido dissolvido
-Destilação fracionada: líquidos miscíveis
-Decantação: líquidos imiscíveis ou sólido + líquido
-Centrifugação: acelera decantação
-```
-
-### 8. pH e pOH (Conceito Básico)
-
-```
-pH < 7: ácido
-pH = 7: neutro
-pH > 7: básico
-
-pH + pOH = 14
-```
-
-### 9. Reações Químicas - Tipos
-
-**Síntese:**
-```
-A + B → AB
-```
-
-**Decomposição:**
-```
-AB → A + B
-```
-
-**Simples troca:**
-```
-AB + C → AC + B
-```
-
-**Dupla troca:**
-```
-AB + CD → AD + CB
-```
-
-### 10. Dados Importantes - Memorizar
-
-**Massas molares comuns:**
-```
-H = 1 g/mol
-C = 12 g/mol
-N = 14 g/mol
-O = 16 g/mol
-Na = 23 g/mol
-Cl = 35,5 g/mol
-Ca = 40 g/mol
-
-H₂O = 18 g/mol
-CO₂ = 44 g/mol
-NaCl = 58,5 g/mol
-```
-
-**Constantes:**
-```
-Nᴀ = 6,02 × 10²³ /mol
-V_molar (CNTP) = 22,4 L/mol
-```
-
-### Questões Rápidas
-
-#### Questão 1
-Quantos nêutrons tem ³⁵₁₇Cl?
-
-**Resposta:** N = 35 - 17 = 18 nêutrons
-
-#### Questão 2
-Qual elemento é mais eletronegativo: N ou O?
-
-**Resposta:** O (oxigênio) - mais à direita no período
-
-#### Questão 3
-NaCl é ligação iônica ou covalente?
-
-**Resposta:** Iônica (metal + não-metal)
-
-#### Questão 4
-Quantos mols há em 90 g de H₂O? (M = 18 g/mol)
-
-**Resposta:** n = 90/18 = 5 mols
-
-#### Questão 5
-pH = 3 é ácido, neutro ou básico?
-
-**Resposta:** Ácido (pH < 7)
-
-### Resumo Ultra-Rápido
-
-```
-ESTRUTURA:
-Z = prótons
-A = prótons + nêutrons
-N = A - Z
-
-TABELA:
-Famílias importantes: Alcalinos, Halogênios, Gases Nobres
-F = mais eletronegativo
-
-LIGAÇÕES:
-Iônica: metal + não-metal
-Covalente: não-metal + não-metal
-Metálica: metal + metal
-
-ESTEQUIOMETRIA:
-n = m/M
-1 mol = 6,02×10²³
-V_molar = 22,4 L
-
-FUNÇÕES:
-Ácido: H⁺
-Base: OH⁻
-Sal: cátion + ânion
-Óxido: elemento + O
+Bola lançada para cima com v₀ = 30 m/s. Altura máxima?
+h_máx = 30² / (2×10) = 900 / 20 = 45 m
 
-pH:
-< 7: ácido
-= 7: neutro
-> 7: básico
-```
-
----
-
-**Tempo de estudo recomendado:** 60 minutos
-**Nível de dificuldade:** Fácil-Médio (revisão rápida)
-**Importância para a prova:** ⭐⭐⭐⭐⭐
-
----
-
-## Aula 74 - Ciências Humanas: Trânsitos entre Continentes e América Portuguesa - 60min
-
-### Objetivo
-
-Compreender as Grandes Navegações e a colonização do Brasil.
-
-### PARTE 1: Expansão Marítima (Séculos XV-XVII)
-
-**Pioneirismo Português:**
-- Posição geográfica favorável
-- Escola de Sagres (investimento em navegação)
-- Busca de rota para as Índias
-- Comércio de especiarias
-
-**Principais navegações:**
-- 1488: Bartolomeu Dias - Cabo da Boa Esperança
-- 1498: Vasco da Gama - Índia
-- 1500: Pedro Álvares Cabral - Brasil
-
-**Expansão Espanhola:**
-- 1492: Cristóvão Colombo - América (pensou que era Índia)
-- Busca por ouro e prata
-
-**Motivações:**
-- Econômicas: comércio de especiarias, ouro, prata
-- Religiosas: expansão do cristianismo
-- Políticas: expansão territorial
-
-**Consequências:**
-- Encontro de culturas
-- Colonização da América
-- Tráfico de escravizados africanos
-- Dizimação de populações indígenas
-
-### PARTE 2: Tratado de Tordesilhas (1494)
-
-**Contexto:** disputa entre Portugal e Espanha
-
-**Acordo:**
-- Linha imaginária 370 léguas a oeste de Cabo Verde
-- Oeste da linha: Espanha
-- Leste da linha: Portugal
-
-**Resultado:**
-- Brasil fica com Portugal
-- Resto da América do Sul com Espanha
-
-### PARTE 3: América Portuguesa - Colonização do Brasil
-
-**Período Pré-Colonial (1500-1530):**
-- Exploração do pau-brasil
-- Escambo com indígenas
-- Feitorias no litoral
-
-**Capitanias Hereditárias (1534):**
-- Divisão do território em 15 faixas
-- Doadas a capitães-donatários
-- Objetivos: povoar e defender
-- Maioria fracassou (falta de recursos)
-- Exceções: São Vicente e Pernambuco
-
-**Governo-Geral (1548):**
-- Centralização administrativa
-- Primeiro governador: Tomé de Sousa (fundou Salvador)
-- Jesuítas: catequização indígena
-
-### PARTE 4: Economia Colonial
-
-**Plantation (Sistema de Plantation):**
-- Monocultura (cana-de-açúcar)
-- Latif úndi (grandes propriedades)
-- Escravidão (indígena → africana)
-- Produção para exportação
-
-**Ciclo do Açúcar (século XVI-XVII):**
-- Principal produto
-- Nordeste (Pernambuco, Bahia)
-- Engenhos
-- Mão de obra escravizada africana
-
-**Escravidão:**
-- Indígena: primeiros escravizados, resistência, doenças
-- Africana: tráfico negreiro, lucrativo para Portugal
-
-**Invasões holandesas:**
-- Século XVII
-- Interesse no açúcar
-- Maurício de Nassau em Pernambuco (1637-1644)
-- Expulsos em 1654
-
-### PARTE 5: Sociedade Colonial
-
-**Estrutura:**
-- Senhores de engenho (topo)
-- Homens livres pobres
-- Escravizados (base)
-
-**Características:**
-- Patriarcal
-- Rural
-- Escravista
-- Hierarquizada
-
-### PARTE 6: Impacto sobre Indígenas
-
-**Antes da colonização:**
-- Milhões de indígenas
-- Diversas etnias e línguas
-- Modo de vida integrado à natureza
-
-**Após colonização:**
-- Dizimação por doenças (varíola, sarampo)
-- Escravização e violência
-- Aldeamentos jesuítas
-- Perda de terras e cultura
-
-**Resistência:**
-- Guerras
-- Fugas
-- Preservação cultural em áreas remotas
-
-### Questões de Fixação
-
-#### Questão 1
-Por que Portugal foi pioneiro nas navegações?
-
-**Resposta:** Posição geográfica favorável, investimento em navegação (Escola de Sagres), busca por rota para as Índias.
-
-#### Questão 2
-O que foi o Tratado de Tordesilhas?
-
-**Resposta:** Acordo entre Portugal e Espanha (1494) que dividia o mundo com uma linha imaginária a 370 léguas de Cabo Verde. Portugal ficou com o lado leste (incluindo Brasil).
-
-#### Questão 3
-O que eram as Capitanias Hereditárias?
-
-**Resposta:** Divisão do Brasil em 15 faixas doadas a capitães-donatários para povoar e defender. Maioria fracassou.
-
-#### Questão 4
-Quais as características do sistema de plantation?
-
-**Resposta:** Monocultura, latifúndio, escravidão, produção para exportação.
-
-#### Questão 5
-Qual foi o impacto da colonização sobre os indígenas?
-
-**Resposta:** Dizimação por doenças, escravização, perda de terras e cultura, violência. Resistência através de guerras e fugas.
-
-### Resumo Visual
-
-```
-EXPANSÃO MARÍTIMA
-
-Portugal:           Espanha:
-1488 - Cabo        1492 - Colombo
-1498 - Índia       (América)
-1500 - Brasil
-
-        ↓
-
-TRATADO DE TORDESILHAS (1494)
-Linha 370 léguas oeste de Cabo Verde
-
-        ↓
-
-COLONIZAÇÃO DO BRASIL
-
-1500-1530: Pré-colonial (pau-brasil)
-1534: Capitanias Hereditárias
-1548: Governo-Geral
-
-        ↓
-
-ECONOMIA: Plantation
-- Monocultura (açúcar)
-- Latifúndio
-- Escravidão
-- Exportação
-
-SOCIEDADE:
-Senhores ───────┐
-Livres pobres ──┤ Hierárquica
-Escravizados ───┘ Patriarcal
-```
-
-### Conceitos-Chave
-
-```
-- Expansão Marítima
-- Especiarias
-- Tratado de Tordesilhas
-- Capitanias Hereditárias
-- Governo-Geral
-- Plantation
-- Ciclo do Açúcar
-- Escravidão indígena e africana
-- Sociedade patriarcal
-- Impacto sobre indígenas
-```
-
----
-
-**Tempo de estudo recomendado:** 60 minutos
-**Nível de dificuldade:** Médio
-**Importância para a prova:** ⭐⭐⭐⭐
-
----
-
-## 🎯 Terça-feira 10/12 - Completa!
-
-**Parabéns! Você completou mais um dia!**
-
-**Aulas criadas hoje:**
-- ✅ Aula 70: Revisão Exponencial/Logarítmica (120min)
-- ✅ Aula 71: Revisão Geometria/Trigonometria (90min)
-- ✅ Aula 72: Revisão Cinemática/Dinâmica (90min)
-- ✅ Aula 73: Revisão Química Geral (60min)
-- ✅ Aula 74: Humanas - Navegações e Colonização (60min)
-
-**Total: 5 aulas (420 minutos = 7 horas de estudo)**
-
-**Progresso total: 74/96 (77,1%)** 🎉
-
-**Faltam apenas 3 dias para a prova!**
+Tempo de subida:
+t = 30 / 10 = 3 s
 
-**Próximos passos:**
-- Quarta 11/12: Revisões gerais de todas as matérias
-- Continue firme! Você está quase lá! 💪📚
+### Lançamento Horizontal
 
----
+**Movimento composto:**
+- **Horizontal:** MRU (v_x = constante)
+- **Vertical:** queda livre (a_y = g)
 
-# 12/11 - Semana 3, Dia 3 (Quarta-feira)
+**Equações:**
 
-## Aula 75 - Matemática: Revisão Geral - Todos os Tópicos - 120min
-
-### Objetivo da Revisão
-
-Revisão abrangente de TODOS os tópicos de Matemática vistos, com foco em resolver dúvidas e fixar pontos críticos.
-
-### BLOCO 1: Conjuntos e Fundamentos (15min)
-
-**Relações essenciais:**
-```
-∈ (pertence): 3 ∈ {1, 2, 3}
-⊂ (contido): {1, 2} ⊂ {1, 2, 3}
-∪ (união): {1, 2} ∪ {2, 3} = {1, 2, 3}
-∩ (interseção): {1, 2} ∩ {2, 3} = {2}
-
-n(A ∪ B) = n(A) + n(B) − n(A ∩ B)
-```
-
-**MMC e MDC:**
-```
-MMC: menor múltiplo comum (eventos que se repetem)
-MDC: maior divisor comum (dividir em partes iguais)
-
-MMC × MDC = produto dos números
-```
-
-**Questão rápida:**
-```
-Dois ônibus passam juntos às 6h. Um passa a cada 12 min, outro a cada 18 min.
-Quando passarão juntos novamente?
-
-MMC(12, 18) = 36 minutos
-Resposta: 6h36min
-```
-
-### BLOCO 2: Funções (30min)
-
-**Função Afim: f(x) = ax + b**
-```
-a > 0: crescente
-a < 0: decrescente
-Raiz: x = −b/a
-```
-
-**Função Quadrática: f(x) = ax² + bx + c**
-```
-Δ = b² − 4ac
-x = (−b ± √Δ) / 2a
-
-Vértice:
-xᵥ = −b/2a
-yᵥ = −Δ/4a
-
-Concavidade:
-a > 0: ∪ (mínimo no vértice)
-a < 0: ∩ (máximo no vértice)
-
-Sinal (a > 0, Δ > 0):
-f(x) > 0: fora das raízes
-f(x) < 0: entre as raízes
-```
-
-**Função Exponencial: f(x) = aˣ**
-```
-a > 1: crescente
-0 < a < 1: decrescente
-
-Propriedades:
-aˣ · aʸ = aˣ⁺ʸ
-aˣ / aʸ = aˣ⁻ʸ
-(aˣ)ʸ = aˣʸ
-```
-
-**Função Logarítmica: f(x) = logₐ x**
-```
-logₐ b = x ⟺ aˣ = b
-
-Casos especiais:
-logₐ 1 = 0
-logₐ a = 1
-logₐ aˣ = x
-
-Propriedades:
-logₐ (bc) = logₐ b + logₐ c
-logₐ (b/c) = logₐ b − logₐ c
-logₐ bⁿ = n · logₐ b
-
-Mudança de base:
-logₐ b = log b / log a
-```
-
-**Exercício integrador:**
-```
-Resolva o sistema:
-{f(x) = x² − 4
-{g(x) = 2x − 4
-
-x² − 4 = 2x − 4
-x² − 2x = 0
-x(x − 2) = 0
-x = 0 ou x = 2
-
-Pontos: (0, −4) e (2, 0)
-```
-
-### BLOCO 3: Geometria (25min)
-
-**Áreas (revisão rápida):**
-```
-Triângulo: (b × h)/2
-Quadrado: L²
-Retângulo: b × h
-Trapézio: [(B + b) × h]/2
-Círculo: πr²
-```
-
-**Perímetros:**
-```
-Quadrado: 4L
-Retângulo: 2(b + h)
-Círculo: 2πr
-```
-
-**Pitágoras:**
-```
-a² = b² + c²
-
-Ternas: (3,4,5), (5,12,13), (8,15,17)
-```
-
-**Exemplo prático:**
+**Horizontal (x):**
 ```
-Uma escada de 5 m está a 3 m da parede. Qual a altura alcançada?
-
-5² = 3² + h²
-25 = 9 + h²
-h² = 16
-h = 4 m
-```
-
-### BLOCO 4: Trigonometria (20min)
-
-**Tabela obrigatória:**
-```
-       30°    45°    60°
-sen:   1/2    √2/2   √3/2
-cos:   √3/2   √2/2   1/2
-tg:    √3/3   1      √3
-```
-
-**Relações:**
-```
-sen² α + cos² α = 1
-tg α = sen α / cos α
-
-sen α = CO / H
-cos α = CA / H
-tg α = CO / CA
+x = v₀t
 ```
 
-**Exercício:**
+**Vertical (y):**
 ```
-Em um triângulo retângulo, hipotenusa = 10 m, ângulo = 30°.
-Calcule o cateto oposto.
-
-sen 30° = CO / 10
-1/2 = CO / 10
-CO = 5 m
-```
-
-### BLOCO 5: Razão, Proporção e Porcentagem (15min)
-
-**Razão:**
+y = ½gt²
+v_y = gt
 ```
-a/b (a está para b)
-```
-
-**Proporção:**
-```
-a/b = c/d → ad = bc
-```
 
-**Regra de três:**
+**Tempo de queda:** depende da altura
 ```
-Direta: grandezas na mesma direção
-Inversa: grandezas em direções opostas
+t = √(2h/g)
 ```
 
-**Porcentagem:**
+**Alcance:**
 ```
-x% de y = (x/100) × y
-
-Aumento de x%: multiplicar por (1 + x/100)
-Desconto de x%: multiplicar por (1 − x/100)
+A = v₀ × √(2h/g)
 ```
 
 **Exemplo:**
-```
-Preço: R$ 200
-Aumento de 15%: 200 × 1,15 = R$ 230
-Desconto de 20%: 200 × 0,80 = R$ 160
-```
+Objeto lançado horizontalmente a 20 m/s de altura 5 m.
 
-### BLOCO 6: Estatística Básica (15min)
+Tempo até o chão:
+t = √(2×5/10) = √1 = 1 s
 
-**Média aritmética:**
-```
-MA = (x₁ + x₂ + ... + xₙ) / n
-```
+Alcance:
+A = 20 × 1 = 20 m
 
-**Mediana:**
-- Ordenar os dados
-- Valor central (ou média dos dois centrais)
+### Exercícios de Revisão
 
-**Moda:**
-- Valor que mais aparece
-
-**Exemplo:**
-```
-Dados: 5, 7, 7, 8, 10
-
-Média: (5+7+7+8+10)/5 = 37/5 = 7,4
-Mediana: 7 (valor central)
-Moda: 7 (aparece 2 vezes)
-```
-
-### BLOCO 7: Problemas Mistos - Treino Final
-
-#### Problema 1
-Um terreno retangular tem 15 m de comprimento e 8 m de largura. Calcule:
-a) Área
-b) Perímetro
-c) Diagonal
+#### Exercício 1 (MRU)
+Um carro a 72 km/h percorre quanto em 10 s?
 
 **Solução:**
-```
-a) A = 15 × 8 = 120 m²
-b) P = 2(15 + 8) = 2(23) = 46 m
-c) d² = 15² + 8² = 225 + 64 = 289 → d = 17 m
-```
+v = 72 km/h = 72÷3,6 = 20 m/s
+s = vt = 20×10 = 200 m
 
-#### Problema 2
-Resolva: log₂ (x + 3) = 4
+*[Ver resposta 63 no final do documento]*
 
-**Solução:**
-```
-x + 3 = 2⁴
-x + 3 = 16
-x = 13
-
-Verificação: x + 3 = 16 > 0 ✓
-```
-
-#### Problema 3
-Uma população de bactérias dobra a cada hora. Começando com 100, quantas haverá em 5 horas?
+#### Exercício 2 (MRUV)
+Carro parte do repouso com a = 3 m/s². Qual a velocidade em 8 s?
 
 **Solução:**
-```
-P(t) = 100 × 2ᵗ
-P(5) = 100 × 2⁵ = 100 × 32 = 3200 bactérias
-```
+v = v₀ + at = 0 + 3×8 = 24 m/s
 
-#### Problema 4
-Determine o vértice de f(x) = x² − 6x + 5.
+*[Ver resposta 64 no final do documento]*
 
-**Solução:**
-```
-xᵥ = −(−6)/(2×1) = 6/2 = 3
-yᵥ = 3² − 6(3) + 5 = 9 − 18 + 5 = −4
-
-Vértice: V(3, −4)
-```
-
-#### Problema 5
-15% dos alunos faltaram. Se 34 compareceram, quantos são no total?
+#### Exercício 3 (MRUV)
+Móvel a 10 m/s acelera a 2 m/s² por 5 s. Qual o deslocamento?
 
 **Solução:**
+s = v₀t + ½at²
+s = 10×5 + ½×2×25
+s = 50 + 25 = 75 m
+
+*[Ver resposta 65 no final do documento]*
+
+#### Exercício 4 (Queda Livre)
+Pedra cai de altura 45 m. Tempo de queda?
+
+**Solução:**
+h = ½gt²
+45 = ½×10×t²
+45 = 5t²
+t² = 9
+t = 3 s
+
+*[Ver resposta 66 no final do documento]*
+
+#### Exercício 5 (Lançamento Vertical)
+Bola lançada para cima com 20 m/s. Altura máxima?
+
+**Solução:**
+h_máx = v₀²/(2g) = 400/(2×10) = 400/20 = 20 m
+
+*[Ver resposta 67 no final do documento]*
+
+#### Exercício 6 (Torricelli)
+Móvel parte do repouso e atinge 40 m/s após percorrer 80 m. Qual a aceleração?
+
+**Solução:**
+v² = v₀² + 2aΔs
+40² = 0² + 2×a×80
+1600 = 160a
+a = 10 m/s²
+
+*[Ver resposta 68 no final do documento]*
+
+### Comparação MRU × MRUV
+
 ```
-15% faltaram → 85% compareceram
-
-85% de x = 34
-0,85x = 34
-x = 34/0,85 = 40 alunos
+┌─────────────┬──────────┬──────────┐
+│             │   MRU    │   MRUV   │
+├─────────────┼──────────┼──────────┤
+│ Velocidade  │ Constante│  Varia   │
+│ Aceleração  │    0     │ Constante│
+│ Equação s   │ s₀+vt    │s₀+v₀t+½at²│
+│ Gráfico v×t │Horizontal│ Inclinado│
+└─────────────┴──────────┴──────────┘
 ```
-
-### Fórmulas Essenciais - RESUMO GERAL
-
-```
-CONJUNTOS:
-n(A ∪ B) = n(A) + n(B) − n(A ∩ B)
-
-FUNÇÕES:
-Afim: f(x) = ax + b, raiz = −b/a
-Quadrática: Δ = b² − 4ac, x = (−b±√Δ)/2a, xᵥ=−b/2a
-Exponencial: aˣ·aʸ = aˣ⁺ʸ
-Logarítmica: logₐ b = x ⟺ aˣ = b
-
-GEOMETRIA:
-Triângulo: A = bh/2
-Círculo: A = πr², C = 2πr
-Pitágoras: a² = b² + c²
-
-TRIGONOMETRIA:
-sen α = CO/H, cos α = CA/H, tg α = CO/CA
-sen²α + cos²α = 1
-
-       30°    45°    60°
-sen:   1/2    √2/2   √3/2
-cos:   √3/2   √2/2   1/2
-
-ESTATÍSTICA:
-Média = soma / quantidade
-```
-
-### Checklist Final - Matemática
-
-- [ ] Sei resolver problemas de conjuntos
-- [ ] Sei calcular MMC e MDC
-- [ ] Sei trabalhar com funções afim e quadrática
-- [ ] Sei resolver equações exponenciais e logarítmicas
-- [ ] Sei todas as propriedades de logaritmos
-- [ ] Sei calcular áreas e perímetros
-- [ ] Sei aplicar Pitágoras
-- [ ] Memorizei a tabela trigonométrica (30°, 45°, 60°)
-- [ ] Sei resolver regra de três
-- [ ] Sei calcular porcentagens
-- [ ] Sei calcular média, mediana, moda
 
 ### Dicas para a Prova
 
-1. **Leia com atenção** - identifique o que é pedido
-2. **Escreva os dados** - organize informações
-3. **Escolha a fórmula certa** - revise mentalmente
-4. **Calcule com calma** - erros bobos custam pontos
-5. **Verifique o resultado** - faz sentido?
-6. **Geometria:** sempre faça um esboço
-7. **Logaritmo:** sempre verifique condições de existência
-8. **MRUV vs MRU:** identifique se há aceleração
+1. **MRU:** a = 0, v = constante, s = s₀ + vt
+2. **MRUV:** a = constante, 3 equações (v, s, Torricelli)
+3. **Queda livre:** v₀ = 0, a = g = 10 m/s²
+4. **Lançamento vertical:** a = -g (para cima)
+5. **Altura máxima:** v = 0 no topo
+6. **Torricelli:** quando não tem tempo
+7. **Converter km/h → m/s: ÷3,6**
+8. **Gráfico v×t:** área = deslocamento
+9. **g = 10 m/s²** (aproximação na prova)
+10. **Vetor velocidade:** sinal indica sentido
 
----
+### Conceitos-Chave para Memorizar
 
-**Tempo de estudo recomendado:** 120 minutos
-**Nível de dificuldade:** Médio-Alto (revisão abrangente)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (TODO o conteúdo!)
+**MRU:**
+- v = constante
+- s = s₀ + vt
 
+**MRUV:**
+- a = constante
+- v = v₀ + at
+- s = s₀ + v₀t + ½at²
+- v² = v₀² + 2aΔs
 
-## Aula 76 - Física: Revisão Geral - Todos os Conceitos - 90min
-
-### Objetivo da Revisão
-
-Revisão abrangente de TODOS os tópicos de Física: Cinemática, Dinâmica e Hidrostática.
-
-### BLOCO 1: Cinemática - Revisão Rápida (30min)
-
-**Conceitos fundamentais:**
-```
-Posição (S): localização
-Velocidade (v): v = ΔS/Δt
-Aceleração (a): a = Δv/Δt
-
-Conversão: km/h ↔ m/s (÷ ou × 3,6)
-```
-
-**MRU (Movimento Retilíneo Uniforme):**
-```
-v = constante
-a = 0
-
-S = S₀ + vt
-```
-
-**MRUV (Movimento Retilíneo Uniformemente Variado):**
-```
-a = constante
-
-Equações:
-v = v₀ + at
-S = S₀ + v₀t + at²/2
-v² = v₀² + 2aΔS  (Torricelli)
-```
-
-**Queda Livre (v₀ = 0, a = g):**
-```
-v = gt
-h = gt²/2
-v² = 2gh
-```
+**Queda Livre:**
+- v₀ = 0, a = g
+- v = gt
+- h = ½gt²
+- v² = 2gh
 
 **Lançamento Vertical:**
-```
-h_máx = v₀²/(2g)
-t_subida = v₀/g
-t_total = 2v₀/g
-```
+- a = -g (para cima)
+- h_máx = v₀²/(2g)
+- t_subida = v₀/g
 
-**Exercício integrador:**
-```
-Um carro a 20 m/s freia com a = -4 m/s². 
-a) Quanto tempo até parar?
-b) Qual a distância percorrida?
-
-a) v = v₀ + at
-   0 = 20 + (-4)t
-   4t = 20
-   t = 5 s
-
-b) v² = v₀² + 2aΔS
-   0 = 20² + 2(-4)ΔS
-   0 = 400 - 8ΔS
-   ΔS = 50 m
-```
-
-### BLOCO 2: Dinâmica - Leis de Newton (30min)
-
-**1ª Lei (Inércia):**
-```
-F_R = 0 → velocidade constante (MRU ou repouso)
-```
-
-**2ª Lei (Fundamental):**
-```
-F_R = m × a
-
-Unidade: Newton (N)
-1 N = 1 kg·m/s²
-```
-
-**3ª Lei (Ação e Reação):**
-```
-Forças iguais, opostas, em corpos diferentes
-```
-
-**Força Peso:**
-```
-P = m × g
-
-Onde g = 10 m/s² (Terra)
-```
-
-**Força Normal:**
-```
-Superfície horizontal: N = P = mg
-```
-
-**Força de Atrito:**
-```
-F_at = μ × N
-
-μ = coeficiente de atrito
-```
-
-**Problema modelo:**
-```
-Um bloco de 5 kg está sobre superfície horizontal com μ = 0,3.
-Qual a força de atrito máxima?
-
-N = mg = 5 × 10 = 50 N
-F_at = 0,3 × 50 = 15 N
-```
-
-**Aplicação integrada:**
-```
-Força de 60 N puxa bloco de 10 kg com atrito 20 N.
-Qual a aceleração?
-
-F_R = F_aplicada - F_atrito
-F_R = 60 - 20 = 40 N
-
-F_R = ma
-40 = 10a
-a = 4 m/s²
-```
-
-### BLOCO 3: Hidrostática - Revisão Completa (30min)
-
-**Densidade:**
-```
-ρ = m/V
-
-Dados importantes:
-ρ_água = 1000 kg/m³ = 1 g/cm³
-ρ_mercúrio = 13600 kg/m³
-```
-
-**Pressão:**
-```
-P = F/A
-
-Unidades:
-Pa (N/m²)
-atm (1 atm ≈ 10⁵ Pa)
-mmHg (1 atm = 760 mmHg)
-```
-
-**Teorema de Stevin:**
-```
-P = P_atm + ρgh
-
-ou
-
-ΔP = ρgΔh
-
-Pressão aumenta com profundidade!
-```
-
-**Princípio de Pascal (Prensa Hidráulica):**
-```
-P₁ = P₂
-
-F₁/A₁ = F₂/A₂
-
-F₂ = F₁ × (A₂/A₁)
-```
-
-**Princípio de Arquimedes (Empuxo):**
-```
-E = ρ_fluido × V_deslocado × g
-
-Flutuação:
-- Afunda: ρ_corpo > ρ_fluido (E < P)
-- Flutua: ρ_corpo < ρ_fluido (E = P)
-- Fração submersa: f = ρ_corpo/ρ_fluido
-
-Peso aparente:
-P_aparente = P_real - E
-```
-
-**Teorema de Torricelli:**
-```
-v = √(2gh)
-
-Velocidade de saída de fluido
-```
-
-**Problema integrado:**
-```
-Um cubo de 1000 cm³ e massa 800 g é colocado na água.
-a) Ele afunda ou flutua?
-b) Qual a fração submersa?
-
-a) ρ_cubo = m/V = 800g/1000cm³ = 0,8 g/cm³
-   ρ_água = 1 g/cm³
-   ρ_cubo < ρ_água → FLUTUA!
-
-b) f = ρ_cubo/ρ_água = 0,8/1 = 0,8 = 80% submerso
-```
-
-### Problemas Mistos - Treino Final
-
-#### Problema 1
-Um objeto cai de 20 m. Com que velocidade atinge o solo? (g = 10 m/s²)
-
-**Solução:**
-```
-v² = 2gh = 2 × 10 × 20 = 400
-v = 20 m/s
-```
-
-#### Problema 2
-Qual o peso de um astronauta de 80 kg na Lua? (g_Lua = 1,6 m/s²)
-
-**Solução:**
-```
-P = mg = 80 × 1,6 = 128 N
-```
-
-#### Problema 3
-Pressão a 8 m de profundidade na água?
-
-**Solução:**
-```
-P = ρgh = 1000 × 10 × 8 = 80.000 Pa = 8 × 10⁴ Pa
-```
-
-#### Problema 4
-Prensa hidráulica: A₁ = 5 cm², A₂ = 25 cm², F₁ = 40 N. Calcule F₂.
-
-**Solução:**
-```
-F₂ = F₁ × (A₂/A₁) = 40 × (25/5) = 40 × 5 = 200 N
-```
-
-#### Problema 5
-Velocidade de saída de água em orifício a 5 m de profundidade?
-
-**Solução:**
-```
-v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s
-```
-
-### Fórmulas Essenciais - RESUMO COMPLETO
+### Fórmulas Essenciais
 
 ```
-CINEMÁTICA:
-v = ΔS/Δt
-a = Δv/Δt
-
-MRU: S = S₀ + vt
+MRU:
+s = s₀ + vt
+v = Δs / Δt
 
 MRUV:
 v = v₀ + at
-S = S₀ + v₀t + at²/2
-v² = v₀² + 2aΔS
+s = s₀ + v₀t + ½at²
+v² = v₀² + 2aΔs
 
-Queda livre:
-v = gt, h = gt²/2, v² = 2gh
+Queda Livre (v₀ = 0, a = g):
+v = gt
+h = ½gt²
+v² = 2gh
 
-Lançamento vertical:
-h_máx = v₀²/(2g)
+Lançamento Vertical (a = -g):
+v = v₀ - gt
+h = v₀t - ½gt²
+v² = v₀² - 2gh
+h_máx = v₀² / (2g)
+t_subida = v₀ / g
 
-DINÂMICA:
-F_R = ma
-P = mg
-F_at = μN
+Lançamento Horizontal:
+x = v₀t  (horizontal, MRU)
+y = ½gt² (vertical, queda livre)
 
-HIDROSTÁTICA:
-ρ = m/V
-P = F/A
-Stevin: P = P_atm + ρgh
-Pascal: F₁/A₁ = F₂/A₂
-Arquimedes: E = ρ_fluido × V × g
-Torricelli: v = √(2gh)
+Conversão:
+km/h ÷ 3,6 = m/s
+m/s × 3,6 = km/h
 
-DADOS:
-g = 10 m/s²
-ρ_água = 1000 kg/m³ = 1 g/cm³
-P_atm = 10⁵ Pa
+Constantes:
+g = 10 m/s² (Terra)
 ```
 
-### Checklist Final - Física
+### Resumo Visual
 
-- [ ] Sei as 3 equações do MRUV e quando usar cada uma
-- [ ] Sei converter km/h ↔ m/s
-- [ ] Sei resolver queda livre e lançamento vertical
-- [ ] Sei as 3 Leis de Newton
-- [ ] Sei aplicar F = ma
-- [ ] Sei calcular peso e diferenciar de massa
-- [ ] Sei calcular densidade
-- [ ] Sei aplicar Stevin (pressão em fluidos)
-- [ ] Sei resolver prensa hidráulica (Pascal)
-- [ ] Sei calcular empuxo e determinar flutuação
-- [ ] Sei aplicar Torricelli
+```
+MRU:
+  v constante
+  ─────────────→
+  s = s₀ + vt
 
-### Dicas para a Prova de Física
+MRUV:
+  v aumenta
+  ───→──→───→
+  s = s₀ + v₀t + ½at²
 
-1. **Identifique o tipo de movimento:** MRU (v constante) ou MRUV (a constante)
-2. **Liste dados e incógnita** antes de escolher a fórmula
-3. **Atenção às unidades:** sempre use SI (m, s, kg, N)
-4. **Conversão km/h → m/s:** divida por 3,6
-5. **Queda livre:** sempre g = 10 m/s²
-6. **Hidrostática:** ρ_água = 1000 kg/m³ (memorize!)
-7. **Empuxo:** compare densidades para saber se flutua
-8. **Desenhe diagramas** de forças quando necessário
+QUEDA LIVRE:
+     │
+     │ v aumenta
+     ↓ (a = g)
+     •
+  h = ½gt²
+
+LANÇAMENTO VERTICAL:
+     ↑ v diminui (a = -g)
+     │ v = 0 (h_máx)
+     ↓ v aumenta (a = g)
+     •
+
+GRÁFICOS:
+
+MRU (v×t):     MRUV (v×t):
+  v│             v│   /
+   │─────         │  /
+   └────t         └─/──t
+   
+MRU (s×t):     MRUV (s×t):
+  s│   /          s│   _/
+   │  /            │ _/
+   └─/──t          └/───t
+```
 
 ---
 
 **Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio-Alto (revisão abrangente)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (TODO o conteúdo!)
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - revisão completa de cinemática!)
 
 ---
 
+## Aula 59 - Química: Leis Estequiométricas (Leis Ponderais) - 90min
 
-## Aula 77 - Química: Revisão Geral - Todos os Conceitos - 90min
+### Introdução às Leis Ponderais
 
-### Objetivo da Revisão
+**Leis ponderais:** leis que regem as **relações de massa** nas reações químicas
 
-Revisão abrangente de TODOS os tópicos de Química: átomos, tabela periódica, ligações, estequiometria e funções.
+**Período:** final do século XVIII / início do século XIX
 
-### BLOCO 1: Estrutura Atômica e Modelos (15min)
+**Importância:** base da Química moderna, permitiram comprovar a teoria atômica
 
-**Evolução dos modelos:**
-```
-Dalton → Bola maciça
-Thomson → Pudim de passas (descobriu e⁻)
-Rutherford → Planetário (descobriu núcleo)
-Bohr → Níveis de energia (K,L,M,N,O,P,Q)
-Atual → Orbitais (probabilidade)
-```
+**Principais leis:**
+1. Lei de Lavoisier (Conservação das Massas)
+2. Lei de Proust (Proporções Constantes)
+3. Lei de Dalton (Proporções Múltiplas)
 
-**Partículas subatômicas:**
-```
-Próton (p⁺): carga +1, massa ~1 u, no núcleo
-Nêutron (n⁰): carga 0, massa ~1 u, no núcleo
-Elétron (e⁻): carga -1, massa ~1/1836 u, eletrosfera
-```
+### Lei de Lavoisier (1785)
 
-**Notação: ᴬᴢX**
-```
-Z = número atômico = prótons = elétrons (átomo neutro)
-A = número de massa = prótons + nêutrons
-N = nêutrons = A - Z
-```
+**Antoine Lavoisier (1743-1794):** "pai da Química moderna"
 
-**Isótopos, Isóbaros, Isótonos:**
-```
-Isótopos: mesmo Z, A diferente (mesmo elemento)
-  Ex: ¹²C e ¹⁴C
+**Enunciado:**
+"Na natureza nada se cria, nada se perde, tudo se transforma."
 
-Isóbaros: mesmo A, Z diferente
-  Ex: ⁴⁰K e ⁴⁰Ca
-
-Isótonos: mesmo N (nêutrons)
-  Ex: ¹⁴C e ¹⁵N (ambos 7 nêutrons)
-```
-
-**Íons:**
-```
-Cátion: perde e⁻ (carga +)
-  Ex: Na⁺ (perdeu 1 e⁻)
-
-Ânion: ganha e⁻ (carga -)
-  Ex: Cl⁻ (ganhou 1 e⁻)
-```
-
-### BLOCO 2: Tabela Periódica (20min)
-
-**Organização:**
-```
-7 períodos (linhas) = número de camadas eletrônicas
-18 grupos (colunas) = propriedades semelhantes
-```
-
-**Famílias principais:**
-```
-Grupo 1: Metais Alcalinos (Li, Na, K, Rb, Cs, Fr)
-  - 1 e⁻ na camada de valência
-  - Muito reativos
-
-Grupo 2: Metais Alcalino-Terrosos (Be, Mg, Ca, Sr, Ba, Ra)
-  - 2 e⁻ na camada de valência
-
-Grupo 13: Família do Boro (B, Al, Ga, In, Tl)
-Grupo 14: Família do Carbono (C, Si, Ge, Sn, Pb)
-Grupo 15: Família do Nitrogênio (N, P, As, Sb, Bi)
-
-Grupo 16: Calcogênios (O, S, Se, Te, Po)
-  - 6 e⁻ na camada de valência
-
-Grupo 17: Halogênios (F, Cl, Br, I, At)
-  - 7 e⁻ na camada de valência
-  - Muito reativos
-
-Grupo 18: Gases Nobres (He, Ne, Ar, Kr, Xe, Rn)
-  - 8 e⁻ na camada de valência (completa!)
-  - Inertes (não reagem)
-```
-
-**Classificação:**
-```
-Metais: maioria, lado esquerdo e centro
-  - Brilhantes, condutores, maleáveis
-
-Não-metais (ametais): lado direito superior
-  - C, N, O, P, S, Se, F, Cl, Br, I
-
-Semimetais: B, Si, Ge, As, Sb, Te, Po, At
-  - Propriedades intermediárias
-```
-
-**Propriedades Periódicas:**
-```
-RAIO ATÔMICO:
-↑ Na família (mais camadas)
-← No período (mais prótons, mais atração)
-
-ENERGIA DE IONIZAÇÃO:
-↓ Na família (e⁻ mais afastados)
-→ No período (mais atração nuclear)
-
-ELETRONEGATIVIDADE:
-↓ Na família
-→ No período
-
-Mais eletronegativo: F (flúor)
-Ordem: F > O > N > Cl
-
-Menos eletronegativo: Fr (frâncio)
-```
-
-### BLOCO 3: Ligações Químicas (15min)
-
-**Regra do Octeto:**
-```
-Átomos tendem a ter 8 e⁻ na camada de valência
-(exceto H e He: 2 e⁻)
-```
-
-**Ligação Iônica:**
-```
-Metal + Não-metal
-Transferência de e⁻
-Cátion + Ânion
-Alta temperatura de fusão
-Conduz eletricidade quando fundido ou em solução
-
-Exemplos: NaCl, CaO, MgCl₂
-```
-
-**Ligação Covalente:**
-```
-Não-metal + Não-metal
-Compartilhamento de e⁻
-Moléculas
-Temperatura de fusão mais baixa
-
-Exemplos: H₂, O₂, H₂O, CO₂, CH₄
-```
-
-**Ligação Metálica:**
-```
-Metal + Metal
-"Mar de elétrons"
-Conduz eletricidade e calor
-Maleável, dúctil
-
-Exemplos: Fe, Cu, Al, Au, Ag
-```
-
-### BLOCO 4: Estequiometria (25min)
-
-**Conceito de Mol:**
-```
-1 mol = 6,02 × 10²³ entidades
-
-Constante de Avogadro:
-Nᴀ = 6,02 × 10²³ /mol
-```
-
-**Massa Molar (M):**
-```
-Massa de 1 mol
-Unidade: g/mol
-Valor numérico = massa atômica/molecular
-```
-
-**Relações fundamentais:**
-```
-n = m/M        (número de mols)
-m = n × M      (massa)
-N = n × Nᴀ     (número de partículas)
-V = n × 22,4 L (volume em CNTP)
-```
-
-**Leis Ponderais:**
-```
-Lavoisier (Conservação das Massas):
-  m_reagentes = m_produtos
-  "Nada se cria, nada se perde"
-
-Proust (Proporções Constantes):
-  Mesma substância, mesma proporção
-
-Dalton (Proporções Múltiplas):
-  Compostos diferentes, proporções inteiras
-```
-
-**Cálculos estequiométricos:**
-
-**Tipo 1: Massa → Massa**
-```
-Exemplo: N₂ + 3H₂ → 2NH₃
-Quantos g de NH₃ a partir de 28 g de N₂?
-
-M(N₂) = 28 g/mol, M(NH₃) = 17 g/mol
-
-1 mol N₂ : 2 mol NH₃
-28 g N₂ : 34 g NH₃
-
-28 g N₂ produz 34 g NH₃
-```
-
-**Tipo 2: Volume → Volume (CNTP)**
-```
-Proporção volumétrica = proporção molar
-
-N₂ + 3H₂ → 2NH₃
-1 volume : 3 volumes : 2 volumes
-
-30 L H₂ produz quantos L de NH₃?
-3 L : 2 L
-30 L : x
-x = 20 L NH₃
-```
-
-### BLOCO 5: Funções Inorgânicas (10min)
-
-**Ácidos:**
-```
-Liberam H⁺ em água
-pH < 7
-Azeda papel tornassol azul
-
-Exemplos:
-HCl - ácido clorídrico
-H₂SO₄ - ácido sulfúrico
-HNO₃ - ácido nítrico
-H₃PO₄ - ácido fosfórico
-```
-
-**Bases:**
-```
-Liberam OH⁻ em água
-pH > 7
-Avermelha fenolftaleína
-
-Exemplos:
-NaOH - hidróxido de sódio
-Ca(OH)₂ - hidróxido de cálcio
-NH₄OH - hidróxido de amônio
-```
-
-**Sais:**
-```
-Cátion + Ânion
-Produto de neutralização (ácido + base)
-
-Exemplos:
-NaCl - cloreto de sódio
-K₂SO₄ - sulfato de potássio
-CaCO₃ - carbonato de cálcio
-```
-
-**Óxidos:**
-```
-Elemento + Oxigênio
-
-Exemplos:
-CO₂ - dióxido de carbono
-H₂O - água (óxido de hidrogênio)
-Fe₂O₃ - óxido de ferro III
-```
-
-**pH e pOH:**
-```
-pH < 7: ácido
-pH = 7: neutro
-pH > 7: básico
-
-pH + pOH = 14
-```
-
-### BLOCO 6: Separação de Misturas (5min)
+**Forma científica:**
+**"A soma das massas dos reagentes é igual à soma das massas dos produtos em um sistema fechado."**
 
 ```
-Filtração: sólido + líquido (retenção em filtro)
-Decantação: líquidos imiscíveis ou sólido + líquido
-Destilação simples: líquido + sólido dissolvido
-Destilação fracionada: líquidos miscíveis (PEs diferentes)
-Centrifugação: acelera separação sólido + líquido
-Evaporação: líquido volátil + sólido
+Σ m_reagentes = Σ m_produtos
 ```
 
-### Problemas Mistos - Treino Final
+**Exemplos:**
 
-#### Problema 1
-Quantos nêutrons tem ³⁹₁₉K?
+**Reação: 2 H₂ + O₂ → 2 H₂O**
+- 4 g de H₂ + 32 g de O₂ → 36 g de H₂O
+- 4 + 32 = 36 ✓
+
+**Reação: Fe + S → FeS**
+- 56 g de Fe + 32 g de S → 88 g de FeS
+- 56 + 32 = 88 ✓
+
+**Experimento clássico:**
+```
+┌────────────────┐
+│  Recipiente    │
+│   fechado      │
+│                │
+│  reagentes ──► produtos │
+│                │
+└────────────────┘
+Massa antes = Massa depois
+```
+
+**Observação importante:**
+- Lei válida em **sistema fechado** (sem troca de matéria)
+- Em sistema aberto, parece violar (gás escapa, por exemplo)
+
+**Aplicação:**
+- Permite calcular massa de reagente ou produto desconhecido
+
+**Exemplo:**
+Na reação A + B → C, se 10 g de A reagem com B para formar 18 g de C, qual a massa de B?
+
+m_A + m_B = m_C
+10 + m_B = 18
+m_B = 8 g
+
+### Lei de Proust (1797)
+
+**Joseph Proust (1754-1826):** químico francês
+
+**Enunciado:**
+**"Uma substância pura, qualquer que seja sua origem, apresenta sempre a mesma composição em massa."**
+
+**Também chamada:**
+- Lei das Proporções Constantes
+- Lei das Proporções Definidas
+
+**Significado:**
+- A **proporção** entre as massas é sempre a mesma
+- Não importa a quantidade, a razão é constante
+
+**Exemplo 1: Água (H₂O)**
+
+Síntese da água: 2 H₂ + O₂ → 2 H₂O
+
+```
+┌───────────┬─────────┬─────────┬─────────┐
+│Experimento│  H₂ (g) │  O₂ (g) │ H₂O (g) │
+├───────────┼─────────┼─────────┼─────────┤
+│     1     │    2    │   16    │   18    │
+│     2     │    4    │   32    │   36    │
+│     3     │    8    │   64    │   72    │
+└───────────┴─────────┴─────────┴─────────┘
+
+Proporção: H₂ : O₂ : H₂O = 2 : 16 : 18 = 1 : 8 : 9
+```
+
+**Sempre:** 1 g de H₂ reage com 8 g de O₂ para formar 9 g de H₂O
+
+**Exemplo 2: Gás carbônico (CO₂)**
+
+C + O₂ → CO₂
+
+```
+┌───────────┬────────┬─────────┬─────────┐
+│Experimento│  C (g) │  O₂ (g) │ CO₂ (g) │
+├───────────┼────────┼─────────┼─────────┤
+│     1     │   3    │    8    │   11    │
+│     2     │   6    │   16    │   22    │
+│     3     │  12    │   32    │   44    │
+└───────────┴────────┴─────────┴─────────┘
+
+Proporção: C : O₂ : CO₂ = 3 : 8 : 11
+```
+
+**Sempre:** 3 g de C reagem com 8 g de O₂ para formar 11 g de CO₂
+
+**Aplicação:**
+- Permite calcular massas em qualquer quantidade da reação
+- Base da estequiometria
+
+**Exemplo de cálculo:**
+Se 3 g de C reagem com 8 g de O₂, quantos gramas de C reagem com 24 g de O₂?
+
+Proporção: 3 g C / 8 g O₂ = x / 24 g O₂
+x = (3 × 24) / 8 = 9 g de C
+
+### Lei de Dalton (1803)
+
+**John Dalton (1766-1844):** químico e físico inglês
+
+**Enunciado:**
+**"Quando dois elementos formam mais de um composto, as massas de um deles que se combinam com uma massa fixa do outro estão em uma razão de números inteiros e pequenos."**
+
+**Também chamada:** Lei das Proporções Múltiplas
+
+**Contexto:**
+- Alguns elementos formam mais de um composto entre si
+- Ex: C + O pode formar CO ou CO₂
+- Ex: N + O pode formar NO, NO₂, N₂O, etc.
+
+**Exemplo clássico: CO e CO₂**
+
+**Monóxido de carbono (CO):**
+- 12 g de C + 16 g de O → 28 g de CO
+- Proporção: C : O = 12 : 16 = 3 : 4
+
+**Dióxido de carbono (CO₂):**
+- 12 g de C + 32 g de O → 44 g de CO₂
+- Proporção: C : O = 12 : 32 = 3 : 8
+
+**Comparando (massa fixa de C = 12 g):**
+```
+┌──────────┬────────┬─────────┬────────┐
+│ Composto │  C (g) │  O (g)  │  Razão │
+├──────────┼────────┼─────────┼────────┤
+│   CO     │   12   │   16    │  3:4   │
+│   CO₂    │   12   │   32    │  3:8   │
+└──────────┴────────┴─────────┴────────┘
+
+Razão entre massas de O: 16 : 32 = 1 : 2 (números inteiros!)
+```
+
+**Para massa fixa de C, o oxigênio está na proporção 1:2**
+
+**Outro exemplo: Óxidos de nitrogênio**
+
+**Fixando 14 g de N:**
+
+**NO (monóxido):**
+- 14 g N + 16 g O → 30 g NO
+
+**NO₂ (dióxido):**
+- 14 g N + 32 g O → 46 g NO₂
+
+**N₂O (óxido nitroso):**
+- 28 g N + 16 g O → 44 g N₂O
+- Para 14 g N → 14 g N + 8 g O
+
+**Razão das massas de O (para 14 g de N):**
+```
+N₂O : NO : NO₂ = 8 : 16 : 32 = 1 : 2 : 4
+```
+
+**Números inteiros e pequenos!**
+
+**Significado:**
+- Comprova a teoria atômica (átomos se combinam em proporções inteiras)
+- Átomos são indivisíveis nas reações químicas
+
+### Relação entre as Leis
+
+**Lei de Lavoisier:**
+- Conservação de massa
+- Massa total não muda
+
+**Lei de Proust:**
+- Proporção constante
+- Mesma substância, mesma proporção
+
+**Lei de Dalton:**
+- Substâncias diferentes entre mesmos elementos
+- Proporções múltiplas inteiras
+
+**Juntas:** sustentam a teoria atômica de Dalton
+
+### Exercícios Resolvidos
+
+#### Exercício 1
+(Lei de Lavoisier) Na reação A + B → C, 20 g de A reagem completamente com B para formar 50 g de C. Qual a massa de B?
 
 **Solução:**
-```
-N = A - Z = 39 - 19 = 20 nêutrons
-```
+m_A + m_B = m_C (Lavoisier)
+20 + m_B = 50
+m_B = 30 g
 
-#### Problema 2
-Qual mais eletronegativo: F ou Cl?
+*[Ver resposta 69 no final do documento]*
 
-**Solução:**
-```
-F (flúor) - está mais acima no grupo 17
-F > Cl
-```
-
-#### Problema 3
-Que tipo de ligação forma NaCl?
+#### Exercício 2
+(Lei de Proust) Na síntese de água, 4 g de H₂ reagem com 32 g de O₂. Quantos gramas de H₂ reagem com 80 g de O₂?
 
 **Solução:**
-```
-Na = metal
-Cl = não-metal
-Ligação IÔNICA
-```
+Proporção: 4 g H₂ / 32 g O₂ = x / 80 g O₂
 
-#### Problema 4
-Quantos mols há em 180 g de H₂O? (M = 18 g/mol)
+x = (4 × 80) / 32 = 320 / 32 = 10 g
 
-**Solução:**
-```
-n = m/M = 180/18 = 10 mols
-```
+*[Ver resposta 70 no final do documento]*
 
-#### Problema 5
-Na reação 2H₂ + O₂ → 2H₂O, se 4 g de H₂ reagem, quantos g de H₂O se formam?
+#### Exercício 3
+(Lei de Proust) Em certa reação, 7 g de A reagem com 8 g de B. Se usarmos 21 g de A, quanto de B será necessário?
 
 **Solução:**
+Proporção constante (Proust):
+7 g A / 8 g B = 21 g A / x
+
+x = (8 × 21) / 7 = 24 g
+
+*[Ver resposta 71 no final do documento]*
+
+#### Exercício 4
+(UFMG - Lei de Dalton) O enxofre forma com o oxigênio dois compostos: SO₂ e SO₃. Em SO₂, 32 g de S combinam com 32 g de O. Em SO₃, 32 g de S combinam com 48 g de O. Verifique a Lei de Dalton.
+
+**Solução:**
+Massa fixa de S = 32 g
+
+Massas de O:
+- SO₂: 32 g
+- SO₃: 48 g
+
+Razão: 32 : 48 = 2 : 3 (números inteiros!)
+
+*[Ver resposta 72 no final do documento]*
+
+#### Exercício 5
+(Lei de Lavoisier) Um pedaço de magnésio de 12 g é queimado ao ar, formando 20 g de óxido de magnésio. Qual a massa de oxigênio que reagiu?
+
+**Solução:**
+Mg + O₂ → MgO
+
+m_Mg + m_O₂ = m_MgO
+12 + m_O₂ = 20
+m_O₂ = 8 g
+
+*[Ver resposta 73 no final do documento]*
+
+#### Exercício 6
+(Lei de Proust) Na decomposição de 100 g de carbonato de cálcio (CaCO₃), obtêm-se 56 g de óxido de cálcio (CaO) e 44 g de dióxido de carbono (CO₂). Decompondo 250 g de CaCO₃, quanto de CaO será obtido?
+
+**Solução:**
+Proporção (Proust):
+100 g CaCO₃ → 56 g CaO
+250 g CaCO₃ → x
+
+x = (56 × 250) / 100 = 140 g
+
+*[Ver resposta 74 no final do documento]*
+
+#### Exercício 7
+(Aplicação) Carbono e oxigênio formam CO e CO₂. Em CO, 3 g de C combinam com 4 g de O. Em CO₂, 3 g de C combinam com 8 g de O. Qual lei é exemplificada? Verifique.
+
+**Solução:**
+Massa fixa de C = 3 g
+Massas de O: 4 g e 8 g
+Razão: 4 : 8 = 1 : 2 (inteiros!)
+
+*[Ver resposta 75 no final do documento]*
+
+### Aplicações das Leis Ponderais
+
+**1. Cálculos estequiométricos:**
+- Determinar quantidades de reagentes necessários
+- Prever quantidade de produtos
+
+**2. Controle de qualidade:**
+- Verificar pureza de substâncias
+- Detectar adulterações
+
+**3. Indústria:**
+- Otimizar processos
+- Reduzir desperdícios
+
+**4. Pesquisa:**
+- Identificar substâncias
+- Determinar fórmulas moleculares
+
+### Dicas para a Prova
+
+1. **Lavoisier:** massa reagentes = massa produtos
+2. **Sistema fechado:** essencial para Lavoisier
+3. **Proust:** proporção constante para mesma substância
+4. **Dalton:** proporções inteiras entre compostos diferentes
+5. **Sempre organize:** o que é dado? O que é pedido?
+6. **Use regra de três** para Proust
+7. **Verifique unidades** (todas em gramas?)
+8. **Massa total conservada** (Lavoisier)
+
+### Diferenças entre as Leis
+
 ```
-M(H₂) = 2 g/mol, M(H₂O) = 18 g/mol
-
-2 mol H₂ : 2 mol H₂O
-4 g H₂ : 36 g H₂O
-
-4 g H₂ produz 36 g H₂O
+┌───────────┬──────────────────────────────────┐
+│    Lei    │         O que diz?               │
+├───────────┼──────────────────────────────────┤
+│ Lavoisier │ Massa se conserva (mesma reação) │
+│  Proust   │ Proporção constante (mesma subst)│
+│  Dalton   │ Proporções inteiras (subst difer)│
+└───────────┴──────────────────────────────────┘
 ```
 
-### Dados para Memorizar
+### Conceitos-Chave para Memorizar
 
-**Massas atômicas:**
-```
-H = 1    C = 12   N = 14   O = 16
-Na = 23  Cl = 35,5   Ca = 40   S = 32
-```
+**Lei de Lavoisier:**
+- "Nada se cria, nada se perde, tudo se transforma"
+- Σ m_reagentes = Σ m_produtos
+- Sistema fechado
 
-**Massas molares comuns:**
-```
-H₂O = 18 g/mol
-CO₂ = 44 g/mol
-NaCl = 58,5 g/mol
-O₂ = 32 g/mol
-H₂ = 2 g/mol
-```
+**Lei de Proust:**
+- Proporção constante
+- Mesma substância, mesma proporção em massa
+- Permite cálculos por regra de três
 
-**Constantes:**
-```
-Nᴀ = 6,02 × 10²³ /mol
-V_molar (CNTP) = 22,4 L/mol
-```
+**Lei de Dalton:**
+- Proporções múltiplas
+- Massa fixa de um elemento
+- Razão de números inteiros entre massas do outro
 
-### Fórmulas Essenciais - RESUMO COMPLETO
+### Fórmulas e Relações Essenciais
 
 ```
-ESTRUTURA ATÔMICA:
-Z = prótons
-A = Z + N
-N = A - Z
+Lei de Lavoisier (Conservação das Massas):
+Σ m_reagentes = Σ m_produtos
 
-ESTEQUIOMETRIA:
-n = m/M
-m = n × M
-N = n × Nᴀ
-V = n × 22,4 L (CNTP)
+Em uma reação: A + B → C + D
+m_A + m_B = m_C + m_D
 
-Leis:
-Lavoisier: m_reagentes = m_produtos
-Proust: proporção constante
-Dalton: proporções múltiplas
+Lei de Proust (Proporções Constantes):
+Para uma substância AB:
+m_A / m_B = constante
 
-pH:
-pH + pOH = 14
-pH < 7: ácido
-pH = 7: neutro
-pH > 7: básico
+Exemplo: H₂O
+m_H / m_O = 1 / 8 (sempre!)
 
-PROPRIEDADES PERIÓDICAS:
-Raio: ↑ família, ← período
-E. ionização: ↓ família, → período
-Eletronegatividade: ↓ família, → período
-Mais eletronegativo: F
+Lei de Dalton (Proporções Múltiplas):
+Para compostos diferentes entre mesmos elementos:
+Massa fixa de A, massas de B em razão de inteiros
+
+Exemplo: CO e CO₂ (fixando C)
+m_O (em CO) / m_O (em CO₂) = 1/2
+
+Cálculos com Proust:
+m₁/m₂ = m₃/m₄
+
+Exemplo:
+7 g A / 8 g B = 21 g A / x
+x = (8 × 21) / 7 = 24 g
 ```
 
-### Checklist Final - Química
+### Resumo Visual
 
-- [ ] Sei a evolução dos modelos atômicos
-- [ ] Sei calcular número de nêutrons (N = A - Z)
-- [ ] Sei diferenciar isótopos, isóbaros, isótonos
-- [ ] Conheço as principais famílias da tabela periódica
-- [ ] Sei as tendências das propriedades periódicas
-- [ ] Sei que F é o mais eletronegativo
-- [ ] Sei diferenciar ligações iônica, covalente e metálica
-- [ ] Sei calcular número de mols (n = m/M)
-- [ ] Sei fazer cálculos estequiométricos
-- [ ] Sei as três leis ponderais
-- [ ] Sei classificar ácidos, bases, sais e óxidos
-- [ ] Sei a relação pH + pOH = 14
-- [ ] Memorizei massas molares comuns
+```
+LEIS PONDERAIS:
+
+LAVOISIER (Conservação):
+  Reagentes → Produtos
+  10g + 5g  →  15g
+   └─────┬─────┘
+    Massa conservada!
+
+PROUST (Proporções Constantes):
+  H₂O sempre:
+  H : O = 1 : 8
+  
+  2g + 16g → 18g  ✓
+  4g + 32g → 36g  ✓
+  1g +  8g →  9g  ✓
+
+DALTON (Proporções Múltiplas):
+  CO:  12g C + 16g O
+  CO₂: 12g C + 32g O
+        └──┬──┘
+       fixo │
+            └─► 16:32 = 1:2 (inteiros!)
+
+LINHA DO TEMPO:
+1785 ─ Lavoisier (Conservação)
+  │
+1797 ─ Proust (Proporções Constantes)
+  │
+1803 ─ Dalton (Proporções Múltiplas)
+  │
+  └──► Teoria Atômica de Dalton
+```
+
+### Resumo Comparativo
+
+```
+┌──────────┬─────────────┬─────────────────────┐
+│   Lei    │    Foco     │      Exemplo        │
+├──────────┼─────────────┼─────────────────────┤
+│Lavoisier │ Conservação │ 10g+5g → 15g        │
+│          │             │                     │
+│ Proust   │ Proporção   │ H₂O: H:O = 1:8      │
+│          │ constante   │ (sempre!)           │
+│          │             │                     │
+│ Dalton   │ Múltiplas   │ CO/CO₂: O em 1:2    │
+│          │ proporções  │ (fixando C)         │
+└──────────┴─────────────┴─────────────────────┘
+```
 
 ---
 
 **Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Médio-Alto (revisão abrangente)
-**Importância para a prova:** ⭐⭐⭐⭐⭐ (TODO o conteúdo!)
+**Nível de dificuldade:** Médio
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - base da estequiometria e cálculos!)
 
 ---
 
+## Aula 60 - Geografia: Climatologia - 60min
 
-## Aula 78 - Geografia: Revisão - Cartografia, Geologia e Climatologia - 60min
+### Introdução à Climatologia
 
-### Objetivo da Revisão
+**Climatologia:** ciência que estuda o **clima** e suas variações
 
-Consolidar os principais conceitos de Geografia para a prova.
+**Diferença fundamental:**
 
-### PARTE 1: Cartografia (15min)
+**Tempo atmosférico:**
+- Condições atmosféricas momentâneas
+- Curto prazo (dias, horas)
+- Variável e instável
+- "Como está o tempo hoje?"
 
-**Elementos do mapa:**
+**Clima:**
+- Sucessão habitual dos tipos de tempo
+- Longo prazo (30+ anos)
+- Padrão médio
+- "Como é o clima da região?"
+
+**Exemplo:**
+- Tempo: "Hoje está frio em São Paulo (15°C)"
+- Clima: "São Paulo tem clima tropical de altitude"
+
+### Elementos Climáticos
+
+**Elementos:** variáveis que caracterizam o clima
+
+**1. Temperatura**
+
+**Definição:** grau de calor da atmosfera
+
+**Medição:** termômetro (°C ou °F)
+
+**Variações:**
+- **Diária:** mínima de manhã cedo, máxima à tarde
+- **Anual:** inverno (mínima), verão (máxima)
+
+**Amplitude térmica:**
 ```
-Título: indica o tema
-Legenda: símbolos e significados
-Escala: relação mapa/realidade
-Orientação: Rosa dos ventos (N, S, L, O)
-```
-
-**Escala:**
-```
-Numérica: 1:100.000
-  1 cm no mapa = 100.000 cm na realidade = 1 km
-
-Gráfica: régua graduada
-
-Escala grande: mais detalhes (1:1.000)
-Escala pequena: menos detalhes (1:1.000.000)
-```
-
-**Coordenadas geográficas:**
-```
-Latitude: 0° a 90° Norte ou Sul (Equador = 0°)
-Longitude: 0° a 180° Leste ou Oeste (Greenwich = 0°)
-
-Paralelos: linhas horizontais (latitude)
-Meridianos: linhas verticais (longitude)
-```
-
-**Projeções cartográficas:**
-```
-Cilíndrica: Mercator (distorce pólos)
-Cônica: média latitude
-Azimutal/Polar: centrada em um ponto
-```
-
-### PARTE 2: Estrutura Geológica (20min)
-
-**Camadas da Terra:**
-```
-Crosta: fina, sólida (5-70 km)
-Manto: espesso, magma viscoso
-Núcleo externo: líquido (ferro, níquel)
-Núcleo interno: sólido
+Amplitude = Temperatura máxima - Temperatura mínima
 ```
 
-**Placas tectônicas:**
-```
-Litosfera dividida em placas
-Movimentam-se sobre o manto
+**Tipos:**
+- **Amplitude diária:** diferença entre máx e mín do dia
+- **Amplitude anual:** diferença entre mês mais quente e mais frio
 
-Tipos de movimento:
-- Divergente: placas se afastam (dorsal oceânica)
-- Convergente: placas se chocam (montanhas, fossas)
-- Transformante: placas deslizam (falhas, terremotos)
+**2. Pressão Atmosférica**
+
+**Definição:** peso (força) da coluna de ar sobre a superfície
+
+**Medição:** barômetro (mbar ou hPa)
+
+**Padrão:** 1013 hPa ao nível do mar
+
+**Variações:**
+- **Altitude:** ↑ altitude → ↓ pressão
+- **Temperatura:** ↑ temperatura → ↓ pressão (ar sobe)
+
+**Zonas de pressão:**
+- **Alta pressão (anticiclone):** ar descendente, tempo estável, céu claro
+- **Baixa pressão (ciclone):** ar ascendente, tempo instável, nuvens/chuvas
+
+**3. Umidade**
+
+**Definição:** quantidade de vapor de água no ar
+
+**Medição:** higrômetro (%)
+
+**Umidade relativa:**
 ```
+UR = (vapor presente / vapor máximo possível) × 100%
+```
+
+**Características:**
+- Alta UR: ar próximo à saturação, sensação abafada
+- Baixa UR: ar seco, desconforto respiratório
+
+**4. Precipitação**
+
+**Definição:** queda de água da atmosfera (chuva, neve, granizo)
+
+**Medição:** pluviômetro (mm)
+
+**Tipos de chuva:**
+
+**Chuva convectiva (ou de verão):**
+- Aquecimento do solo → ar quente sobe → condensação
+- Forte, rápida, localizada
+- Comum em tardes quentes
+
+**Chuva orográfica (ou de relevo):**
+- Ar úmido encontra montanha → sobe → esfria → condensa
+- Lado do vento (barlavento): chuvoso
+- Lado oposto (sotavento): seco
+
+**Chuva frontal:**
+- Encontro de massas de ar (fria e quente)
+- Duradoura, extensa
+- Comum em frentes frias
+
+**5. Ventos**
+
+**Definição:** deslocamento horizontal de ar
+
+**Causa:** diferenças de pressão atmosférica
+
+**Direção:** de alta para baixa pressão
+
+**Medição:**
+- Direção: biruta, cata-vento
+- Velocidade: anemômetro (km/h, m/s)
+
+### Fatores Climáticos
+
+**Fatores:** condições que influenciam/modificam os elementos climáticos
+
+**1. Latitude**
+
+**Influência:** determina ângulo de incidência dos raios solares
 
 **Consequências:**
-```
-Terremotos: vibração da crosta
-Vulcanismo: magma atinge superfície
-Formação de montanhas: choque de placas
-Tsunamis: terremotos submarinos
-```
+- **Baixas latitudes (Equador):** raios perpendiculares, mais calor
+- **Altas latitudes (Polos):** raios inclinados, menos calor
 
-**Tipos de rocha:**
+**Zonas térmicas da Terra:**
 ```
-Magmáticas/Ígneas: resfriamento do magma
-  Ex: granito, basalto
-
-Sedimentares: acúmulo e compactação de sedimentos
-  Ex: arenito, calcário
-  Contêm fósseis
-
-Metamórficas: transformação por pressão/temperatura
-  Ex: mármore (de calcário), gnaisse (de granito)
-```
-
-**Agentes externos (modelagem do relevo):**
-```
-Intemperismo: desagregação das rochas
-Erosão: transporte de sedimentos
-  - Pluvial (chuva)
-  - Fluvial (rios)
-  - Eólica (vento)
-  - Marinha (ondas)
-  - Glacial (gelo)
+Polar (frio)          90°N
+  ↑
+Temperada            66,5°N (Círculo Polar Ártico)
+  ↑
+Tropical (quente)    23,5°N (Trópico de Câncer)
+  ↑
+Equatorial (muito quente) 0° (Equador)
+  ↓
+Tropical (quente)    23,5°S (Trópico de Capricórnio)
+  ↓
+Temperada            66,5°S (Círculo Polar Antártico)
+  ↓
+Polar (frio)          90°S
 ```
 
-### PARTE 3: Climatologia (25min)
+**Regra geral:**
+- ↑ latitude → ↓ temperatura
+- ↓ latitude → ↑ temperatura
 
-**Diferença: Tempo vs Clima**
-```
-Tempo: condição atmosférica momentânea
-Clima: padrão atmosférico de longa duração
-```
+**2. Altitude**
 
-**Elementos do clima:**
+**Influência:** altura em relação ao nível do mar
+
+**Regra:**
 ```
-Temperatura: calor da atmosfera
-Umidade: vapor d'água no ar
-Pressão atmosférica: peso do ar
-Precipitação: chuva, neve, granizo
-Ventos: movimento do ar
+↑ altitude → ↓ temperatura
+A cada 100-200m: -1°C
 ```
 
-**Fatores do clima:**
+**Exemplo:**
+- Nível do mar: 30°C
+- 1000m de altitude: ~25°C
+
+**Explicação:**
+- Ar rarefeito retém menos calor
+- Menor pressão atmosférica
+
+**3. Maritimidade e Continentalidade**
+
+**Maritimidade:** proximidade do oceano/mar
+
+**Características:**
+- Menor amplitude térmica
+- Clima mais úmido
+- Temperatura moderada (água aquece/esfria lentamente)
+
+**Continentalidade:** distância do oceano
+
+**Características:**
+- Maior amplitude térmica
+- Clima mais seco
+- Extremos de temperatura (verão quente, inverno frio)
+
+**Comparação:**
 ```
-Latitude:
-  - Baixa latitude (Equador): mais quente
-  - Alta latitude (pólos): mais frio
-  - Influencia temperatura
-
-Altitude:
-  - Maior altitude → menor temperatura
-  - ↑ 1000m → ↓ 6°C
-
-Continentalidade/Maritimidade:
-  - Litoral: menor amplitude térmica (água regula)
-  - Interior: maior amplitude térmica
-
-Massas de ar:
-  - Grandes porções de ar com características uniformes
-  - Quentes, frias, úmidas, secas
-
-Correntes marítimas:
-  - Quentes: aquecem clima costeiro
-  - Frias: resfriam clima costeiro
-
-Vegetação:
-  - Aumenta umidade
-  - Atenua temperatura
-```
-
-**Tipos de clima (Brasil e mundo):**
-```
-BRASIL:
-Equatorial: quente e úmido o ano todo (Amazônia)
-Tropical: quente, chuvas no verão (Brasil Central)
-Semi-árido: quente e seco (Sertão nordestino)
-Tropical de altitude: ameno (planaltos do Sudeste)
-Subtropical: 4 estações definidas (Sul)
-
-MUNDO:
-Equatorial: quente e úmido
-Tropical: quente, estação seca
-Desértico: muito seco
-Temperado: 4 estações
-Frio/Polar: muito frio
-Mediterrâneo: verões secos, invernos chuvosos
+┌──────────────┬─────────────┬──────────────┐
+│ Característica│Maritimidade │Continentalidade│
+├──────────────┼─────────────┼──────────────┤
+│ Amplitude    │   Menor     │    Maior     │
+│ Umidade      │   Alta      │    Baixa     │
+│ Temperaturas │  Moderadas  │   Extremas   │
+└──────────────┴─────────────┴──────────────┘
 ```
 
-**Fenômenos climáticos:**
+**4. Massas de Ar**
+
+**Definição:** grandes porções de ar com características uniformes (temperatura, umidade)
+
+**Classificação:**
+
+**Quanto à origem:**
+- **Continental (c):** formadas sobre continentes (secas)
+- **Marítima (m):** formadas sobre oceanos (úmidas)
+
+**Quanto à temperatura:**
+- **Equatorial (E):** quentes
+- **Tropical (T):** quentes
+- **Polar (P):** frias
+- **Ártica/Antártica (A):** muito frias
+
+**Exemplos no Brasil:**
+- **mEc (massa Equatorial continental):** quente e úmida, Amazônia
+- **mTa (massa Tropical atlântica):** quente e úmida, litoral
+- **mPa (massa Polar atlântica):** fria e úmida, frentes frias
+
+**5. Correntes Marítimas**
+
+**Definição:** deslocamentos de água nos oceanos
+
+**Tipos:**
+
+**Correntes quentes:**
+- Fluem do Equador aos polos
+- Aumentam temperatura e umidade
+- Ex: Corrente do Brasil
+
+**Correntes frias:**
+- Fluem dos polos ao Equador
+- Diminuem temperatura e umidade
+- Ex: Corrente de Humboldt (Peru), Benguela (África)
+
+**6. Vegetação**
+
+**Influência:**
+- Maior evapotranspiração → maior umidade
+- Reduz amplitude térmica
+- Florestas retêm mais umidade que áreas desmatadas
+
+**7. Relevo**
+
+**Influência:**
+- **Altitude:** ↑ altitude → ↓ temperatura
+- **Chuvas orográficas:** montanhas forçam ar a subir
+- **Barreira:** impede passagem de massas de ar
+
+### Tipos Climáticos
+
+**Principais climas do mundo:**
+
+**1. Clima Equatorial**
+
+**Localização:** próximo ao Equador (0°)
+
+**Características:**
+- Temperatura: alta o ano todo (24-27°C)
+- Amplitude térmica: muito baixa (<3°C)
+- Precipitação: abundante (>2000 mm/ano)
+- Chuvas: bem distribuídas o ano todo
+
+**Vegetação:** Floresta Equatorial (Amazônia, Congo)
+
+**2. Clima Tropical**
+
+**Localização:** entre Trópicos e Equador
+
+**Características:**
+- Temperatura: alta (20-28°C)
+- Amplitude térmica: baixa
+- Precipitação: 1000-2000 mm/ano
+- **Duas estações:** verão chuvoso, inverno seco
+
+**Vegetação:** Savanas, Cerrado
+
+**3. Clima Subtropical**
+
+**Localização:** entre Trópicos e Círculos Polares
+
+**Características:**
+- Temperatura: moderada (10-20°C)
+- Amplitude térmica: média a alta
+- Precipitação: bem distribuída (1000-2000 mm)
+- **Quatro estações bem definidas**
+
+**Vegetação:** Florestas temperadas, campos
+
+**4. Clima Temperado**
+
+**Localização:** latitudes médias (40-60°)
+
+**Características:**
+- Temperatura: verões quentes, invernos frios
+- Amplitude térmica: alta
+- Precipitação: variável
+- **Quatro estações distintas**
+
+**5. Clima Desértico (Árido)**
+
+**Localização:** faixas tropicais, continentes
+
+**Características:**
+- Temperatura: altas durante o dia, baixas à noite
+- Amplitude térmica: muito alta (diária)
+- Precipitação: <250 mm/ano
+- Ar muito seco
+
+**Vegetação:** Xerófitas (cactos), vegetação esparsa
+
+**Exemplos:** Saara, Atacama, desertos australianos
+
+**6. Clima Polar**
+
+**Localização:** regiões polares (>66,5° lat)
+
+**Características:**
+- Temperatura: muito baixas (<0°C)
+- Amplitude térmica: moderada
+- Precipitação: baixa (neve)
+- Verão muito curto
+
+**Vegetação:** Tundra ou ausente (gelo permanente)
+
+### Climas do Brasil
+
+**Brasil:** clima predominantemente **quente** (baixa latitude)
+
+**Principais tipos:**
+
+**1. Equatorial:**
+- Região Norte (Amazônia)
+- Quente e úmido o ano todo
+- Chuvas abundantes
+
+**2. Tropical:**
+- Centro-Oeste, parte do Nordeste e Sudeste
+- Verão chuvoso, inverno seco
+- Temperatura alta
+
+**3. Tropical Semiárido:**
+- Sertão nordestino
+- Quente e seco
+- Chuvas escassas e irregulares
+
+**4. Tropical de Altitude:**
+- Regiões elevadas do Sudeste
+- Temperaturas mais amenas (altitude)
+- Verão chuvoso, inverno seco
+
+**5. Subtropical:**
+- Sul do Brasil
+- Quatro estações
+- Chuvas bem distribuídas
+- Geadas no inverno
+
+### Mudanças Climáticas
+
+**Aquecimento global:**
+- Aumento da temperatura média da Terra
+- Causas: emissão de gases estufa (CO₂, CH₄)
+- Consequências: derretimento de geleiras, elevação do nível do mar, eventos extremos
+
+**Efeito estufa:**
+- Natural: retém calor, torna Terra habitável
+- Intensificado: atividades humanas aumentam gases estufa
+
+### Exercícios de Fixação
+
+#### Exercício 1
+Qual a diferença entre tempo atmosférico e clima?
+
+*[Ver resposta 76 no final do documento]*
+
+#### Exercício 2
+Por que regiões de grande altitude têm temperaturas mais baixas?
+
+*[Ver resposta 77 no final do documento]*
+
+#### Exercício 3
+Qual a diferença entre maritimidade e continentalidade?
+
+*[Ver resposta 78 no final do documento]*
+
+#### Exercício 4
+Quais são os três tipos de chuva?
+
+*[Ver resposta 79 no final do documento]*
+
+#### Exercício 5
+(UFMG) Por que o litoral tem clima mais ameno que o interior?
+
+*[Ver resposta 80 no final do documento]*
+
+### Dicas para a Prova
+
+1. **Tempo ≠ Clima:** tempo é momentâneo, clima é padrão
+2. **Elementos:** temperatura, pressão, umidade, precipitação, vento
+3. **Fatores:** latitude, altitude, maritimidade, massas de ar, correntes
+4. **Altitude:** ↑ altitude → ↓ temperatura
+5. **Latitude:** ↑ latitude → ↓ temperatura
+6. **Maritimidade:** menor amplitude térmica
+7. **3 tipos de chuva:** convectiva, orográfica, frontal
+8. **Brasil:** predominantemente tropical/quente
+
+### Conceitos-Chave para Memorizar
+
+**Elementos Climáticos:**
+- Temperatura, pressão, umidade, precipitação, vento
+
+**Fatores Climáticos:**
+- Latitude, altitude, maritimidade/continentalidade
+- Massas de ar, correntes marítimas, relevo, vegetação
+
+**Tipos de Chuva:**
+- Convectiva: aquecimento
+- Orográfica: montanha
+- Frontal: massas de ar
+
+**Climas:**
+- Equatorial: quente e úmido sempre
+- Tropical: 2 estações (chuvoso/seco)
+- Desértico: seco (<250mm)
+- Polar: muito frio
+
+### Resumo Visual
+
 ```
-El Niño: aquecimento do Pacífico
-  - Seca na Amazônia
-  - Chuvas no Sul
+ELEMENTOS vs FATORES:
 
-La Niña: resfriamento do Pacífico
-  - Mais chuvas na Amazônia
-  - Seca no Sul
+ELEMENTOS (o que medir):
+🌡️ Temperatura
+📊 Pressão
+💧 Umidade
+🌧️ Precipitação
+💨 Vento
 
-Efeito estufa: aquecimento global
-  - CO₂, CH₄ retêm calor
-  - Natural + intensificado por ação humana
+FATORES (o que influencia):
+🌍 Latitude
+⛰️ Altitude
+🌊 Maritimidade
+☁️ Massas de ar
+🌊 Correntes marítimas
 
-Inversão térmica:
-  - Ar frio embaixo, quente em cima
-  - Dificulta dispersão de poluentes
+TIPOS DE CHUVA:
+
+Convectiva:        Orográfica:        Frontal:
+    ☁️                 ☁️              ☁️ ☁️
+    ↑              ↗️  ↑              ← →
+  [solo]         [/montanha]      [massa][massa]
+  quente                          fria  quente
+
+ZONAS TÉRMICAS:
+90°N ─── Polar ❄️
+66,5°N ─ Temperada 🍂
+23,5°N ─ Tropical ☀️
+0° ───── Equatorial 🔥
+23,5°S ─ Tropical ☀️
+66,5°S ─ Temperada 🍂
+90°S ─── Polar ❄️
+
+CLIMAS DO BRASIL:
+Norte: Equatorial 🌳
+Nordeste interior: Semiárido 🌵
+Centro-Oeste: Tropical 🌾
+Sudeste: Tropical/Altitude ☀️⛰️
+Sul: Subtropical 🍃
 ```
 
-### Questões de Fixação
-
-#### Questão 1
-Em uma escala 1:50.000, 2 cm no mapa representam quantos metros na realidade?
-
-**Resposta:**
-```
-2 cm × 50.000 = 100.000 cm = 1.000 m = 1 km
-```
-
-#### Questão 2
-Qual tipo de rocha pode conter fósseis?
-
-**Resposta:** Sedimentares (formadas por acúmulo e compactação)
-
-#### Questão 3
-Por que lugares de maior altitude são mais frios?
-
-**Resposta:** A cada 1000m de altitude, a temperatura diminui aproximadamente 6°C (gradiente térmico).
-
-#### Questão 4
-Qual a diferença entre tempo e clima?
-
-**Resposta:** Tempo é condição atmosférica momentânea (hoje, agora). Clima é padrão de longo prazo (médias de 30 anos).
-
-#### Questão 5
-O que é El Niño?
-
-**Resposta:** Aquecimento anormal do Oceano Pacífico que causa alterações climáticas (seca na Amazônia, chuvas no Sul do Brasil).
-
-### Conceitos-Chave
+### Tabela Resumo dos Climas
 
 ```
-CARTOGRAFIA:
-- Escala, latitude, longitude
-- Paralelos e meridianos
-- Projeções
-
-GEOLOGIA:
-- Placas tectônicas
-- Tipos de rocha (ígnea, sedimentar, metamórfica)
-- Agentes externos (erosão)
-
-CLIMATOLOGIA:
-- Elementos: temperatura, umidade, pressão, chuva
-- Fatores: latitude, altitude, maritimidade
-- Tipos de clima
-- El Niño, La Niña, efeito estufa
+┌───────────┬──────────┬───────────┬─────────────┐
+│   Clima   │   Temp   │   Chuva   │  Vegetação  │
+├───────────┼──────────┼───────────┼─────────────┤
+│Equatorial │Sempre alta│Abundante │Floresta densa│
+│           │ (>24°C)  │ano todo   │             │
+│           │          │           │             │
+│Tropical   │  Alta    │2 estações │Savana/Cerrado│
+│           │ (20-28°C)│verão chuvoso│           │
+│           │          │           │             │
+│Desértico  │Extremos  │<250mm/ano │Xerófitas    │
+│           │dia/noite │           │             │
+│           │          │           │             │
+│Subtropical│Moderada  │Bem distrib│Floresta/Campo│
+│           │4 estações│           │             │
+│           │          │           │             │
+│Polar      │Muito fria│Baixa(neve)│Tundra/Gelo  │
+│           │  (<0°C)  │           │             │
+└───────────┴──────────┴───────────┴─────────────┘
 ```
 
 ---
 
 **Tempo de estudo recomendado:** 60 minutos
 **Nível de dificuldade:** Médio
-**Importância para a prova:** ⭐⭐⭐⭐
+**Importância para a prova:** ⭐⭐⭐⭐ (muito importante - tema recorrente!)
 
 ---
 
-## Aula 79 - Ciências Humanas: Filosofia - Introdução e Conceitos Fundamentais - 30min
+## Aula 61 - Biologia: Níveis de Organização dos Seres Vivos - 60min
 
-### Objetivo
+### Introdução
 
-Compreender o surgimento da Filosofia, áreas e conceitos básicos de lógica.
+**Organização biológica:** hierarquia estrutural desde os átomos até a biosfera
 
-### PARTE 1: O que é Filosofia?
+**Importância:**
+- Compreender como a vida se organiza
+- Entender relações entre diferentes níveis
+- Base para todas as áreas da biologia
 
-**Etimologia:**
-```
-Philo = amor
-Sophia = sabedoria
-Filosofia = amor à sabedoria
-```
+**Princípio fundamental:** cada nível possui **propriedades emergentes** (características que surgem apenas naquele nível)
 
-**Definição:**
-```
-Reflexão crítica e racional sobre:
-- Existência
-- Conhecimento
-- Valores
-- Ética
-- Realidade
-```
+### Níveis de Organização
+
+**Hierarquia (do menor ao maior):**
+
+1. Átomos
+2. Moléculas
+3. Organelas
+4. Células
+5. Tecidos
+6. Órgãos
+7. Sistemas
+8. Organismo
+9. População
+10. Comunidade
+11. Ecossistema
+12. Biosfera
+
+### Nível 1: Átomos
+
+**Definição:** unidades básicas da matéria
+
+**Elementos essenciais à vida:**
+- **C (Carbono):** base das moléculas orgânicas
+- **H (Hidrogênio):** água, compostos orgânicos
+- **O (Oxigênio):** água, respiração, compostos orgânicos
+- **N (Nitrogênio):** proteínas, ácidos nucleicos
+- **P (Fósforo):** ATP, DNA, RNA
+- **S (Enxofre):** algumas proteínas
+
+**Exemplo:** átomo de carbono (C), oxigênio (O₂)
+
+### Nível 2: Moléculas
+
+**Definição:** átomos ligados quimicamente
+
+**Tipos:**
+
+**Moléculas inorgânicas:**
+- Água (H₂O)
+- Sais minerais (NaCl, CaCO₃)
+- Gases (O₂, CO₂)
+
+**Moléculas orgânicas (macromoléculas):**
+- **Carboidratos:** glicose, amido, celulose
+- **Lipídios:** triglicerídeos, fosfolipídios
+- **Proteínas:** enzimas, anticorpos, colágeno
+- **Ácidos nucleicos:** DNA, RNA
+
+**Exemplo:** molécula de glicose (C₆H₁₂O₆), proteína hemoglobina
+
+### Nível 3: Organelas
+
+**Definição:** estruturas especializadas dentro das células
+
+**Principais organelas:**
+
+**Núcleo:**
+- Contém DNA
+- Controla atividades celulares
+
+**Mitocôndrias:**
+- Respiração celular
+- Produção de ATP (energia)
+
+**Ribossomos:**
+- Síntese de proteínas
+
+**Retículo Endoplasmático (RE):**
+- RE rugoso: síntese e transporte de proteínas
+- RE liso: síntese de lipídios
+
+**Complexo de Golgi:**
+- Modificação e secreção de proteínas
+
+**Lisossomos:**
+- Digestão intracelular
+
+**Cloroplastos (só em células vegetais):**
+- Fotossíntese
+
+**Vacúolos (principalmente vegetais):**
+- Armazenamento
+
+**Exemplo:** mitocôndria, cloroplasto, núcleo
+
+**Propriedade emergente:** capacidade de realizar funções específicas (fotossíntese, respiração)
+
+### Nível 4: Célula
+
+**Definição:** **unidade básica da vida**
+
+**"Toda célula vem de outra célula"** (Virchow)
+
+**Tipos:**
+
+**Célula procariótica:**
+- Sem núcleo definido (DNA disperso)
+- Sem organelas membranosas
+- Simples
+- Exemplo: bactérias, cianobactérias
+
+**Célula eucariótica:**
+- Núcleo definido (DNA no núcleo)
+- Organelas membranosas
+- Complexa
+- Exemplos: células animais, vegetais, fungos, protozoários
+
+**Tipos de organismos:**
+- **Unicelulares:** 1 célula (bactérias, protozoários, algumas algas)
+- **Multicelulares:** muitas células (animais, plantas, fungos)
+
+**Exemplo:** neurônio, hemácia, célula vegetal
+
+**Propriedade emergente:** **vida** (metabolismo, reprodução, resposta a estímulos)
+
+### Nível 5: Tecido
+
+**Definição:** conjunto de células **semelhantes** que realizam função **específica**
+
+**Só existe em organismos multicelulares!**
+
+**Tecidos animais principais:**
+
+**1. Tecido Epitelial:**
+- Revestimento e proteção
+- Glândulas (secreção)
+- Exemplos: pele, mucosas
+
+**2. Tecido Conjuntivo:**
+- Sustentação, preenchimento, transporte
+- Tipos: ósseo, cartilaginoso, adiposo, sanguíneo
+- Exemplos: ossos, sangue, tendões
+
+**3. Tecido Muscular:**
+- Movimento e contração
+- Tipos: estriado esquelético, estriado cardíaco, liso
+- Exemplos: músculos dos braços, coração
+
+**4. Tecido Nervoso:**
+- Transmissão de impulsos nervosos
+- Células: neurônios
+- Exemplos: cérebro, nervos
+
+**Tecidos vegetais principais:**
+
+**Meristemas:** crescimento (células indiferenciadas)
+**Parênquima:** fotossíntese, reserva
+**Xilema:** condução de seiva bruta (água e sais)
+**Floema:** condução de seiva elaborada (açúcares)
+**Epiderme:** revestimento e proteção
+
+**Exemplo:** tecido muscular cardíaco, tecido nervoso
+
+**Propriedade emergente:** função especializada (contração muscular, condução nervosa)
+
+### Nível 6: Órgão
+
+**Definição:** conjunto de **tecidos** que trabalham juntos para realizar função(ões) específica(s)
 
 **Características:**
-```
-- Questionamento radical
-- Pensamento crítico
-- Uso da razão
-- Busca por fundamentos
-- Não aceita respostas prontas
-```
+- Composto por vários tecidos
+- Forma e função definidas
+- Parte de um sistema
 
-### PARTE 2: Surgimento da Filosofia
+**Exemplos animais:**
+- **Coração:** tecido muscular + nervoso + epitelial + conjuntivo
+- **Estômago:** epitelial + muscular + conjuntivo + nervoso
+- **Pulmão:** epitelial + conjuntivo + muscular
+- **Olho, rim, fígado, cérebro**
 
-**Contexto: Grécia Antiga (século VI a.C.)**
+**Exemplos vegetais:**
+- **Folha:** fotossíntese
+- **Raiz:** absorção, fixação
+- **Caule:** sustentação, transporte
+- **Flor:** reprodução
 
-**Condições favoráveis:**
-```
-- Comércio marítimo (contato com outras culturas)
-- Pólis (cidade-estado com debates públicos)
-- Escrita alfabética (registro de ideias)
-- Classe ociosa (tempo para reflexão)
-```
+**Exemplo:** coração (bombeia sangue), pulmão (trocas gasosas)
 
-**Passagem do Mito ao Logos:**
-```
-MITO:
-- Explicações sobrenaturais
-- Deuses, heróis
-- Tradição oral
-- Não questiona
+**Propriedade emergente:** função complexa e integrada
 
-LOGOS (Razão):
-- Explicações racionais
-- Causas naturais
-- Argumentação lógica
-- Questiona tudo
-```
+### Nível 7: Sistema (ou Sistema de Órgãos)
 
-**Primeiros filósofos (Pré-Socráticos):**
-```
-Tales de Mileto: "A água é o princípio de tudo"
-Heráclito: "Tudo flui", mudança constante
-Parmênides: o Ser é imutável
-Pitágoras: os números explicam o mundo
-Demócrito: teoria dos átomos (atomismo)
-```
+**Definição:** conjunto de **órgãos** que trabalham de forma integrada para realizar função(ões) vitais
 
-### PARTE 3: Períodos e Filósofos Principais
+**Principais sistemas do corpo humano:**
 
-**Período Clássico:**
-```
-Sócrates (470-399 a.C.):
-- "Conhece-te a ti mesmo"
-- Método socrático (diálogo, maiêutica)
-- Ética e virtude
+**1. Sistema Circulatório:**
+- Órgãos: coração, vasos sanguíneos
+- Função: transporte de sangue, nutrientes, O₂, CO₂
 
-Platão (428-348 a.C.):
-- Discípulo de Sócrates
-- Mundo das Ideias vs Mundo Sensível
-- Alegoria da Caverna
-- República ideal
+**2. Sistema Respiratório:**
+- Órgãos: pulmões, traqueia, brônquios
+- Função: trocas gasosas (O₂ e CO₂)
 
-Aristóteles (384-322 a.C.):
-- Discípulo de Platão
-- Lógica (silogismo)
-- Ética a Nicômaco
-- Metafísica
-```
+**3. Sistema Digestório:**
+- Órgãos: boca, esôfago, estômago, intestinos
+- Função: digestão e absorção de nutrientes
 
-### PARTE 4: Áreas da Filosofia
+**4. Sistema Nervoso:**
+- Órgãos: cérebro, medula espinhal, nervos
+- Função: coordenação, controle, sensações
 
-**1. Metafísica/Ontologia:**
-```
-Estuda o "ser"
-O que é real?
-Natureza da existência
-```
+**5. Sistema Endócrino:**
+- Órgãos: glândulas (hipófise, tireoide, pâncreas)
+- Função: produção de hormônios, regulação
 
-**2. Epistemologia (Teoria do Conhecimento):**
-```
-Como conhecemos?
-O que é verdade?
-Limites do conhecimento
-```
+**6. Sistema Excretor (Urinário):**
+- Órgãos: rins, bexiga, ureteres
+- Função: filtração do sangue, eliminação de excretas
 
-**3. Ética:**
-```
-O que é bom/mau?
-Como devemos agir?
-Valores morais
-```
+**7. Sistema Reprodutor:**
+- Órgãos: testículos/ovários, útero
+- Função: reprodução
 
-**4. Estética:**
-```
-O que é belo?
-Natureza da arte
-```
+**8. Sistema Muscular:**
+- Órgãos: músculos esqueléticos
+- Função: movimento, locomoção
 
-**5. Lógica:**
-```
-Regras do pensamento correto
-Argumentação válida
-```
+**9. Sistema Esquelético:**
+- Órgãos: ossos, articulações
+- Função: sustentação, proteção, movimento
 
-**6. Filosofia Política:**
-```
-Justiça, Estado, poder
-Como organizar a sociedade?
-```
+**10. Sistema Tegumentar:**
+- Órgãos: pele, pelos, unhas
+- Função: proteção, termorregulação
 
-### PARTE 5: Lógica Básica
+**Exemplo:** sistema digestório (digestão completa de alimentos)
 
-**Proposição:**
-```
-Afirmação que pode ser verdadeira ou falsa
+**Propriedade emergente:** função vital complexa
 
-Ex: "Sócrates é mortal" (V)
-     "2 + 2 = 5" (F)
-```
+### Nível 8: Organismo
 
-**Silogismo (Aristóteles):**
-```
-Premissa maior: Todo homem é mortal
-Premissa menor: Sócrates é homem
-Conclusão: Logo, Sócrates é mortal
-```
-
-**Princípios lógicos:**
-```
-Identidade: A é A
-Não-contradição: A não pode ser A e não-A ao mesmo tempo
-Terceiro excluído: ou A ou não-A (não há terceira opção)
-```
-
-**Falácias (erros de raciocínio):**
-```
-Ad hominem: atacar a pessoa, não o argumento
-Apelo à autoridade: "X disse, então é verdade"
-Falsa analogia: comparações inadequadas
-Post hoc: "depois disso, logo por causa disso"
-```
-
-### Questões de Fixação
-
-#### Questão 1
-O que significa "filosofia"?
-
-**Resposta:** Amor à sabedoria (philo = amor, sophia = sabedoria)
-
-#### Questão 2
-Qual a diferença entre mito e logos?
-
-**Resposta:** Mito: explicações sobrenaturais, não questiona. Logos: explicações racionais, usa argumentação lógica.
-
-#### Questão 3
-Qual a frase famosa de Sócrates?
-
-**Resposta:** "Conhece-te a ti mesmo" ou "Só sei que nada sei"
-
-#### Questão 4
-O que é um silogismo?
-
-**Resposta:** Raciocínio lógico com duas premissas e uma conclusão. Ex: Todo homem é mortal. Sócrates é homem. Logo, Sócrates é mortal.
-
-#### Questão 5
-Cite três áreas da Filosofia.
-
-**Resposta:** Ética, Epistemologia, Metafísica, Lógica, Estética, Filosofia Política (quaisquer três).
-
-### Resumo Visual
-
-```
-FILOSOFIA = Amor à sabedoria
-
-Surgimento: Grécia, século VI a.C.
-
-MITO → LOGOS
-(sobrenatural → racional)
-
-FILÓSOFOS:
-Pré-Socráticos → Tales, Heráclito
-Clássicos → Sócrates, Platão, Aristóteles
-
-ÁREAS:
-- Metafísica (ser)
-- Epistemologia (conhecimento)
-- Ética (moral)
-- Lógica (raciocínio)
-- Estética (beleza)
-- Política (sociedade)
-```
-
----
-
-**Tempo de estudo recomendado:** 30 minutos
-**Nível de dificuldade:** Fácil-Médio
-**Importância para a prova:** ⭐⭐⭐⭐
-
----
-
-## Aula 80 - Ciências Humanas: Sociologia - Introdução, Cultura e Métodos - 30min
-
-### Objetivo
-
-Compreender o surgimento da Sociologia, conceito de cultura, métodos sociológicos e desigualdades.
-
-### PARTE 1: O que é Sociologia?
-
-**Definição:**
-```
-Ciência que estuda:
-- Sociedade
-- Relações sociais
-- Instituições
-- Transformações sociais
-```
-
-**Objeto de estudo:**
-```
-Fatos sociais: padrões de comportamento que exercem coerção sobre indivíduos
-Ex: leis, costumes, religião, linguagem
-```
-
-### PARTE 2: Surgimento da Sociologia
-
-**Contexto: Europa, século XIX**
-
-**Fatores:**
-```
-1. Revolução Industrial:
-   - Urbanização acelerada
-   - Êxodo rural
-   - Surgimento do proletariado
-   - Novas relações de trabalho
-
-2. Revolução Francesa (1789):
-   - Queda do Antigo Regime
-   - Ideias iluministas
-   - Novos valores (liberdade, igualdade, fraternidade)
-
-3. Transformações sociais:
-   - Crise dos valores tradicionais
-   - Questões sociais (pobreza, desigualdade)
-   - Necessidade de compreender a nova sociedade
-```
-
-**Objetivo inicial:**
-```
-Compreender e ordenar a nova sociedade industrial
-Entender as transformações sociais
-```
-
-### PARTE 3: Fundadores da Sociologia
-
-**Auguste Comte (1798-1857):**
-```
-- Pai da Sociologia (criou o termo)
-- Positivismo
-- "Ordem e Progresso"
-- Sociologia como ciência positiva
-- Lei dos três estados: teológico → metafísico → positivo
-```
-
-**Émile Durkheim (1858-1917):**
-```
-- Fato social: coercitivo, exterior, geral
-- Solidariedade mecânica (sociedades tradicionais)
-- Solidariedade orgânica (sociedades modernas)
-- Divisão do trabalho social
-- Estudo do suicídio (causas sociais)
-```
-
-**Karl Marx (1818-1883):**
-```
-- Materialismo histórico
-- Luta de classes
-- Burguesia vs Proletariado
-- Infraestrutura (economia) determina superestrutura (ideologia)
-- Alienação do trabalhador
-- Revolução proletária
-```
-
-**Max Weber (1864-1920):**
-```
-- Ação social: comportamento com significado
-- Tipos de ação: racional, tradicional, afetiva
-- Ética protestante e espírito do capitalismo
-- Tipos de dominação: tradicional, carismática, legal-racional
-- Compreensão interpretativa (verstehen)
-```
-
-### PARTE 4: Cultura
-
-**Definição:**
-```
-Conjunto de:
-- Valores
-- Crenças
-- Costumes
-- Práticas
-- Símbolos
-- Conhecimentos
-
-Transmitidos socialmente, não biologicamente
-```
+**Definição:** ser vivo completo e funcional
 
 **Características:**
-```
-- Aprendida (não inata)
-- Compartilhada
-- Simbólica
-- Dinâmica (muda)
-- Diversa
-```
+- Todos os sistemas integrados
+- Capaz de viver de forma independente
+- Realiza todas as funções vitais
 
-**Conceitos importantes:**
-```
-Etnocentrismo:
-  Julgar outras culturas pela própria
-  "Minha cultura é superior"
+**Tipos:**
+- **Unicelulares:** 1 célula = 1 organismo (bactérias, protozoários)
+- **Multicelulares:** muitas células formam 1 organismo (humanos, árvores)
 
-Relativismo cultural:
-  Respeitar diferenças culturais
-  Cada cultura tem lógica própria
+**Exemplo:** ser humano, cachorro, pé de feijão, bactéria
 
-Cultura erudita: arte, literatura, música clássica
-Cultura popular: folclore, tradições do povo
-Cultura de massa: produzida industrialmente (TV, cinema)
+**Propriedade emergente:** individualidade, autonomia
 
-Aculturação: contato e troca entre culturas
-```
+### Nível 9: População
 
-### PARTE 5: Métodos Sociológicos
-
-**Observação:**
-```
-Participante: pesquisador imerso no grupo
-Não-participante: pesquisador externo
-```
-
-**Entrevista:**
-```
-Coleta de relatos e opiniões
-Pode ser estruturada ou livre
-```
-
-**Questionário:**
-```
-Perguntas escritas
-Dados quantitativos
-```
-
-**Análise documental:**
-```
-Estudo de documentos, estatísticas
-```
-
-### PARTE 6: Desigualdades e Estratificação
-
-**Estratificação social:**
-```
-Divisão da sociedade em camadas (estratos)
-
-Tipos:
-- Castas: rígida, hereditária (Índia)
-- Estamentos: Idade Média (nobreza, clero, servos)
-- Classes sociais: capitalismo (burguesia, proletariado)
-```
-
-**Desigualdade social:**
-```
-Distribuição desigual de:
-- Renda
-- Educação
-- Saúde
-- Oportunidades
-- Poder
-```
-
-**Mobilidade social:**
-```
-Ascendente: subir de classe
-Descendente: descer de classe
-Horizontal: mudar sem subir/descer
-Vertical: mudança de classe
-```
-
-### Questões de Fixação
-
-#### Questão 1
-O que é Sociologia?
-
-**Resposta:** Ciência que estuda a sociedade, relações sociais, instituições e transformações sociais.
-
-#### Questão 2
-Quais eventos históricos favoreceram o surgimento da Sociologia?
-
-**Resposta:** Revolução Industrial e Revolução Francesa (século XVIII-XIX).
-
-#### Questão 3
-Quem é considerado o "pai da Sociologia"?
-
-**Resposta:** Auguste Comte
-
-#### Questão 4
-O que é etnocentrismo?
-
-**Resposta:** Julgar outras culturas com base nos valores da própria cultura, considerando-a superior.
-
-#### Questão 5
-Segundo Marx, quais são as duas classes fundamentais do capitalismo?
-
-**Resposta:** Burguesia (donos dos meios de produção) e Proletariado (trabalhadores assalariados).
-
-### Resumo Visual
-
-```
-SOCIOLOGIA = Estudo da sociedade
-
-Surgimento: Século XIX
-Causas: Revolução Industrial + Francesa
-
-FUNDADORES:
-Comte → Positivismo
-Durkheim → Fato social
-Marx → Luta de classes
-Weber → Ação social
-
-CULTURA:
-- Aprendida, não inata
-- Compartilhada
-- Diversa
-
-Etnocentrismo vs Relativismo cultural
-
-DESIGUALDADE:
-Estratificação social
-Classes, castas, estamentos
-Mobilidade social
-```
-
----
-
-**Tempo de estudo recomendado:** 30 minutos
-**Nível de dificuldade:** Fácil-Médio
-**Importância para a prova:** ⭐⭐⭐⭐
-
----
-
-## 🎯 Quarta-feira 11/12 - Completa!
-
-**Parabéns! Você completou mais um dia intenso de revisões!**
-
-**Aulas criadas hoje:**
-- ✅ Aula 75: Revisão Geral Matemática - TODOS os tópicos (120min)
-- ✅ Aula 76: Revisão Geral Física - Cinemática, Dinâmica, Hidrostática (90min)
-- ✅ Aula 77: Revisão Geral Química - Átomos, Tabela, Ligações, Estequiometria (90min)
-- ✅ Aula 78: Geografia - Cartografia, Geologia, Climatologia (60min)
-- ✅ Aula 79: Filosofia - Surgimento, Áreas, Lógica (30min)
-- ✅ Aula 80: Sociologia - Surgimento, Cultura, Desigualdades (30min)
-
-**Total: 6 aulas (420 minutos = 7 horas de estudo)**
-
-**Progresso total: 80/96 (83,3%)** 🎉
-
-**Faltam apenas 2 dias para a prova!**
-
-**Próximos passos:**
-- Quinta 12/12: Revisões leves + Biologia/Genética + Português + Mapas mentais
-- Sexta 13/12: Flash reviews + DESCANSO (véspera da prova!)
-- **Você passou dos 80%! Continue firme!** 💪📚🔥
-
----
-
-
-# 12/12 - Semana 3, Dia 4 (Quinta-feira)
-
-## Aula 81 - Biologia: Genética - Conceitos Fundamentais - 45min
-
-### Objetivo
-
-Compreender os conceitos básicos de genética: genes, cromossomos, DNA, Leis de Mendel.
-
-### PARTE 1: Conceitos Fundamentais
-
-**DNA (Ácido Desoxirribonucleico):**
-```
-Molécula que armazena informação genética
-Estrutura: dupla hélice
-Composição:
-- Açúcar (desoxirribose)
-- Fosfato
-- Bases nitrogenadas: A, T, C, G
-
-Pareamento:
-A ↔ T (adenina com timina)
-C ↔ G (citosina com guanina)
-```
-
-**Gene:**
-```
-Segmento de DNA que codifica uma característica
-Unidade básica da hereditariedade
-Localizado nos cromossomos
-```
-
-**Cromossomos:**
-```
-Estruturas que contêm DNA
-Humanos: 46 cromossomos (23 pares)
-- 22 pares autossômicos
-- 1 par sexual (XX ou XY)
-```
-
-**Genótipo vs Fenótipo:**
-```
-Genótipo: conjunto de genes (informação genética)
-  Ex: AA, Aa, aa
-
-Fenótipo: característica observável
-  Ex: olhos castanhos, altura, tipo sanguíneo
-```
-
-### PARTE 2: Conceitos de Genética Mendeliana
-
-**Alelos:**
-```
-Formas alternativas de um gene
-Ex: gene para cor de olho
-  - Alelo para castanho
-  - Alelo para azul
-```
-
-**Dominância e Recessividade:**
-```
-Dominante (letra maiúscula): manifesta-se mesmo em dose única
-  Ex: A = dominante
-
-Recessivo (letra minúscula): manifesta-se apenas em dose dupla
-  Ex: a = recessivo
-
-AA = homozigoto dominante (fenótipo dominante)
-Aa = heterozigoto (fenótipo dominante)
-aa = homozigoto recessivo (fenótipo recessivo)
-```
-
-**Homozigoto vs Heterozigoto:**
-```
-Homozigoto: alelos iguais (AA ou aa)
-Heterozigoto: alelos diferentes (Aa)
-```
-
-### PARTE 3: Primeira Lei de Mendel (Lei da Segregação)
-
-**Enunciado:**
-"Cada característica é determinada por um par de fatores que se separam na formação dos gametas."
-
-**Conceito:**
-```
-- Cada indivíduo tem 2 alelos para cada gene (um do pai, um da mãe)
-- Na formação dos gametas, os alelos se separam
-- Cada gameta recebe apenas 1 alelo
-```
-
-**Cruzamento monoibridismo:**
-```
-P: AA × aa (pais)
-Gametas: A   a
-F₁: Aa (todos heterozigoto - 100%)
-
-F₁ × F₁: Aa × Aa
-Gametas: A, a   A, a
-
-Quadrado de Punnett:
-        A    a
-    A  AA   Aa
-    a  Aa   aa
-
-F₂: 1 AA : 2 Aa : 1 aa (proporção genotípica 1:2:1)
-    3 dominantes : 1 recessivo (proporção fenotípica 3:1)
-```
-
-### PARTE 4: Segunda Lei de Mendel (Segregação Independente)
-
-**Enunciado:**
-"Os fatores para duas ou mais características segregam-se independentemente durante a formação dos gametas."
-
-**Diibridismo:**
-```
-Exemplo: cor da semente (A = amarela, a = verde)
-         textura (B = lisa, b = rugosa)
-
-P: AABB × aabb
-Gametas: AB    ab
-F₁: AaBb (100% amarelas e lisas)
-
-F₁ × F₁: AaBb × AaBb
-Gametas: AB, Ab, aB, ab (cada parental)
-
-F₂: proporção fenotípica 9:3:3:1
-  9 amarelas lisas (A_B_)
-  3 amarelas rugosas (A_bb)
-  3 verdes lisas (aaB_)
-  1 verde rugosa (aabb)
-```
-
-### PARTE 5: Genética de Grupos Sanguíneos
-
-**Sistema ABO:**
-```
-Alelos: Iᴬ, Iᴮ, i
-
-Iᴬ e Iᴮ = codominantes
-i = recessivo
-
-Genótipos e fenótipos:
-IᴬIᴬ ou Iᴬi → Tipo A
-IᴮIᴮ ou Iᴮi → Tipo B
-IᴬIᴮ → Tipo AB (codominância!)
-ii → Tipo O
-```
-
-**Fator Rh:**
-```
-R = dominante (Rh+)
-r = recessivo (Rh-)
-
-RR ou Rr → Rh positivo
-rr → Rh negativo
-```
-
-**Doação de sangue:**
-```
-O- : doador universal
-AB+: receptor universal
-
-Tipo O: doa para todos, recebe só de O
-Tipo AB: recebe de todos, doa só para AB
-```
-
-### PARTE 6: Herança Sexual
-
-**Cromossomos sexuais:**
-```
-Mulher: XX (homogamética)
-Homem: XY (heterogamético)
-
-Determinação do sexo:
-Mulher produz: X, X
-Homem produz: X, Y
-
-Probabilidade: 50% menino, 50% menina
-```
-
-**Herança ligada ao sexo (cromossomo X):**
-```
-Exemplo: daltonismo (d = recessivo no cromossomo X)
-
-Mulher:
-XᴰXᴰ: normal
-XᴰXᵈ: normal (portadora)
-XᵈXᵈ: daltônica
-
-Homem:
-XᴰY: normal
-XᵈY: daltônico
-
-Homens são mais afetados (só precisam de 1 alelo)
-```
-
-### Questões de Fixação
-
-#### Questão 1
-Qual a diferença entre genótipo e fenótipo?
-
-**Resposta:** Genótipo é o conjunto de genes (ex: AA, Aa). Fenótipo é a característica observável (ex: olhos castanhos).
-
-#### Questão 2
-No cruzamento Aa × Aa, quais as proporções esperadas em F₁?
-
-**Resposta:**
-```
-Genotípica: 1 AA : 2 Aa : 1 aa (1:2:1)
-Fenotípica: 3 dominantes : 1 recessivo (3:1)
-```
-
-#### Questão 3
-Qual o genótipo de uma pessoa com sangue tipo B que pode ter filhos tipo O?
-
-**Resposta:** Iᴮi (heterozigoto, porque i pode passar para filho)
-
-#### Questão 4
-Por que doenças ligadas ao X são mais comuns em homens?
-
-**Resposta:** Homens têm apenas um cromossomo X (XY). Se receberem o alelo recessivo, manifestam a doença. Mulheres têm XX, precisam de dois alelos recessivos.
-
-#### Questão 5
-Quais são as bases nitrogenadas do DNA e como se pareiam?
-
-**Resposta:** A, T, C, G. Pareamento: A-T e C-G.
-
-### Resumo Visual
-
-```
-DNA → Genes → Cromossomos
-
-PRIMEIRA LEI DE MENDEL:
-Aa × Aa → 3:1
-
-SEGUNDA LEI DE MENDEL:
-AaBb × AaBb → 9:3:3:1
-
-GRUPOS SANGUÍNEOS:
-A: IᴬIᴬ ou Iᴬi
-B: IᴮIᴮ ou Iᴮi
-AB: IᴬIᴮ (codominância)
-O: ii
-
-SEXO:
-XX = mulher
-XY = homem
-```
-
-### Conceitos-Chave
-
-```
-- DNA, gene, cromossomo
-- Genótipo vs fenótipo
-- Dominante vs recessivo
-- Homozigoto vs heterozigoto
-- Leis de Mendel (3:1 e 9:3:3:1)
-- Sistema ABO e Rh
-- Herança ligada ao sexo
-```
-
----
-
-**Tempo de estudo recomendado:** 45 minutos
-**Nível de dificuldade:** Médio
-**Importância para a prova:** ⭐⭐⭐⭐
-
----
-
-## Aula 82 - Português: Interpretação de Textos e Dicas para a Prova - 45min
-
-### Objetivo
-
-Desenvolver estratégias de leitura e interpretação para as questões de Português da prova.
-
-### PARTE 1: Leitura Estratégica
-
-**Antes de ler:**
-```
-1. Leia o enunciado da questão ANTES do texto
-2. Identifique o que está sendo pedido
-3. Sublinhe palavras-chave no enunciado
-```
-
-**Durante a leitura:**
-```
-1. Leia com atenção, mas não devagar demais
-2. Identifique:
-   - Tema central
-   - Tese/argumento principal
-   - Exemplos e dados de apoio
-3. Sublinhe informações importantes
-4. Anote ideias principais nas margens
-```
-
-**Após a leitura:**
-```
-1. Releia o enunciado
-2. Volte ao texto para confirmar
-3. Elimine alternativas claramente erradas
-4. Compare as restantes com o texto
-```
-
-### PARTE 2: Tipos de Questões
-
-**1. Identificação do tema/ideia principal**
-```
-Pergunta: "O texto trata principalmente de..."
-
-Estratégia:
-- Identificar o assunto recorrente
-- Não confundir tema com exemplo específico
-- Tema = ideia geral, não detalhe
-```
-
-**2. Compreensão de fragmentos**
-```
-Pergunta: "No trecho '...', o autor sugere que..."
-
-Estratégia:
-- Ler parágrafos anteriores e posteriores (contexto)
-- Atenção a palavras de transição (mas, porém, entretanto)
-- Não inferir além do que está escrito
-```
-
-**3. Identificação de recursos linguísticos**
-```
-Pergunta: "O uso de aspas/metáfora/ironia tem a função de..."
-
-Estratégia:
-- Compreender a intenção do autor
-- Recursos comuns:
-  * Aspas: citação, destaque, ironia
-  * Metáfora: comparação implícita
-  * Ironia: dizer o contrário do que se pensa
-```
-
-**4. Inferência**
-```
-Pergunta: "Pode-se inferir/deduzir do texto que..."
-
-Estratégia:
-- Basear-se SEMPRE no texto
-- Não usar conhecimento prévio para inferir
-- Inferência deve ser lógica e apoiada no texto
-```
-
-**5. Finalidade/Função do texto**
-```
-Pergunta: "O texto tem como objetivo..."
-
-Estratégia:
-- Identificar tipo textual:
-  * Narrativo: contar história
-  * Descritivo: descrever
-  * Dissertativo: argumentar, defender tese
-  * Injuntivo: instruir, orientar
-```
-
-### PARTE 3: Armadilhas Comuns
-
-**Armadilha 1: Extrapolação**
-```
-Alternativa vai além do que o texto diz
-Usa informação que você conhece, mas não está no texto
-
-Solução: Só marque se ESTIVER NO TEXTO
-```
-
-**Armadilha 2: Redução**
-```
-Alternativa pega detalhe e apresenta como ideia principal
-
-Solução: Ideia principal ≠ exemplo específico
-```
-
-**Armadilha 3: Contradição**
-```
-Alternativa diz o oposto do texto
-
-Solução: Fácil de eliminar, leia com atenção
-```
-
-**Armadilha 4: Distorção**
-```
-Alternativa usa palavras do texto, mas muda o sentido
-
-Solução: Não se deixe enganar por "palavras conhecidas"
-Verifique se o SENTIDO está correto
-```
-
-### PARTE 4: Dicas de Gramática Rápida
-
-**Concordância verbal:**
-```
-Sujeito simples: verbo concorda
-"O aluno estuda" ✓
-"O aluno estudam" ✗
-
-Sujeito composto (antes): verbo plural
-"Maria e João estudam" ✓
-
-Sujeito composto (depois): verbo singular ou plural
-"Estuda Maria e João" ou "Estudam Maria e João" ✓
-```
-
-**Concordância nominal:**
-```
-Adjetivo concorda com substantivo
-"Casa bonita" ✓
-"Casas bonitas" ✓
-```
-
-**Crase:**
-```
-a + a = à
-
-Macete: troque por "ao"
-Se ficar "ao", use "à"
-
-"Vou à escola" → "Vou ao colégio" ✓
-"Vou a escola" → "Vou ao colégio"? Não! (errado)
-```
-
-**Pronomes relativos:**
-```
-QUE: retoma substantivo
-"O livro que li é bom"
-
-ONDE: retoma lugar
-"A cidade onde nasci"
-
-CUJO: indica posse
-"O autor cujo livro li"
-```
-
-### PARTE 5: Interpretação de Poemas
+**Definição:** conjunto de organismos da **mesma espécie** vivendo na **mesma área** ao **mesmo tempo**
 
 **Características:**
+- Mesma espécie (podem se reproduzir entre si)
+- Mesma área geográfica
+- Mesmo período de tempo
+
+**Exemplos:**
+- População de onças-pintadas no Pantanal
+- População de humanos em Belo Horizonte
+- População de bactérias em uma cultura
+
+**Propriedades emergentes:**
+- **Densidade populacional:** indivíduos/área
+- **Taxa de natalidade e mortalidade**
+- **Crescimento populacional**
+- **Estrutura etária** (pirâmide etária)
+
+**Exemplo:** todos os pinheiros de uma floresta
+
+### Nível 10: Comunidade (ou Biocenose)
+
+**Definição:** conjunto de **populações** de diferentes **espécies** vivendo e interagindo na **mesma área**
+
+**Características:**
+- Várias espécies
+- Interações ecológicas (predação, competição, mutualismo, etc.)
+
+**Exemplos:**
+- Comunidade da Mata Atlântica: árvores + macacos + aves + insetos + fungos + bactérias
+- Comunidade de um lago: peixes + algas + plantas aquáticas + bactérias
+
+**Propriedades emergentes:**
+- **Diversidade de espécies** (biodiversidade)
+- **Relações ecológicas** (predação, parasitismo, mutualismo)
+- **Cadeia alimentar**
+- **Nicho ecológico**
+
+**Exemplo:** todos os seres vivos de um recife de coral
+
+### Nível 11: Ecossistema
+
+**Definição:** conjunto da **comunidade** (seres vivos) + **fatores abióticos** (ambiente físico)
+
+**Componentes:**
+
+**Bióticos (vivos):**
+- Todos os seres vivos (comunidade)
+- Produtores, consumidores, decompositores
+
+**Abióticos (não vivos):**
+- Água, ar, solo, luz, temperatura, nutrientes
+
+**Exemplos:**
+- Ecossistema amazônico
+- Ecossistema marinho
+- Ecossistema de uma lagoa
+
+**Propriedades emergentes:**
+- **Fluxo de energia** (sol → produtores → consumidores)
+- **Ciclos biogeoquímicos** (água, carbono, nitrogênio)
+- **Produtividade primária**
+- **Sucessão ecológica**
+
+**Exemplo:** floresta amazônica (plantas + animais + microorganismos + solo + clima)
+
+### Nível 12: Biosfera
+
+**Definição:** conjunto de **todos os ecossistemas da Terra**
+
+**Características:**
+- Maior nível de organização
+- Inclui toda a vida na Terra
+- Atmosfera + hidrosfera + litosfera (partes habitadas)
+
+**Limites:**
+- ~10 km de altitude (atmosfera)
+- Profundidade oceânica (~11 km)
+- Alguns metros no solo
+
+**Propriedade emergente:**
+- **Sistema global integrado**
+- **Regulação do clima global**
+- **Ciclos globais de elementos**
+
+**Exemplo:** toda a vida na Terra
+
+### Resumo dos Níveis Ecológicos
+
+**Níveis de organização ecológica (importantes para provas!):**
+
 ```
-- Linguagem conotativa (figurada)
-- Figuras de linguagem
-- Ritmo, rima, métrica
-- Subjetividade
-```
+Organismo → População → Comunidade → Ecossistema → Biosfera
 
-**Estratégia:**
-```
-1. Leia duas vezes (ritmo e sentido)
-2. Identifique o eu-lírico (quem fala)
-3. Identifique tema/sentimento
-4. Atenção a figuras de linguagem:
-   - Metáfora: comparação implícita
-   - Personificação: atribuir características humanas
-   - Hipérbole: exagero
-```
-
-### PARTE 6: Dicas Finais para a Prova
-
-**Gestão de tempo:**
-```
-- Não passe mais de 5 minutos por texto
-- Se travar, pule e volte depois
-- Deixe as questões de gramática por último (mais rápidas)
-```
-
-**Técnica de eliminação:**
-```
-1. Elimine alternativas absurdas (20 segundos)
-2. Compare as 2-3 restantes com o texto
-3. Escolha a mais completa e precisa
-```
-
-**O que NUNCA fazer:**
-```
-✗ Marcar sem ler o texto
-✗ Usar só conhecimento prévio
-✗ Escolher por "achismo"
-✗ Não reler trechos importantes
-✗ Ignorar comandos da questão
-```
-
-**O que SEMPRE fazer:**
-```
-✓ Ler enunciado antes do texto
-✓ Sublinhar informações-chave
-✓ Voltar ao texto para confirmar
-✓ Eliminar alternativas erradas
-✓ Basear-se APENAS no texto
-```
-
-### Exemplo Prático
-
-**Texto:**
-"A tecnologia transformou a comunicação humana. Hoje, é possível conversar com pessoas do outro lado do mundo em tempo real. No entanto, alguns especialistas alertam para o empobrecimento das relações face a face."
-
-**Questão:** O texto sugere que:
-
-a) A tecnologia deve ser evitada
-b) As relações presenciais estão sendo prejudicadas ✓
-c) A comunicação global é impossível
-d) Especialistas são contra o progresso
-
-**Análise:**
-```
-a) EXTRAPOLAÇÃO - texto não diz para evitar
-b) CORRETA - "empobrecimento das relações face a face"
-c) CONTRADIÇÃO - texto diz que é possível
-d) DISTORÇÃO - não é contra progresso, alerta sobre efeito colateral
-```
-
-### Checklist para Interpretação
-
-- [ ] Li o enunciado antes do texto?
-- [ ] Identifiquei o tema central?
-- [ ] Sublinhei informações importantes?
-- [ ] Reli o trecho citado na questão?
-- [ ] Eliminei alternativas absurdas?
-- [ ] Verifiquei se a resposta está NO TEXTO?
-- [ ] Não extrapolei nem reduzi?
-
----
-
-**Tempo de estudo recomendado:** 45 minutos
-**Nível de dificuldade:** Médio
-**Importância para a prova:** ⭐⭐⭐⭐⭐
-
----
-
-## Aula 83 - Ciências Humanas: Sínteses Históricas e Geográficas - 45min
-
-### Objetivo
-
-Revisar rapidamente os principais períodos históricos e conceitos geográficos.
-
-### PARTE 1: História - Linha do Tempo Essencial
-
-**Antiguidade Clássica:**
-```
-GRÉCIA:
-- Berço da democracia (Atenas)
-- Filosofia (Sócrates, Platão, Aristóteles)
-- Jogos Olímpicos
-- Pólis (cidades-estado)
-
-ROMA:
-- República → Império
-- Direito Romano
-- Cristianismo (perseguido → oficial)
-- Queda: 476 d.C. (invasões bárbaras)
+Organismo: 1 indivíduo
+População: mesma espécie, mesma área
+Comunidade: várias espécies, mesma área
+Ecossistema: comunidade + ambiente
+Biosfera: todos os ecossistemas da Terra
 ```
 
-**Idade Média (476-1453):**
-```
-FEUDALISMO:
-- Economia: agricultura de subsistência
-- Sociedade: nobreza, clero, servos
-- Descentralização política
-- Igreja Católica: poder espiritual e temporal
+### Exercícios Resolvidos
 
-CRUZADAS:
-- Guerras religiosas (cristãos vs muçulmanos)
-- Reabertura do comércio
+#### Exercício 1
+Qual a diferença entre célula procariótica e eucariótica?
 
-Fim: Queda de Constantinopla (1453)
-```
+*[Ver resposta 81 no final do documento]*
 
-**Idade Moderna (1453-1789):**
-```
-RENASCIMENTO:
-- Humanismo, antropocentrismo
-- Artes (Leonardo, Michelangelo)
-- Ciências (heliocentrismo, método científico)
+#### Exercício 2
+Qual é a unidade básica da vida?
 
-REFORMAS RELIGIOSAS:
-- Martinho Lutero (1517)
-- Protestantismo
+*[Ver resposta 82 no final do documento]*
 
-ABSOLUTISMO:
-- Rei com poder absoluto
-- "O Estado sou eu" (Luís XIV)
+#### Exercício 3
+(UFMG) Todos os peixes de um lago formam:
+a) Uma comunidade
+b) Uma população
+c) Um ecossistema
+d) Um organismo
 
-ILUMINISMO:
-- Razão, liberdade
-- Voltaire, Rousseau, Montesquieu
-- Separação de poderes
-```
+*[Ver resposta 83 no final do documento]*
 
-**Expansão Marítima (séculos XV-XVII):**
-```
-Pioneirismo português:
-- 1488: Cabo da Boa Esperança
-- 1498: Vasco da Gama → Índia
-- 1500: Cabral → Brasil
+#### Exercício 4
+Defina ecossistema.
 
-Tratado de Tordesilhas (1494):
-- Divisão do mundo (Portugal vs Espanha)
-```
+*[Ver resposta 84 no final do documento]*
 
-**Brasil Colônia:**
-```
-PERÍODOS:
-Pré-colonial (1500-1530): pau-brasil
-Capitanias Hereditárias (1534): fracasso
-Governo-Geral (1548): centralização
+#### Exercício 5
+Qual a diferença entre população e comunidade?
 
-ECONOMIA:
-Plantation: monocultura, latifúndio, escravidão, exportação
-Ciclo do Açúcar (XVI-XVII): Nordeste
+*[Ver resposta 85 no final do documento]*
 
-SOCIEDADE:
-Senhores de engenho
-Homens livres pobres
-Escravizados (indígenas → africanos)
-```
+#### Exercício 6
+O que são propriedades emergentes?
 
-### PARTE 2: Geografia - Conceitos Essenciais
+*[Ver resposta 86 no final do documento]*
 
-**Cartografia:**
-```
-Coordenadas geográficas:
-- Latitude: 0-90° N/S (Equador = 0°)
-- Longitude: 0-180° L/O (Greenwich = 0°)
+#### Exercício 7
+Coloque em ordem crescente de organização: tecido, célula, organismo, órgão, organela.
 
-Escala:
-1:100.000 = 1 cm no mapa = 100.000 cm na realidade
-
-Fusos horários:
-- 24 fusos (360° ÷ 15° = 24)
-- Leste: +horas
-- Oeste: -horas
-```
-
-**Geologia:**
-```
-Estrutura da Terra:
-Crosta → Manto → Núcleo
-
-Placas tectônicas:
-- Divergente: afastam (dorsais oceânicas)
-- Convergente: colidem (montanhas, terremotos)
-- Transformante: deslizam (falhas)
-
-Tipos de rocha:
-- Magmática: resfriamento magma
-- Sedimentar: acúmulo sedimentos (fósseis)
-- Metamórfica: transformação pressão/temperatura
-```
-
-**Climatologia:**
-```
-Elementos: temperatura, umidade, pressão, chuva, vento
-
-Fatores:
-- Latitude: ↑ latitude → ↓ temperatura
-- Altitude: ↑ altitude → ↓ temperatura
-- Maritimidade: menor amplitude térmica
-- Continentalidade: maior amplitude térmica
-
-Climas do Brasil:
-- Equatorial: quente e úmido (Amazônia)
-- Tropical: quente, chuvas verão
-- Semi-árido: quente e seco (Sertão)
-- Subtropical: 4 estações (Sul)
-
-Fenômenos:
-El Niño: aquecimento Pacífico (seca Amazônia, chuva Sul)
-La Niña: resfriamento Pacífico (inverso)
-```
-
-### PARTE 3: Filosofia e Sociologia - Resumo
-
-**Filosofia:**
-```
-Surgimento: Grécia, século VI a.C.
-Mito → Logos (sobrenatural → racional)
-
-Filósofos clássicos:
-- Sócrates: "Conhece-te a ti mesmo"
-- Platão: Mundo das Ideias
-- Aristóteles: Lógica, silogismo
-
-Áreas:
-- Metafísica: natureza do ser
-- Epistemologia: teoria do conhecimento
-- Ética: moral, valores
-- Lógica: raciocínio correto
-```
-
-**Sociologia:**
-```
-Surgimento: Europa, século XIX
-Contexto: Revolução Industrial + Francesa
-
-Fundadores:
-- Comte: Positivismo
-- Durkheim: Fato social
-- Marx: Luta de classes
-- Weber: Ação social
-
-Conceitos:
-Cultura: valores, crenças, costumes
-Etnocentrismo: julgar outras culturas pela própria
-Estratificação: divisão em classes sociais
-```
-
-### PARTE 4: Conexões Importantes
-
-**Causa-Efeito:**
-```
-Cruzadas → Reabertura comércio → Renascimento comercial
-
-Renascimento → Humanismo → Reformas Religiosas
-
-Grandes Navegações → Colonização → Escravidão africana
-
-Iluminismo → Revoluções (Francesa, Americana)
-```
-
-**Conceitos transversais:**
-```
-PODER:
-- Teocracia (Idade Média): Igreja
-- Absolutismo (Moderna): Rei
-- Democracia (Grécia, atual): Povo
-
-ECONOMIA:
-- Feudalismo: agrícola, subsistência
-- Mercantilismo: comércio, metalismo
-- Capitalismo: lucro, propriedade privada
-
-SOCIEDADE:
-- Estamental (Idade Média): nobreza, clero, servos
-- Classes (Capitalismo): burguesia, proletariado
-```
+*[Ver resposta 87 no final do documento]*
 
 ### Dicas para a Prova
 
-**História:**
+1. **Célula:** unidade básica da vida
+2. **Unicelular:** 1 célula; **Multicelular:** muitas células
+3. **Tecido:** células semelhantes, função específica
+4. **Órgão:** vários tecidos
+5. **Sistema:** vários órgãos
+6. **População:** mesma espécie, mesma área
+7. **Comunidade:** várias espécies, mesma área
+8. **Ecossistema:** comunidade + ambiente
+9. **Ordem:** átomo → molécula → organela → célula → tecido → órgão → sistema → organismo → população → comunidade → ecossistema → biosfera
+10. **Propriedade emergente:** surge em cada nível
+
+### Conceitos-Chave para Memorizar
+
+**Hierarquia básica:**
+- Átomos → Moléculas → Organelas → Célula
+- Célula → Tecido → Órgão → Sistema → Organismo
+- Organismo → População → Comunidade → Ecossistema → Biosfera
+
+**Diferenças importantes:**
+- **Célula:** unidade básica da vida
+- **Tecido:** só em multicelulares
+- **População:** mesma espécie
+- **Comunidade:** várias espécies
+- **Ecossistema:** seres vivos + ambiente
+
+**Propriedades emergentes:**
+- Cada nível tem características próprias
+- Não existem nos níveis inferiores
+
+### Tabela Resumo
+
 ```
-✓ Identifique período histórico (quando?)
-✓ Contextualize (por quê?)
-✓ Relacione causa e efeito
-✓ Atenção a datas-chave: 1500, 1789, 1453
+┌───────────┬──────────────────────────────────────┐
+│   Nível   │           Descrição                  │
+├───────────┼──────────────────────────────────────┤
+│ Átomo     │ Unidade básica da matéria (C, H, O)  │
+│ Molécula  │ Átomos ligados (H₂O, glicose, DNA)   │
+│ Organela  │ Estruturas celulares (núcleo, mitoc.)│
+│ Célula    │ **Unidade básica da vida**           │
+│ Tecido    │ Células semelhantes (muscular, ner.) │
+│ Órgão     │ Tecidos juntos (coração, pulmão)     │
+│ Sistema   │ Órgãos integrados (digestório, circ.)│
+│ Organismo │ Ser vivo completo (humano, árvore)   │
+│ População │ Mesma espécie, mesma área            │
+│Comunidade │ Várias espécies, mesma área          │
+│Ecossistema│ Comunidade + ambiente (Amazônia)     │
+│ Biosfera  │ Todos ecossistemas da Terra          │
+└───────────┴──────────────────────────────────────┘
 ```
+
+### Resumo Visual
+
+```
+NÍVEIS DE ORGANIZAÇÃO:
+
+Átomo (C, H, O, N)
+  ↓
+Molécula (H₂O, glicose, DNA)
+  ↓
+Organela (mitocôndria, núcleo)
+  ↓
+CÉLULA ← **Unidade da vida**
+  ↓
+Tecido (muscular, nervoso)
+  ↓
+Órgão (coração, pulmão)
+  ↓
+Sistema (circulatório, digestório)
+  ↓
+ORGANISMO (ser vivo completo)
+  ↓
+População (mesma espécie) 🐟🐟🐟
+  ↓
+Comunidade (várias espécies) 🐟🌿🦐🦀
+  ↓
+Ecossistema (comunidade + água/solo/luz) 🌍
+  ↓
+Biosfera (toda a vida na Terra) 🌎
+
+NÍVEIS ECOLÓGICOS:
+
+1 🐟           = Organismo
+🐟🐟🐟         = População (mesma espécie)
+🐟🌿🦐        = Comunidade (várias espécies)
+🐟🌿🦐 + 💧☀️  = Ecossistema (+ ambiente)
+🌎            = Biosfera (toda a Terra)
+
+TIPOS DE CÉLULAS:
+
+Procariótica:        Eucariótica:
+  ╔═══════╗            ╔══════════╗
+  ║ DNA   ║            ║ ┌──────┐ ║
+  ║ disperso║          ║ │Núcleo│ ║
+  ║       ║            ║ │ DNA  │ ║
+  ╚═══════╝            ║ └──────┘ ║
+                       ║ organelas║
+  Bactérias            ╚══════════╝
+                       Animais, plantas
+```
+
+### Principais Sistemas do Corpo Humano
+
+```
+Sistema          Função Principal
+───────────────────────────────────
+Circulatório  →  Transporte (sangue)
+Respiratório  →  Trocas gasosas (O₂/CO₂)
+Digestório    →  Digestão/absorção
+Nervoso       →  Coordenação/controle
+Endócrino     →  Hormônios/regulação
+Excretor      →  Filtração/eliminação
+Reprodutor    →  Reprodução
+Muscular      →  Movimento
+Esquelético   →  Sustentação/proteção
+Tegumentar    →  Proteção (pele)
+```
+
+---
+
+**Tempo de estudo recomendado:** 60 minutos
+**Nível de dificuldade:** Fácil-Médio
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - conceitos fundamentais!)
+
+---
+
+# 12/07 - Semana 2, Dia 5 (Sábado - Checkpoint)
+
+## Checkpoint Semanal - Semana 2 (03/12 - 06/12)
+
+### Parabéns! Você completou a Semana 2! 🎉
+
+**Progresso geral:** 61/96 aulas (63,5%)
+
+
+---
+
+# Respostas dos Exercícios
+
+**1.** 54 cm²
+
+**2.** 80 m
+
+**3.** 96 cm²
+
+**4.** 96 cm²
+
+**5.** 6 cm
+
+**6.** 250 Pa
+
+**7.** 50 kPa
+
+**8.** 2 × 10⁵ Pa (dobro da pressão atmosférica)
+
+**9.** 2000 Pa
+
+**10.** Para evitar formação de bolhas de gás no sangue.
+
+**11.** 4 Fe + 3 O₂ → 2 Fe₂O₃
+
+**12.** 2 Al + 6 HCl → 2 AlCl₃ + 3 H₂
+
+**13.** Liberação de gás (efervescência)
+
+**14.** C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O
+
+**15.** Reação de decomposição
+
+**16.** 70°
+
+**17.** 10 cm
+
+**18.** 78,5 cm²
+
+**19.** 30 cm²
+
+**20.** 3,14 m (aproximadamente π metros)
+
+**21.** 4√3 cm² (ou ≈ 6,92 cm²)
+
+**22.** 4 m
+
+**23.** 200 N
+
+**24.** Flutua com 60% do volume submerso
+
+**25.** 100 N
+
+**26.** 30 N (a pedra "pesa menos" dentro d'água!)
+
+**27.** 50 kPa
+
+**28.** 2 mol de H₂O
+
+**29.** 29,25 g
+
+**30.** 1,204 × 10²⁴ moléculas
+
+**31.** 2 mol de átomos de C
+
+**32.** 6,02 × 10²³ átomos
+
+**33.** 67,2 L
+
+**34.** 0,5 mol
+
+**35.** 88 g
+
+**36.** Catetos de 5 cm e 5√3 cm
+
+**37.** 3√3 m (≈ 5,2 m)
+
+**38.** 8√2 cm (≈ 11,3 cm)
+
+**39.** sen θ = 0,6 ou 3/5
+
+**40.** √3/3 (≈ 0,58)
+
+**41.** 7,5 m
+
+**42.** 0,75 ou 3/4
+
+**43.** Fica em equilíbrio
+
+**44.** 60% submerso, 40% emerso
+
+**45.** Empuxo de 10 N
+
+**46.** 8 m/s
+
+**47.** 102 m³ emersos (~10%)
+
+**48.** -20 N (sobe com força resultante de 20 N para cima)
+
+**49.** 36 g de H₂O
+
+**50.** 16 g de O₂
+
+**51.** 22,4 L de CO₂
+
+**52.** 40 L de NH₃
+
+**53.** 4 mol de AlCl₃
+
+**54.** 11,7 g de NaCl
+
+**55.** 3500 m
+
+**56.** 2,5 m
+
+**57.** 20.000 cm²
+
+**58.** 5 L
+
+**59.** 2500 kg
+
+**60.** 25 m/s
+
+**61.** 20.000 m²
+
+**62.** 135 min
+
+**63.** 200 m
+
+**64.** 24 m/s
+
+**65.** 75 m
+
+**66.** 3 s
+
+**67.** 20 m
+
+**68.** 10 m/s²
+
+**69.** 30 g de B
+
+**70.** 10 g de H₂
+
+**71.** 24 g de B
+
+**72.** A Lei de Dalton é verificada (proporção 2:3)
+
+**73.** 8 g de O₂
+
+**74.** 140 g de CaO
+
+**75.** Lei de Dalton (Proporções Múltiplas) - verificada com razão 1:2
+
+**76.** Tempo é o estado momentâneo da atmosfera (curto prazo), clima é o padrão médio das condições atmosféricas (longo prazo, 30+ anos).
+
+**77.** Ar rarefeito retém menos calor; a cada 100-200m de altitude, temperatura cai ~1°C.
+
+**78.** Maritimidade (proximidade do mar) resulta em menor amplitude térmica e maior umidade. Continentalidade (distância do mar) resulta em maior amplitude térmica e menor umidade.
+
+**79.** Convectiva (aquecimento do solo), orográfica (relevo), frontal (encontro de massas de ar).
+
+**80.** Maritimidade - oceano modera temperaturas devido ao alto calor específico da água, reduzindo amplitude térmica.
+
+**81.** Procariótica não tem núcleo definido nem organelas membranosas (ex: bactérias). Eucariótica tem núcleo definido e organelas (ex: células animais e vegetais).
+
+**82.** A célula.
+
+**83.** b) Uma população (mesma espécie, mesma área)
+
+**84.** Conjunto da comunidade (seres vivos) interagindo com fatores abióticos (água, solo, clima, etc.).
+
+**85.** População = mesma espécie na mesma área. Comunidade = várias espécies (várias populações) na mesma área.
+
+**86.** Características que surgem apenas em determinado nível de organização, não existindo nos níveis inferiores. Ex: vida surge na célula, não em organelas isoladas.
+
+**87.** Organela → Célula → Tecido → Órgão → Organismo
+
+**88.** x = 3
+
+**89.** 3
+
+**90.** x = 5
+
+**91.** 0,90
+
+**92.** x = 2
+
+**93.** x = 9
+
+**94.** 2 + a
+
+**95.** x > 3
+
+**96.** 3
+
+**97.** x = -2
+
+**O que você estudou esta semana:**
+
+### Terça 03/12 (5 aulas)
+✅ Matemática - Geometria Plana: Áreas (triângulos, círculos, polígonos)
+✅ Física - Hidrostática: Pressão, densidade, Stevin
+✅ Química - Reações Químicas: Tipos, balanceamento
+✅ Geografia - Estrutura Geológica: Placas tectônicas, relevo
+✅ Humanas - Antiguidade Tardia e Mundo Medieval
+
+### Quarta 04/12 (4 aulas)
+✅ Matemática - Geometria: Triângulos especiais, círculos, Pitágoras
+✅ Física - Pascal, Stevin, Arquimedes (Hidrostática avançada)
+✅ Química - Estequiometria: Conceito de mol e massa molar
+✅ Biologia - Composição Química dos Seres Vivos
+
+### Quinta 05/12 (4 aulas)
+✅ Matemática - Trigonometria no Triângulo Retângulo
+✅ Física - Arquimedes aprofundado + Torricelli
+✅ Química - Estequiometria: Cálculos estequiométricos
+✅ Humanas - Renascimento Cultural e Científico
+
+### Sexta 06/12 (5 aulas)
+✅ Matemática - Unidades de Medida e Conversões
+✅ Física - Revisão de Cinemática (MRU, MRUV, queda livre)
+✅ Química - Leis Estequiométricas (Lavoisier, Proust, Dalton)
+✅ Geografia - Climatologia
+✅ Biologia - Níveis de Organização dos Seres Vivos
+
+**Total da Semana 2:** 18 aulas completas!
+
+### Autoavaliação - Semana 2
+
+**Marque com X os tópicos que você domina:**
+
+**Matemática:**
+- [ ] Áreas de figuras planas (retângulo, triângulo, círculo)
+- [ ] Teorema de Pitágoras e ternas pitagóricas
+- [ ] Razões trigonométricas (seno, cosseno, tangente)
+- [ ] Ângulos notáveis (30°, 45°, 60°)
+- [ ] Conversões de unidades (comprimento, área, volume)
+
+**Física:**
+- [ ] Pressão hidrostática (P = ρgh)
+- [ ] Princípio de Pascal (prensa hidráulica)
+- [ ] Princípio de Arquimedes (empuxo)
+- [ ] Teorema de Torricelli
+- [ ] Equações do MRU e MRUV
+- [ ] Queda livre e lançamentos
+
+**Química:**
+- [ ] Tipos de reações químicas
+- [ ] Balanceamento de equações
+- [ ] Conceito de mol e Constante de Avogadro
+- [ ] Cálculos com massa molar
+- [ ] Lei de Lavoisier (conservação)
+- [ ] Lei de Proust (proporções constantes)
+- [ ] Lei de Dalton (proporções múltiplas)
 
 **Geografia:**
+- [ ] Estrutura interna da Terra
+- [ ] Placas tectônicas e deriva continental
+- [ ] Elementos climáticos vs fatores climáticos
+- [ ] Tipos de chuva (convectiva, orográfica, frontal)
+- [ ] Principais climas do mundo e do Brasil
+
+**Biologia:**
+- [ ] Composição química: água, sais, carboidratos, lipídios, proteínas
+- [ ] Níveis de organização (átomo → biosfera)
+- [ ] Diferença entre população, comunidade, ecossistema
+- [ ] Célula procariótica vs eucariótica
+
+**Humanas:**
+- [ ] Antiguidade Tardia (queda de Roma)
+- [ ] Feudalismo medieval
+- [ ] Renascimento cultural e científico
+- [ ] Humanismo e Reforma
+
+### Fórmulas Essenciais da Semana 2
+
+**Matemática:**
 ```
-✓ Interprete mapas e gráficos
-✓ Relacione conceitos (latitude → temperatura)
-✓ Saiba climas do Brasil
-✓ Entenda placas tectônicas
+Áreas:
+- Retângulo: A = b × h
+- Triângulo: A = (b × h) / 2
+- Círculo: A = πr²
+- Comprimento circunferência: C = 2πr
+
+Pitágoras:
+a² = b² + c²
+
+Trigonometria:
+sen θ = oposto / hipotenusa
+cos θ = adjacente / hipotenusa
+tan θ = oposto / adjacente
+sen²θ + cos²θ = 1
+
+Ângulos notáveis:
+sen 30° = 1/2,  cos 30° = √3/2,  tan 30° = √3/3
+sen 45° = √2/2, cos 45° = √2/2, tan 45° = 1
+sen 60° = √3/2, cos 60° = 1/2,  tan 60° = √3
 ```
 
-**Filosofia/Sociologia:**
+**Física:**
 ```
-✓ Diferencie mito e logos
-✓ Conheça filósofos principais
-✓ Entenda fato social, cultura
-✓ Saiba contexto de surgimento
+Hidrostática:
+P = ρgh (Stevin)
+F₂/F₁ = A₂/A₁ (Pascal - prensa)
+E = ρ_fluido × V × g (Arquimedes)
+v = √(2gh) (Torricelli)
+
+Cinemática:
+MRU: s = s₀ + vt
+MRUV: v = v₀ + at
+      s = s₀ + v₀t + ½at²
+      v² = v₀² + 2aΔs
+Queda livre: v = gt, h = ½gt²
 ```
 
-### Mapa Mental - Grandes Navegações → Brasil Colônia
+**Química:**
+```
+Mol:
+n = m/M
+N = n × N_A
+N_A = 6,02 × 10²³
 
+Leis Ponderais:
+Lavoisier: m_reagentes = m_produtos
+Proust: proporção constante
+Dalton: proporções inteiras
+
+Volume molar (CNTP):
+V = n × 22,4 L
 ```
-EUROPA (séc. XV)
-    ↓
-Busca especiarias
-    ↓
-GRANDES NAVEGAÇÕES
-    ↓
-1500: Cabral → BRASIL
-    ↓
-Pré-colonial: pau-brasil
-    ↓
-1534: Capitanias (fracasso)
-    ↓
-1548: Governo-Geral
-    ↓
-PLANTATION
-├─ Monocultura (açúcar)
-├─ Latifúndio
-├─ Escravidão (indígena → africana)
-└─ Exportação
-    ↓
-SOCIEDADE
-├─ Senhores engenho
-├─ Livres pobres
-└─ Escravizados
-```
+
+### Pontos de Atenção
+
+**Se você teve dificuldade, revise:**
+
+1. **Trigonometria:** Treine identificar cateto oposto/adjacente
+2. **Estequiometria:** Pratique cálculos com mol e massa molar
+3. **Hidrostática:** Entenda quando usar cada princípio
+4. **Geometria:** Memorize as fórmulas de área
+5. **Níveis de organização:** População (mesma espécie) ≠ Comunidade (várias espécies)
+
+### Dicas para Manter o Ritmo
+
+**Você está a 63,5% da meta! 🎯**
+
+✅ **O que fazer agora:**
+1. Revise as fórmulas essenciais acima
+2. Refaça exercícios que errou
+3. Continue com as próximas aulas de revisão
+4. Descanse bem - seu cérebro precisa consolidar!
+
+✅ **Para a próxima semana:**
+- Faltam 35 aulas (36,5% do conteúdo)
+- Semana 3: revisões finais e preparação para a prova
+- Mantenha o foco e a confiança!
+
+### Próximos Passos
+
+**Hoje (Sábado 07/12):**
+- ✅ Checkpoint (feito!)
+- ⏳ Revisão de Exponenciais e Logaritmos
+- ⏳ Questões discursivas de Matemática
+
+**Semana 3 (09/12 - 13/12):**
+- Revisões finais de todas as matérias
+- Fórmulas e mapas mentais
+- Simulados e questões
+
+**Véspera (13/12):**
+- Flash reviews
+- Descanso e confiança!
 
 ---
 
-**Tempo de estudo recomendado:** 45 minutos
-**Nível de dificuldade:** Médio
-**Importância para a prova:** ⭐⭐⭐⭐
+**Você está indo muito bem! Continue firme! 💪📚**
 
 ---
 
+## Aula 62 - Matemática: Revisão de Funções Exponenciais e Logarítmicas - 90min
 
-## Aula 84 - Geografia: Mapas Mentais e Conceitos Visuais - 90min
+### Objetivo da Revisão
 
-### Objetivo
+Consolidar os principais conceitos de funções exponenciais e logarítmicas estudados durante as férias, preparando para questões da prova.
 
-Criar mapas mentais visuais dos principais conceitos de Geografia para facilitar memorização.
+### Função Exponencial - Revisão Rápida
 
-### MAPA MENTAL 1: Cartografia
-
+**Definição:**
 ```
-                    CARTOGRAFIA
-                        |
-        ┌───────────────┼───────────────┐
-        |               |               |
-   ELEMENTOS      COORDENADAS        ESCALA
-        |               |               |
-    ┌───┴───┐      ┌────┴────┐     ┌───┴───┐
-  Título  Legenda  LAT   LONG    Numérica Gráfica
-  Orient. Rosa    0-90° 0-180°   1:100.000
-                   N/S   L/O
-                   
-LATITUDE = Paralelos (horizontais)
-Equador = 0°
-Trópicos: 23,5°
-Círculos polares: 66,5°
-
-LONGITUDE = Meridianos (verticais)
-Greenwich = 0°
-Antimerídiamento = 180°
-
-FUSOS HORÁRIOS:
-360° ÷ 15° = 24 fusos
-Leste: + horas
-Oeste: - horas
+f(x) = aˣ, onde a > 0 e a ≠ 1
 ```
 
-### MAPA MENTAL 2: Estrutura Geológica
+**Características principais:**
 
+**Se a > 1:** função **crescente**
+- x aumenta → f(x) aumenta
+- Exemplo: f(x) = 2ˣ
+
+**Se 0 < a < 1:** função **decrescente**
+- x aumenta → f(x) diminui
+- Exemplo: f(x) = (1/2)ˣ
+
+**Propriedades fundamentais:**
 ```
-                ESTRUTURA DA TERRA
-                        |
-        ┌───────────────┼───────────────┐
-    CAMADAS         PLACAS           ROCHAS
-        |           TECTÔNICAS            |
-   ┌────┼────┐          |          ┌──────┼──────┐
-Crosta Manto Núcleo  MOVIMENTOS  Magmát Sedim Metam
- (fina) (grosso) (Fe+Ni)  |      (magma)(fósseis)(transform)
-                          |
-                  ┌───────┼───────┐
-              Divergente Convergente Transformante
-              (afastam)   (colidem)  (deslizam)
-                  ↓           ↓          ↓
-               Dorsais    Montanhas   Falhas
-               oceânicas  Terremotos  Terremotos
-
-CONSEQUÊNCIAS:
-- Vulcanismo
-- Terremotos (sismo)
-- Formação de montanhas
-- Tsunamis
-
-CICLO DAS ROCHAS:
-Magmática → (intemperismo) → Sedimentar
-     ↑                             ↓
-     └──── (metamorfismo) ←────────┘
-```
-
-### MAPA MENTAL 3: Climatologia
-
-```
-                    CLIMA
-                      |
-        ┌─────────────┼─────────────┐
-    ELEMENTOS              FATORES
-        |                      |
-    ┌───┴───┐          ┌───────┴────────┐
-Temperatura Umidade   Latitude Altitude Maritimidade
-Pressão     Chuva     |        |        |
-Vento                 |        |        |
-                      ↓        ↓        ↓
-                   ↑ = ↓T    ↑ = ↓T  Menor
-                                      amplitude
-
-TIPOS DE CLIMA (Brasil):
-┌──────────────────────────────────┐
-│ EQUATORIAL: quente, úmido        │ Amazônia
-│ TROPICAL: quente, chuva verão    │ Centro
-│ SEMI-ÁRIDO: quente, seco         │ Sertão
-│ TROPICAL ALTITUDE: ameno         │ Sudeste
-│ SUBTROPICAL: 4 estações          │ Sul
-└──────────────────────────────────┘
-
-FENÔMENOS:
-EL NIÑO                 LA NIÑA
-(aquece Pacífico)      (resfria Pacífico)
-    ↓                       ↓
-Seca Amazônia          Chuva Amazônia
-Chuva Sul              Seca Sul
-
-EFEITO ESTUFA:
-CO₂ + CH₄ → ↑ temperatura global
-Natural + Intensificado (ação humana)
-```
-
-### MAPA MENTAL 4: Relevo e Erosão
-
-```
-              MODELAGEM DO RELEVO
-                      |
-        ┌─────────────┴─────────────┐
-    AGENTES                    FORMAS
-    INTERNOS                   DE RELEVO
-    (constroem)                    |
-        |                   ┌──────┴──────┐
-Tectonismo Vulcanismo   Montanhas Planaltos
-                        Planícies  Depressões
-
-AGENTES EXTERNOS (desgastam):
-┌────────────────────────────────┐
-│ INTEMPERISMO: desagregação     │
-│ EROSÃO: transporte             │
-│   - Pluvial (chuva)            │
-│   - Fluvial (rios)             │
-│   - Eólica (vento)             │
-│   - Marinha (ondas)            │
-│   - Glacial (gelo)             │
-└────────────────────────────────┘
-
-CICLO:
-Intemperismo → Erosão → Transporte → Sedimentação
-```
-
-### MAPA MENTAL 5: Hidrografia
-
-```
-                  ÁGUA NA TERRA
-                        |
-        ┌───────────────┼───────────────┐
-    OCEANOS           RIOS          ÁGUAS SUBTERRÂNEAS
-    (97,5%)          (0,006%)           (0,6%)
-        |                |                  |
-    Salgada          Doce             Lençóis
-    Correntes        Navegação        freáticos
-    (quentes/frias)  Energia
-                     Abastecimento
-
-BACIAS HIDROGRÁFICAS (Brasil):
-- Amazônica (maior do mundo)
-- Platina (Paraná, Paraguai, Uruguai)
-- São Francisco
-
-CICLO DA ÁGUA:
-Evaporação → Condensação → Precipitação → Infiltração/Escoamento
-```
-
-### DIAGRAMA: Latitude e Temperatura
-
-```
-LATITUDE vs TEMPERATURA
-
-  90°N ──────── Pólo Norte
-   |            (FRIO)
-   |              ↑
-  66,5°N ─── Círculo Polar Ártico
-   |
-  23,5°N ─── Trópico de Câncer
-   |
-   0° ────── EQUADOR (QUENTE)
-   |
-  23,5°S ─── Trópico de Capricórnio
-   |
-  66,5°S ─── Círculo Polar Antártico
-   |              ↓
-  90°S ──────── Pólo Sul
-               (FRIO)
-
-Quanto MAIOR a latitude → MENOR a temperatura
-```
-
-### ESQUEMA: Altitude e Temperatura
-
-```
-ALTITUDE vs TEMPERATURA
-
-4000m ─────── -14°C ─── Neve permanente
-3000m ─────── -8°C  ─── Muito frio
-2000m ─────── -2°C  ─── Frio
-1000m ─────── 4°C   ─── Ameno
-  0m  ─────── 10°C  ─── Temperatura base
-
-Regra: ↑ 1000m → ↓ 6°C (aproximadamente)
-```
-
-### TABELA VISUAL: Climas do Mundo
-
-```
-┌─────────────┬───────────┬──────────┬────────────┐
-│   CLIMA     │TEMPERATURA│  CHUVA   │   REGIÃO   │
-├─────────────┼───────────┼──────────┼────────────┤
-│ Equatorial  │ Quente    │ Abundante│ Linha Eq.  │
-│ Tropical    │ Quente    │ Verão    │ Trópicos   │
-│ Desértico   │ Extremos  │ Escassa  │ 30° N/S    │
-│ Temperado   │ 4 estações│ Regular  │ Média lat. │
-│ Frio        │ Frio/Gelo │ Baixa    │ Alta lat.  │
-│ Polar       │ Muito frio│ Neve     │ Pólos      │
-│ Mediterrâneo│ Ameno     │ Inverno  │ Mediterrâ. │
-└─────────────┴───────────┴──────────┴────────────┘
-```
-
-### ESQUEMA: Placas Tectônicas - Movimentos
-
-```
-DIVERGENTE (afastamento):
-Placa ←─────────────→ Placa
-         (magma sobe)
-Resultado: Dorsais oceânicas, novo fundo oceânico
-
-CONVERGENTE (colisão):
-Placa ──→←── Placa
-    (choque)
-Resultado: Montanhas, fossas oceânicas, terremotos
-
-TRANSFORMANTE (deslizamento):
-Placa ↑
-      ─────
-Placa ↓
-Resultado: Falhas geológicas, terremotos
-```
-
-### MAPA MENTAL 6: Brasil - Regionalização
-
-```
-              REGIÕES DO BRASIL
-                     |
-    ┌────────────────┼────────────────┐
-  NORTE           NORDESTE         CENTRO-OESTE
-    |                 |                 |
-Amazônia         Semi-árido         Planalto Central
-Floresta         Seca/chuva irreg   Cerrado
-Bacia Amaz       Caatinga           Pantanal
-                 Zona da Mata
-                 
-        SUDESTE              SUL
-           |                  |
-     Mais populous.      4 estações
-     Industrializado     Subtropical
-     Serra do Mar        Pampas (RS)
-     Mata Atlântica      Araucárias
-```
-
-### FLUXOGRAMA: Problemas Ambientais
-
-```
-AÇÃO HUMANA
-     ↓
-┌────┴────┬────────┬─────────┬──────────┐
-DESMATAMENTO  POLUIÇÃO  QUEIMADAS  URBANIZAÇÃO
-     ↓          ↓          ↓           ↓
-Perda      Ar/água/solo  CO₂    Ilhas de calor
-biodiversid  contaminados Desequ  Impermeabilização
-Erosão                    ecológ  Enchentes
-     ↓          ↓          ↓           ↓
-        MUDANÇAS CLIMÁTICAS
-        AQUECIMENTO GLOBAL
-              ↓
-    Derretimento geleiras
-    Elevação nível do mar
-    Eventos climáticos extremos
-```
-
-### Dicas para Usar Mapas Mentais
-
-**Como criar:**
-```
-1. Palavra central no meio
-2. Ramificações principais (temas)
-3. Sub-ramificações (detalhes)
-4. Use cores diferentes
-5. Adicione símbolos/desenhos
-6. Mantenha conciso
-```
-
-**Como revisar:**
-```
-1. Leia o mapa completo
-2. Cubra partes e tente lembrar
-3. Refaça de memória
-4. Compare com original
-5. Repita até fixar
-```
-
-**Benefícios:**
-```
-✓ Organização visual
-✓ Conexões claras
-✓ Memorização facilitada
-✓ Revisão rápida
-✓ Visão geral do tema
-```
-
----
-
-**Tempo de estudo recomendado:** 90 minutos
-**Nível de dificuldade:** Fácil-Médio (visual)
-**Importância para a prova:** ⭐⭐⭐⭐⭐
-
----
-
-## Aula 85 - Matemática: Fórmulas Essenciais - Folha de Consulta - 60min
-
-### Objetivo
-
-Compilar TODAS as fórmulas essenciais de Matemática em uma folha de consulta rápida.
-
----
-
-## 📐 MATEMÁTICA - FÓRMULAS ESSENCIAIS
-
-### CONJUNTOS
-```
-n(A ∪ B) = n(A) + n(B) − n(A ∩ B)
-```
-
-### MMC E MDC
-```
-MMC(a,b) × MDC(a,b) = a × b
-```
-
-### RAZÃO E PROPORÇÃO
-```
-Proporção: a/b = c/d  →  ad = bc
-
-Divisão proporcional:
-x/a = y/b = z/c = (x+y+z)/(a+b+c)
-
-Regra de três:
-Direta: ↑↑ ou ↓↓
-Inversa: ↑↓ (inverte uma razão)
-```
-
-### PORCENTAGEM
-```
-x% de y = (x/100) × y
-
-Aumento de x%: multiplicar por (1 + x/100)
-Desconto de x%: multiplicar por (1 − x/100)
-```
-
-### FUNÇÃO AFIM
-```
-f(x) = ax + b
-
-a > 0: crescente
-a < 0: decrescente
-
-Raiz: x = −b/a
-
-Coeficiente angular:
-a = Δy/Δx = (y₂−y₁)/(x₂−x₁)
-```
-
-### FUNÇÃO QUADRÁTICA
-```
-f(x) = ax² + bx + c
-
-Discriminante:
-Δ = b² − 4ac
-
-Raízes (Bhaskara):
-x = (−b ± √Δ) / 2a
-
-Vértice:
-xᵥ = −b/2a
-yᵥ = −Δ/4a
-
-Concavidade:
-a > 0: ∪ (mínimo no vértice)
-a < 0: ∩ (máximo no vértice)
-
-Soma e produto das raízes:
-x₁ + x₂ = −b/a
-x₁ · x₂ = c/a
-
-Imagem:
-a > 0: Im = [yᵥ, +∞)
-a < 0: Im = (−∞, yᵥ]
-```
-
-### FUNÇÃO EXPONENCIAL
-```
-f(x) = aˣ
-
-Propriedades:
 a⁰ = 1
 a¹ = a
 aˣ · aʸ = aˣ⁺ʸ
 aˣ / aʸ = aˣ⁻ʸ
 (aˣ)ʸ = aˣʸ
-(ab)ˣ = aˣ · bˣ
 a⁻ˣ = 1/aˣ
-
-Crescimento:
-a > 1: crescente
-0 < a < 1: decrescente
 ```
 
-### FUNÇÃO LOGARÍTMICA
+**Gráfico:**
+- Passa sempre por (0, 1)
+- Nunca toca o eixo x (assíntota horizontal)
+- Domínio: ℝ (todos os reais)
+- Imagem: ℝ₊* (reais positivos)
+
+### Equações Exponenciais - Revisão
+
+**Estratégia principal:** igualar as bases
+
+**Método:**
+1. Transformar para mesma base
+2. Igualar os expoentes
+3. Resolver a equação resultante
+
+**Exemplo 1:**
+```
+2ˣ = 16
+2ˣ = 2⁴
+x = 4
+```
+
+**Exemplo 2:**
+```
+4ˣ = 8
+(2²)ˣ = 2³
+2²ˣ = 2³
+2x = 3
+x = 3/2
+```
+
+**Exemplo 3:**
+```
+9ˣ⁺¹ = 27ˣ
+(3²)ˣ⁺¹ = (3³)ˣ
+3²⁽ˣ⁺¹⁾ = 3³ˣ
+2(x+1) = 3x
+2x + 2 = 3x
+x = 2
+```
+
+**Exemplo 4 (substituição):**
+```
+4ˣ - 5·2ˣ + 4 = 0
+(2²)ˣ - 5·2ˣ + 4 = 0
+(2ˣ)² - 5·2ˣ + 4 = 0
+
+Faça 2ˣ = y:
+y² - 5y + 4 = 0
+(y - 4)(y - 1) = 0
+y = 4 ou y = 1
+
+Se 2ˣ = 4 → x = 2
+Se 2ˣ = 1 → x = 0
+
+S = {0, 2}
+```
+
+### Função Logarítmica - Revisão Rápida
+
+**Definição:**
 ```
 logₐ b = x  ⟺  aˣ = b
 
-Casos especiais:
+onde a > 0, a ≠ 1, b > 0
+```
+
+**Leitura:** "logaritmo de b na base a"
+
+**Significado:** "a que expoente devo elevar a base a para obter b?"
+
+**Exemplos:**
+```
+log₂ 8 = 3  (pois 2³ = 8)
+log₁₀ 100 = 2  (pois 10² = 100)
+log₅ 1 = 0  (pois 5⁰ = 1)
+log₃ 3 = 1  (pois 3¹ = 3)
+```
+
+**Casos especiais:**
+```
+logₐ 1 = 0  (sempre!)
+logₐ a = 1  (sempre!)
+logₐ aˣ = x
+a^(logₐ x) = x
+```
+
+### Propriedades dos Logaritmos
+
+**1. Logaritmo do produto:**
+```
+logₐ (b · c) = logₐ b + logₐ c
+```
+
+**2. Logaritmo do quociente:**
+```
+logₐ (b/c) = logₐ b - logₐ c
+```
+
+**3. Logaritmo da potência:**
+```
+logₐ bⁿ = n · logₐ b
+```
+
+**4. Mudança de base:**
+```
+logₐ b = log_c b / log_c a
+```
+
+**Caso particular (base 10):**
+```
+logₐ b = log b / log a
+```
+
+**5. Inversão de base:**
+```
+logₐ b = 1 / log_b a
+```
+
+### Equações Logarítmicas - Revisão
+
+**Condição de existência:**
+- Logaritmando > 0
+- Base > 0 e ≠ 1
+
+**Exemplo 1:**
+```
+log₂ x = 5
+x = 2⁵
+x = 32
+```
+
+**Exemplo 2:**
+```
+log₃ (x - 1) = 2
+x - 1 = 3²
+x - 1 = 9
+x = 10
+
+Verificação: x - 1 = 10 - 1 = 9 > 0 ✓
+```
+
+**Exemplo 3:**
+```
+log x + log (x - 3) = 1  (base 10)
+log [x(x - 3)] = 1
+x(x - 3) = 10¹
+x² - 3x = 10
+x² - 3x - 10 = 0
+(x - 5)(x + 2) = 0
+x = 5 ou x = -2
+
+Verificação:
+x = 5: log 5 e log 2 existem ✓
+x = -2: log(-2) não existe ✗
+
+S = {5}
+```
+
+**Exemplo 4 (mesma base):**
+```
+log₂ x = log₂ (3x - 4)
+x = 3x - 4
+-2x = -4
+x = 2
+
+Verificação:
+x = 2 > 0 ✓
+3x - 4 = 2 > 0 ✓
+
+S = {2}
+```
+
+### Relação entre Exponencial e Logaritmo
+
+**Funções inversas:**
+```
+f(x) = aˣ ⟺ f⁻¹(x) = logₐ x
+```
+
+**Consequências:**
+```
+logₐ (aˣ) = x
+a^(logₐ x) = x
+```
+
+**Gráficos são simétricos em relação à reta y = x**
+
+### Exercícios de Revisão Integrada
+
+#### Exercício 1
+Resolva: 3ˣ⁺¹ = 81
+
+**Solução:**
+```
+3ˣ⁺¹ = 3⁴
+x + 1 = 4
+x = 3
+```
+
+*[Ver resposta 88 no final do documento]*
+
+#### Exercício 2
+Calcule: log₅ 125
+
+**Solução:**
+```
+log₅ 125 = log₅ 5³ = 3
+```
+
+*[Ver resposta 89 no final do documento]*
+
+#### Exercício 3
+Resolva: log₂ (x + 3) + log₂ (x - 3) = 4
+
+**Solução:**
+```
+log₂ [(x + 3)(x - 3)] = 4
+(x + 3)(x - 3) = 2⁴
+x² - 9 = 16
+x² = 25
+x = ±5
+
+Verificação:
+x = 5: log₂ 8 + log₂ 2 existe ✓
+x = -5: log₂ (-2) não existe ✗
+
+S = {5}
+```
+
+*[Ver resposta 90 no final do documento]*
+
+#### Exercício 4
+Sabendo que log 2 ≈ 0,30, calcule log 8.
+
+**Solução:**
+```
+log 8 = log 2³ = 3 log 2
+log 8 = 3 × 0,30 = 0,90
+```
+
+*[Ver resposta 91 no final do documento]*
+
+#### Exercício 5
+Resolva: 2²ˣ - 3·2ˣ - 4 = 0
+
+**Solução:**
+```
+(2ˣ)² - 3·2ˣ - 4 = 0
+
+Faça 2ˣ = y:
+y² - 3y - 4 = 0
+(y - 4)(y + 1) = 0
+y = 4 ou y = -1
+
+Se 2ˣ = 4 → 2ˣ = 2² → x = 2 ✓
+Se 2ˣ = -1 → impossível (2ˣ > 0 sempre) ✗
+
+S = {2}
+```
+
+*[Ver resposta 92 no final do documento]*
+
+#### Exercício 6
+Resolva: log₃ x + log₃ (x - 8) = 2
+
+**Solução:**
+```
+log₃ [x(x - 8)] = 2
+x(x - 8) = 3²
+x² - 8x = 9
+x² - 8x - 9 = 0
+(x - 9)(x + 1) = 0
+x = 9 ou x = -1
+
+Verificação:
+x = 9: 9 > 0 e 9 - 8 = 1 > 0 ✓
+x = -1: -1 < 0 ✗
+
+S = {9}
+```
+
+*[Ver resposta 93 no final do documento]*
+
+#### Exercício 7
+(UFMG) Se log₂ 5 = a, expresse log₂ 20 em função de a.
+
+**Solução:**
+```
+log₂ 20 = log₂ (4 × 5)
+log₂ 20 = log₂ 4 + log₂ 5
+log₂ 20 = log₂ 2² + a
+log₂ 20 = 2 + a
+```
+
+*[Ver resposta 94 no final do documento]*
+
+#### Exercício 8
+Resolva a inequação: 2ˣ > 8
+
+**Solução:**
+```
+2ˣ > 2³
+
+Como base 2 > 1 (função crescente):
+x > 3
+
+S = {x ∈ ℝ | x > 3} ou (3, +∞)
+```
+
+*[Ver resposta 95 no final do documento]*
+
+#### Exercício 9
+Calcule: log₂ 3 · log₃ 4 · log₄ 8
+
+**Solução:**
+```
+Usando mudança de base:
+log₃ 4 = log₂ 4 / log₂ 3
+log₄ 8 = log₂ 8 / log₂ 4
+
+Substituindo:
+log₂ 3 · (log₂ 4 / log₂ 3) · (log₂ 8 / log₂ 4)
+= log₂ 8
+= log₂ 2³
+= 3
+```
+
+*[Ver resposta 96 no final do documento]*
+
+#### Exercício 10
+(UFMG) Resolva: 5ˣ⁺² = 1
+
+**Solução:**
+```
+5ˣ⁺² = 5⁰
+x + 2 = 0
+x = -2
+```
+
+*[Ver resposta 97 no final do documento]*
+
+### Resumo de Fórmulas Essenciais
+
+```
+EXPONENCIAL:
+aˣ · aʸ = aˣ⁺ʸ
+aˣ / aʸ = aˣ⁻ʸ
+(aˣ)ʸ = aˣʸ
+a⁰ = 1
+a¹ = a
+a⁻ˣ = 1/aˣ
+
+LOGARITMO:
+logₐ b = x ⟺ aˣ = b
 logₐ 1 = 0
 logₐ a = 1
 logₐ aˣ = x
 a^(logₐ x) = x
 
-Propriedades:
-logₐ (bc) = logₐ b + logₐ c
-logₐ (b/c) = logₐ b − logₐ c
+PROPRIEDADES:
+logₐ (b·c) = logₐ b + logₐ c
+logₐ (b/c) = logₐ b - logₐ c
 logₐ bⁿ = n · logₐ b
+logₐ b = log_c b / log_c a  (mudança de base)
+logₐ b = 1 / log_b a  (inversão)
 
-Mudança de base:
-logₐ b = (log b)/(log a)
-
-Inversão de base:
-logₐ b · log_b a = 1
+EQUAÇÕES:
+Exponencial: igualar bases → igualar expoentes
+Logarítmica: condições + aplicar propriedades
 ```
 
-### GEOMETRIA PLANA - ÁREAS
+### Dicas para a Prova
+
+1. **Exponencial:** sempre tente igualar as bases
+2. **Logaritmo:** verifique condições de existência (logaritmando > 0)
+3. **Propriedades:** produto vira soma, quociente vira subtração
+4. **Substituição:** útil em equações com 2²ˣ e 2ˣ
+5. **Mudança de base:** quando bases diferentes
+6. **log₁₀ = log** (base 10 omitida)
+7. **ln = log_e** (logaritmo natural)
+8. **Inequações:** atenção ao sentido (base > 1 ou 0 < base < 1)
+
+---
+
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - sempre cai!)
+
+---
+
+## Aula 63 - Matemática: Questões Discursivas e Resoluções Detalhadas - 90min
+
+### Objetivo
+
+Praticar questões discursivas de Matemática, típicas da prova do SERIADO UFMG, com resoluções completas e detalhadas mostrando todos os passos.
+
+**Por que questões discursivas são importantes?**
+- Exigem raciocínio completo, não apenas resposta final
+- Pontuação parcial: mesmo errando resposta, ganha pontos pelos passos
+- Desenvolvem organização e clareza matemática
+- Mostram compreensão profunda dos conceitos
+
+### Como Resolver Questões Discursivas
+
+**Passos essenciais:**
+
+1. **Leia com atenção:** identifique o que é dado e o que é pedido
+2. **Organize os dados:** liste informações importantes
+3. **Planeje a solução:** qual conceito/fórmula usar?
+4. **Resolva com clareza:** mostre TODOS os passos
+5. **Justifique:** explique raciocínio quando necessário
+6. **Verifique:** a resposta faz sentido?
+7. **Apresente a resposta final:** destaque claramente
+
+**Dicas de apresentação:**
+- Escreva de forma legível
+- Use símbolos matemáticos corretamente
+- Não pule etapas importantes
+- Explique transformações não óbvias
+- Marque a resposta final (caixa, destaque)
+
+### Questão 1 - Função Afim (Fácil-Médio)
+
+**Enunciado:**
+
+Uma função afim f é tal que f(2) = 5 e f(-1) = -4.
+
+a) Determine a lei de formação da função f.
+b) Calcule f(0).
+c) Para que valor de x tem-se f(x) = 11?
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- f é função afim: f(x) = ax + b
+- f(2) = 5
+- f(-1) = -4
+
+**a) Determinar f(x) = ax + b**
+
+Usando f(2) = 5:
 ```
-Triângulo: A = (b × h)/2
-
-Quadrado: A = L²
-
-Retângulo: A = b × h
-
-Paralelogramo: A = b × h
-
-Trapézio: A = [(B + b) × h]/2
-
-Losango: A = (D × d)/2
-
-Círculo: A = πr²
-
-Setor circular: A = (α/360°) × πr²
+a(2) + b = 5
+2a + b = 5  ... (equação 1)
 ```
 
-### GEOMETRIA PLANA - PERÍMETROS
+Usando f(-1) = -4:
 ```
-Quadrado: P = 4L
-
-Retângulo: P = 2(b + h)
-
-Círculo: C = 2πr = πd
-
-Arco de círculo: ℓ = (α/360°) × 2πr
+a(-1) + b = -4
+-a + b = -4  ... (equação 2)
 ```
 
-### GEOMETRIA PLANA - DIAGONAIS
+**Sistema:**
 ```
-Quadrado: d = L√2
-
-Retângulo: d = √(b² + h²)
+{  2a + b = 5    (1)
+{ -a + b = -4   (2)
 ```
 
-### TEOREMA DE PITÁGORAS
+Subtraindo (2) de (1):
+```
+2a + b - (-a + b) = 5 - (-4)
+2a + b + a - b = 9
+3a = 9
+a = 3
+```
+
+Substituindo a = 3 em (2):
+```
+-3 + b = -4
+b = -1
+```
+
+**Resposta a):** f(x) = 3x - 1
+
+**b) Calcular f(0)**
+
+```
+f(0) = 3(0) - 1 = -1
+```
+
+**Resposta b):** f(0) = -1
+
+**c) Resolver f(x) = 11**
+
+```
+3x - 1 = 11
+3x = 12
+x = 4
+```
+
+**Resposta c):** x = 4
+
+---
+
+### Questão 2 - Função Quadrática (Médio)
+
+**Enunciado:**
+
+Considere a função f(x) = x² - 4x + 3.
+
+a) Determine as raízes da função.
+b) Encontre as coordenadas do vértice.
+c) Esboce o gráfico identificando raízes e vértice.
+d) Determine o conjunto imagem da função.
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- f(x) = x² - 4x + 3
+- a = 1, b = -4, c = 3
+
+**a) Raízes (f(x) = 0)**
+
+```
+x² - 4x + 3 = 0
+```
+
+**Método 1: Fatoração**
+```
+x² - 4x + 3 = 0
+(x - 1)(x - 3) = 0
+
+x - 1 = 0  ou  x - 3 = 0
+x = 1  ou  x = 3
+```
+
+**Método 2: Bhaskara (alternativo)**
+```
+Δ = b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4
+
+x = [-b ± √Δ] / 2a
+x = [4 ± 2] / 2
+
+x₁ = 6/2 = 3
+x₂ = 2/2 = 1
+```
+
+**Resposta a):** Raízes: x = 1 e x = 3
+
+**b) Coordenadas do vértice**
+
+**Coordenada x do vértice:**
+```
+xᵥ = -b / 2a = -(-4) / 2(1) = 4/2 = 2
+```
+
+**Coordenada y do vértice:**
+```
+yᵥ = f(xᵥ) = f(2)
+yᵥ = 2² - 4(2) + 3
+yᵥ = 4 - 8 + 3 = -1
+```
+
+**Ou usando fórmula:**
+```
+yᵥ = -Δ / 4a = -4 / 4 = -1
+```
+
+**Resposta b):** Vértice V(2, -1)
+
+**c) Esboço do gráfico**
+
+```
+  y
+  │
+  3│    ╱     ╲
+  2│   ╱       ╲
+  1│  ╱         ╲
+  0├─●───────────●──→ x
+   │1  2        3
+ -1│    ●
+   │   (2,-1)
+   │   vértice
+
+Pontos importantes:
+- Raízes: (1, 0) e (3, 0)
+- Vértice: (2, -1) - ponto mínimo
+- Parábola côncava para cima (a > 0)
+- Eixo de simetria: x = 2
+```
+
+**d) Conjunto imagem**
+
+Como a > 0 (parábola abre para cima) e yᵥ = -1:
+
+**Resposta d):** Im = {y ∈ ℝ | y ≥ -1} ou Im = [-1, +∞)
+
+---
+
+### Questão 3 - Geometria Plana (Médio)
+
+**Enunciado:**
+
+Um triângulo retângulo tem catetos medindo 6 cm e 8 cm.
+
+a) Calcule a hipotenusa.
+b) Determine a área do triângulo.
+c) Calcule o seno, cosseno e tangente do menor ângulo agudo.
+
+---
+
+**Resolução Completa:**
+
+**Dados:**
+- Triângulo retângulo
+- Catetos: b = 6 cm, c = 8 cm
+- Hipotenusa: a = ?
+
+**a) Hipotenusa (Teorema de Pitágoras)**
+
 ```
 a² = b² + c²
-(hipotenusa)² = (cateto)² + (cateto)²
-
-Ternas pitagóricas:
-(3, 4, 5)
-(5, 12, 13)
-(8, 15, 17)
-(7, 24, 25)
+a² = 6² + 8²
+a² = 36 + 64
+a² = 100
+a = √100 = 10 cm
 ```
 
-### TRIGONOMETRIA
+**Resposta a):** Hipotenusa = 10 cm
+
+**b) Área do triângulo**
+
 ```
-sen α = cateto oposto / hipotenusa
-cos α = cateto adjacente / hipotenusa
-tg α = cateto oposto / cateto adjacente
-
-Relação fundamental:
-sen² α + cos² α = 1
-
-Outras relações:
-tg α = sen α / cos α
-
-VALORES NOTÁVEIS:
-┌─────┬─────┬────────┬────────┐
-│  α  │ sen │  cos   │   tg   │
-├─────┼─────┼────────┼────────┤
-│ 30° │ 1/2 │ √3/2   │ √3/3   │
-│ 45° │√2/2 │ √2/2   │   1    │
-│ 60° │√3/2 │  1/2   │  √3    │
-└─────┴─────┴────────┴────────┘
+A = (base × altura) / 2
+A = (cateto × cateto) / 2
+A = (6 × 8) / 2
+A = 48 / 2 = 24 cm²
 ```
 
-### ESTATÍSTICA
+**Resposta b):** Área = 24 cm²
+
+**c) Razões trigonométricas do menor ângulo**
+
+O menor ângulo agudo (θ) é oposto ao menor cateto (6 cm).
+
+**Esquema:**
 ```
-Média aritmética:
-MA = (x₁ + x₂ + ... + xₙ)/n
-
-Mediana:
-Valor central (ou média dos dois centrais)
-
-Moda:
-Valor que mais aparece
+       |\
+       | \
+    6  |  \ 10
+       |   \
+       |____\
+      θ  8
 ```
 
-### CONVERSÕES ÚTEIS
+**Seno:**
 ```
-π ≈ 3,14
-
-√2 ≈ 1,41
-
-√3 ≈ 1,73
-
-Graus ↔ Radianos:
-180° = π rad
+sen θ = cateto oposto / hipotenusa = 6/10 = 3/5 = 0,6
 ```
+
+**Cosseno:**
+```
+cos θ = cateto adjacente / hipotenusa = 8/10 = 4/5 = 0,8
+```
+
+**Tangente:**
+```
+tan θ = cateto oposto / cateto adjacente = 6/8 = 3/4 = 0,75
+```
+
+**Resposta c:**
+- sen θ = 3/5 (ou 0,6)
+- cos θ = 4/5 (ou 0,8)
+- tan θ = 3/4 (ou 0,75)
 
 ---
 
-## 🎯 DICAS DE MEMORIZAÇÃO
+### Questão 4 - Função Exponencial (Médio-Difícil)
 
-**Função Quadrática:**
-```
-"Bháskara Bhusca o Delta"
-Δ = b² − 4ac
-x = (−b ± √Δ) / 2a
-```
+**Enunciado:**
 
-**Trigonometria (30°, 45°, 60°):**
-```
-Seno: numerador √1, √2, √3
-Cosseno: inverso do seno
-Tangente: seno/cosseno
-```
+Uma população de bactérias cresce segundo a função P(t) = P₀ · 2ᵗ, onde P₀ é a população inicial e t é o tempo em horas.
 
-**Áreas:**
-```
-Triângulo: base × altura "÷ 2" (metade do retângulo)
-Losango: diagonais "× e ÷ 2"
-Trapézio: "(B+b) × h ÷ 2" (média das bases)
-```
-
-**Logaritmo:**
-```
-Produto: SOM log
-Quociente: SUBTRAÇÃO
-Potência: MULTIPLICAÇÃO
-```
+a) Se inicialmente havia 500 bactérias, quantas haverá após 3 horas?
+b) Em quanto tempo a população inicial será multiplicada por 8?
+c) Qual o tempo necessário para a população dobrar?
 
 ---
 
-## ✅ CHECKLIST PRÉ-PROVA
+**Resolução Completa:**
 
-- [ ] Sei todas as fórmulas de função afim e quadrática
-- [ ] Memorizei Bhaskara e vértice
-- [ ] Sei todas as propriedades de exponencial e log
-- [ ] Memorizei tabela trigonométrica (30°, 45°, 60°)
-- [ ] Sei Pitágoras e ternas pitagóricas
-- [ ] Sei calcular áreas de todas as figuras
-- [ ] Sei relação fundamental: sen² + cos² = 1
-- [ ] Sei mudança de base de logaritmo
-- [ ] Sei regra de três (direta e inversa)
-- [ ] Sei calcular porcentagem
+**Dados:**
+- P(t) = P₀ · 2ᵗ
+- P₀ = população inicial
+- t = tempo (horas)
+
+**a) População após 3 horas com P₀ = 500**
+
+```
+P(3) = 500 · 2³
+P(3) = 500 · 8
+P(3) = 4000 bactérias
+```
+
+**Resposta a):** 4000 bactérias
+
+**b) Tempo para população × 8**
+
+Queremos: P(t) = 8 · P₀
+
+```
+P₀ · 2ᵗ = 8 · P₀
+2ᵗ = 8
+2ᵗ = 2³
+t = 3 horas
+```
+
+**Resposta b):** 3 horas
+
+**c) Tempo para dobrar**
+
+Queremos: P(t) = 2 · P₀
+
+```
+P₀ · 2ᵗ = 2 · P₀
+2ᵗ = 2
+2ᵗ = 2¹
+t = 1 hora
+```
+
+**Resposta c):** 1 hora (tempo de duplicação)
 
 ---
 
-**Tempo de estudo recomendado:** 60 minutos
-**Nível de dificuldade:** Médio (memorização)
-**Importância para a prova:** ⭐⭐⭐⭐⭐
+### Questão 5 - Logaritmo (Médio-Difícil)
 
-**IMPRIMA ESTA PÁGINA E LEVE PARA A PROVA (se permitido)!**
+**Enunciado:**
 
----
+Resolva a equação: log₂ x + log₂ (x - 6) = 4
 
-
-## Aula 86 - Física: Fórmulas Essenciais - Folha de Consulta - 60min
-
-### Objetivo
-
-Compilar TODAS as fórmulas essenciais de Física em uma folha de consulta rápida.
+Apresente:
+a) As condições de existência
+b) A resolução completa
+c) A verificação da(s) solução(ões)
 
 ---
 
-## ⚡ FÍSICA - FÓRMULAS ESSENCIAIS
+**Resolução Completa:**
 
-### CONVERSÕES FUNDAMENTAIS
+**a) Condições de existência**
+
+Para existir logaritmo:
+
+**Condição 1:** x > 0
+**Condição 2:** x - 6 > 0 → x > 6
+
+**Condição mais restritiva:** x > 6
+
+**b) Resolução**
+
 ```
-km/h → m/s: DIVIDIR por 3,6
-m/s → km/h: MULTIPLICAR por 3,6
-
-Exemplo: 72 km/h = 72 ÷ 3,6 = 20 m/s
-```
-
-### CINEMÁTICA - CONCEITOS BÁSICOS
-```
-Velocidade:
-v = ΔS/Δt = (S−S₀)/(t−t₀)
-
-Aceleração:
-a = Δv/Δt = (v−v₀)/(t−t₀)
-
-Velocidade média:
-v_m = distância total / tempo total
+log₂ x + log₂ (x - 6) = 4
 ```
 
-### MRU (Movimento Retilíneo Uniforme)
+**Aplicando propriedade do produto:**
 ```
-Características:
-v = constante
-a = 0
-
-Equação:
-S = S₀ + vt
-
-Onde:
-S = posição final
-S₀ = posição inicial
-v = velocidade
-t = tempo
+log₂ [x · (x - 6)] = 4
 ```
 
-### MRUV (Movimento Retilíneo Uniformemente Variado)
+**Usando definição de logaritmo:**
 ```
-Características:
-a = constante
-v varia linearmente
-
-Equações:
-
-1) Velocidade:
-v = v₀ + at
-
-2) Posição (Sorvetão):
-S = S₀ + v₀t + (at²)/2
-
-3) Torricelli (sem tempo):
-v² = v₀² + 2aΔS
-
-Onde:
-v = velocidade final
-v₀ = velocidade inicial
-a = aceleração
-t = tempo
-S = posição final
-S₀ = posição inicial
-ΔS = deslocamento = S − S₀
+x(x - 6) = 2⁴
+x² - 6x = 16
+x² - 6x - 16 = 0
 ```
 
-### QUEDA LIVRE
+**Resolvendo por Bhaskara:**
 ```
-Características:
-v₀ = 0 (solto do repouso)
-a = g = 10 m/s² (para baixo)
+Δ = b² - 4ac = (-6)² - 4(1)(-16)
+Δ = 36 + 64 = 100
 
-Equações:
-v = gt
-h = (gt²)/2
-v² = 2gh
+x = [-b ± √Δ] / 2a
+x = [6 ± 10] / 2
 
-Onde:
-h = altura
-g = 10 m/s²
+x₁ = 16/2 = 8
+x₂ = -4/2 = -2
 ```
 
-### LANÇAMENTO VERTICAL
-```
-Características:
-v₀ > 0 (lançado para cima)
-a = −g = −10 m/s² (contra movimento)
+**c) Verificação**
 
-Altura máxima:
-h_máx = v₀²/(2g)
-(onde v = 0)
+**Para x = 8:**
+- Condição x > 6: 8 > 6 ✓
+- Substituindo na equação original:
+  ```
+  log₂ 8 + log₂ (8 - 6) = log₂ 8 + log₂ 2
+  = log₂ 2³ + log₂ 2
+  = 3 + 1 = 4 ✓
+  ```
 
-Tempo de subida:
-t_subida = v₀/g
+**Para x = -2:**
+- Condição x > 6: -2 > 6 ✗
+- Não satisfaz condição de existência
 
-Tempo total (subida + descida):
-t_total = 2v₀/g
-```
-
-### DINÂMICA - LEIS DE NEWTON
-
-**1ª Lei (Inércia):**
-```
-F_R = 0  →  v = constante (MRU ou repouso)
-```
-
-**2ª Lei (Fundamental):**
-```
-F_R = m · a
-
-Onde:
-F_R = força resultante (N)
-m = massa (kg)
-a = aceleração (m/s²)
-
-Unidade: 1 N = 1 kg·m/s²
-```
-
-**3ª Lei (Ação e Reação):**
-```
-F_ação = −F_reação
-
-Mesma intensidade, mesma direção, sentidos opostos
-Atuam em corpos diferentes
-```
-
-### FORÇAS ESPECIAIS
-
-**Força Peso:**
-```
-P = m · g
-
-Onde:
-P = peso (N)
-m = massa (kg)
-g = gravidade ≈ 10 m/s²
-
-IMPORTANTE:
-Peso ≠ Massa
-Peso é FORÇA (N)
-Massa é quantidade de matéria (kg)
-```
-
-**Força Normal:**
-```
-Superfície horizontal:
-N = P = mg
-
-Superfície inclinada (ângulo θ):
-N = P · cos θ
-```
-
-**Força de Atrito:**
-```
-F_at = μ · N
-
-Onde:
-μ = coeficiente de atrito (sem unidade)
-N = força normal
-
-Tipos:
-μ_estático > μ_cinético
-(mais difícil tirar do repouso)
-```
-
-### HIDROSTÁTICA
-
-**Densidade:**
-```
-ρ = m/V
-
-Unidades:
-kg/m³ (SI)
-g/cm³ (comum)
-
-Conversão: 1 g/cm³ = 1000 kg/m³
-
-Dados importantes:
-ρ_água = 1000 kg/m³ = 1 g/cm³
-ρ_gelo = 920 kg/m³
-ρ_mercúrio = 13.600 kg/m³
-```
-
-**Pressão:**
-```
-P = F/A
-
-Unidades:
-Pa (pascal) = N/m² (SI)
-atm (atmosfera)
-mmHg
-
-Conversões:
-1 atm ≈ 10⁵ Pa = 10⁵ N/m²
-1 atm = 760 mmHg
-```
-
-**Teorema de Stevin:**
-```
-P = P_atm + ρgh
-
-ou
-
-ΔP = ρgΔh
-
-Onde:
-P = pressão total
-P_atm ≈ 10⁵ Pa
-ρ = densidade do fluido
-g = 10 m/s²
-h = profundidade
-
-Consequência:
-Pressão aumenta com profundidade
-```
-
-**Princípio de Pascal (Prensa Hidráulica):**
-```
-F₁/A₁ = F₂/A₂
-
-ou
-
-F₂ = F₁ × (A₂/A₁)
-
-Ganho mecânico:
-GM = F₂/F₁ = A₂/A₁
-```
-
-**Princípio de Arquimedes (Empuxo):**
-```
-E = ρ_fluido × V_deslocado × g
-
-ou
-
-E = m_fluido_deslocado × g
-
-Flutuação:
-- Afunda: ρ_corpo > ρ_fluido (E < P)
-- Flutua: ρ_corpo < ρ_fluido (E = P)
-- Equilíbrio: ρ_corpo = ρ_fluido (E = P, imerso)
-
-Fração submersa:
-f = ρ_corpo / ρ_fluido
-
-Peso aparente:
-P_aparente = P_real − E
-```
-
-**Teorema de Torricelli:**
-```
-v = √(2gh)
-
-Velocidade de saída de fluido por orifício
-
-Vazão:
-Q = A × v = A × √(2gh)
-(m³/s ou L/s)
-```
+**Resposta final:** x = 8
 
 ---
 
-## 🎯 DADOS PARA MEMORIZAR
+### Questão 6 - Estequiometria Integrada (Difícil)
 
-### Constantes:
-```
-g = 10 m/s² (gravidade na Terra)
-g_Lua ≈ 1,6 m/s²
-P_atm = 10⁵ Pa = 1 atm
-ρ_água = 1000 kg/m³ = 1 g/cm³
-```
+**Enunciado:**
 
-### Relações importantes:
-```
-1 N = 1 kg·m/s²
-1 Pa = 1 N/m²
-1 km = 1000 m
-1 h = 3600 s
-```
+Na reação de combustão completa do metano (CH₄):
+
+CH₄ + 2 O₂ → CO₂ + 2 H₂O
+
+Dados: C = 12 g/mol, H = 1 g/mol, O = 16 g/mol
+
+a) Calcule a massa molar de cada substância.
+b) Quantos gramas de CO₂ são produzidos a partir de 32 g de CH₄?
+c) Qual o volume de CO₂ produzido nas CNTP?
 
 ---
 
-## 💡 DICAS DE MEMORIZAÇÃO
+**Resolução Completa:**
 
-**MRUV - Qual equação usar?**
-```
-Tenho t? → v = v₀ + at  ou  S = S₀ + v₀t + at²/2
-Não tenho t? → v² = v₀² + 2aΔS (Torricelli)
-```
+**a) Massas molares**
 
-**Queda livre vs Lançamento vertical:**
+**CH₄:**
 ```
-Queda: v₀ = 0, a = +g (↓)
-Lançamento: v₀ > 0, a = −g (↑)
+M(CH₄) = 1×C + 4×H = 1×12 + 4×1 = 16 g/mol
 ```
 
-**Força vs Massa vs Peso:**
+**O₂:**
 ```
-Massa: kg (quantidade de matéria, constante)
-Peso: N (força, varia com g)
-P = mg
+M(O₂) = 2×O = 2×16 = 32 g/mol
 ```
 
-**Hidrostática - Fórmulas parecidas:**
+**CO₂:**
 ```
-Stevin: P = ρgh (pressão)
-Arquimedes: E = ρVg (empuxo)
-Torricelli: v = √(2gh) (velocidade)
+M(CO₂) = 1×C + 2×O = 1×12 + 2×16 = 44 g/mol
 ```
 
----
-
-## ✅ CHECKLIST PRÉ-PROVA
-
-- [ ] Sei converter km/h ↔ m/s
-- [ ] Sei as 3 equações do MRUV
-- [ ] Sei quando usar cada equação do MRUV
-- [ ] Sei resolver queda livre (v = gt, h = gt²/2, v² = 2gh)
-- [ ] Sei calcular altura máxima (h = v₀²/2g)
-- [ ] Sei aplicar F = ma
-- [ ] Sei calcular peso (P = mg)
-- [ ] Sei a diferença entre massa e peso
-- [ ] Sei aplicar Stevin (P = ρgh)
-- [ ] Sei resolver prensa hidráulica (F₁/A₁ = F₂/A₂)
-- [ ] Sei calcular empuxo (E = ρVg)
-- [ ] Sei determinar se flutua (comparar densidades)
-- [ ] Sei aplicar Torricelli (v = √2gh)
-- [ ] Memorizei: g = 10 m/s², ρ_água = 1000 kg/m³
-
----
-
-**Tempo de estudo recomendado:** 60 minutos
-**Nível de dificuldade:** Médio (memorização)
-**Importância para a prova:** ⭐⭐⭐⭐⭐
-
-**IMPRIMA ESTA PÁGINA E LEVE PARA A PROVA (se permitido)!**
-
----
-
-## Aula 87 - Química: Fórmulas e Dados Essenciais - Folha de Consulta - 60min
-
-### Objetivo
-
-Compilar TODOS os dados e fórmulas essenciais de Química em uma folha de consulta rápida.
-
----
-
-## 🧪 QUÍMICA - FÓRMULAS E DADOS ESSENCIAIS
-
-### ESTRUTURA ATÔMICA
+**H₂O:**
 ```
-Notação: ᴬᴢX
-
-Z = número atômico = prótons = elétrons (átomo neutro)
-A = número de massa = prótons + nêutrons
-N = número de nêutrons = A − Z
-
-Íons:
-Cátion: perde e⁻ (carga +)
-Ânion: ganha e⁻ (carga −)
+M(H₂O) = 2×H + 1×O = 2×1 + 1×16 = 18 g/mol
 ```
 
-### ISÓTOPOS, ISÓBAROS, ISÓTONOS
-```
-Isótopos: mesmo Z, A diferente
-  Ex: ¹²C e ¹⁴C
+**Resposta a:**
+- M(CH₄) = 16 g/mol
+- M(O₂) = 32 g/mol
+- M(CO₂) = 44 g/mol
+- M(H₂O) = 18 g/mol
 
-Isóbaros: mesmo A, Z diferente
-  Ex: ⁴⁰K e ⁴⁰Ca
+**b) Massa de CO₂ produzida**
 
-Isótonos: mesmo N (nêutrons)
-  Ex: ¹⁴C e ¹⁵N
+**Proporção estequiométrica:**
 ```
-
-### MODELOS ATÔMICOS (Ordem Cronológica)
-```
-Dalton (1808) → Bola maciça
-Thomson (1897) → Pudim de passas (descobriu e⁻)
-Rutherford (1911) → Planetário (descobriu núcleo)
-Bohr (1913) → Níveis de energia K, L, M, N, O, P, Q
-Atual → Orbitais (probabilidade)
+CH₄  :  CO₂
+1 mol : 1 mol
 ```
 
-### TABELA PERIÓDICA
-
-**Organização:**
+**Em massa:**
 ```
-7 Períodos (linhas) = número de camadas
-18 Grupos (colunas) = propriedades semelhantes
+16 g CH₄ ────► 44 g CO₂
+32 g CH₄ ────► x
 ```
 
-**Famílias Principais:**
+**Regra de três:**
 ```
-Grupo 1: Metais Alcalinos (Li, Na, K, Rb, Cs, Fr)
-Grupo 2: Alcalino-Terrosos (Be, Mg, Ca, Sr, Ba, Ra)
-Grupo 13: Família do Boro
-Grupo 14: Família do Carbono
-Grupo 15: Família do Nitrogênio
-Grupo 16: Calcogênios (O, S, Se, Te, Po)
-Grupo 17: Halogênios (F, Cl, Br, I, At)
-Grupo 18: Gases Nobres (He, Ne, Ar, Kr, Xe, Rn)
+16/32 = 44/x
+16x = 32 × 44
+16x = 1408
+x = 88 g
 ```
 
-**Propriedades Periódicas:**
+**Ou por mols:**
 ```
-RAIO ATÔMICO:
-↑ Na família (↓ grupo)
-← No período (→ esquerda)
+n(CH₄) = m/M = 32/16 = 2 mol
 
-ENERGIA DE IONIZAÇÃO:
-↓ Na família (↑ grupo)
-→ No período
+Proporção: 1 mol CH₄ → 1 mol CO₂
+Logo: 2 mol CH₄ → 2 mol CO₂
 
-ELETRONEGATIVIDADE:
-↓ Na família (↑ grupo)
-→ No período
-
-Mais eletronegativo: F (flúor)
-Ordem: F > O > N > Cl > Br
-
-Menos eletronegativo: Fr (frâncio)
+m(CO₂) = n × M = 2 × 44 = 88 g
 ```
 
-### LIGAÇÕES QUÍMICAS
+**Resposta b):** 88 g de CO₂
 
-**Ligação Iônica:**
+**c) Volume de CO₂ nas CNTP**
+
 ```
-Metal + Não-metal
-Transferência de e⁻
-Cátion + Ânion
-Alta temp. fusão
+n(CO₂) = 2 mol (calculado acima)
 
-Ex: NaCl, CaO, MgCl₂
-```
-
-**Ligação Covalente:**
-```
-Não-metal + Não-metal
-Compartilhamento de e⁻
-Moléculas
-Temp. fusão mais baixa
-
-Ex: H₂, O₂, H₂O, CO₂, CH₄
+V = n × 22,4 L/mol (CNTP)
+V = 2 × 22,4 = 44,8 L
 ```
 
-**Ligação Metálica:**
-```
-Metal + Metal
-"Mar de elétrons"
-Conduz eletricidade/calor
-Maleável, dúctil
-
-Ex: Fe, Cu, Al, Au
-```
-
-### ESTEQUIOMETRIA
-
-**Conceito de Mol:**
-```
-1 mol = 6,02 × 10²³ entidades
-
-Constante de Avogadro:
-Nᴀ = 6,02 × 10²³ /mol
-```
-
-**Fórmulas Fundamentais:**
-```
-n = m/M     (número de mols)
-m = n × M   (massa)
-N = n × Nᴀ  (número de partículas)
-V = n × 22,4 L  (volume em CNTP)
-
-Onde:
-n = número de mols
-m = massa (g)
-M = massa molar (g/mol)
-N = número de partículas
-V = volume (L)
-```
-
-**Leis Ponderais:**
-```
-Lei de Lavoisier (Conservação das Massas):
-m_reagentes = m_produtos
-"Nada se cria, nada se perde, tudo se transforma"
-
-Lei de Proust (Proporções Constantes):
-Mesma substância, mesma proporção em massa
-
-Lei de Dalton (Proporções Múltiplas):
-Compostos diferentes, proporções inteiras
-```
-
-**Cálculos Estequiométricos:**
-```
-1. Balancear equação
-2. Estabelecer proporção molar
-3. Converter para massa/volume
-4. Usar regra de três
-```
-
-### FUNÇÕES INORGÂNICAS
-
-**Ácidos:**
-```
-Liberam H⁺ em água
-pH < 7
-
-Nomenclatura:
-Ácido ___ídrico (sem O)
-Ácido ___ico ou ___oso (com O)
-
-Ex: HCl, H₂SO₄, HNO₃
-```
-
-**Bases:**
-```
-Liberam OH⁻ em água
-pH > 7
-
-Nomenclatura:
-Hidróxido de ___
-
-Ex: NaOH, Ca(OH)₂, NH₄OH
-```
-
-**Sais:**
-```
-Cátion + Ânion
-Produto de neutralização
-
-Ex: NaCl, K₂SO₄, CaCO₃
-```
-
-**Óxidos:**
-```
-Elemento + Oxigênio
-
-Ex: CO₂, H₂O, Fe₂O₃
-```
-
-**pH e pOH:**
-```
-pH + pOH = 14
-
-pH < 7: ácido
-pH = 7: neutro
-pH > 7: básico (alcalino)
-```
-
-### SEPARAÇÃO DE MISTURAS
-```
-Filtração: sólido + líquido
-Decantação: líquidos imiscíveis ou sólido + líquido
-Destilação simples: líquido + sólido dissolvido
-Destilação fracionada: líquidos miscíveis
-Centrifugação: acelera separação
-Evaporação: líquido volátil + sólido
-```
+**Resposta c):** 44,8 L de CO₂
 
 ---
 
-## 📊 DADOS PARA MEMORIZAR
+### Questão 7 - Trigonometria Aplicada (Médio)
 
-### Massas Atômicas:
-```
-H = 1
-C = 12
-N = 14
-O = 16
-Na = 23
-Cl = 35,5
-Ca = 40
-S = 32
-```
+**Enunciado:**
 
-### Massas Molares Comuns:
-```
-H₂ = 2 g/mol
-O₂ = 32 g/mol
-H₂O = 18 g/mol
-CO₂ = 44 g/mol
-NaCl = 58,5 g/mol
-CaCO₃ = 100 g/mol
-```
+Uma escada de 10 m está apoiada em uma parede vertical, formando um ângulo de 60° com o solo horizontal.
 
-### Constantes:
-```
-Nᴀ = 6,02 × 10²³ /mol
-V_molar (CNTP) = 22,4 L/mol
-```
+a) Qual a altura alcançada pela escada na parede?
+b) Qual a distância da base da escada até a parede?
+c) Se a escada escorregar até formar 45° com o solo, qual será a nova altura na parede?
 
-### Conversões:
-```
-1 g/cm³ = 1000 kg/m³
-CNTP: 0°C, 1 atm
-```
+Dados: sen 60° = √3/2 ≈ 0,87; cos 60° = 1/2; sen 45° = √2/2 ≈ 0,71
 
 ---
 
-## 💡 DICAS DE MEMORIZAÇÃO
+**Resolução Completa:**
 
-**Eletronegatividade:**
+**Esquema (situação inicial):**
 ```
-"Fui O Nico Cloro"
-F > O > N > Cl
-(Flúor é o mais eletronegativo!)
-```
-
-**Famílias:**
-```
-Grupo 1: "Alcalinos" (Li, Na, K...)
-Grupo 17: "Halogênios" (F, Cl, Br, I...)
-Grupo 18: "Gases Nobres" (He, Ne, Ar...)
+      parede
+        |\ 
+        | \ escada (10m)
+      h |  \
+        |   \
+        |____\ 60°
+           d   solo
 ```
 
-**Ligações:**
+**a) Altura na parede (h)**
+
 ```
-Metal + Não-metal = IÔNICA
-Não-metal + Não-metal = COVALENTE
-Metal + Metal = METÁLICA
+sen 60° = h / 10
+√3/2 = h / 10
+h = 10 × √3/2
+h = 5√3 m ≈ 8,7 m
 ```
 
-**Estequiometria:**
+**Resposta a):** h = 5√3 m (≈ 8,7 m)
+
+**b) Distância até a parede (d)**
+
 ```
-"Mol = Massa sobre Molar"
-n = m/M
+cos 60° = d / 10
+1/2 = d / 10
+d = 10 × 1/2
+d = 5 m
 ```
 
-**pH:**
+**Resposta b):** d = 5 m
+
+**c) Nova altura com 45°**
+
 ```
-pH < 7: ÁCIDO (azeda)
-pH = 7: NEUTRO (água)
-pH > 7: BASE (sabão)
+sen 45° = h' / 10
+√2/2 = h' / 10
+h' = 10 × √2/2
+h' = 5√2 m ≈ 7,1 m
 ```
+
+**Resposta c):** h' = 5√2 m (≈ 7,1 m)
+
+**Observação:** A altura diminuiu de ≈8,7m para ≈7,1m quando o ângulo diminuiu.
 
 ---
 
-## ✅ CHECKLIST PRÉ-PROVA
+### Dicas Finais para Questões Discursivas
 
-- [ ] Sei calcular número de nêutrons (N = A − Z)
-- [ ] Sei diferenciar isótopos, isóbaros, isótonos
-- [ ] Memorizei ordem dos modelos atômicos
-- [ ] Conheço famílias principais da tabela
-- [ ] Sei tendências de propriedades periódicas
-- [ ] Sei que F é o mais eletronegativo (F > O > N > Cl)
-- [ ] Sei classificar ligações (iônica, covalente, metálica)
-- [ ] Sei calcular número de mols (n = m/M)
-- [ ] Memorizei Nᴀ = 6,02×10²³ e V_molar = 22,4 L
-- [ ] Sei Lei de Lavoisier (conservação das massas)
-- [ ] Sei diferenciar ácido, base, sal, óxido
-- [ ] Sei pH + pOH = 14
-- [ ] Memorizei massas molares comuns (H₂O=18, CO₂=44)
-- [ ] Sei fazer cálculos estequiométricos básicos
+**O que fazer:**
+✅ Mostre todos os cálculos intermediários
+✅ Justifique escolhas (qual fórmula, por quê)
+✅ Use notação matemática correta
+✅ Destaque a resposta final
+✅ Inclua unidades quando apropriado
+✅ Verifique se a resposta faz sentido
+✅ Organize a resolução em etapas claras
 
----
+**O que evitar:**
+❌ Pular etapas importantes
+❌ Escrever apenas a resposta final
+❌ Usar raciocínio confuso ou desorganizado
+❌ Esquecer de verificar condições (ex: existência de log)
+❌ Omitir unidades em problemas aplicados
+❌ Caligrafia ilegível
 
-**Tempo de estudo recomendado:** 60 minutos
-**Nível de dificuldade:** Médio (memorização)
-**Importância para a prova:** ⭐⭐⭐⭐⭐
-
-**IMPRIMA ESTA PÁGINA E LEVE PARA A PROVA (se permitido)!**
-
----
-
-## Aula 88 - Revisão Leve e Geral - Últimas Dicas - 45min
-
-### Objetivo
-
-Fazer uma revisão leve final e receber dicas para a prova de amanhã.
+**Pontuação parcial:**
+Mesmo que você erre a resposta final, pode ganhar pontos por:
+- Organizar os dados corretamente
+- Escolher a estratégia adequada
+- Executar passos corretos
+- Mostrar raciocínio lógico
 
 ---
 
-## 🎯 REVISÃO FINAL ULTRA-RÁPIDA
-
-### MATEMÁTICA (5 min)
-
-**Fórmulas que SEMPRE caem:**
-```
-✓ Bhaskara: x = (−b ± √Δ)/2a, onde Δ = b²−4ac
-✓ Vértice: xᵥ = −b/2a
-✓ Pitágoras: a² = b² + c²
-✓ Área triângulo: A = bh/2
-✓ Área círculo: A = πr²
-✓ Tabela trigonométrica: sen30°=1/2, sen45°=√2/2, sen60°=√3/2
-```
-
-**Erros comuns a evitar:**
-```
-✗ Esquecer de verificar condição de existência em log (x > 0)
-✗ Confundir concavidade (a > 0: ∪, a < 0: ∩)
-✗ Errar sinal em Bhaskara (±, não só +)
-```
-
-### FÍSICA (5 min)
-
-**Fórmulas que SEMPRE caem:**
-```
-✓ F = ma (2ª Lei de Newton)
-✓ P = mg (Peso)
-✓ MRUV: v = v₀ + at, S = S₀ + v₀t + at²/2, v² = v₀² + 2aΔS
-✓ Stevin: P = ρgh
-✓ Arquimedes: E = ρVg
-✓ Conversão: km/h → m/s (÷3,6)
-```
-
-**Erros comuns a evitar:**
-```
-✗ Esquecer de converter km/h para m/s
-✗ Confundir massa (kg) com peso (N)
-✗ Usar g = 9,8 em vez de g = 10
-✗ Esquecer que ρ_água = 1000 kg/m³ = 1 g/cm³
-```
-
-### QUÍMICA (5 min)
-
-**Conceitos que SEMPRE caem:**
-```
-✓ N = A − Z (nêutrons)
-✓ n = m/M (mols)
-✓ F > O > N > Cl (eletronegatividade)
-✓ Lavoisier: m_reagentes = m_produtos
-✓ Ligação iônica: metal + não-metal
-✓ pH + pOH = 14
-✓ 1 mol = 6,02×10²³
-```
-
-**Erros comuns a evitar:**
-```
-✗ Confundir isótopos (mesmo Z) com isóbaros (mesmo A)
-✗ Achar que eletronegatividade aumenta descendo na família (diminui!)
-✗ Esquecer de balancear equação antes de calcular
-```
-
-### BIOLOGIA (3 min)
-
-**Genética - proporções de Mendel:**
-```
-✓ 1ª Lei: Aa × Aa → 3:1 (dominante:recessivo)
-✓ 2ª Lei: AaBb × AaBb → 9:3:3:1
-✓ Tipo sanguíneo: Iᴬ e Iᴮ codominantes, i recessivo
-✓ DNA: A-T, C-G (pareamento)
-```
-
-**Célula:**
-```
-✓ Mitocôndria: respiração, ATP
-✓ Cloroplasto: fotossíntese (só vegetais)
-✓ Respiração: Glicose + O₂ → CO₂ + H₂O + ATP
-✓ Fotossíntese: CO₂ + H₂O + luz → Glicose + O₂
-```
-
-### GEOGRAFIA (3 min)
-
-**Conceitos essenciais:**
-```
-✓ Latitude: 0-90° N/S, ↑ = ↓ temperatura
-✓ Altitude: ↑ 1000m = ↓ 6°C
-✓ Placas tectônicas: divergente, convergente, transformante
-✓ Climas Brasil: Equatorial (Amazônia), Tropical, Semi-árido, Subtropical
-✓ El Niño: aquece Pacífico, seca Amazônia, chuva Sul
-```
-
-### HISTÓRIA (3 min)
-
-**Datas e eventos essenciais:**
-```
-✓ 1453: Queda Constantinopla (fim Idade Média)
-✓ 1492: Colombo chega à América
-✓ 1500: Cabral chega ao Brasil
-✓ 1534: Capitanias Hereditárias
-✓ 1789: Revolução Francesa
-✓ Plantation: monocultura, latifúndio, escravidão, exportação
-```
-
-### FILOSOFIA E SOCIOLOGIA (3 min)
-
-**Conceitos básicos:**
-```
-FILOSOFIA:
-✓ Mito → Logos (sobrenatural → racional)
-✓ Sócrates: "Conhece-te a ti mesmo"
-✓ Silogismo: premissa maior + menor → conclusão
-
-SOCIOLOGIA:
-✓ Surge séc. XIX (Rev. Industrial + Francesa)
-✓ Comte: Positivismo
-✓ Marx: Luta de classes
-✓ Durkheim: Fato social
-✓ Etnocentrismo: julgar outras culturas pela própria
-```
-
-### PORTUGUÊS (3 min)
-
-**Estratégias de interpretação:**
-```
-✓ Ler enunciado ANTES do texto
-✓ Identificar tema central (não confundir com exemplo)
-✓ Basear resposta SEMPRE no texto
-✓ Eliminar alternativas absurdas
-✓ Evitar extrapolação (ir além do texto)
-✓ Evitar redução (pegar detalhe como ideia principal)
-```
+**Tempo de estudo recomendado:** 90 minutos
+**Nível de dificuldade:** Médio-Alto
+**Importância para a prova:** ⭐⭐⭐⭐⭐ (essencial - questões discursivas valem muito!)
 
 ---
 
-## 📝 CHECKLIST VÉSPERA DA PROVA
+## 🎯 Semana 2 Completa!
 
-### Material para levar:
-- [ ] Documento de identidade
-- [ ] Caneta azul ou preta (leve 2!)
-- [ ] Lápis e borracha
-- [ ] Água
-- [ ] Lanche leve
-- [ ] Folhas de fórmulas (se permitido)
+**Parabéns! Você finalizou toda a Semana 2!**
 
-### O que fazer HOJE À NOITE:
-- [ ] Revisar folhas de fórmulas (20 min)
-- [ ] Dar uma olhada rápida nos mapas mentais (10 min)
-- [ ] Separar material e roupa para amanhã
-- [ ] Jantar leve
-- [ ] Dormir CEDO (pelo menos 8h de sono!)
-- [ ] NÃO estudar até tarde (você já sabe!)
+**Resumo do que foi conquistado:**
+- ✅ 18 aulas completas (Terça a Sexta)
+- ✅ Checkpoint semanal
+- ✅ 2 aulas de revisão (Sábado)
+- ✅ **Total: 20 aulas na Semana 2!**
 
-### O que NÃO fazer:
-- [ ] ✗ Estudar madrugada adentro
-- [ ] ✗ Tentar aprender conteúdo novo
-- [ ] ✗ Entrar em pânico
-- [ ] ✗ Comparar-se com outros
-- [ ] ✗ Comer pesado antes de dormir
-
----
-
-## 💪 DICAS PARA O DIA DA PROVA
-
-### ANTES DA PROVA:
-```
-✓ Acorde cedo, tome café da manhã
-✓ Chegue com 30 min de antecedência
-✓ Vá ao banheiro antes de entrar
-✓ Respire fundo 3 vezes
-✓ Lembre: VOCÊ ESTÁ PREPARADO!
-```
-
-### DURANTE A PROVA:
-```
-✓ Leia TODAS as instruções
-✓ Faça uma leitura rápida de todas as questões (2 min)
-✓ Comece pelas mais fáceis
-✓ Marque as que tem dúvida e volte depois
-✓ Não passe mais de 3 min em uma questão difícil
-✓ Se travar, pule e volte depois
-✓ Cuidado com pegadinhas (leia COM ATENÇÃO)
-✓ Confie na sua primeira impressão (não fique mudando)
-✓ Reserve 10 min finais para revisar gabarito
-```
-
-### GESTÃO DE TEMPO (exemplo para prova de 3h):
-```
-00:00-00:05: Ler instruções, respirar
-00:05-00:10: Leitura geral das questões
-00:10-02:30: Resolver questões
-02:30-02:50: Revisar questões marcadas
-02:50-03:00: Conferir gabarito, preencher cartão
-```
-
-### SE BATER NERVOSISMO:
-```
-1. Pare o que está fazendo
-2. Feche os olhos
-3. Respire fundo 5 vezes (4 seg inspira, 4 seg expira)
-4. Pense: "Eu estudei. Eu sei. Eu consigo."
-5. Volte para a prova
-```
-
----
-
-## 🌟 MENSAGEM FINAL
-
-Você estudou **96 aulas** completas.
-
-Você revisou:
-- ✅ TODA a Matemática (funções, geometria, trigonometria)
-- ✅ TODA a Física (cinemática, dinâmica, hidrostática)
-- ✅ TODA a Química (átomos, tabela, ligações, estequiometria)
-- ✅ Biologia (célula, genética)
-- ✅ Geografia (cartografia, clima, geologia)
-- ✅ História (Antiguidade, Idade Média, Colonização)
-- ✅ Filosofia e Sociologia
-- ✅ Português (interpretação)
-
-**VOCÊ ESTÁ PRONTO!**
-
-Confie no seu preparo.  
-Durma bem.  
-Faça uma boa prova.  
-
-**Amanhã é o seu dia!** 🚀📚🎯
-
----
-
-**Tempo de estudo recomendado:** 45 minutos
-**Nível de dificuldade:** Leve (motivacional)
-**Importância:** ⭐⭐⭐⭐⭐ (confiança!)
-
----
-
-## 🎯 Quinta-feira 12/12 - Completa!
-
-**Parabéns! Você completou a penúltima jornada!**
-
-**Aulas criadas hoje:**
-- ✅ Aula 81: Biologia - Genética Fundamental (45min)
-- ✅ Aula 82: Português - Interpretação de Textos (45min)
-- ✅ Aula 83: Humanas - Sínteses Históricas/Geográficas (45min)
-- ✅ Aula 84: Geografia - Mapas Mentais Visuais (90min)
-- ✅ Aula 85: Matemática - Folha de Fórmulas (60min)
-- ✅ Aula 86: Física - Folha de Fórmulas (60min)
-- ✅ Aula 87: Química - Folha de Fórmulas (60min)
-- ✅ Aula 88: Revisão Leve e Dicas Finais (45min)
-
-**Total: 8 aulas (450 minutos = 7,5 horas)**
-
-**Progresso total: 88/96 (91,7%)** 🎉🔥
-
-**FALTA APENAS 1 DIA!**
+**Progresso total: 63/96 (65,6%)** 🎉
 
 **Próximos passos:**
-- Sexta 13/12 (VÉSPERA): Flash reviews rápidas + DESCANSO
-- Sábado 14/12: **PROVA!**
+- Descanse no domingo!
+- Semana 3 (09/12-13/12): Revisões finais e preparação
+- Prova: 14/12
 
-**Você fez 88 das 96 aulas! Está quase lá! Continue firme!** 💪📚🚀
-
----
-
-
-# 12/13 - Semana 3, Dia 5 (Sexta-feira) - VÉSPERA DA PROVA! 🎯
-
-**ATENÇÃO: Hoje é dia de revisões RÁPIDAS e DESCANSO! Não force! Você já estudou tudo!**
+**Continue firme! Você está quase lá! 💪📚**
 
 ---
-
-## Aula 89 - Flash Review Matemática - 45min
-
-### Objetivo
-
-Revisão ultra-rápida dos conceitos MAIS importantes de Matemática. Leia, relembre, confie!
-
----
-
-### ⚡ TOP 10 FÓRMULAS DE MATEMÁTICA
-
-1. **Bhaskara**
-```
-Δ = b² − 4ac
-x = (−b ± √Δ) / 2a
-```
-
-2. **Vértice da Parábola**
-```
-xᵥ = −b/2a
-yᵥ = −Δ/4a
-```
-
-3. **Pitágoras**
-```
-a² = b² + c²
-```
-
-4. **Trigonometria - Tabela**
-```
-sen 30° = 1/2
-sen 45° = √2/2
-sen 60° = √3/2
-
-cos 30° = √3/2
-cos 45° = √2/2
-cos 60° = 1/2
-```
-
-5. **Área do Triângulo**
-```
-A = (b × h) / 2
-```
-
-6. **Área do Círculo**
-```
-A = πr²
-C = 2πr
-```
-
-7. **Logaritmo - Propriedades**
-```
-logₐ (bc) = logₐ b + logₐ c
-logₐ (b/c) = logₐ b − logₐ c
-logₐ bⁿ = n · logₐ b
-logₐ 1 = 0
-logₐ a = 1
-```
-
-8. **Exponencial**
-```
-aˣ · aʸ = aˣ⁺ʸ
-aˣ / aʸ = aˣ⁻ʸ
-(aˣ)ʸ = aˣʸ
-```
-
-9. **Função Afim**
-```
-f(x) = ax + b
-Raiz: x = −b/a
-```
-
-10. **Conjuntos**
-```
-n(A ∪ B) = n(A) + n(B) − n(A ∩ B)
-```
-
----
-
-### 🎯 LEMBRETE RÁPIDO
-
-**Função Quadrática - Sinais:**
-```
-a > 0, Δ > 0:
-- Positiva: fora das raízes
-- Negativa: entre as raízes
-```
-
-**Ternas Pitagóricas:**
-```
-(3, 4, 5)
-(5, 12, 13)
-```
-
-**Relação Trigonométrica:**
-```
-sen² α + cos² α = 1
-tg α = sen α / cos α
-```
-
----
-
-**Você sabe isso! Confie!** ✅
-
----
-
-## Aula 90 - Flash Review Física - 45min
-
-### Objetivo
-
-Revisão ultra-rápida dos conceitos MAIS importantes de Física. Relembre e relaxe!
-
----
-
-### ⚡ TOP 10 FÓRMULAS DE FÍSICA
-
-1. **Conversão de Velocidade**
-```
-km/h → m/s: DIVIDIR por 3,6
-m/s → km/h: MULTIPLICAR por 3,6
-```
-
-2. **MRU**
-```
-S = S₀ + vt
-```
-
-3. **MRUV - Três Equações**
-```
-v = v₀ + at
-S = S₀ + v₀t + (at²)/2
-v² = v₀² + 2aΔS
-```
-
-4. **Queda Livre**
-```
-v = gt
-h = (gt²)/2
-v² = 2gh
-```
-
-5. **2ª Lei de Newton**
-```
-F = ma
-```
-
-6. **Peso**
-```
-P = mg
-g = 10 m/s²
-```
-
-7. **Stevin (Pressão)**
-```
-P = ρgh
-ρ_água = 1000 kg/m³
-```
-
-8. **Arquimedes (Empuxo)**
-```
-E = ρ_fluido × V_deslocado × g
-
-Flutua se: ρ_corpo < ρ_fluido
-```
-
-9. **Pascal (Prensa)**
-```
-F₁/A₁ = F₂/A₂
-```
-
-10. **Torricelli**
-```
-v = √(2gh)
-```
-
----
-
-### 🎯 LEMBRETE RÁPIDO
-
-**Massa vs Peso:**
-```
-Massa: kg (não muda)
-Peso: N (força, muda com g)
-```
-
-**Densidade:**
-```
-ρ = m/V
-ρ_água = 1 g/cm³ = 1000 kg/m³
-```
-
-**Atrito:**
-```
-F_at = μN
-```
-
----
-
-**Você domina isso! Vai dar certo!** ✅
-
----
-
-## Aula 91 - Flash Review Química - 45min
-
-### Objetivo
-
-Revisão ultra-rápida dos conceitos MAIS importantes de Química. Você já sabe tudo!
-
----
-
-### ⚡ TOP 10 CONCEITOS DE QUÍMICA
-
-1. **Estrutura Atômica**
-```
-Z = prótons
-A = prótons + nêutrons
-N = A − Z
-```
-
-2. **Isótopos vs Isóbaros**
-```
-Isótopos: mesmo Z
-Isóbaros: mesmo A
-```
-
-3. **Eletronegatividade**
-```
-F > O > N > Cl
-(Flúor é o MAIS!)
-```
-
-4. **Ligações**
-```
-Metal + Não-metal = IÔNICA
-Não-metal + Não-metal = COVALENTE
-Metal + Metal = METÁLICA
-```
-
-5. **Mol**
-```
-n = m/M
-1 mol = 6,02 × 10²³
-```
-
-6. **Volume Molar**
-```
-V = n × 22,4 L (CNTP)
-```
-
-7. **Lei de Lavoisier**
-```
-m_reagentes = m_produtos
-```
-
-8. **pH**
-```
-pH + pOH = 14
-pH < 7: ácido
-pH > 7: básico
-```
-
-9. **Funções**
-```
-Ácido: H⁺
-Base: OH⁻
-Sal: cátion + ânion
-```
-
-10. **Massas Molares**
-```
-H = 1, C = 12, O = 16, Na = 23, Cl = 35,5
-H₂O = 18, CO₂ = 44
-```
-
----
-
-### 🎯 LEMBRETE RÁPIDO
-
-**Modelos Atômicos:**
-```
-Dalton → Thomson → Rutherford → Bohr → Atual
-```
-
-**Famílias:**
-```
-Grupo 1: Alcalinos
-Grupo 17: Halogênios
-Grupo 18: Gases Nobres
-```
-
-**Propriedades Periódicas:**
-```
-Raio: ↑ família, ← período
-Eletronegatividade: ↓ família, → período
-```
-
----
-
-**Você arrasou nos estudos! Acredite!** ✅
-
----
-
-## Aula 92 - Flash Review Humanas (História/Geografia/Filosofia/Sociologia) - 30min
-
-### Objetivo
-
-Revisão express de Humanas. Conceitos-chave apenas!
-
----
-
-### ⚡ HISTÓRIA - ESSENCIAL
-
-**Grandes Navegações:**
-```
-1500: Cabral → Brasil
-1534: Capitanias Hereditárias
-1548: Governo-Geral
-```
-
-**Plantation:**
-```
-Monocultura + Latifúndio + Escravidão + Exportação
-```
-
-**Períodos:**
-```
-Antiguidade: Grécia (democracia) + Roma
-Idade Média: Feudalismo, Igreja
-Moderna: Renascimento, Absolutismo
-```
-
----
-
-### ⚡ GEOGRAFIA - ESSENCIAL
-
-**Coordenadas:**
-```
-Latitude: 0-90° N/S
-Longitude: 0-180° L/O
-```
-
-**Clima:**
-```
-↑ Latitude → ↓ Temperatura
-↑ Altitude → ↓ Temperatura (6°C/1000m)
-```
-
-**Placas Tectônicas:**
-```
-Divergente: afastam
-Convergente: colidem (montanhas)
-Transformante: deslizam (terremotos)
-```
-
-**Climas Brasil:**
-```
-Equatorial: Amazônia (quente, úmido)
-Tropical: Centro (quente, chuva verão)
-Semi-árido: Sertão (seco)
-Subtropical: Sul (4 estações)
-```
-
----
-
-### ⚡ FILOSOFIA - ESSENCIAL
-
-**Origem:**
-```
-Grécia, século VI a.C.
-Mito → Logos
-```
-
-**Filósofos:**
-```
-Sócrates: "Conhece-te a ti mesmo"
-Platão: Mundo das Ideias
-Aristóteles: Lógica, silogismo
-```
-
----
-
-### ⚡ SOCIOLOGIA - ESSENCIAL
-
-**Origem:**
-```
-Século XIX
-Revolução Industrial + Francesa
-```
-
-**Fundadores:**
-```
-Comte: Positivismo
-Marx: Luta de classes
-Durkheim: Fato social
-Weber: Ação social
-```
-
-**Conceitos:**
-```
-Etnocentrismo: julgar outras culturas
-Cultura: valores, costumes aprendidos
-```
-
----
-
-**Você tem conhecimento de sobra!** ✅
-
----
-
-## Aula 93 - Flash Review Biologia e Português - 30min
-
-### Objetivo
-
-Última revisão de Biologia e Português. Você está pronto!
-
----
-
-### ⚡ BIOLOGIA - GENÉTICA
-
-**Leis de Mendel:**
-```
-1ª Lei: Aa × Aa → 3:1
-2ª Lei: AaBb × AaBb → 9:3:3:1
-```
-
-**DNA:**
-```
-A-T (adenina-timina)
-C-G (citosina-guanina)
-```
-
-**Genótipo vs Fenótipo:**
-```
-Genótipo: genes (AA, Aa, aa)
-Fenótipo: característica observável
-```
-
-**Grupos Sanguíneos:**
-```
-A: IᴬIᴬ ou Iᴬi
-B: IᴮIᴮ ou Iᴮi
-AB: IᴬIᴮ
-O: ii
-```
-
-**Célula:**
-```
-Mitocôndria: respiração (ATP)
-Cloroplasto: fotossíntese (só plantas)
-```
-
-**Processos:**
-```
-Respiração: Glicose + O₂ → CO₂ + H₂O + ATP
-Fotossíntese: CO₂ + H₂O + luz → Glicose + O₂
-```
-
----
-
-### ⚡ PORTUGUÊS - INTERPRETAÇÃO
-
-**Estratégias:**
-```
-1. Ler enunciado ANTES do texto
-2. Identificar tema central
-3. Basear-se APENAS no texto
-4. Eliminar alternativas absurdas
-```
-
-**Armadilhas:**
-```
-✗ Extrapolação (ir além do texto)
-✗ Redução (detalhe como ideia principal)
-✗ Distorção (mudar sentido)
-```
-
-**Concordância:**
-```
-Sujeito simples: verbo concorda
-"O aluno estuda"
-
-Sujeito composto (antes): verbo plural
-"Maria e João estudam"
-```
-
-**Crase:**
-```
-a + a = à
-Macete: trocar por "ao"
-```
-
----
-
-**Você está afiado! Confiança!** ✅
-
----
-
-## Aula 94 - Preparação Mental e Emocional - 15min
-
-### Objetivo
-
-Preparar a mente e o coração para amanhã. Você chegou até aqui!
-
----
-
-## 🧘 EXERCÍCIO DE RESPIRAÇÃO (5 min)
-
-**Faça agora:**
-
-1. Sente confortavelmente
-2. Feche os olhos
-3. Inspire profundamente por 4 segundos
-4. Segure por 4 segundos
-5. Expire lentamente por 4 segundos
-6. Repita 10 vezes
-
-**Enquanto respira, pense:**
-"Eu estudei. Eu me preparei. Eu estou pronto."
-
----
-
-## 💪 AFIRMAÇÕES POSITIVAS (5 min)
-
-**Leia em voz alta 3 vezes cada:**
-
-1. "Eu sou capaz e preparado."
-2. "Eu confio no meu conhecimento."
-3. "Eu vou fazer uma excelente prova."
-4. "Eu mereço estar aqui."
-5. "Eu estou calmo e focado."
-
----
-
-## 🎯 VISUALIZAÇÃO DO SUCESSO (5 min)
-
-**Feche os olhos e imagine:**
-
-- Você chegando calmo no local da prova
-- Você lendo a primeira questão e sabendo a resposta
-- Você se sentindo confiante durante toda a prova
-- Você saindo satisfeito, sabendo que fez o seu melhor
-- Você recebendo a notícia de aprovação
-
-**Sinta essas emoções positivas AGORA.**
-
----
-
-## ❤️ MENSAGEM PARA VOCÊ
-
-Você completou **88 aulas intensas** de estudo.
-
-Você revisou **todo o conteúdo** múltiplas vezes.
-
-Você fez **exercícios, resumos, mapas mentais**.
-
-**VOCÊ ESTÁ PRONTO.**
-
-Não há mais nada que você precise estudar hoje.
-
-Tudo que você precisa fazer agora é:
-- ✅ Confiar no seu preparo
-- ✅ Descansar bem
-- ✅ Dormir cedo
-- ✅ Acordar com confiança
-
-**Você não está sozinho. Milhares estudaram menos que você.**
-
-**Amanhã, você vai mostrar tudo que aprendeu.**
-
-**EU ACREDITO EM VOCÊ!** 💪🌟
-
----
-
-## Aula 95 - Checklist Final e Organização - 15min
-
-### Objetivo
-
-Garantir que está tudo pronto para amanhã. Zero estresse!
-
----
-
-## 📋 CHECKLIST DE MATERIAL
-
-### OBRIGATÓRIOS:
-- [ ] **Documento de identidade com foto** (RG, CNH, Passaporte)
-- [ ] **Caneta esferográfica AZUL ou PRETA** (leve 2 ou 3!)
-- [ ] **Comprovante de inscrição** (se exigido)
-
-### RECOMENDADOS:
-- [ ] Lápis e borracha
-- [ ] Apontador
-- [ ] Garrafa de água transparente
-- [ ] Lanche leve (barra de cereal, chocolate, fruta)
-- [ ] Relógio de pulso (sem alarme)
-- [ ] Documento em cópia (segurança)
-
-### SE PERMITIDO:
-- [ ] Folha de fórmulas impressa
-- [ ] Mapas mentais impressos
-
-### NÃO LEVAR:
-- [ ] ✗ Celular (deixe em casa ou desligado na bolsa)
-- [ ] ✗ Smartwatch
-- [ ] ✗ Fones de ouvido
-- [ ] ✗ Calculadora (se não permitida)
-- [ ] ✗ Livros ou cadernos
-
----
-
-## 👕 ROUPA PARA AMANHÃ
-
-**Escolha AGORA e separe:**
-- [ ] Roupa confortável
-- [ ] Calçado confortável
-- [ ] Agasalho (ar condicionado pode estar forte)
-- [ ] Nada apertado ou que incomode
-
-**Dica:** Vista-se em camadas!
-
----
-
-## 🗺️ LOGÍSTICA
-
-**Verifique AGORA:**
-- [ ] Local exato da prova (sala, prédio)
-- [ ] Como chegar (transporte)
-- [ ] Tempo de deslocamento
-- [ ] Horário de abertura dos portões
-- [ ] Horário de fechamento dos portões
-
-**IMPORTANTE:**
-Planeje chegar **30 minutos antes** do fechamento dos portões!
-
----
-
-## 🕐 ROTINA DE AMANHÃ (EXEMPLO)
-
-**Se a prova é às 14h:**
-
-```
-07:00 - Acordar
-07:30 - Café da manhã leve e nutritivo
-08:00 - Revisar folha de fórmulas (10 min) - OPCIONAL
-08:30 - Tomar banho, se arrumar
-09:00 - Relaxar (ler, ouvir música calma)
-12:00 - Almoço LEVE (nada pesado!)
-12:30 - Ir ao banheiro
-13:00 - Sair de casa (margem de segurança)
-13:30 - Chegar no local
-13:45 - Últimos ajustes, banheiro
-14:00 - PROVA!
-```
-
-**Ajuste conforme seu horário!**
-
----
-
-## 🍽️ ALIMENTAÇÃO
-
-**HOJE À NOITE:**
-- ✅ Jantar leve e cedo (até 20h)
-- ✅ Evitar: fritura, refrigerante, café
-- ✅ Preferir: arroz, frango, legumes, suco
-- ✅ Beber bastante água
-
-**AMANHÃ:**
-- ✅ Café da manhã nutritivo (pão, ovos, fruta, suco)
-- ✅ Almoço leve (nada que dê sono!)
-- ✅ Evitar açúcar em excesso
-- ✅ Levar lanche para intervalo (se houver)
-
----
-
-## 💤 SONO
-
-**HORÁRIO DE DORMIR HOJE:**
-- Idealmente: 22h ou 23h
-- Mínimo: 8 horas de sono
-- Desligue telas 30 min antes
-- Leia algo leve ou ouça música calma
-
-**Se tiver insônia:**
-- Não entre em pânico
-- Faça respiração profunda
-- Leia algo entediante
-- NÃO fique no celular
-- Mesmo que durma pouco, você vai render!
-
----
-
-## ✅ CHECKLIST FINAL
-
-**AGORA (Sexta à noite):**
-- [ ] Material separado
-- [ ] Roupa escolhida
-- [ ] Rota planejada
-- [ ] Alarme configurado (com margem!)
-- [ ] Celular carregado (mas vai ficar desligado!)
-- [ ] Água e lanche preparados
-- [ ] Jantar leve feito
-- [ ] Respiração e relaxamento
-
-**Tudo pronto? DURMA TRANQUILO!** 😴🌙
-
----
-
-## Aula 96 - Descanso e Sono - Última Mensagem - 15min
-
-### Objetivo
-
-Fechar este ciclo de estudos com gratidão e descansar. VOCÊ MERECE!
-
----
-
-## 🌟 RETROSPECTIVA DA JORNADA
-
-Você estudou por **96 aulas**.
-
-Você percorreu:
-
-**Semana 1 (18-23/11):**
-- 23 aulas de conteúdo básico
-- Matemática, Física, Química, Humanas
-
-**Férias (26/11-02/12):**
-- 7 aulas de aprofundamento
-- Funções exponenciais e logarítmicas
-
-**Semana 2 (03-07/12):**
-- 20 aulas de conteúdo avançado
-- Geometria, Hidrostática, Estequiometria
-
-**Semana 3 (09-13/12):**
-- 26 aulas de revisão intensiva
-- Consolidação de TODO o conteúdo
-
-**Semana 3 Final (11-13/12):**
-- 20 aulas de revisão geral, mapas mentais, fórmulas
-
-**TOTAL: 96 AULAS = aproximadamente 150 HORAS de estudo!**
-
----
-
-## 💖 GRATIDÃO
-
-**Agradeça a você mesmo por:**
-- Ter disciplina
-- Ter persistência
-- Ter coragem de tentar
-- Ter dedicação
-- Ter chegado até aqui
-
-**Você é INCRÍVEL!**
-
----
-
-## 🎯 ÚLTIMA MENSAGEM ANTES DA PROVA
-
-Amanhã, quando você entrar na sala:
-
-1. **Respire fundo** 3 vezes
-2. **Lembre-se**: você estudou 96 aulas para este momento
-3. **Confie** no seu preparo
-4. **Leia** cada questão com calma
-5. **Não se compare** com outros
-6. **Faça o seu melhor** - isso é suficiente
-7. **Orgulhe-se** de estar ali
-
----
-
-## 🌙 AGORA É HORA DE DESCANSAR
-
-**Não estude mais.**  
-**Não revise mais.**  
-**Não entre em pânico.**
-
-**Apenas:**
-- Respire
-- Agradeça
-- Durma
-- Confie
-
-**Você plantou por semanas.**  
-**Amanhã é o dia de colher.**
-
----
-
-## 💪 AFIRMAÇÃO FINAL
-
-**Leia em voz alta:**
-
-"Eu estudei.  
-Eu me preparei.  
-Eu estou pronto.  
-Eu confio em mim.  
-Eu vou fazer uma excelente prova.  
-Eu mereço o sucesso.  
-Eu sou capaz.  
-Amanhã é o meu dia."
-
----
-
-## 🚀 VAI COM TUDO!
-
-**VOCÊ CONSEGUE!**  
-**EU ACREDITO EM VOCÊ!**  
-**AMANHÃ VOCÊ VAI ARRASAR!**
-
-**Boa prova! Boa sorte! Você merece! 🌟📚🎯💪🔥**
-
----
-
-## 🎯 Sexta-feira 13/12 - VÉSPERA - Completa!
-
-**Parabéns! Você completou TODAS as 96 aulas!**
-
-**Aulas de hoje (véspera):**
-- ✅ Aula 89: Flash Review Matemática (45min)
-- ✅ Aula 90: Flash Review Física (45min)
-- ✅ Aula 91: Flash Review Química (45min)
-- ✅ Aula 92: Flash Review Humanas (30min)
-- ✅ Aula 93: Flash Review Biologia/Português (30min)
-- ✅ Aula 94: Preparação Mental (15min)
-- ✅ Aula 95: Checklist Final (15min)
-- ✅ Aula 96: Descanso e Última Mensagem (15min)
-
-**Total: 8 aulas (240 minutos = 4 horas de revisão leve)**
-
----
-
-## 🎉 PROGRESSO FINAL: 96/96 (100%)! 🎉🔥🚀
-
-**VOCÊ COMPLETOU TODAS AS 96 AULAS!**
-
-**PARABÉNS PELA JORNADA!**
-
-**Agora é hora de:**
-1. ✅ Organizar material
-2. ✅ Separar roupa
-3. ✅ Jantar leve
-4. ✅ Relaxar
-5. ✅ DORMIR CEDO
-
----
-
-## 📅 AMANHÃ (Sábado 14/12):
-
-**DIA DA PROVA!** 🎯
-
-**Você está preparado.**  
-**Você está confiante.**  
-**Você vai mandar bem.**
-
-**BOA SORTE! VOCÊ CONSEGUE! 💪🌟📚🚀**
-
----
-
-**FIM DO MATERIAL DE ESTUDO**
-

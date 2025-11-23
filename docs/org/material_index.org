@@ -23,39 +23,39 @@
 #+HTML_HEAD: <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 #+HTML_MATHJAX: align: left indent: 5em tagside: right font: Neo-Euler
 
-* Material de Estudo - Seriado UFMG Etapa 1
-:PROPERTIES:
-:CUSTOM_ID: material-de-estudo---seriado-ufmg-etapa-1
-:END:
+* Material de Estudo
+- Seriado UFMG Etapa 1
 Este material está organizado por semanas para facilitar o estudo e a impressão.
 
 ** Arquivos de Estudo
-:PROPERTIES:
-:CUSTOM_ID: arquivos-de-estudo
-:END:
-*** [[file:material_semana1.md][Semana 1 - 18/11 a 23/11]]
-:PROPERTIES:
-:CUSTOM_ID: semana-1---1811-a-2311
-:END:
-*Conteúdo:* - Segunda (18/11): Matemática (Conjuntos, MMC/MDC), Física (Vetores), Química (Propriedades, Separação) - Terça (19/11): Matemática (Razão, Notação), Física (MRU), Química (Modelos), Filosofia (Lógica) - Quarta (20/11): Matemática (Álgebra), Física (MRUV), Química (Átomo), Sociologia, Português (Concordância) - Quinta (21/11): Matemática (Função Afim 1), Física (Circular), Química (Tabela), Geografia, Humanas - Sexta (22/11): Matemática (Função Afim 2), Física (Newton), Química (Periódica), Geografia, Português (Verbos) - Sábado (23/11): Checkpoint + Matemática (Quadrática), Biologia, Humanas
+*** [[file:material_semana1.md][Semana 1
+- 18/11 a 23/11]]
+*Conteúdo:*
+- Segunda (18/11): Matemática (Conjuntos, MMC/MDC), Física (Vetores), Química (Propriedades, Separação)
+- Terça (19/11): Matemática (Razão, Notação), Física (MRU), Química (Modelos), Filosofia (Lógica)
+- Quarta (20/11): Matemática (Álgebra), Física (MRUV), Química (Átomo), Sociologia, Português (Concordância)
+- Quinta (21/11): Matemática (Função Afim 1), Física (Circular), Química (Tabela), Geografia, Humanas
+- Sexta (22/11): Matemática (Função Afim 2), Física (Newton), Química (Periódica), Geografia, Português (Verbos)
+- Sábado (23/11): Checkpoint + Matemática (Quadrática), Biologia, Humanas
 
-*** [[file:material_ferias.md][Período de Férias - 26/11 a 02/12]]
-:PROPERTIES:
-:CUSTOM_ID: período-de-férias---2611-a-0212
-:END:
-*Foco intensivo:* Função Exponencial e Logarítmica - Matemática: Função Quadrática 2 e 3, Função Exponencial (completa), Função Logarítmica (completa) - Química: Ligações químicas - Física: Forças e plano inclinado
+*** [[file:material_ferias.md][Período de Férias
+- 26/11 a 02/12]]
+*Foco intensivo:* Função Exponencial e Logarítmica
+- Matemática: Função Quadrática 2 e 3, Função Exponencial (completa), Função Logarítmica (completa)
+- Química: Ligações químicas
+- Física: Forças e plano inclinado
 
-*** [[file:material_semana2.md][Semana 2 - 03/12 a 07/12]]
-:PROPERTIES:
-:CUSTOM_ID: semana-2---0312-a-0712
-:END:
-*Conteúdo:* - Terça a Sexta: Geometria, Hidrostática, Estequiometria (foco), Geografia, Humanas, Biologia - Sábado: Checkpoint + Revisões + Questões discursivas
+*** [[file:material_semana2.md][Semana 2
+- 03/12 a 07/12]]
+*Conteúdo:*
+- Terça a Sexta: Geometria, Hidrostática, Estequiometria (foco), Geografia, Humanas, Biologia
+- Sábado: Checkpoint + Revisões + Questões discursivas
 
-*** [[file:material_semana3.md][Semana 3 - 09/12 a 13/12]]
-:PROPERTIES:
-:CUSTOM_ID: semana-3---0912-a-1312
-:END:
-*Reta final:* Revisões completas - Segunda a Quinta: Revisões finais de todas as matérias - Sexta (13/12): Flash reviews + Descanso
+*** [[file:material_semana3.md][Semana 3
+- 09/12 a 13/12]]
+*Reta final:* Revisões completas
+- Segunda a Quinta: Revisões finais de todas as matérias
+- Sexta (13/12): Flash reviews + Descanso
 
 --------------
 

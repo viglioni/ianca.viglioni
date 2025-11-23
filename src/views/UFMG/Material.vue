@@ -2,6 +2,7 @@
 import { ref, computed, watch, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import studySchedule from "@/data/study-schedule.json";
+import SevenSegmentDisplay from "@/components/SevenSegmentDisplay.vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -38,6 +39,7 @@ interface CodeData {
   themes: string[];
   subject: string;
   dates: string[];
+  duration: number;
 }
 
 // Subject icons and colors mapping
@@ -77,6 +79,20 @@ const formatCodeNumber = (code: string): string => {
   }
   return '';
 };
+
+const formatDuration = (minutes: number): string => {
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  return `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}`;
+};
+
+const totalDuration = computed(() => {
+  const data = studySchedule as any;
+  const codes = data.codes as Record<string, CodeData>;
+  return filteredCodes.value.reduce((total, code) => {
+    return total + (codes[code].duration || 0);
+  }, 0);
+});
 
 // Get all available subjects and themes
 const allSubjects = computed(() => {
@@ -363,7 +379,19 @@ onMounted(() => {
               {{ filteredCodes.length }} resultado(s) encontrado(s)
             </h3>
             <div class="codes-list">
-              <div v-for="code in filteredCodes" :key="code" class="code-item">
+              <router-link
+                v-for="code in filteredCodes"
+                :key="code"
+                :to="`/ufmg/classes/${code}`"
+                class="code-item"
+              >
+                <span class="duration-badge">
+                  <SevenSegmentDisplay
+                    v-for="(char, i) in formatDuration((studySchedule as any).codes[code].duration)"
+                    :key="i"
+                    :digit="char"
+                  />
+                </span>
                 <span
                   class="subject-badge"
                   :style="{ backgroundColor: getSubjectColor((studySchedule as any).codes[code].subject) }"
@@ -372,7 +400,17 @@ onMounted(() => {
                   <span>{{ getSubjectName((studySchedule as any).codes[code].subject) }} {{ formatCodeNumber(code) }}</span>
                 </span>
                 <span class="code-title">{{ (studySchedule as any).codes[code].title }}</span>
-              </div>
+              </router-link>
+            </div>
+            <div v-if="filteredCodes.length > 0" class="total-duration">
+              <span class="total-label">Total:</span>
+              <span class="duration-badge">
+                <SevenSegmentDisplay
+                  v-for="(char, i) in formatDuration(totalDuration)"
+                  :key="i"
+                  :digit="char"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -572,12 +610,15 @@ onMounted(() => {
   background: linear-gradient(90deg, rgba(13, 62, 71, 0.05) 0%, rgba(26, 85, 96, 0.05) 100%);
   border-left: 3px solid #1a5560;
   min-height: 50px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .code-item:hover {
   background: linear-gradient(90deg, rgba(13, 62, 71, 0.1) 0%, rgba(26, 85, 96, 0.1) 100%);
   border-left-color: #d4af37;
   transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .subject-badge {
@@ -610,6 +651,32 @@ onMounted(() => {
   font-family: "Merriweather", serif;
   color: #2d4f56;
   line-height: 1.5;
+}
+
+.duration-badge {
+  @apply px-2 py-2 rounded flex-shrink-0;
+  background: #1a1a1a;
+  border: 2px solid #333;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
+  min-width: 60px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.total-duration {
+  @apply flex items-center gap-4 p-4 mt-4 rounded-lg;
+  background: linear-gradient(90deg, rgba(13, 62, 71, 0.1) 0%, rgba(26, 85, 96, 0.1) 100%);
+  border: 2px solid #1a5560;
+  justify-content: flex-end;
+}
+
+.total-label {
+  @apply text-lg font-bold;
+  font-family: "Crimson Text", serif;
+  color: #0d3e47;
 }
 
 </style>

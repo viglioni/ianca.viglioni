@@ -161,6 +161,31 @@ O complementar de A em relação ao conjunto universo U é o conjunto de element
 
 Diagramas de Venn são representações visuais de conjuntos usando círculos ou elipses.
 
+
+```
+        DIAGRAMA DE VENN - DOIS CONJUNTOS
+        
+           U (Universo)
+    ┌─────────────────────────────────┐
+    │                                 │
+    │      ╭───────╮   ╭───────╮     │
+    │     ╱         ╲ ╱         ╲    │
+    │    │     A     X     B     │   │
+    │    │           │           │   │
+    │     ╲         ╱ ╲         ╱    │
+    │      ╰───────╯   ╰───────╯     │
+    │                                 │
+    └─────────────────────────────────┘
+    
+    Legenda:
+    • Região A apenas: A - B (A ∩ B̄)
+    • Região B apenas: B - A (Ā ∩ B)
+    • Interseção X: A ∩ B
+    • União: A ∪ B (tudo dentro dos círculos)
+    • Complemento: Fora dos círculos
+```
+
+
 **Usos:**
 - Visualizar operações entre conjuntos
 - Resolver problemas de contagem
@@ -202,6 +227,39 @@ Intervalos são subconjuntos especiais dos números reais, definidos por desigua
 - (a, b] = {x ∈ ℝ | a < x ≤ b}
 - Não inclui a, inclui b
 - Representação gráfica: ○━━━━━●
+
+
+```
+    REPRESENTAÇÃO DE INTERVALOS NA RETA NUMÉRICA
+
+    [a, b] - Intervalo Fechado (inclui ambos extremos)
+    ────●═══════════●────────────────────────────
+        a           b
+    
+    (a, b) - Intervalo Aberto (exclui ambos extremos)
+    ────○───────────○────────────────────────────
+        a           b
+    
+    [a, b) - Fechado à esquerda, Aberto à direita
+    ────●═══════════○────────────────────────────
+        a           b
+    
+    (a, b] - Aberto à esquerda, Fechado à direita
+    ────○───────────●────────────────────────────
+        a           b
+    
+    [a, +∞) - Intervalo ilimitado à direita
+    ────●═══════════════════════════════════════→
+        a
+    
+    (-∞, b] - Intervalo ilimitado à esquerda
+    ←═══════════════●────────────────────────────
+                    b
+    
+    Símbolos: ● = inclui ponto    ○ = exclui ponto
+              ═ = pertence        ─ = não pertence
+```
+
 
 #### Intervalos Infinitos
 - [a, +∞) = {x ∈ ℝ | x ≥ a}
@@ -267,16 +325,16 @@ Para dois conjuntos A e B:
 Dados os conjuntos A = {1, 2, 3, 4, 5} e B = {4, 5, 6, 7, 8}, determine:
 
 a) A ∪ B
-**Resposta:** {1, 2, 3, 4, 5, 6, 7, 8}
+*[Ver resposta 1 no final do documento]*
 
 b) A ∩ B
-**Resposta:** {4, 5}
+*[Ver resposta 2 no final do documento]*
 
 c) A − B
-**Resposta:** {1, 2, 3}
+*[Ver resposta 3 no final do documento]*
 
 d) B − A
-**Resposta:** {6, 7, 8}
+*[Ver resposta 4 no final do documento]*
 
 #### Exercício 2
 Em uma escola com 100 alunos:
@@ -292,19 +350,19 @@ Em uma escola com 100 alunos:
 - Total que pratica algum esporte: 30 + 20 + 30 = 80
 - Nenhum esporte: 100 − 80 = 20
 
-**Resposta:** 20 alunos
+*[Ver resposta 5 no final do documento]*
 
 #### Exercício 3
 Escreva os intervalos na forma de conjunto e represente na reta:
 
 a) [−2, 5]
-**Resposta:** {x ∈ ℝ | −2 ≤ x ≤ 5}
+*[Ver resposta 6 no final do documento]*
 
 b) (3, +∞)
-**Resposta:** {x ∈ ℝ | x > 3}
+*[Ver resposta 7 no final do documento]*
 
 c) (−∞, 1]
-**Resposta:** {x ∈ ℝ | x ≤ 1}
+*[Ver resposta 8 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -610,7 +668,7 @@ Essa propriedade permite calcular um quando se conhece o outro:
 - 18 = 2 × 3²
 - MMC = 2² × 3² = 36
 
-**Resposta:** Após 36 minutos
+*[Ver resposta 9 no final do documento]*
 
 #### Problema de MDC
 **Situação:** Uma empresa tem 60 canetas azuis e 48 canetas vermelhas. Quer fazer pacotes iguais usando todas as canetas, com o maior número possível de canetas por pacote. Quantas canetas terá cada pacote?
@@ -620,7 +678,7 @@ Essa propriedade permite calcular um quando se conhece o outro:
 - 48 = 2⁴ × 3
 - MDC = 2² × 3 = 12
 
-**Resposta:** 12 canetas por pacote
+*[Ver resposta 10 no final do documento]*
 - Pacotes de azuis: 60 ÷ 12 = 5
 - Pacotes de vermelhas: 48 ÷ 12 = 4
 
@@ -648,7 +706,7 @@ MMC(15, 20)
 - 20 = 2² × 5
 - MMC = 2² × 3 × 5 = 60
 
-**Resposta:** 60 segundos (1 minuto)
+*[Ver resposta 11 no final do documento]*
 
 #### Exercício 3
 Determinar o menor número que, dividido por 12, 15 e 20, deixa resto 5.
@@ -663,7 +721,7 @@ Determinar o menor número que, dividido por 12, 15 e 20, deixa resto 5.
 2. Como o resto é 5, adicionar 5 ao MMC
    - Número = 60 + 5 = 65
 
-**Resposta:** 65
+*[Ver resposta 12 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -980,7 +1038,7 @@ Um vetor tem módulo 20 m e faz ângulo de 60° com a horizontal. Determine suas
 - vₓ = 20 · cos 60° = 20 · 0,5 = 10 m
 - vᵧ = 20 · sen 60° = 20 · 0,866 = 17,32 m
 
-**Resposta:** vₓ = 10 m, vᵧ ≈ 17,3 m
+*[Ver resposta 13 no final do documento]*
 
 #### Exercício 3
 Dois vetores perpendiculares têm módulos 6 m e 8 m. Determine o módulo da resultante.
@@ -989,7 +1047,7 @@ Dois vetores perpendiculares têm módulos 6 m e 8 m. Determine o módulo da res
 Como são perpendiculares, usamos Pitágoras:
 |R⃗| = √(6² + 8²) = √(36 + 64) = √100 = 10 m
 
-**Resposta:** 10 m
+*[Ver resposta 14 no final do documento]*
 
 #### Exercício 4
 Um carro percorre 30 km para o norte e depois 40 km para o leste. Qual o módulo do deslocamento resultante?
@@ -1002,7 +1060,7 @@ Vetores perpendiculares:
 tan θ = 40/30 = 4/3
 θ = arctan(4/3) ≈ 53,1° para o leste
 
-**Resposta:** 50 km a 53,1° do norte em direção ao leste (ou nordeste)
+*[Ver resposta 15 no final do documento]*
 
 #### Exercício 5
 Dados v₁⃗ = (4, 3) e v₂⃗ = (1, -2), calcule:
@@ -1026,7 +1084,7 @@ Converta 72 km/h para m/s.
 Ou:
 72 km/h = 72.000 m / 3600 s = 20 m/s
 
-**Resposta:** 20 m/s
+*[Ver resposta 16 no final do documento]*
 
 ### Valores Notáveis de Seno e Cosseno
 
@@ -1193,7 +1251,7 @@ m = 0,79 × 500 = 395 g
 #### Exemplo 3
 Um cubo de gelo (d = 0,92 g/cm³) flutua ou afunda na água?
 
-**Resposta:** Flutua, pois 0,92 < 1,00
+*[Ver resposta 17 no final do documento]*
 
 ### 2. Temperatura de Fusão (TF ou PF)
 
@@ -1390,7 +1448,7 @@ Um objeto de 200 g ocupa volume de 25 cm³. Calcule sua densidade e identifique 
 d = m / V = 200 g / 25 cm³ = 8 g/cm³
 
 Consultando a tabela: densidade próxima ao ferro (7,87 g/cm³).
-**Resposta:** Provavelmente ferro ou liga ferrosa.
+*[Ver resposta 18 no final do documento]*
 
 #### Exercício 2
 Quantos gramas de sal (NaCl) podem ser dissolvidos em 500 g de água a 20°C? (Cs = 36 g/100g H₂O)
@@ -1401,7 +1459,7 @@ Se 100 g H₂O dissolvem 36 g NaCl
 
 x = (500 × 36) / 100 = 180 g
 
-**Resposta:** 180 g de sal
+*[Ver resposta 19 no final do documento]*
 
 #### Exercício 3
 Qual a massa de 2 L de gasolina? (d = 0,70 g/mL)
@@ -1413,17 +1471,17 @@ d = m / V
 0,70 = m / 2000
 m = 0,70 × 2000 = 1400 g = 1,4 kg
 
-**Resposta:** 1,4 kg
+*[Ver resposta 20 no final do documento]*
 
 #### Exercício 4
 Por que o gelo flutua na água?
 
-**Resposta:** Porque a densidade do gelo (0,92 g/cm³) é menor que a densidade da água líquida (1,00 g/cm³). Essa propriedade é incomum e fundamental para a vida aquática.
+*[Ver resposta 21 no final do documento]*
 
 #### Exercício 5
 Em uma cidade a 1500 m de altitude, a água ferve antes ou depois de 100°C?
 
-**Resposta:** Antes. A pressão atmosférica é menor em altitudes elevadas, portanto a temperatura de ebulição diminui (aproximadamente 95°C a 1500 m).
+*[Ver resposta 22 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -1877,12 +1935,12 @@ Resultado: Areia seca, sal seco, água destilada
 #### Exercício 3
 Por que o petróleo precisa de destilação fracionada e não simples?
 
-**Resposta:** Porque o petróleo é uma mistura de muitos hidrocarbonetos com temperaturas de ebulição próximas. A destilação fracionada, com sua coluna de fracionamento, permite separar eficientemente esses componentes com TEs similares. A destilação simples não seria eficiente para isso.
+*[Ver resposta 23 no final do documento]*
 
 #### Exercício 4
 Em uma salina, que processo é usado para obter sal do mar?
 
-**Resposta:** Evaporação. A água do mar é colocada em tanques rasos e exposta ao sol. A água evapora naturalmente, deixando o sal cristalizado.
+*[Ver resposta 24 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -2128,7 +2186,7 @@ Se 2 kg de carne custam R$ 40, quanto custarão 5 kg?
 x = 100
 ```
 
-**Resposta:** R$ 100
+*[Ver resposta 25 no final do documento]*
 
 **Verificação:** A razão preço/quantidade é constante:
 - 40/2 = 20 reais/kg
@@ -2160,7 +2218,7 @@ Mais operários → menos dias (inversamente proporcionais)
 x = 6
 ```
 
-**Resposta:** 6 dias
+*[Ver resposta 26 no final do documento]*
 
 **Verificação:** O produto é constante:
 - 3 × 12 = 36
@@ -2263,7 +2321,7 @@ Cadernos    Preço
 x = 48
 ```
 
-**Resposta:** R$ 48
+*[Ver resposta 27 no final do documento]*
 
 #### Regra de Três Simples Inversa
 
@@ -2291,7 +2349,7 @@ Máquinas    Dias
 x = 3
 ```
 
-**Resposta:** 3 dias
+*[Ver resposta 28 no final do documento]*
 
 **Macete:** Se são inversas, inverta uma coluna antes de montar a proporção!
 
@@ -2309,7 +2367,7 @@ J/M = 3/4
 M = 28
 ```
 
-**Resposta:** Maria tem 28 anos.
+*[Ver resposta 29 no final do documento]*
 
 #### Exercício 2
 Um mapa tem escala 1:2.000.000. Se a distância entre duas cidades no mapa é 5 cm, qual a distância real?
@@ -2322,7 +2380,7 @@ Um mapa tem escala 1:2.000.000. Se a distância entre duas cidades no mapa é 5 
 x = 5 × 2.000.000 = 10.000.000 cm = 100 km
 ```
 
-**Resposta:** 100 km
+*[Ver resposta 30 no final do documento]*
 
 #### Exercício 3
 Dividir 450 em partes diretamente proporcionais a 2, 3 e 4.
@@ -2355,7 +2413,7 @@ Torneiras    Horas
 x = 2,5
 ```
 
-**Resposta:** 2,5 torneiras. Como não existe meia torneira, seriam necessárias 3 torneiras.
+*[Ver resposta 31 no final do documento]*
 
 #### Exercício 5
 Se 6 livros custam R$ 90, quanto custarão 10 livros?
@@ -2369,7 +2427,7 @@ Diretamente proporcionais
 x = 150
 ```
 
-**Resposta:** R$ 150
+*[Ver resposta 32 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -3212,7 +3270,7 @@ Posição do encontro:
 S = 20(20) = 400 m
 ```
 
-**Resposta:** Os carros se encontram após 20 s na posição 400 m.
+*[Ver resposta 33 no final do documento]*
 
 #### Exercício 4
 Um trem de 200 m de comprimento atravessa uma ponte de 300 m com velocidade constante de 20 m/s. Quanto tempo leva para atravessar completamente a ponte?
@@ -3233,7 +3291,7 @@ v = ΔS / Δt
 Δt = 25 s
 ```
 
-**Resposta:** 25 segundos
+*[Ver resposta 34 no final do documento]*
 
 #### Exercício 5
 Converta 108 km/h para m/s.
@@ -3681,22 +3739,22 @@ Quatro números descrevem cada elétron:
 #### Exercício 1
 Qual modelo atômico compara o átomo a um "pudim de passas"?
 
-**Resposta:** Modelo de Thomson
+*[Ver resposta 35 no final do documento]*
 
 #### Exercício 2
 Qual experimento levou Rutherford a propor o núcleo atômico?
 
-**Resposta:** Experimento da lâmina de ouro (bombardeamento com partículas alfa)
+*[Ver resposta 36 no final do documento]*
 
 #### Exercício 3
 Explique por que o modelo de Rutherford não explicava a estabilidade do átomo.
 
-**Resposta:** Segundo a física clássica, elétrons em movimento circular deveriam emitir radiação eletromagnética, perder energia e cair no núcleo. Como isso não acontece, o modelo não explicava por que o átomo é estável.
+*[Ver resposta 37 no final do documento]*
 
 #### Exercício 4
 Qual modelo introduziu o conceito de níveis de energia quantizados?
 
-**Resposta:** Modelo de Bohr (Rutherford-Bohr)
+*[Ver resposta 38 no final do documento]*
 
 #### Exercício 5
 Quantos elétrons cabem na camada M (n=3)?
@@ -3706,12 +3764,12 @@ Quantos elétrons cabem na camada M (n=3)?
 2n² = 2 × 3² = 2 × 9 = 18 elétrons
 ```
 
-**Resposta:** 18 elétrons
+*[Ver resposta 39 no final do documento]*
 
 #### Exercício 6
 Identifique o erro: "No modelo de Dalton, o átomo possui prótons e elétrons."
 
-**Resposta:** ERRO. No modelo de Dalton, o átomo era considerado indivisível, portanto não possuía partículas subatômicas. Os prótons e elétrons foram descobertos posteriormente (elétron por Thomson, próton por Rutherford).
+*[Ver resposta 40 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -4106,22 +4164,22 @@ Identifique as premissas e a conclusão:
 O argumento abaixo é válido ou inválido?
 "Todos os gatos são felinos. Todos os felinos são carnívoros. Logo, todos os gatos são carnívoros."
 
-**Resposta:** **Válido.** Se as premissas são verdadeiras, a conclusão necessariamente é verdadeira.
+*[Ver resposta 41 no final do documento]*
 
 #### Exercício 3
 Identifique a falácia: "Você não pode criticar o governo porque não é político."
 
-**Resposta:** **Ad Hominem** (ataque à pessoa). O fato de não ser político não invalida a crítica.
+*[Ver resposta 42 no final do documento]*
 
 #### Exercício 4
 Identifique a falácia: "Ou você apoia este projeto ou é contra o progresso da cidade."
 
-**Resposta:** **Falso Dilema**. Pode-se ter ressalvas ao projeto sem ser contra o progresso.
+*[Ver resposta 43 no final do documento]*
 
 #### Exercício 5
 Este argumento é válido? "Alguns políticos são corruptos. João é político. Logo, João é corrupto."
 
-**Resposta:** **Inválido.** "Alguns" não significa "todos". João pode ser um político honesto.
+*[Ver resposta 44 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -4507,19 +4565,19 @@ P(x) = 3x⁴ - 2x³ + x - 5
 - x² é quadrado de x
 - 9 é quadrado de 3
 - 6x = 2 · x · 3 ✓
-- **Resposta:** (x + 3)²
+- *[Ver resposta 45 no final do documento]*
 
 **x² - 10x + 25**
 - x² é quadrado de x
 - 25 é quadrado de 5
 - 10x = 2 · x · 5 ✓
-- **Resposta:** (x - 5)²
+- *[Ver resposta 46 no final do documento]*
 
 **4x² + 12x + 9**
 - 4x² é quadrado de 2x
 - 9 é quadrado de 3
 - 12x = 2 · 2x · 3 ✓
-- **Resposta:** (2x + 3)²
+- *[Ver resposta 47 no final do documento]*
 
 ### 4. Diferença de Quadrados
 
@@ -4570,7 +4628,7 @@ Números: 3 e 4
 - 3 + 4 = 7 ✓
 - 3 · 4 = 12 ✓
 
-**Resposta:** (x + 3)(x + 4)
+*[Ver resposta 48 no final do documento]*
 
 **x² - 5x + 6**
 
@@ -4582,7 +4640,7 @@ Números: -2 e -3
 - (-2) + (-3) = -5 ✓
 - (-2) · (-3) = 6 ✓
 
-**Resposta:** (x - 2)(x - 3)
+*[Ver resposta 49 no final do documento]*
 
 **x² + x - 12**
 
@@ -4594,7 +4652,7 @@ Números: 4 e -3
 - 4 + (-3) = 1 ✓
 - 4 · (-3) = -12 ✓
 
-**Resposta:** (x + 4)(x - 3)
+*[Ver resposta 50 no final do documento]*
 
 **x² - 7x + 10**
 
@@ -4602,7 +4660,7 @@ Números: -5 e -2
 - (-5) + (-2) = -7 ✓
 - (-5) · (-2) = 10 ✓
 
-**Resposta:** (x - 5)(x - 2)
+*[Ver resposta 51 no final do documento]*
 
 ### 6. Diferença de Cubos
 
@@ -4748,7 +4806,7 @@ x - 2 = 0  →  x = 2
 ou
 x - 3 = 0  →  x = 3
 
-**Resposta:** S = {2, 3}
+*[Ver resposta 52 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -4998,6 +5056,36 @@ v_m = (10 + 30) / 2 = 20 m/s
 **Dica:** Se o problema **não menciona tempo**, use Torricelli (v² = v₀² + 2aΔs)!
 
 ### Gráficos do MRUV
+
+
+```
+    GRÁFICOS DO MOVIMENTO RETILÍNEO UNIFORMEMENTE VARIADO (MRUV)
+    
+    1. Velocidade × Tempo          2. Posição × Tempo
+    
+       v                              S
+       │    ╱                          │      ╱╲
+       │   ╱                           │     ╱  ╲
+       │  ╱ (reta)                     │    ╱    ╲ (parábola)
+       │ ╱                             │   ╱      ╲
+       └─────────── t                  └──────────── t
+       
+    3. Aceleração × Tempo
+    
+       a
+       │  ┌─────────┐
+       │  │(constante)
+       │  │         │
+       └──┴─────────┴─── t
+    
+    Características:
+    • v × t: Reta (inclinação = aceleração a)
+    • S × t: Parábola
+    • a × t: Horizontal (aceleração constante)
+    • Área sob v × t = deslocamento
+    • Área sob a × t = variação de velocidade
+```
+
 
 #### Gráfico v × t (Velocidade × Tempo)
 
@@ -5294,7 +5382,7 @@ Dois móveis partem do mesmo ponto. O primeiro tem velocidade constante de 20 m/
 
 t = 0 (início) ou t = 10 s
 
-**Resposta:** Após 10 segundos
+*[Ver resposta 53 no final do documento]*
 
 **Posição do encontro:**
 s = 20(10) = 200 m
@@ -5313,7 +5401,7 @@ v² = v₀² + 2aΔs
 4Δs = 400
 Δs = 100 m
 
-**Resposta:** Deve começar a frear pelo menos 100 m antes do obstáculo.
+*[Ver resposta 54 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -5860,7 +5948,7 @@ Cátion +2 = perdeu 2 elétrons
 Átomo neutro: 20 prótons, 20 elétrons
 Ca²⁺: 20 prótons, 18 elétrons
 
-**Resposta:** 18 elétrons
+*[Ver resposta 55 no final do documento]*
 
 #### Exercício 3
 Faça a distribuição eletrônica do Oxigênio (O, Z = 8).
@@ -5892,7 +5980,7 @@ Emissão alfa (perde 2p e 2n):
 Z: 92 - 2 = 90
 A: 238 - 4 = 234
 
-**Resposta:** ²³⁴Th₉₀ (Tório-234)
+*[Ver resposta 56 no final do documento]*
 
 Equação completa: ²³⁸U₉₂ → ²³⁴Th₉₀ + ⁴He₂
 
@@ -5905,7 +5993,7 @@ Emissão beta (ganha 1p):
 Z: 6 + 1 = 7
 A: 14 (permanece)
 
-**Resposta:** ¹⁴N₇ (Nitrogênio-14)
+*[Ver resposta 57 no final do documento]*
 
 Equação: ¹⁴C₆ → ¹⁴N₇ + ⁰e₋₁
 
@@ -5919,7 +6007,7 @@ N = 100 × (1/2)³
 N = 100 × 1/8
 N = 12,5 g
 
-**Resposta:** 12,5 g
+*[Ver resposta 58 no final do documento]*
 
 #### Exercício 8
 Calcule a massa atômica do cloro, sabendo que na natureza há 75% de ³⁵Cl e 25% de ³⁷Cl.
@@ -5930,7 +6018,7 @@ MA = (2625 + 925) / 100
 MA = 3550 / 100
 MA = 35,5 u
 
-**Resposta:** 35,5 u
+*[Ver resposta 59 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -6440,7 +6528,7 @@ c) **Quantitativa** (correlação estatística entre variáveis)
 #### Exercício 3
 Um pesquisador deseja estudar o cotidiano de trabalhadores em uma fábrica. Ele passa 6 meses trabalhando na fábrica como operário. Que tipo de observação é essa?
 
-**Resposta:** **Observação participante** - o pesquisador integra-se ao grupo estudado.
+*[Ver resposta 60 no final do documento]*
 
 #### Exercício 4
 Identifique a técnica adequada:
@@ -6457,7 +6545,7 @@ c) **Grupo focal** - discussão em grupo
 #### Exercício 5
 Uma pesquisa quer saber se programa social reduziu pobreza em determinado município. Que tipo de pesquisa é?
 
-**Resposta:** **Pesquisa explicativa** - busca explicar causas e efeitos (programa → redução da pobreza).
+*[Ver resposta 61 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -7128,6 +7216,28 @@ f(x) = x
 
 ### Gráfico da Função Afim
 
+
+```
+    GRÁFICO FUNÇÃO AFIM: f(x) = ax + b
+    
+    Se a > 0 (crescente):        Se a < 0 (decrescente):
+    
+         y                            y
+         │         ╱                  │╲
+         │        ╱                   │ ╲
+         │       ╱                    │  ╲
+         │      ╱                     │   ╲
+    ─────┼─────╱────── x         ─────┼────╲──── x
+         │    ╱                        │     ╲
+         │   ╱                         │      ╲
+         │  ╱                          │       ╲
+         
+    • Coeficiente angular a: inclinação
+    • Coeficiente linear b: interseção com eixo y
+    • Raiz (zero): ponto onde f(x) = 0
+```
+
+
 **O gráfico é sempre uma RETA.**
 
 #### Como Construir o Gráfico
@@ -7415,7 +7525,7 @@ C - 1,8C = 32
 -0,8C = 32
 C = -40°C
 
-**Resposta:** -40°C = -40°F
+*[Ver resposta 62 no final do documento]*
 
 #### Exemplo 2: Custo de Táxi
 
@@ -7445,7 +7555,7 @@ A(x) < B(x)
 20 < 0,5x
 x > 40
 
-**Resposta:** Plano A é melhor a partir de 40 minutos.
+*[Ver resposta 63 no final do documento]*
 
 ### Exercícios Resolvidos
 
@@ -7461,7 +7571,7 @@ a = (11 - 5) / (4 - 2) = 6 / 2 = 3
 5 = 6 + b
 b = -1
 
-**Resposta:** f(x) = 3x - 1
+*[Ver resposta 64 no final do documento]*
 
 #### Exercício 2
 Encontre o zero da função f(x) = -2x + 8.
@@ -7471,7 +7581,7 @@ Encontre o zero da função f(x) = -2x + 8.
 2x = 8
 x = 4
 
-**Resposta:** Zero em x = 4
+*[Ver resposta 65 no final do documento]*
 
 #### Exercício 3
 Estude o sinal de f(x) = 3x - 9.
@@ -7494,7 +7604,7 @@ x = 2
 
 y = 2(2) - 1 = 3
 
-**Resposta:** Ponto (2, 3)
+*[Ver resposta 66 no final do documento]*
 
 #### Exercício 5
 Resolva a inequação: 4x - 8 ≤ 0
@@ -7505,7 +7615,7 @@ a = 4 > 0 (crescente)
 
 f(x) ≤ 0 → região negativa ou zero
 
-**Resposta:** x ≤ 2 ou (-∞, 2]
+*[Ver resposta 67 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -7768,7 +7878,7 @@ b) T = 1/f = 1/2 = 0,5 s
 
 c) ω = 2πf = 2π(2) = 4π rad/s ≈ 12,56 rad/s
 
-**Respostas:** a) 2 Hz; b) 0,5 s; c) 4π rad/s
+*[Ver resposta 68 no final do documento]*
 
 #### Exercício 2
 Uma roda de raio 0,5 m gira com velocidade angular de 10 rad/s. Determine:
@@ -7783,7 +7893,7 @@ b) a_cp = ω²R = (10)² × 0,5 = 100 × 0,5 = 50 m/s²
 
 Ou: a_cp = v²/R = 25/0,5 = 50 m/s²
 
-**Respostas:** a) 5 m/s; b) 50 m/s²
+*[Ver resposta 69 no final do documento]*
 
 #### Exercício 3
 Um satélite completa uma órbita circular de raio 7000 km em 90 minutos. Calcule sua velocidade linear.
@@ -7797,7 +7907,7 @@ v = 2πR/T = 2π(7 × 10⁶)/5400
 v = 14π × 10⁶/5400
 v ≈ 8148 m/s ≈ 8,15 km/s
 
-**Resposta:** ≈ 8,15 km/s
+*[Ver resposta 70 no final do documento]*
 
 #### Exercício 4
 (UFMG) Uma roda gigante tem 10 m de raio e completa uma volta em 40 s. A aceleração centrípeta de um passageiro é aproximadamente:
@@ -7811,7 +7921,7 @@ a_cp = 4π²R/T² = 4π²(10)/(40)²
 a_cp = 40π²/1600 = π²/40
 a_cp ≈ 9,87/40 ≈ 0,25 m/s²
 
-**Resposta:** ≈ 0,25 m/s²
+*[Ver resposta 71 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -8085,7 +8195,7 @@ d) Grupo 1, lado esquerdo → **Metal alcalino**
 
 *É o elemento Potássio (K)*
 
-**Respostas:** a) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹; b) Período 4; c) Grupo 1 (IA); d) Metal alcalino
+*[Ver resposta 72 no final do documento]*
 
 #### Exercício 2
 Qual família tem 7 elétrons na camada de valência? Quais suas principais características?
@@ -8100,7 +8210,7 @@ Qual família tem 7 elétrons na camada de valência? Quais suas principais cara
 - Ganham 1 elétron facilmente (formam ânions -1)
 - Elementos: F, Cl, Br, I, At
 
-**Resposta:** Halogênios (Grupo 17/VIIA); muito reativos, formam sais
+*[Ver resposta 73 no final do documento]*
 
 #### Exercício 3
 (UFMG) Um elemento X está no 3º período e tem 5 elétrons na camada de valência. Determine:
@@ -8124,7 +8234,7 @@ b) 5 elétrons → **Grupo 15 (VA)** - Família do Nitrogênio
 
 c) Z = 2 + 8 + 5 = **15** (Fósforo - P)
 
-**Respostas:** a) 1s² 2s² 2p⁶ 3s² 3p³; b) Grupo 15 (VA); c) Z = 15 (Fósforo)
+*[Ver resposta 74 no final do documento]*
 
 #### Exercício 4
 Classifique os elementos em metal, não-metal, semimetal ou gás nobre:
@@ -8143,7 +8253,7 @@ c) Si: localizado na "escada" → **Semimetal**
 
 d) O: canto superior direito → **Não-metal** (ametal)
 
-**Respostas:** a) Metal; b) Gás nobre; c) Semimetal; d) Não-metal
+*[Ver resposta 75 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -8470,7 +8580,7 @@ Uma cidade está localizada a 30° de latitude Sul e 45° de longitude Oeste. Em
 Latitude Sul → **Hemisfério Sul (Meridional)**
 Longitude Oeste → **Hemisfério Ocidental (Oeste)**
 
-**Resposta:** Hemisférios Sul e Ocidental
+*[Ver resposta 76 no final do documento]*
 
 #### Exercício 2
 Calcule a diferença de horário entre duas cidades:
@@ -8485,7 +8595,7 @@ Diferença de tempo: 45° ÷ 15°/h = 3 horas
 
 Cidade B está mais a Oeste → horário atrasado
 
-**Resposta:** 3 horas de diferença (B está 3h atrasada em relação a A)
+*[Ver resposta 77 no final do documento]*
 
 #### Exercício 3
 Em um mapa de escala 1:500.000, a distância entre duas cidades é de 8 cm. Qual a distância real?
@@ -8499,7 +8609,7 @@ Distância real: 8 × 500.000 = 4.000.000 cm
 Convertendo:
 4.000.000 cm = 40.000 m = 40 km
 
-**Resposta:** 40 km
+*[Ver resposta 78 no final do documento]*
 
 #### Exercício 4
 Uma cidade está a 120° Leste de Greenwich. Quando em Greenwich são 12h, que horas são na cidade?
@@ -8512,7 +8622,7 @@ Diferença: 120° ÷ 15° = 8 horas
 
 Horário na cidade: 12h + 8h = 20h
 
-**Resposta:** 20 horas (8h da noite)
+*[Ver resposta 79 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -9291,7 +9401,7 @@ Ponto de interseção:
 4x = 8
 x = 2 → y = 3(2) - 2 = 4
 
-**Resposta:** Concorrentes, intersectam em (2, 4)
+*[Ver resposta 80 no final do documento]*
 
 #### Exercício 2
 Resolva o sistema:
@@ -9311,7 +9421,7 @@ y = 9/5
 
 x = 9/5 + 1 = 14/5
 
-**Resposta:** x = 14/5, y = 9/5 ou (2,8; 1,8)
+*[Ver resposta 81 no final do documento]*
 
 #### Exercício 3
 Calcule f(-3) e f(2) para:
@@ -9329,7 +9439,7 @@ f(-3) = -3 + 5 = 2
 f(2): usa 2x - 1 (pois 2 ≥ 0)
 f(2) = 2(2) - 1 = 3
 
-**Respostas:** f(-3) = 2; f(2) = 3
+*[Ver resposta 82 no final do documento]*
 
 #### Exercício 4
 Resolva: |2x - 4| = 6
@@ -9339,7 +9449,7 @@ Resolva: |2x - 4| = 6
 2x = 10    ou  2x = -2
 x = 5      ou  x = -1
 
-**Resposta:** x = 5 ou x = -1
+*[Ver resposta 83 no final do documento]*
 
 #### Exercício 5
 Resolva a inequação: |x + 1| < 4
@@ -9349,7 +9459,7 @@ Resolva a inequação: |x + 1| < 4
 -4 - 1 < x < 4 - 1
 -5 < x < 3
 
-**Resposta:** -5 < x < 3  ou  x ∈ (-5, 3)
+*[Ver resposta 84 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -9714,7 +9824,7 @@ F_R = ma
 20 = 5a
 a = 4 m/s²
 
-**Resposta:** 4 m/s²
+*[Ver resposta 85 no final do documento]*
 
 #### Exercício 2
 Uma pessoa de 70 kg está em um elevador. Calcule a força normal nos casos:
@@ -9740,7 +9850,7 @@ F_R = ma (para baixo)
 P - N = ma
 N = P - ma = 700 - 140 = 560 N
 
-**Respostas:** a) 700 N; b) 840 N; c) 560 N
+*[Ver resposta 86 no final do documento]*
 
 #### Exercício 3
 Um bloco de 10 kg está em repouso sobre uma superfície (μ_e = 0,4, μ_c = 0,3). Aplica-se uma força horizontal de 30 N. O bloco se move? Se sim, qual a aceleração? (g = 10 m/s²)
@@ -9756,7 +9866,7 @@ Força aplicada (30 N) < Atrito máximo (40 N)
 
 **Bloco NÃO se move** (atrito segura)
 
-**Resposta:** Não se move; a = 0
+*[Ver resposta 87 no final do documento]*
 
 #### Exercício 4
 (Continuação do anterior) Se a força aplicada for 50 N, qual a aceleração?
@@ -9773,7 +9883,7 @@ ma = 50 - 30
 10a = 20
 a = 2 m/s²
 
-**Resposta:** a = 2 m/s²
+*[Ver resposta 88 no final do documento]*
 
 #### Exercício 5
 (UFMG) Um livro está sobre uma mesa. Identifique os pares ação-reação.
@@ -10188,7 +10298,7 @@ b) Na e Cl - mesmo período (Período 3)
 No período, raio diminui para a direita.
 **Na > Cl**
 
-**Respostas:** a) K > Na; b) Na > Cl
+*[Ver resposta 89 no final do documento]*
 
 #### Exercício 2
 Ordene em ordem crescente de energia de ionização: F, Cl, Br
@@ -10200,7 +10310,7 @@ Na família, EI diminui para baixo.
 
 F (Período 2) > Cl (Período 3) > Br (Período 4)
 
-**Resposta:** Br < Cl < F
+*[Ver resposta 90 no final do documento]*
 
 #### Exercício 3
 Qual elemento é mais eletronegativo: C, N, O ou F?
@@ -10212,7 +10322,7 @@ No período, EN aumenta para a direita.
 
 **F > O > N > C**
 
-**Resposta:** F (flúor) - 4,0 na escala de Pauling
+*[Ver resposta 91 no final do documento]*
 
 #### Exercício 4
 (UFMG) Compare o tamanho: Na, Na⁺, Cl, Cl⁻
@@ -10226,7 +10336,7 @@ Na e Cl estão no mesmo período (3): Na > Cl
 
 Ordem: **Na⁺ < Na < Cl < Cl⁻**
 
-**Resposta:** Na⁺ < Na < Cl < Cl⁻
+*[Ver resposta 92 no final do documento]*
 
 #### Exercício 5
 Explique por que a 2ª energia de ionização é sempre maior que a 1ª.
@@ -10241,7 +10351,7 @@ Após remover o 1º elétron:
 
 **Resultado:** 2ª ionização requer MAIS energia (elétron está mais fortemente ligado).
 
-**Resposta:** Porque no cátion os elétrons estão mais próximos e mais fortemente atraídos pelo núcleo.
+*[Ver resposta 93 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -11462,7 +11572,7 @@ a = -2 (concavidade para baixo ∩)
 b = 3
 c = -1
 
-**Resposta:** a=-2, b=3, c=-1; concavidade para baixo
+*[Ver resposta 94 no final do documento]*
 
 #### Exercício 2
 Quantas raízes reais tem f(x) = x² - 2x + 5?
@@ -11470,7 +11580,7 @@ Quantas raízes reais tem f(x) = x² - 2x + 5?
 **Solução:**
 Δ = (-2)² - 4(1)(5) = 4 - 20 = -16 < 0
 
-**Resposta:** Nenhuma raiz real (Δ < 0)
+*[Ver resposta 95 no final do documento]*
 
 #### Exercício 3
 As raízes de uma função quadrática são 2 e 5. Se a = 1, qual a função?
@@ -11483,7 +11593,7 @@ f(x) = (x - 2)(x - 5)
 f(x) = x² - 5x - 2x + 10
 f(x) = x² - 7x + 10
 
-**Resposta:** f(x) = x² - 7x + 10
+*[Ver resposta 96 no final do documento]*
 
 **Verificação usando relações:**
 x₁ + x₂ = 2 + 5 = 7 = -b/a → b = -7 ✓
@@ -11501,7 +11611,7 @@ y_v = f(3) = -9 + 18 - 5 = 4
 
 **Valor máximo:** 4 (no ponto x = 3)
 
-**Resposta:** Máximo = 4 em x = 3
+*[Ver resposta 97 no final do documento]*
 
 #### Exercício 5
 Uma função quadrática tem vértice V(2, -1) e passa pelo ponto (0, 3). Determine a função.
@@ -11522,7 +11632,7 @@ a = 1
 Expandindo:
 f(x) = x² - 4x + 4 - 1 = x² - 4x + 3
 
-**Resposta:** f(x) = x² - 4x + 3
+*[Ver resposta 98 no final do documento]*
 
 ### Dicas para a Prova
 
@@ -11678,7 +11788,7 @@ Subtraindo a 2ª da 1ª:
 Substituindo em -a + b = -4:
 -3 + b = -4 → b = -1
 
-**Resposta:** f(x) = 3x - 1
+*[Ver resposta 99 no final do documento]*
 
 **Verificação:**
 f(2) = 6 - 1 = 5 ✓
@@ -11697,7 +11807,7 @@ y = ax + b
 3 = 2(1) + b
 b = 1
 
-**Resposta:** y = 2x + 1 ou f(x) = 2x + 1
+*[Ver resposta 100 no final do documento]*
 
 #### Exercício 3
 Determine o zero da função f(x) = -3x + 12.
@@ -11709,7 +11819,7 @@ f(x) = 0
 -3x = -12
 x = 4
 
-**Resposta:** x = 4
+*[Ver resposta 101 no final do documento]*
 
 #### Exercício 4
 Resolva a inequação: 2x - 5 > 3x + 1
@@ -11721,7 +11831,7 @@ Resolva a inequação: 2x - 5 > 3x + 1
 -x > 6
 x < -6  (inverte ao multiplicar por -1)
 
-**Resposta:** x < -6  ou  x ∈ (-∞, -6)
+*[Ver resposta 102 no final do documento]*
 
 #### Exercício 5
 Determine para quais valores de x a função f(x) = -2x + 8 é positiva.
@@ -11746,7 +11856,7 @@ a = -2 < 0 (decrescente)
 
 f(x) > 0 quando x < 4
 
-**Resposta:** x < 4  ou  x ∈ (-∞, 4)
+*[Ver resposta 103 no final do documento]*
 
 #### Exercício 6
 (UFMG) Duas funções afins f(x) = 2x + 1 e g(x) = -x + 7 se intersectam em qual ponto?
@@ -11760,7 +11870,7 @@ x = 2
 
 y = 2(2) + 1 = 5
 
-**Resposta:** Ponto (2, 5)
+*[Ver resposta 104 no final do documento]*
 
 ### Bloco 2: Função Quadrática - Exercícios
 
@@ -11778,7 +11888,7 @@ x = (7 ± 3)/2
 x₁ = 10/2 = 5
 x₂ = 4/2 = 2
 
-**Resposta:** x = 2 ou x = 5
+*[Ver resposta 105 no final do documento]*
 
 **Alternativa - Fatoração:**
 x² - 7x + 10 = 0
@@ -11801,7 +11911,7 @@ y_v = f(2) = 2(4) - 8(2) + 6 = 8 - 16 + 6 = -2
 
 Como a = 2 > 0, é ponto de **mínimo**.
 
-**Resposta:** V(2, -2) - ponto de mínimo
+*[Ver resposta 106 no final do documento]*
 
 #### Exercício 9
 Para quais valores de k a equação x² - 4x + k = 0 tem duas raízes reais e distintas?
@@ -11818,7 +11928,7 @@ Condição: 16 - 4k > 0
 16 > 4k
 k < 4
 
-**Resposta:** k < 4
+*[Ver resposta 107 no final do documento]*
 
 #### Exercício 10
 Uma função quadrática tem raízes 1 e 4, e seu gráfico passa pelo ponto (0, -8). Determine a função.
@@ -11839,7 +11949,7 @@ Expandindo:
 f(x) = -2(x² - 5x + 4)
 f(x) = -2x² + 10x - 8
 
-**Resposta:** f(x) = -2x² + 10x - 8
+*[Ver resposta 108 no final do documento]*
 
 **Verificação:**
 f(0) = -8 ✓
@@ -11857,7 +11967,7 @@ x_v = -4/2(-1) = 2
 
 y_v = f(2) = -4 + 8 + 5 = 9
 
-**Resposta:** Valor máximo = 9 (em x = 2)
+*[Ver resposta 109 no final do documento]*
 
 #### Exercício 12
 (UFMG) O gráfico da função f(x) = x² - 6x + 8 está inteiramente acima do eixo x?
@@ -11870,7 +11980,7 @@ Para estar acima do eixo x, não pode ter raízes reais (Δ < 0).
 
 Tem 2 raízes reais → **cruza** o eixo x.
 
-**Resposta:** Não, pois Δ > 0 (tem raízes reais, cruza o eixo x)
+*[Ver resposta 110 no final do documento]*
 
 ### Bloco 3: Exercícios Integrados
 
@@ -11900,7 +12010,7 @@ Para cada x, calcular y = 2x - 1:
 y₁ = 2(3 + √5) - 1 = 5 + 2√5
 y₂ = 2(3 - √5) - 1 = 5 - 2√5
 
-**Resposta:** Pontos (3+√5, 5+2√5) e (3-√5, 5-2√5)
+*[Ver resposta 111 no final do documento]*
 
 #### Exercício 14
 Uma bola é lançada verticalmente para cima. Sua altura h (em metros) em função do tempo t (em segundos) é dada por h(t) = -5t² + 20t + 1.
@@ -11939,7 +12049,7 @@ t = (20 ± √420)/10
 t₁ = (20 + 20,49)/10 ≈ 4,05 s (válido)
 t₂ = (20 - 20,49)/10 ≈ -0,05 s (descartado: negativo)
 
-**Respostas:** 
+*[Ver resposta 112 no final do documento]*
 a) 21 m
 b) 2 s
 c) aproximadamente 4,05 s
@@ -11967,7 +12077,7 @@ a = 1 > 0 (parábola para cima)
 **4. f(x) ≤ 0:**
 Região negativa ou zero (dentro da parábola)
 
-**Resposta:** 2 ≤ x ≤ 3  ou  x ∈ [2, 3]
+*[Ver resposta 113 no final do documento]*
 
 #### Exercício 16
 (UFMG) A soma e o produto das raízes de 2x² - 6x + k = 0 são, respectivamente, 3 e 2. Determine k.
@@ -11982,7 +12092,7 @@ Produto: x₁ · x₂ = c/a
 2 = k/2
 k = 4
 
-**Resposta:** k = 4
+*[Ver resposta 114 no final do documento]*
 
 **Verificação:**
 2x² - 6x + 4 = 0
@@ -12009,7 +12119,7 @@ f(x) = (x - 1)² - 4
 f(x) = x² - 2x + 1 - 4
 f(x) = x² - 2x - 3
 
-**Resposta:** f(x) = x² - 2x - 3
+*[Ver resposta 115 no final do documento]*
 
 #### Exercício 18
 Para que valores de m a parábola y = x² - 2mx + 9 não intercepta o eixo x?
@@ -12027,7 +12137,7 @@ Condição: 4m² - 36 < 0
 m² < 9
 -3 < m < 3
 
-**Resposta:** -3 < m < 3  ou  m ∈ (-3, 3)
+*[Ver resposta 116 no final do documento]*
 
 ### Dicas Finais para Resolução
 
@@ -12821,6 +12931,243 @@ ROMA - PERÍODOS:
 Você concluiu as **29 aulas** da primeira semana de estudos (18/11 a 23/11)!
 
 **Progresso:** 29/96 lições concluídas (30,2%)
+
+
+---
+
+# Respostas dos Exercícios
+
+**1.** {1, 2, 3, 4, 5, 6, 7, 8}
+
+**2.** {4, 5}
+
+**3.** {1, 2, 3}
+
+**4.** {6, 7, 8}
+
+**5.** 20 alunos
+
+**6.** {x ∈ ℝ | −2 ≤ x ≤ 5}
+
+**7.** {x ∈ ℝ | x > 3}
+
+**8.** {x ∈ ℝ | x ≤ 1}
+
+**9.** Após 36 minutos
+
+**10.** 12 canetas por pacote
+
+**11.** 60 segundos (1 minuto)
+
+**12.** 65
+
+**13.** vₓ = 10 m, vᵧ ≈ 17,3 m
+
+**14.** 10 m
+
+**15.** 50 km a 53,1° do norte em direção ao leste (ou nordeste)
+
+**16.** 20 m/s
+
+**17.** Flutua, pois 0,92 < 1,00
+
+**18.** Provavelmente ferro ou liga ferrosa.
+
+**19.** 180 g de sal
+
+**20.** 1,4 kg
+
+**21.** Porque a densidade do gelo (0,92 g/cm³) é menor que a densidade da água líquida (1,00 g/cm³). Essa propriedade é incomum e fundamental para a vida aquática.
+
+**22.** Antes. A pressão atmosférica é menor em altitudes elevadas, portanto a temperatura de ebulição diminui (aproximadamente 95°C a 1500 m).
+
+**23.** Porque o petróleo é uma mistura de muitos hidrocarbonetos com temperaturas de ebulição próximas. A destilação fracionada, com sua coluna de fracionamento, permite separar eficientemente esses componentes com TEs similares. A destilação simples não seria eficiente para isso.
+
+**24.** Evaporação. A água do mar é colocada em tanques rasos e exposta ao sol. A água evapora naturalmente, deixando o sal cristalizado.
+
+**25.** R$ 100
+
+**26.** 6 dias
+
+**27.** R$ 48
+
+**28.** 3 dias
+
+**29.** Maria tem 28 anos.
+
+**30.** 100 km
+
+**31.** 2,5 torneiras. Como não existe meia torneira, seriam necessárias 3 torneiras.
+
+**32.** R$ 150
+
+**33.** Os carros se encontram após 20 s na posição 400 m.
+
+**34.** 25 segundos
+
+**35.** Modelo de Thomson
+
+**36.** Experimento da lâmina de ouro (bombardeamento com partículas alfa)
+
+**37.** Segundo a física clássica, elétrons em movimento circular deveriam emitir radiação eletromagnética, perder energia e cair no núcleo. Como isso não acontece, o modelo não explicava por que o átomo é estável.
+
+**38.** Modelo de Bohr (Rutherford-Bohr)
+
+**39.** 18 elétrons
+
+**40.** ERRO. No modelo de Dalton, o átomo era considerado indivisível, portanto não possuía partículas subatômicas. Os prótons e elétrons foram descobertos posteriormente (elétron por Thomson, próton por Rutherford).
+
+**41.** **Válido.** Se as premissas são verdadeiras, a conclusão necessariamente é verdadeira.
+
+**42.** **Ad Hominem** (ataque à pessoa). O fato de não ser político não invalida a crítica.
+
+**43.** **Falso Dilema**. Pode-se ter ressalvas ao projeto sem ser contra o progresso.
+
+**44.** **Inválido.** "Alguns" não significa "todos". João pode ser um político honesto.
+
+**45.** (x + 3)²
+
+**46.** (x - 5)²
+
+**47.** (2x + 3)²
+
+**48.** (x + 3)(x + 4)
+
+**49.** (x - 2)(x - 3)
+
+**50.** (x + 4)(x - 3)
+
+**51.** (x - 5)(x - 2)
+
+**52.** S = {2, 3}
+
+**53.** Após 10 segundos
+
+**54.** Deve começar a frear pelo menos 100 m antes do obstáculo.
+
+**55.** 18 elétrons
+
+**56.** ²³⁴Th₉₀ (Tório-234)
+
+**57.** ¹⁴N₇ (Nitrogênio-14)
+
+**58.** 12,5 g
+
+**59.** 35,5 u
+
+**60.** **Observação participante** - o pesquisador integra-se ao grupo estudado.
+
+**61.** **Pesquisa explicativa** - busca explicar causas e efeitos (programa → redução da pobreza).
+
+**62.** -40°C = -40°F
+
+**63.** Plano A é melhor a partir de 40 minutos.
+
+**64.** f(x) = 3x - 1
+
+**65.** Zero em x = 4
+
+**66.** Ponto (2, 3)
+
+**67.** x ≤ 2 ou (-∞, 2]
+
+**68.** a) 2 Hz; b) 0,5 s; c) 4π rad/s
+
+**69.** a) 5 m/s; b) 50 m/s²
+
+**70.** ≈ 8,15 km/s
+
+**71.** ≈ 0,25 m/s²
+
+**72.** a) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹; b) Período 4; c) Grupo 1 (IA); d) Metal alcalino
+
+**73.** Halogênios (Grupo 17/VIIA); muito reativos, formam sais
+
+**74.** a) 1s² 2s² 2p⁶ 3s² 3p³; b) Grupo 15 (VA); c) Z = 15 (Fósforo)
+
+**75.** a) Metal; b) Gás nobre; c) Semimetal; d) Não-metal
+
+**76.** Hemisférios Sul e Ocidental
+
+**77.** 3 horas de diferença (B está 3h atrasada em relação a A)
+
+**78.** 40 km
+
+**79.** 20 horas (8h da noite)
+
+**80.** Concorrentes, intersectam em (2, 4)
+
+**81.** x = 14/5, y = 9/5 ou (2,8; 1,8)
+
+**82.** f(-3) = 2; f(2) = 3
+
+**83.** x = 5 ou x = -1
+
+**84.** -5 < x < 3  ou  x ∈ (-5, 3)
+
+**85.** 4 m/s²
+
+**86.** a) 700 N; b) 840 N; c) 560 N
+
+**87.** Não se move; a = 0
+
+**88.** a = 2 m/s²
+
+**89.** a) K > Na; b) Na > Cl
+
+**90.** Br < Cl < F
+
+**91.** F (flúor) - 4,0 na escala de Pauling
+
+**92.** Na⁺ < Na < Cl < Cl⁻
+
+**93.** Porque no cátion os elétrons estão mais próximos e mais fortemente atraídos pelo núcleo.
+
+**94.** a=-2, b=3, c=-1; concavidade para baixo
+
+**95.** Nenhuma raiz real (Δ < 0)
+
+**96.** f(x) = x² - 7x + 10
+
+**97.** Máximo = 4 em x = 3
+
+**98.** f(x) = x² - 4x + 3
+
+**99.** f(x) = 3x - 1
+
+**100.** y = 2x + 1 ou f(x) = 2x + 1
+
+**101.** x = 4
+
+**102.** x < -6  ou  x ∈ (-∞, -6)
+
+**103.** x < 4  ou  x ∈ (-∞, 4)
+
+**104.** Ponto (2, 5)
+
+**105.** x = 2 ou x = 5
+
+**106.** V(2, -2) - ponto de mínimo
+
+**107.** k < 4
+
+**108.** f(x) = -2x² + 10x - 8
+
+**109.** Valor máximo = 9 (em x = 2)
+
+**110.** Não, pois Δ > 0 (tem raízes reais, cruza o eixo x)
+
+**111.** Pontos (3+√5, 5+2√5) e (3-√5, 5-2√5)
+
+**112.** 
+
+**113.** 2 ≤ x ≤ 3  ou  x ∈ [2, 3]
+
+**114.** k = 4
+
+**115.** f(x) = x² - 2x - 3
+
+**116.** -3 < m < 3  ou  m ∈ (-3, 3)
 
 **O que você estudou esta semana:**
 - ✅ Matemática: Conjuntos, Razão, Notação, Álgebra, Função Afim (1 e 2), Função Quadrática, Exercícios
