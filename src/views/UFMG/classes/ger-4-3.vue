@@ -4,7 +4,7 @@ import { ref } from "vue";
 const code = "ger-4-3";
 const title = "Física: Grandezas Vetoriais, Escalares e Vetores";
 const subject = "geral";
-const themes = [];
+const themes: string[] = [];
 const dates = ["2025-12-14"];
 const lessonContent = `<div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">

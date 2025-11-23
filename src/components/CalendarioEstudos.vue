@@ -63,7 +63,7 @@ const getMonthName = (date: Date): string => {
     "Nov",
     "Dez",
   ];
-  return months[date.getMonth()];
+  return months[date.getMonth()] ?? "Jan";
 };
 
 // Group dates by month
@@ -80,8 +80,8 @@ const datesByMonth = computed(() => {
 
   return Array.from(grouped.entries()).map(([key, dates]) => ({
     monthKey: key,
-    monthName: getMonthName(dates[0]),
-    year: dates[0].getFullYear(),
+    monthName: getMonthName(dates[0]!),
+    year: dates[0]!.getFullYear(),
     dates: dates,
   }));
 });

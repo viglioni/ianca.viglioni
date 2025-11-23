@@ -93,8 +93,8 @@ const currentTasks = computed(() => {
   const codesToday = schedule[dateKey] || [];
 
   return codesToday.map(code => ({
-    name: codes[code].title,
-    subject: codes[code].subject,
+    name: codes[code]?.title ?? "",
+    subject: codes[code]?.subject ?? "",
     code: code
   }));
 });

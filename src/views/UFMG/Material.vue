@@ -90,7 +90,7 @@ const totalDuration = computed(() => {
   const data = studySchedule as any;
   const codes = data.codes as Record<string, CodeData>;
   return filteredCodes.value.reduce((total, code) => {
-    return total + (codes[code].duration || 0);
+    return total + (codes[code]?.duration || 0);
   }, 0);
 });
 
@@ -109,7 +109,7 @@ const allThemes = computed(() => {
   // Filter themes by selected subject
   if (selectedSubject.value) {
     themesList = themesList.filter(theme =>
-      themes[theme].subjects.includes(selectedSubject.value)
+      themes[theme]?.subjects.includes(selectedSubject.value)
     );
   }
 
@@ -127,8 +127,8 @@ const getInitialDate = (): string => {
   today.setHours(0, 0, 0, 0);
   const todayStr = formatDateToISO(today);
 
-  const firstDate = allScheduleDates[0];
-  const lastDate = allScheduleDates[allScheduleDates.length - 1];
+  const firstDate = allScheduleDates[0]!;
+  const lastDate = allScheduleDates[allScheduleDates.length - 1]!;
 
   // If today is before the first date, return the first date
   if (todayStr < firstDate) {
@@ -220,7 +220,7 @@ const filteredCodes = computed(() => {
   // Filter by subject
   if (selectedSubject.value) {
     resultCodes = resultCodes.filter(
-      (code) => codes[code].subject === selectedSubject.value
+      (code) => codes[code]?.subject === selectedSubject.value
     );
   }
 
@@ -233,7 +233,7 @@ const filteredCodes = computed(() => {
   // Filter by date
   if (selectedDate.value) {
     resultCodes = resultCodes.filter((code) =>
-      codes[code].dates?.includes(selectedDate.value)
+      codes[code]?.dates?.includes(selectedDate.value)
     );
   }
 
@@ -241,7 +241,7 @@ const filteredCodes = computed(() => {
   if (searchText.value) {
     const normalizedSearch = normalizeText(searchText.value);
     resultCodes = resultCodes.filter((code) => {
-      const normalizedTitle = normalizeText(codes[code].title);
+      const normalizedTitle = normalizeText(codes[code]?.title ?? "");
       const normalizedCode = normalizeText(code);
       return (
         normalizedTitle.includes(normalizedSearch) ||

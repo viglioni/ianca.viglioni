@@ -4,7 +4,7 @@ import { ref } from "vue";
 const code = "ger-4-8";
 const title = "Química: Propriedades das Substâncias";
 const subject = "geral";
-const themes = [];
+const themes: string[] = [];
 const dates = ["2025-12-14"];
 const lessonContent = `<div class="outline-text-3" id="text-1-4">
 <ul class="org-ul">

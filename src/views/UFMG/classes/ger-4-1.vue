@@ -4,7 +4,7 @@ import { ref } from "vue";
 const code = "ger-4-1";
 const title = "Matemática: Conjuntos";
 const subject = "geral";
-const themes = [];
+const themes: string[] = [];
 const dates = ["2025-12-13"];
 const lessonContent = `<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
