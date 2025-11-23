@@ -25,7 +25,7 @@
 
 ## SEMANA 1: 18/11 - 23/11
 
-### Segunda-feira, 18/11
+### Terça-feira, 18/11
 - [ ] Matemática - Conjuntos (operações, subconjuntos, intervalos, conjuntos numéricos) - 120min
 - [ ] Matemática - MMC e MDC - 60min
 - [ ] Física - Grandezas vetoriais, escalares e vetores - 90min
@@ -36,7 +36,7 @@
 
 ---
 
-### Terça-feira, 19/11
+### Quarta-feira, 19/11
 - [ ] Matemática - Razão, proporção e proporcionalidade - 90min
 - [ ] Matemática - Notação científica, algarismos significativos, estimativa - 60min
 - [ ] Física - Cinemática: MRU (conceitos, equações, gráficos) - 90min
@@ -47,7 +47,7 @@
 
 ---
 
-### Quarta-feira, 20/11 - **FERIADO (Dia da Consciência Negra)**
+### Quinta-feira, 20/11 - **FERIADO (Dia da Consciência Negra)**
 - [ ] Matemática - Expressões algébricas, produtos notáveis e fatoração - 120min
 - [ ] Física - Cinemática: MRUV e queda livre - 90min
 - [ ] Química - Estrutura atômica (prótons, elétrons, nêutrons) e radioatividade - 90min
@@ -58,7 +58,7 @@
 
 ---
 
-### Quinta-feira, 21/11
+### Sexta-feira, 21/11
 - [ ] Matemática - Função afim (definição, gráfico, zero, crescimento/decrescimento) - 120min
 - [ ] Física - Movimento circular - 75min
 - [ ] Química - Tabela periódica (organização, grupos, períodos, símbolo, número atômico) - 90min
@@ -69,7 +69,7 @@
 
 ---
 
-### Sexta-feira, 22/11
+### Sábado, 22/11
 - [ ] Matemática - Função afim (taxa de variação, inequações, sistemas lineares) - 120min
 - [ ] Física - Leis de Newton (1ª, 2ª e 3ª leis) - 90min
 - [ ] Química - Propriedades periódicas (raio atômico, energia de ionização, massa atômica) - 90min
@@ -80,7 +80,7 @@
 
 ---
 
-### Sábado, 23/11 - 🔍 CHECKPOINT SEMANAL 1
+### Domingo, 23/11 - 🔍 CHECKPOINT SEMANAL 1
 - [ ] **REVISAR PENDÊNCIAS DA SEMANA** - verificar itens não concluídos
 - [ ] Matemática - Função quadrática (definição, coeficientes, gráfico, vértice) - 120min
 - [ ] Matemática - Exercícios de conjuntos e função afim - 90min
@@ -94,7 +94,7 @@
 
 ## PERÍODO DE FÉRIAS: 26/11 - 02/12 (2h/dia - incluindo domingo)
 
-### Terça-feira, 26/11
+### Quarta-feira, 26/11
 - [ ] Matemática - Função quadrática (zeros, máximo/mínimo, estudo do sinal) - 90min
 - [ ] Química - Ligações químicas: iônica - 30min
 
@@ -102,7 +102,7 @@
 
 ---
 
-### Quarta-feira, 27/11
+### Quinta-feira, 27/11
 - [ ] Matemática - Função quadrática (inequações e sistemas) - 90min
 - [ ] Química - Ligações químicas: covalente - 30min
 
@@ -110,7 +110,7 @@
 
 ---
 
-### Quinta-feira, 28/11
+### Sexta-feira, 28/11
 - [ ] Matemática - **FOCO** Função exponencial (potenciação, propriedades) - 90min
 - [ ] Química - Ligações químicas: metálica - 30min
 
@@ -118,7 +118,7 @@
 
 ---
 
-### Sexta-feira, 29/11
+### Sábado, 29/11
 - [ ] Matemática - **FOCO** Função exponencial (equações, gráficos, crescimento/decrescimento) - 90min
 - [ ] Física - Força peso, normal e atrito - 30min
 
@@ -126,7 +126,7 @@
 
 ---
 
-### Sábado, 30/11
+### Domingo, 30/11
 - [ ] Matemática - **FOCO** Função logarítmica (definição, logaritmo decimal e natural) - 90min
 - [ ] Física - Plano inclinado - 30min
 
@@ -134,7 +134,7 @@
 
 ---
 
-### Domingo, 01/12 *(ESTUDO EXCEPCIONAL - FÉRIAS)*
+### Segunda-feira, 01/12
 - [ ] Matemática - **FOCO** Função logarítmica (propriedades, equações logarítmicas) - 90min
 - [ ] Química - Propriedades das substâncias segundo ligações químicas - 30min
 
@@ -142,7 +142,7 @@
 
 ---
 
-### Segunda-feira, 02/12
+### Terça-feira, 02/12
 - [ ] Matemática - **FOCO** Função logarítmica (gráficos) - 60min
 - [ ] Matemática - **FOCO** Relação entre funções exponencial e logarítmica - 60min
 
@@ -152,7 +152,7 @@
 
 ## SEMANA 2: 03/12 - 07/12 (VOLTA DAS FÉRIAS)
 
-### Terça-feira, 03/12
+### Quarta-feira, 03/12
 - [ ] Matemática - Geometria: áreas de figuras planas (retângulo, quadrado, paralelogramo, trapézio, losango) - 120min
 - [ ] Física - Hidrostática: pressão em sólidos e fluidos - 90min
 - [ ] Química - **FOCO** Reações químicas (evidências, equações, balanceamento) - 90min
@@ -163,7 +163,7 @@
 
 ---
 
-### Quarta-feira, 04/12
+### Quinta-feira, 04/12
 - [ ] Matemática - Geometria: áreas (triângulo, círculo) - 90min
 - [ ] Matemática - Teorema de Pitágoras e relações métricas no triângulo retângulo - 90min
 - [ ] Física - Princípio de Pascal e Teorema de Stevin - 90min
@@ -174,7 +174,7 @@
 
 ---
 
-### Quinta-feira, 05/12
+### Sexta-feira, 05/12
 - [ ] Matemática - Trigonometria: seno, cosseno, tangente de ângulos notáveis - 90min
 - [ ] Matemática - Retas paralelas e transversais (proporcionalidade) - 60min
 - [ ] Física - Princípio de Arquimedes (empuxo) - 60min
@@ -186,7 +186,7 @@
 
 ---
 
-### Sexta-feira, 06/12
+### Sábado, 06/12
 - [ ] Matemática - Sistema Internacional de Medidas e conversões - 60min
 - [ ] Matemática - **REVISÃO** Função exponencial e logarítmica - 90min
 - [ ] Física - **REVISÃO** Cinemática completa (MRU, MRUV, queda livre, circular) - 90min
@@ -198,7 +198,7 @@
 
 ---
 
-### Sábado, 07/12 - 🔍 CHECKPOINT SEMANAL 2
+### Domingo, 07/12 - 🔍 CHECKPOINT SEMANAL 2
 - [ ] **REVISAR PENDÊNCIAS DA SEMANA**
 - [ ] Matemática - **REVISÃO INTENSA** Todas as funções (afim, quadrática, exp, log) - 150min
 - [ ] Matemática - Questões discursivas e redação matemática - 90min
@@ -213,7 +213,7 @@
 
 ## SEMANA 3: 09/12 - 13/12 (RETA FINAL)
 
-### Segunda-feira, 09/12
+### Terça-feira, 09/12
 - [ ] Matemática - **REVISÃO FINAL** Conjuntos, MMC/MDC, razão e proporção - 90min
 - [ ] Matemática - **REVISÃO FINAL** Função afim e quadrática - 90min
 - [ ] Física - **REVISÃO FINAL** Hidrostática completa - 90min
@@ -225,7 +225,7 @@
 
 ---
 
-### Terça-feira, 10/12
+### Quarta-feira, 10/12
 - [ ] Matemática - **REVISÃO FINAL** Função exponencial e logarítmica - 120min
 - [ ] Matemática - **REVISÃO FINAL** Geometria e trigonometria - 90min
 - [ ] Física - **REVISÃO FINAL** Cinemática + Dinâmica - 90min
@@ -236,7 +236,7 @@
 
 ---
 
-### Quarta-feira, 11/12
+### Quinta-feira, 11/12
 - [ ] Matemática - **REVISÃO GERAL** Todos os tópicos (foco em dúvidas) - 120min
 - [ ] Física - **REVISÃO GERAL** Todos os tópicos (foco em fórmulas) - 90min
 - [ ] Química - **REVISÃO GERAL** Todos os tópicos - 90min
@@ -248,7 +248,7 @@
 
 ---
 
-### Quinta-feira, 12/12
+### Sexta-feira, 12/12
 - [ ] Biologia - **REVISÃO RÁPIDA** Genética (conceitos básicos, Mendel, mitose, meiose, crossing over) - 45min
 - [ ] Biologia - **REVISÃO GERAL** Todos os tópicos - 45min
 - [ ] Português - **REVISÃO** Gramática completa - 45min
@@ -262,7 +262,7 @@
 
 ---
 
-### Sexta-feira, 13/12 - 📚 VÉSPERA DA PROVA
+### Sábado, 13/12 - 📚 VÉSPERA DA PROVA
 - [ ] Revisão flash de Matemática (fórmulas essenciais) - 45min
 - [ ] Revisão flash de Física (fórmulas essenciais) - 45min
 - [ ] Revisão flash de Química (tabela periódica, mol, fórmulas) - 45min
@@ -274,7 +274,7 @@
 
 ---
 
-## Sábado, 14/12 - 🎯 DIA DA PROVA
+## Domingo, 14/12 - 🎯 DIA DA PROVA
 
 ### Manhã da Prova
 - [ ] Café da manhã reforçado
