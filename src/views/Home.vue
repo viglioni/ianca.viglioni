@@ -8,6 +8,10 @@ import { RouterLink } from "vue-router";
       <h1 class="home-title">Mundinho Ianca Viglioni</h1>
       <div class="links-container">
         <div class="links-wrapper">
+          <RouterLink to="/uerj" class="nav-link nav-link-large group">
+            <span class="nav-link-text nav-link-text-large"> UERJ 2026 </span>
+            <div class="nav-link-hover"></div>
+          </RouterLink>
           <RouterLink to="/ufmg" class="nav-link group">
             <span class="nav-link-text"> UFMG Seriado </span>
             <div class="nav-link-hover"></div>
@@ -78,6 +82,14 @@ import { RouterLink } from "vue-router";
   @apply relative z-10 text-4xl font-bold uppercase tracking-wider;
   font-family: "Alumni Sans Pinstripe", sans-serif;
   text-shadow: 2px 2px 0 #000;
+}
+
+.nav-link-large {
+  @apply px-16 py-8;
+}
+
+.nav-link-text-large {
+  @apply text-5xl md:text-6xl;
 }
 
 .nav-link-hover {

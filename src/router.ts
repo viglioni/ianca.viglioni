@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import UFMGLayout from "@/layouts/UFMGLayout.vue";
 import UFMG from "./views/UFMG.vue";
+import UERJ from "./views/UERJ.vue";
 import Plano from "./views/UFMG/Plano.vue";
 import PlanoSidebar from "./views/UFMG/PlanoSidebar.vue";
 import Material from "./views/UFMG/Material.vue";
@@ -15,6 +16,11 @@ export const router = createRouter({
       path: "/",
       name: "home",
       component: Home,
+    },
+    {
+      path: "/uerj",
+      name: "UERJ",
+      component: UERJ,
     },
     {
       path: "/ufmg",
