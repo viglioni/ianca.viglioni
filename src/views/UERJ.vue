@@ -1,297 +1,288 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed } from "vue";
+import scheduleData from "@/data/uerj-schedule.json";
 
-const selectedMonth = ref("fevereiro");
+const selectedWeek = ref(1);
 
-const months = [
-  { id: "fevereiro", name: "Fevereiro" },
-  { id: "marco", name: "Março" },
-  { id: "abril", name: "Abril" },
-  { id: "maio", name: "Maio" },
-  { id: "junho", name: "Junho" },
-  { id: "julho", name: "Julho" },
-];
+const februaryWeeks = computed(() => scheduleData.months.february.weeks);
+const currentWeek = computed(() =>
+  februaryWeeks.value.find((w: any) => w.id === selectedWeek.value)
+);
 </script>
 
 <template>
   <div class="uerj-container">
-    <!-- Header com logo -->
-    <div class="header-section">
-      <img src="/uerj.bg.webp" alt="UERJ Logo" class="logo" />
-    </div>
-
-    <!-- Overlay com conteúdo -->
     <div class="uerj-overlay">
       <div class="content-wrapper">
+        <!-- Header com logo -->
+        <div class="logo-section">
+          <img src="/uerj.bg.webp" alt="UERJ Logo" class="logo" />
+        </div>
+
         <!-- Título -->
         <div class="title-section">
           <h1 class="main-title">UERJ 2026</h1>
           <p class="subtitle">Cronograma de Estudos</p>
-          <p class="period">10/02/2026 a 01/08/2026</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <strong>Início:</strong> 10/02/2026
+            </div>
+            <div class="info-item">
+              <strong>Término:</strong> 01/08/2026
+            </div>
+            <div class="info-item">
+              <strong>Total:</strong> ~1.450 horas
+            </div>
+          </div>
+        </div>
+
+        <!-- Lembre-se -->
+        <div class="content-section" id="intro">
+          <h2 class="section-heading">📖 Lembre-se</h2>
+          <ul class="remember-list">
+            <li>🎯 Matemática é estudada <strong>todos os dias</strong></li>
+            <li>
+              ⚠️ Física e Química <strong>nunca</strong> no mesmo dia
+            </li>
+            <li>📊 Sábados: revisão semanal (6h)</li>
+            <li>🌴 Domingos: descanso total</li>
+            <li>
+              💪 Abril: carga reduzida (4 dias/semana, 5h/dia, sem simulados)
+            </li>
+            <li>🔥 Maio em diante: intensificação (2 UERJ + 1 ENEM por semana)</li>
+          </ul>
         </div>
 
         <!-- Estrutura Semanal -->
         <div class="content-section">
           <h2 class="section-heading">📋 Estrutura Semanal Padrão</h2>
 
-          <div class="week-grid">
-            <div class="schedule-card">
-              <h3 class="schedule-title">Segunda a Sexta (9h/dia)</h3>
-              <ul class="schedule-list">
-                <li><strong>08:00-12:00</strong> Matemática (4h)</li>
+          <div class="week-structure">
+            <div class="day-block">
+              <h3 class="day-title">Segunda a Sexta (9h/dia)</h3>
+              <ul class="compact-list">
+                <li><strong>08:00-12:00</strong> (4h) Matemática</li>
                 <li><strong>12:00-13:00</strong> Almoço</li>
-                <li><strong>13:00-16:30</strong> Química/Física/Biologia (3,5h)</li>
+                <li><strong>13:00-16:30</strong> (3,5h) Química/Física/Biologia</li>
                 <li><strong>16:30-17:00</strong> Intervalo</li>
-                <li><strong>17:00-18:00</strong> Humanas (1h)</li>
-                <li><strong>18:00-18:30</strong> Flashcards Anki (0,5h)</li>
+                <li><strong>17:00-18:00</strong> (1h) Humanas</li>
+                <li><strong>18:00-18:30</strong> (0,5h) Anki</li>
               </ul>
             </div>
 
-            <div class="schedule-card">
-              <h3 class="schedule-title">Sábado (6h)</h3>
-              <ul class="schedule-list">
-                <li><strong>09:00-15:00</strong> Revisão semanal</li>
-                <li>Análise de erros</li>
-                <li>Flashcards</li>
-              </ul>
+            <div class="day-block">
+              <h3 class="day-title">Sábado (6h)</h3>
+              <p class="content-text">
+                Revisão semanal + Análise de erros + Flashcards
+              </p>
             </div>
 
-            <div class="schedule-card highlight">
-              <h3 class="schedule-title">Domingo</h3>
-              <p class="rest-day">🌟 Descanso total</p>
+            <div class="day-block rest">
+              <h3 class="day-title">Domingo</h3>
+              <p class="rest-day">🌴 Descanso total</p>
             </div>
           </div>
         </div>
 
-        <!-- Rotação de Disciplinas -->
+        <!-- Rotação -->
         <div class="content-section">
           <h2 class="section-heading">🎯 Rotação de Disciplinas</h2>
 
-          <div class="rotation-grid">
-            <div class="rotation-card">
-              <h3 class="rotation-title">Alta Complexidade</h3>
-              <p class="rotation-subtitle">Matemática é estudada TODOS os dias</p>
-              <ul class="rotation-list">
-                <li><span class="day">Segunda:</span> Matemática + Química</li>
-                <li><span class="day">Terça:</span> Matemática + Física</li>
-                <li><span class="day">Quarta:</span> Matemática + Química</li>
-                <li><span class="day">Quinta:</span> Matemática + Física</li>
-                <li><span class="day">Sexta:</span> Matemática + Biologia</li>
+          <div class="rotation-blocks">
+            <div class="subject-block">
+              <h3>Alta Complexidade</h3>
+              <p class="note"><em>Matemática é estudada TODOS os dias</em></p>
+              <ul class="compact-list">
+                <li><strong>Seg:</strong> Matemática + Química</li>
+                <li><strong>Ter:</strong> Matemática + Física</li>
+                <li><strong>Qua:</strong> Matemática + Química</li>
+                <li><strong>Qui:</strong> Matemática + Física</li>
+                <li><strong>Sex:</strong> Matemática + Biologia</li>
               </ul>
-              <div class="warning">
-                ⚠️ <strong>Regra:</strong> Física e Química nunca no mesmo dia
-              </div>
             </div>
 
-            <div class="rotation-card">
-              <h3 class="rotation-title">Humanas (1h diária)</h3>
-              <p class="rotation-subtitle">Rotação semanal</p>
-              <ul class="rotation-list">
-                <li><span class="week-num">Sem 1:</span> Literatura</li>
-                <li><span class="week-num">Sem 2:</span> Gramática</li>
-                <li><span class="week-num">Sem 3:</span> História</li>
-                <li><span class="week-num">Sem 4:</span> Geografia</li>
-                <li><span class="week-num">Sem 5:</span> Literatura</li>
-                <li><span class="week-num">Sem 6:</span> Filosofia/Sociologia</li>
+            <div class="subject-block">
+              <h3>Humanas (rotação semanal)</h3>
+              <ul class="compact-list">
+                <li><strong>Sem 1:</strong> Literatura</li>
+                <li><strong>Sem 2:</strong> Gramática</li>
+                <li><strong>Sem 3:</strong> História</li>
+                <li><strong>Sem 4:</strong> Geografia</li>
+                <li><strong>Sem 5:</strong> Literatura</li>
+                <li><strong>Sem 6:</strong> Filosofia/Sociologia</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <!-- Seletor de Mês -->
-        <div class="content-section">
-          <h2 class="section-heading">📅 Cronograma Mensal Detalhado</h2>
+        <!-- Cronograma Detalhado -->
+        <div class="content-section" id="cronograma">
+          <h2 class="section-heading">📅 Fevereiro 2026</h2>
 
-          <div class="month-selector">
+          <!-- Meta do mês -->
+          <div class="meta-box">
+            <h4>Meta do Mês</h4>
+            <ul class="compact-list">
+              <li>Matemática A: Tópicos 1-7</li>
+              <li>Química A: Tópicos 1-8</li>
+              <li>Física A: Tópicos 1-6</li>
+              <li>Biologia A: Tópicos 1-6</li>
+              <li>Literatura: Tópicos 1-3</li>
+              <li><strong>1 simulado UERJ</strong> (16/02)</li>
+            </ul>
+          </div>
+
+          <!-- Seletor de semana -->
+          <div class="week-selector">
             <button
-              v-for="month in months"
-              :key="month.id"
-              @click="selectedMonth = month.id"
-              :class="['month-btn', { active: selectedMonth === month.id }]"
+              v-for="week in februaryWeeks"
+              :key="week.id"
+              @click="selectedWeek = week.id"
+              :class="['week-btn', { active: selectedWeek === week.id }]"
             >
-              {{ month.name }}
+              {{ week.label }}
             </button>
           </div>
 
-          <!-- Fevereiro -->
-          <div v-if="selectedMonth === 'fevereiro'" class="month-detail">
-            <h3 class="month-title">📚 Fevereiro 2026</h3>
+          <!-- Semana selecionada -->
+          <div v-if="currentWeek" class="week-detail">
+            <h4 class="week-title">{{ currentWeek.label }}</h4>
 
-            <div class="meta-box">
-              <h4 class="meta-title">Meta do Mês</h4>
-              <div class="meta-grid">
-                <div class="meta-item">Matemática A: Tópicos 1-7</div>
-                <div class="meta-item">Química A: Tópicos 1-8</div>
-                <div class="meta-item">Física A: Tópicos 1-6</div>
-                <div class="meta-item">Biologia A: Tópicos 1-6</div>
-                <div class="meta-item">Literatura: Tópicos 1-3</div>
-                <div class="meta-item highlight">🎯 1 simulado UERJ (16/02)</div>
+            <div
+              v-for="(day, idx) in currentWeek.days"
+              :key="idx"
+              :class="['day-detail', { review: day.dayOfWeek === 'Sábado' }]"
+            >
+              <div class="day-header">
+                <span class="day-name">
+                  {{ day.dayOfWeek }} {{ day.date.split("-").slice(1).reverse().join("/") }}
+                  <span v-if="day.special" class="special-badge">{{ day.special }}</span>
+                </span>
+                <span class="day-badge">{{ day.hours }}h</span>
+              </div>
+              <ul class="task-list">
+                <li v-for="(task, taskIdx) in day.tasks" :key="taskIdx">
+                  <strong>{{ task.subject }} ({{ task.duration }}):</strong>
+                  {{ task.content }}
+                </li>
+              </ul>
+            </div>
+
+            <div v-if="currentWeek.weeklyGoal" class="week-checkpoint">
+              <strong>✅ Meta Semanal:</strong>
+              {{ currentWeek.weeklyGoal.join(" • ") }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Simulados -->
+        <div class="content-section">
+          <h2 class="section-heading">📝 Simulados e Provas</h2>
+          <div class="time-grid">
+            <div class="time-item">
+              <span class="time-label">Simulados UERJ:</span>
+              <span class="time-value">16 provas (4h cada)</span>
+            </div>
+            <div class="time-item">
+              <span class="time-label">Simulados ENEM:</span>
+              <span class="time-value">7 provas (6,5h cada)</span>
+            </div>
+            <div class="time-item">
+              <span class="time-label">Redações:</span>
+              <span class="time-value">7 (com correção)</span>
+            </div>
+            <div class="time-item">
+              <span class="time-label">Análise de erros:</span>
+              <span class="time-value">~80h</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Análise de Provas -->
+        <div class="content-section">
+          <h2 class="section-heading">📊 Análise de Provas UERJ</h2>
+          <p class="content-text mb-4">
+            Análise detalhada de <strong>7 provas</strong> do 1º Exame de Qualificação (2015-2018)
+          </p>
+
+          <div class="analysis-grid">
+            <div class="analysis-card">
+              <h3 class="analysis-title">🎯 TOP 3 por Área</h3>
+              <div class="subject-analysis">
+                <h4>📚 Linguagens</h4>
+                <ul class="compact-list">
+                  <li>Metáfora (100% das provas)</li>
+                  <li>Crônicas contemporâneas</li>
+                  <li>Tirinhas/Charges</li>
+                </ul>
+              </div>
+              <div class="subject-analysis">
+                <h4>🔢 Matemática</h4>
+                <ul class="compact-list">
+                  <li>Geometria (100%)</li>
+                  <li>PA (86%)</li>
+                  <li>Porcentagem (86%)</li>
+                </ul>
+              </div>
+              <div class="subject-analysis">
+                <h4>🧪 Ciências da Natureza</h4>
+                <ul class="compact-list">
+                  <li>Cinemática - Física (100%)</li>
+                  <li>Química Orgânica (100%)</li>
+                  <li>Ecologia - Biologia (86%)</li>
+                </ul>
+              </div>
+              <div class="subject-analysis">
+                <h4>🌍 Ciências Humanas</h4>
+                <ul class="compact-list">
+                  <li>Cartografia (100%)</li>
+                  <li>Brasil República (100%)</li>
+                  <li>Urbanização (86%)</li>
+                </ul>
               </div>
             </div>
 
-            <!-- Semana 1 -->
-            <div class="week-detail">
-              <h4 class="week-detail-title">Semana 1: 10-15/02</h4>
-
-              <div class="day-card">
-                <div class="day-header">
-                  <span class="day-name">Segunda 10/02</span>
-                  <span class="day-hours">9h</span>
-                </div>
-                <ul class="day-tasks">
-                  <li>
-                    <strong>Matemática (4h):</strong> Tópico 1 - Conjuntos numéricos
-                  </li>
-                  <li>
-                    <strong>Química (3,5h):</strong> Tópico 1 - Leis ponderais e Teoria
-                    atômica
-                  </li>
-                  <li>
-                    <strong>Literatura (1h):</strong> Textos Literários e Figuras de
-                    Linguagem
-                  </li>
-                  <li><strong>Anki (0,5h):</strong> Criar cards</li>
-                </ul>
-              </div>
-
-              <div class="day-card">
-                <div class="day-header">
-                  <span class="day-name">Terça 11/02</span>
-                  <span class="day-hours">9h</span>
-                </div>
-                <ul class="day-tasks">
-                  <li><strong>Matemática (4h):</strong> Tópico 2 - Teoria dos conjuntos</li>
-                  <li>
-                    <strong>Física (3,5h):</strong> Introdução à Cinemática e Movimento
-                    Uniforme
-                  </li>
-                  <li>
-                    <strong>Literatura (1h):</strong> Figuras de linguagem (exercícios)
-                  </li>
-                  <li><strong>Anki (0,5h):</strong> Revisão</li>
-                </ul>
-              </div>
-
-              <div class="day-card">
-                <div class="day-header">
-                  <span class="day-name">Quarta 12/02</span>
-                  <span class="day-hours">9h</span>
-                </div>
-                <ul class="day-tasks">
-                  <li>
-                    <strong>Matemática (4h):</strong> Tópico 3 - Divisibilidade, MDC e MMC
-                  </li>
-                  <li>
-                    <strong>Química (3,5h):</strong> Tópico 2 - Natureza elétrica da matéria
-                  </li>
-                  <li>
-                    <strong>Literatura (1h):</strong> Exercícios UERJ (figuras de linguagem)
-                  </li>
-                  <li><strong>Anki (0,5h):</strong> Revisão</li>
-                </ul>
-              </div>
-
-              <div class="day-card">
-                <div class="day-header">
-                  <span class="day-name">Quinta 13/02</span>
-                  <span class="day-hours">9h</span>
-                </div>
-                <ul class="day-tasks">
-                  <li>
-                    <strong>Matemática (4h):</strong> Tópico 4 - Produtos notáveis e
-                    fatoração
-                  </li>
-                  <li>
-                    <strong>Física (3,5h):</strong> Tópico 2 - Movimento Uniformemente
-                    Variado
-                  </li>
-                  <li><strong>Literatura (1h):</strong> Gênero épico e dramático</li>
-                  <li><strong>Anki (0,5h):</strong> Revisão</li>
-                </ul>
-              </div>
-
-              <div class="day-card">
-                <div class="day-header">
-                  <span class="day-name">Sexta 14/02</span>
-                  <span class="day-hours">9h</span>
-                </div>
-                <ul class="day-tasks">
-                  <li>
-                    <strong>Matemática (4h):</strong> Tópico 5 - Potenciação e radiciação
-                  </li>
-                  <li>
-                    <strong>Biologia (3,5h):</strong> Bioquímica: Água e Sais Minerais
-                  </li>
-                  <li><strong>Literatura (1h):</strong> Exercícios de gêneros textuais</li>
-                  <li><strong>Anki (0,5h):</strong> Revisão</li>
-                </ul>
-              </div>
-
-              <div class="day-card review">
-                <div class="day-header">
-                  <span class="day-name">Sábado 15/02</span>
-                  <span class="day-hours">6h</span>
-                </div>
-                <ul class="day-tasks">
-                  <li>Revisão geral da semana</li>
-                  <li>Revisitar exercícios com erro</li>
-                  <li>Flashcards: Revisão espaçada</li>
-                </ul>
-              </div>
-
-              <div class="week-meta">
-                <strong>✅ Meta Semanal:</strong> Mat A 1-5 • Qui A 1-2 • Fís A 1-2 • Bio A 1
-                • Lit 1-2
-              </div>
-            </div>
-
-            <div class="info-note">
-              📌 O cronograma completo de todas as semanas (fevereiro a julho) está disponível
-              no arquivo <code>cronograma-vestibular-2026.md</code>
+            <div class="analysis-card highlight">
+              <h3 class="analysis-title">⚡ Tópicos OBRIGATÓRIOS</h3>
+              <ul class="priority-list">
+                <li><strong>Linguagens:</strong> Metáfora, Eufemismo, Hipérbole, Crônicas</li>
+                <li><strong>Matemática:</strong> Geometria (Pitágoras, áreas), PA, Porcentagem</li>
+                <li><strong>Biologia:</strong> Ecologia (sucessão), Fisiologia, Citologia</li>
+                <li><strong>Física:</strong> Cinemática (MRU, MRUV, gráficos), Dinâmica</li>
+                <li><strong>Química:</strong> Química Orgânica, Estequiometria</li>
+                <li><strong>História:</strong> Era Vargas, Ditadura Militar (1964-85)</li>
+                <li><strong>Geografia:</strong> Escalas cartográficas, Urbanização</li>
+              </ul>
             </div>
           </div>
 
-          <!-- Outros meses -->
-          <div v-else class="month-detail">
-            <h3 class="month-title">
-              📚 {{ months.find((m) => m.id === selectedMonth)?.name }} 2026
-            </h3>
-            <div class="info-note">
-              📌 Conteúdo detalhado disponível em
-              <code>cronograma-vestibular-2026.md</code>
-            </div>
+          <div class="doc-links">
+            <a
+              href="https://github.com/ianca/ianca.viglioni/tree/main/doc/uerj/qualificacao"
+              target="_blank"
+              class="doc-link"
+            >
+              📄 Ver Análises Detalhadas (GitHub)
+            </a>
+            <a
+              href="https://github.com/ianca/ianca.viglioni/blob/main/doc/uerj/qualificacao/COMPILACAO_TOPICOS_RECORRENTES.md"
+              target="_blank"
+              class="doc-link featured"
+            >
+              🎯 Compilação Completa de Tópicos Recorrentes
+            </a>
           </div>
         </div>
 
         <!-- Dicas -->
-        <div class="content-section tips">
-          <h2 class="section-heading">💡 Lembre-se</h2>
-          <div class="tips-grid">
-            <div class="tip-card">
-              <span class="tip-icon">🎯</span>
-              <p>Foco nos tópicos mais recorrentes da UERJ até junho</p>
-            </div>
-            <div class="tip-card">
-              <span class="tip-icon">📊</span>
-              <p>Total: ~1.450 horas de estudo</p>
-            </div>
-            <div class="tip-card">
-              <span class="tip-icon">📝</span>
-              <p>16 simulados UERJ + 7 ENEM + 7 redações</p>
-            </div>
-            <div class="tip-card">
-              <span class="tip-icon">💪</span>
-              <p>Abril: carga reduzida (4 dias, 5h) - sem simulados</p>
-            </div>
-            <div class="tip-card">
-              <span class="tip-icon">🔥</span>
-              <p>Maio: intensificação (2 UERJ + 1 ENEM por semana)</p>
-            </div>
-            <div class="tip-card">
-              <span class="tip-icon">🌟</span>
-              <p>Use Anki diariamente para revisão espaçada</p>
-            </div>
-          </div>
+        <div class="content-section motivacao">
+          <h2 class="section-heading">🚀 Você Consegue!</h2>
+          <p class="motivacao-text">
+            Use os sábados para não acumular atrasos, mantenha o Anki em dia para
+            revisão espaçada, e lembre-se: <strong>consistência</strong> é mais
+            importante que intensidade. Bons estudos!
+          </p>
+          <p class="motivacao-emoji">📚✨🔥</p>
         </div>
       </div>
     </div>
@@ -302,220 +293,190 @@ const months = [
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Merriweather:wght@300;400;700&display=swap");
 
 .uerj-container {
-  @apply min-h-screen;
-  background: linear-gradient(135deg, #2c3e40 0%, #1e2a2d 100%);
+  @apply min-h-screen bg-repeat;
+  background-image: url("/ufmg.plano.bg.jpg");
+  background-color: #f5f1e8;
 }
 
-.header-section {
-  @apply w-full flex items-center justify-center py-8 md:py-12 border-b-2;
-  background-color: #32373a;
-  border-color: #c9a961;
+.uerj-overlay {
+  @apply min-h-screen flex items-start justify-center p-4 md:p-8 pt-8 md:pt-12;
+  background: linear-gradient(
+    135deg,
+    rgba(245, 241, 232, 0.88) 0%,
+    rgba(255, 255, 255, 0.82) 50%,
+    rgba(245, 241, 232, 0.88) 100%
+  );
+}
+
+.content-wrapper {
+  @apply max-w-5xl w-full pb-12;
+}
+
+.logo-section {
+  @apply flex justify-center mb-8;
 }
 
 .logo {
   @apply h-32 md:h-40 object-contain;
 }
 
-.uerj-overlay {
-  @apply min-h-screen flex items-start justify-center p-4 md:p-8;
-}
-
-.content-wrapper {
-  @apply max-w-6xl w-full pb-12;
-}
-
 .title-section {
-  @apply text-center mb-8 md:mb-12;
+  @apply text-center mb-12;
 }
 
 .main-title {
-  @apply text-4xl md:text-6xl lg:text-7xl font-bold mb-3;
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold mb-3;
   font-family: "Crimson Text", serif;
   color: #e74c3c;
-  text-shadow: 0 2px 8px rgba(231, 76, 60, 0.4);
+  text-shadow: 0 2px 4px rgba(231, 76, 60, 0.2);
+  letter-spacing: 0.02em;
 }
 
 .subtitle {
-  @apply text-xl md:text-2xl lg:text-3xl font-semibold mb-2;
+  @apply text-xl md:text-2xl mb-6;
   font-family: "Merriweather", serif;
   color: #c9a961;
+  font-weight: 600;
 }
 
-.period {
-  @apply text-base md:text-lg;
+.info-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4 mt-6;
+}
+
+.info-item {
+  @apply bg-white/70 backdrop-blur-sm rounded-lg p-4 text-center;
   font-family: "Merriweather", serif;
-  color: #ecf0f1;
-  opacity: 0.9;
-}
-
-.content-section {
-  @apply bg-white/5 backdrop-blur-sm rounded-lg p-4 md:p-8 mb-6 md:mb-8;
+  color: #2d4f56;
   border: 1px solid rgba(201, 169, 97, 0.2);
 }
 
-.content-section.tips {
-  @apply bg-gradient-to-br from-amber-900/20 to-orange-900/20;
-  border-color: rgba(201, 169, 97, 0.3);
+.content-section {
+  @apply flex flex-col gap-4 bg-white/70 backdrop-blur-sm rounded-lg p-6 md:p-8 shadow-lg mb-6;
+  border: 2px solid rgba(201, 169, 97, 0.2);
+  scroll-margin-top: 100px;
 }
 
 .section-heading {
-  @apply text-2xl md:text-3xl font-bold mb-4 md:mb-6;
+  @apply text-2xl md:text-3xl font-bold mb-4;
   font-family: "Crimson Text", serif;
   color: #c9a961;
 }
 
-/* Week Grid */
-.week-grid {
-  @apply grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6;
-}
-
-.schedule-card {
-  @apply bg-black/30 p-4 md:p-6 rounded-lg;
-  border: 1px solid rgba(93, 173, 226, 0.2);
-}
-
-.schedule-card.highlight {
-  @apply bg-green-900/20 border-green-500/30;
-}
-
-.schedule-title {
-  @apply text-lg md:text-xl font-bold mb-3 md:mb-4;
-  color: #5dade2;
-  font-family: "Crimson Text", serif;
-}
-
-.schedule-list {
-  @apply space-y-2 text-sm md:text-base;
-  color: #ecf0f1;
+.content-text {
+  @apply text-base md:text-lg leading-relaxed;
   font-family: "Merriweather", serif;
+  color: #2d4f56;
+}
+
+.remember-list {
+  @apply list-none space-y-3;
+  font-family: "Merriweather", serif;
+  color: #2d4f56;
+}
+
+.remember-list li {
+  @apply pl-4 py-2 border-l-4 border-amber-500 bg-amber-50/40 rounded-r;
+}
+
+.week-structure {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4;
+}
+
+.day-block {
+  @apply p-4 bg-white/60 rounded border border-amber-200;
+}
+
+.day-block.rest {
+  @apply bg-green-50/60 border-green-200;
+}
+
+.day-title {
+  @apply text-lg font-bold mb-3;
+  font-family: "Crimson Text", serif;
+  color: #c9a961;
 }
 
 .rest-day {
-  @apply text-xl md:text-2xl text-center;
-  color: #4ade80;
+  @apply text-xl text-center;
+  color: #16a34a;
 }
 
-/* Rotation Grid */
-.rotation-grid {
-  @apply grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6;
-}
-
-.rotation-card {
-  @apply bg-black/30 p-4 md:p-6 rounded-lg;
-  border: 1px solid rgba(201, 169, 97, 0.3);
-}
-
-.rotation-title {
-  @apply text-lg md:text-xl font-bold mb-2;
-  color: #c9a961;
-  font-family: "Crimson Text", serif;
-}
-
-.rotation-subtitle {
-  @apply text-sm md:text-base mb-3 md:mb-4;
-  color: #5dade2;
+.compact-list {
+  @apply list-disc list-inside ml-2 space-y-1;
   font-family: "Merriweather", serif;
+  color: #2d4f56;
+  font-size: 0.95rem;
+}
+
+.rotation-blocks {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+
+.subject-block {
+  @apply mb-4;
+}
+
+.subject-block h3 {
+  @apply text-lg font-bold mb-2;
+  font-family: "Crimson Text", serif;
+  color: #c9a961;
+}
+
+.note {
+  @apply text-sm mb-2;
+  color: #e74c3c;
   font-style: italic;
 }
 
-.rotation-list {
-  @apply space-y-2 text-sm md:text-base mb-4;
-  color: #ecf0f1;
-  font-family: "Merriweather", serif;
+.meta-box {
+  @apply mb-6 p-6 bg-gradient-to-r from-blue-50/60 to-cyan-50/60 rounded-lg border-l-4 border-blue-500;
 }
 
-.day,
-.week-num {
-  @apply font-semibold;
-  color: #c9a961;
+.meta-box h4 {
+  @apply text-lg font-bold mb-3;
+  font-family: "Crimson Text", serif;
+  color: #0d3e47;
 }
 
-.warning {
-  @apply mt-4 p-3 bg-red-900/30 rounded border-l-4 border-red-500 text-sm md:text-base;
-  color: #ff6b6b;
+.week-selector {
+  @apply flex flex-wrap gap-3 mb-6;
 }
 
-/* Month Selector */
-.month-selector {
-  @apply flex flex-wrap gap-2 md:gap-3 mb-6 md:mb-8;
-}
-
-.month-btn {
-  @apply px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold transition-all duration-300 text-sm md:text-base;
+.week-btn {
+  @apply px-4 py-2 rounded-lg font-semibold transition-all duration-300;
   background: rgba(201, 169, 97, 0.1);
   border: 2px solid #c9a961;
-  color: #ecf0f1;
+  color: #0d3e47;
   font-family: "Merriweather", serif;
+  cursor: pointer;
 }
 
-.month-btn:hover {
+.week-btn:hover {
   background: rgba(201, 169, 97, 0.2);
   transform: translateY(-2px);
 }
 
-.month-btn.active {
+.week-btn.active {
   background: #c9a961;
-  color: #1e2a2d;
+  color: #fff;
 }
 
-/* Month Detail */
-.month-detail {
-  @apply mt-6;
-}
-
-.month-title {
-  @apply text-2xl md:text-3xl font-bold mb-4 md:mb-6;
-  color: #e74c3c;
-  font-family: "Crimson Text", serif;
-}
-
-/* Meta Box */
-.meta-box {
-  @apply mb-6 md:mb-8 p-4 md:p-6 bg-blue-900/20 rounded-lg border-l-4 border-blue-500;
-}
-
-.meta-title {
-  @apply text-lg md:text-xl font-bold mb-3 md:mb-4;
-  color: #5dade2;
-  font-family: "Crimson Text", serif;
-}
-
-.meta-grid {
-  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3;
-}
-
-.meta-item {
-  @apply text-sm md:text-base p-2 md:p-3 bg-black/30 rounded;
-  color: #ecf0f1;
-  font-family: "Merriweather", serif;
-}
-
-.meta-item.highlight {
-  @apply bg-amber-900/30 border-l-2 border-amber-500;
-  color: #fbbf24;
-}
-
-/* Week Detail */
 .week-detail {
-  @apply mb-6 md:mb-8 p-4 md:p-6 bg-black/20 rounded-lg;
-  border: 1px solid rgba(201, 169, 97, 0.2);
+  @apply space-y-4;
 }
 
-.week-detail-title {
-  @apply text-xl md:text-2xl font-bold mb-4 md:mb-6;
-  color: #c9a961;
+.week-title {
+  @apply text-xl font-bold mb-4;
   font-family: "Crimson Text", serif;
+  color: #c9a961;
 }
 
-/* Day Card */
-.day-card {
-  @apply mb-4 p-3 md:p-4 bg-black/30 rounded-lg;
-  border-left: 3px solid #5dade2;
+.day-detail {
+  @apply mb-4 pb-4 border-b border-gray-200 last:border-b-0;
 }
 
-.day-card.review {
-  border-left-color: #4ade80;
-  @apply bg-green-900/10;
+.day-detail.review {
+  @apply bg-green-50/40 p-4 rounded-lg border-l-4 border-green-500;
 }
 
 .day-header {
@@ -523,57 +484,157 @@ const months = [
 }
 
 .day-name {
-  @apply text-base md:text-lg font-bold;
-  color: #5dade2;
+  @apply text-lg font-bold;
   font-family: "Crimson Text", serif;
+  color: #0d3e47;
 }
 
-.day-hours {
-  @apply text-sm md:text-base font-semibold px-2 md:px-3 py-1 bg-black/50 rounded;
+.day-badge {
+  @apply text-sm font-semibold px-3 py-1 bg-amber-100 rounded;
   color: #c9a961;
 }
 
-.day-tasks {
-  @apply space-y-2 text-sm md:text-base;
-  color: #ecf0f1;
-  font-family: "Merriweather", serif;
+.special-badge {
+  @apply ml-2 text-xs font-bold px-2 py-1 bg-red-100 text-red-700 rounded;
 }
 
-.week-meta {
-  @apply mt-4 md:mt-6 p-3 md:p-4 bg-green-900/20 rounded-lg border-l-4 border-green-500 text-sm md:text-base;
-  color: #4ade80;
+.task-list {
+  @apply list-none ml-4 space-y-2;
   font-family: "Merriweather", serif;
+  color: #2d4f56;
+  font-size: 0.95rem;
 }
 
-/* Info Note */
-.info-note {
-  @apply p-4 md:p-6 bg-blue-900/20 rounded-lg border-l-4 border-blue-500 text-sm md:text-base;
-  color: #5dade2;
-  font-family: "Merriweather", serif;
+.task-list li {
+  @apply pl-2 border-l-2 border-gray-300;
 }
 
-.info-note code {
-  @apply px-2 py-1 bg-black/40 rounded text-xs md:text-sm;
+.week-checkpoint {
+  @apply mt-6 p-4 bg-green-50/60 rounded-lg border-l-4 border-green-500;
+  font-family: "Merriweather", serif;
+  color: #16a34a;
+}
+
+.info-box {
+  @apply p-6 bg-blue-50/60 rounded-lg border-l-4 border-blue-400;
+  font-family: "Merriweather", serif;
+  color: #2d4f56;
+}
+
+.info-box code {
+  @apply px-2 py-1 bg-white/60 rounded text-sm;
   color: #c9a961;
   font-family: monospace;
 }
 
-/* Tips Grid */
-.tips-grid {
-  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4;
+.time-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-3 mt-4;
 }
 
-.tip-card {
-  @apply p-4 md:p-5 bg-black/30 rounded-lg border border-amber-700/30 text-center;
-}
-
-.tip-icon {
-  @apply text-2xl md:text-3xl mb-2 block;
-}
-
-.tip-card p {
-  @apply text-sm md:text-base;
-  color: #ecf0f1;
+.time-item {
+  @apply flex justify-between p-3 bg-white/60 rounded border border-amber-200;
   font-family: "Merriweather", serif;
+}
+
+.time-label {
+  @apply font-semibold;
+  color: #0d3e47;
+}
+
+.time-value {
+  color: #c9a961;
+}
+
+.analysis-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6 mb-6;
+}
+
+.analysis-card {
+  @apply p-6 bg-white/60 rounded-lg border border-amber-200;
+}
+
+.analysis-card.highlight {
+  @apply bg-gradient-to-br from-amber-50/80 to-yellow-50/80 border-2 border-amber-400;
+}
+
+.analysis-title {
+  @apply text-xl font-bold mb-4;
+  font-family: "Crimson Text", serif;
+  color: #c9a961;
+}
+
+.subject-analysis {
+  @apply mb-4 last:mb-0;
+}
+
+.subject-analysis h4 {
+  @apply text-base font-bold mb-2;
+  font-family: "Crimson Text", serif;
+  color: #0d3e47;
+}
+
+.compact-list {
+  @apply list-none space-y-1;
+  font-family: "Merriweather", serif;
+  color: #2d4f56;
+  font-size: 0.9rem;
+}
+
+.compact-list li {
+  @apply pl-2 border-l-2 border-gray-300;
+}
+
+.priority-list {
+  @apply list-none space-y-2;
+  font-family: "Merriweather", serif;
+  color: #2d4f56;
+  font-size: 0.95rem;
+}
+
+.priority-list li {
+  @apply pl-3 py-2 border-l-4 border-amber-500 bg-white/40 rounded-r;
+}
+
+.doc-links {
+  @apply flex flex-col md:flex-row gap-3 mt-6;
+}
+
+.doc-link {
+  @apply flex-1 px-6 py-3 text-center rounded-lg font-semibold transition-all duration-300;
+  background: rgba(201, 169, 97, 0.1);
+  border: 2px solid #c9a961;
+  color: #0d3e47;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+
+.doc-link:hover {
+  background: rgba(201, 169, 97, 0.2);
+  transform: translateY(-2px);
+}
+
+.doc-link.featured {
+  background: #c9a961;
+  color: #fff;
+  border-color: #b8935a;
+}
+
+.doc-link.featured:hover {
+  background: #b8935a;
+}
+
+.motivacao {
+  @apply bg-gradient-to-r from-amber-100/80 to-yellow-100/80 border-2 border-amber-400;
+}
+
+.motivacao-text {
+  @apply text-lg text-center;
+  font-family: "Merriweather", serif;
+  color: #0d3e47;
+  line-height: 1.8;
+}
+
+.motivacao-emoji {
+  @apply text-4xl text-center mt-4;
 }
 </style>

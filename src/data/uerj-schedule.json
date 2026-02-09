@@ -1,0 +1,461 @@
+{
+  "title": "Cronograma de Estudos - Vestibular UERJ 2026",
+  "period": {
+    "start": "2026-02-10",
+    "end": "2026-08-01"
+  },
+  "standardStructure": {
+    "weekdays": {
+      "label": "Segunda a Sexta (9h/dia)",
+      "schedule": [
+        { "time": "08:00 - 12:00", "duration": "4h", "subject": "Matemática (teoria + exercícios)" },
+        { "time": "12:00 - 13:00", "duration": "1h", "subject": "Almoço" },
+        { "time": "13:00 - 16:30", "duration": "3,5h", "subject": "Alta complexidade 2 (Química/Física/Biologia)" },
+        { "time": "16:30 - 17:00", "duration": "0,5h", "subject": "Intervalo" },
+        { "time": "17:00 - 18:00", "duration": "1h", "subject": "Humanas (Literatura/Gramática/História/Geografia/Sociologia/Filosofia)" },
+        { "time": "18:00 - 18:30", "duration": "0,5h", "subject": "Flashcards Anki" }
+      ]
+    },
+    "saturday": {
+      "label": "Sábado (6h)",
+      "schedule": [
+        { "time": "09:00 - 15:00", "duration": "6h", "subject": "Revisão semanal + Análise de erros + Flashcards" }
+      ]
+    },
+    "sunday": {
+      "label": "Domingo",
+      "schedule": [
+        { "subject": "Descanso total" }
+      ]
+    }
+  },
+  "subjectRotation": {
+    "altaComplexidade": {
+      "monday": "Química",
+      "tuesday": "Física",
+      "wednesday": "Química",
+      "thursday": "Física",
+      "friday": "Biologia",
+      "note": "Física e Química nunca no mesmo dia"
+    },
+    "humanas": {
+      "week1": "Literatura",
+      "week2": "Gramática",
+      "week3": "História",
+      "week4": "Geografia",
+      "week5": "Literatura",
+      "week6": "Filosofia/Sociologia (alternado)"
+    }
+  },
+  "months": {
+    "february": {
+      "name": "Fevereiro 2026",
+      "goals": {
+        "matematicaA": "Tópicos 1-7",
+        "quimicaA": "Tópicos 1-8",
+        "fisicaA": "Tópicos 1-6",
+        "biologiaA": "Tópicos 1-6",
+        "literatura": "Tópicos 1-3",
+        "simulados": "1 simulado UERJ (16/02)"
+      },
+      "weeks": [
+        {
+          "id": 1,
+          "label": "Semana 1: 10-15/02",
+          "days": [
+            {
+              "date": "2026-02-10",
+              "dayOfWeek": "Segunda",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 1 - Conjuntos numéricos (teoria + exercícios)" },
+                { "subject": "Química", "duration": "3,5h", "content": "Tópico 1 - Leis ponderais e Teoria atômica clássica" },
+                { "subject": "Literatura", "duration": "1h", "content": "Tópico 1 - Textos Literários e Figuras de Linguagem (introdução)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Criar cards dos conceitos do dia" }
+              ]
+            },
+            {
+              "date": "2026-02-11",
+              "dayOfWeek": "Terça",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 2 - Teoria dos conjuntos" },
+                { "subject": "Física", "duration": "3,5h", "content": "Tópico 1 - Introdução à Cinemática Escalar e Movimento Uniforme" },
+                { "subject": "Literatura", "duration": "1h", "content": "Tópico 1 - Figuras de linguagem (continuação + exercícios)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-12",
+              "dayOfWeek": "Quarta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 3 - Divisibilidade, MDC e MMC" },
+                { "subject": "Química", "duration": "3,5h", "content": "Tópico 2 - Natureza elétrica da matéria" },
+                { "subject": "Literatura", "duration": "1h", "content": "Exercícios de interpretação UERJ (foco: figuras de linguagem)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-13",
+              "dayOfWeek": "Quinta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 4 - Produtos notáveis e fatoração" },
+                { "subject": "Física", "duration": "3,5h", "content": "Tópico 2 - Movimento Uniformemente Variado" },
+                { "subject": "Literatura", "duration": "1h", "content": "Tópico 2 - Gênero épico e dramático" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-14",
+              "dayOfWeek": "Sexta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 5 - Potenciação e radiciação" },
+                { "subject": "Biologia", "duration": "3,5h", "content": "Tópico 1 - Bioquímica: Água e Sais Minerais" },
+                { "subject": "Literatura", "duration": "1h", "content": "Exercícios de gêneros textuais" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-15",
+              "dayOfWeek": "Sábado",
+              "hours": 6,
+              "tasks": [
+                { "subject": "Revisão geral", "duration": "6h", "content": "Revisão geral da semana. Foco: Revisitar exercícios com erro. Flashcards: Revisão espaçada de todos os cards da semana" }
+              ]
+            }
+          ],
+          "weeklyGoal": [
+            "Mat A: Tópicos 1-5 ✓",
+            "Qui A: Tópicos 1-2 ✓",
+            "Fís A: Tópicos 1-2 ✓",
+            "Bio A: Tópico 1 ✓",
+            "Lit: Tópicos 1-2 ✓"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Semana 2: 17-22/02",
+          "days": [
+            {
+              "date": "2026-02-16",
+              "dayOfWeek": "Domingo",
+              "hours": 4,
+              "special": "SIMULADO UERJ #1",
+              "tasks": [
+                { "subject": "Simulado UERJ #1", "duration": "4h", "content": "Primeiro simulado UERJ completo" }
+              ]
+            },
+            {
+              "date": "2026-02-17",
+              "dayOfWeek": "Segunda",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 6 - Equação e problemas" },
+                { "subject": "Química", "duration": "3,5h", "content": "Tópico 3 - Teoria Quântica antiga" },
+                { "subject": "Gramática", "duration": "1h", "content": "Tópico 1 - Recursos coesivos (introdução)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-18",
+              "dayOfWeek": "Terça",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 7 - Função (introdução)" },
+                { "subject": "Física", "duration": "3,5h", "content": "Tópico 3 - Cinemática Vetorial" },
+                { "subject": "Gramática", "duration": "1h", "content": "Recursos coesivos (exercícios)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-19",
+              "dayOfWeek": "Quarta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Tópico 7 - Função (continuação + exercícios)" },
+                { "subject": "Química", "duration": "3,5h", "content": "Tópico 4 - Teoria Quântica Moderna" },
+                { "subject": "Gramática", "duration": "1h", "content": "Tópico 2 - O estudo dos pronomes (introdução)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-20",
+              "dayOfWeek": "Quinta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Revisão Mat A tópicos 1-7 com exercícios variados" },
+                { "subject": "Física", "duration": "3,5h", "content": "Tópico 4 - Lançamento Horizontal e oblíquo" },
+                { "subject": "Gramática", "duration": "1h", "content": "Pronomes (exercícios)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-21",
+              "dayOfWeek": "Sexta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Matemática B - Tópico 1 - Razão e proporção" },
+                { "subject": "Biologia", "duration": "3,5h", "content": "Tópico 2 - Bioquímica: Aminoácidos, Proteínas e Enzimas" },
+                { "subject": "Gramática", "duration": "1h", "content": "Exercícios de pronomes (questões UERJ)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-22",
+              "dayOfWeek": "Sábado",
+              "hours": 6,
+              "tasks": [
+                { "subject": "Revisão geral", "duration": "6h", "content": "Revisão geral da semana. Foco: Consolidar Função (Mat A-7) e Cinemática. Flashcards: Revisão espaçada" }
+              ]
+            }
+          ],
+          "weeklyGoal": [
+            "Mat A: Tópicos 6-7 ✓",
+            "Mat B: Tópico 1 ✓",
+            "Qui A: Tópicos 3-4 ✓",
+            "Fís A: Tópicos 3-4 ✓",
+            "Bio A: Tópico 2 ✓",
+            "Gram: Tópicos 1-2 ✓"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Semana 3: 24/02-01/03",
+          "days": [
+            {
+              "date": "2026-02-24",
+              "dayOfWeek": "Segunda",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Mat A - Tópico 8 - Função afim" },
+                { "subject": "Química", "duration": "3,5h", "content": "Tópico 5 - Classificação periódica" },
+                { "subject": "História", "duration": "1h", "content": "Tópico 1 - Grécia (introdução)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-25",
+              "dayOfWeek": "Terça",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Mat A - Tópico 9 - Função quadrática (introdução)" },
+                { "subject": "Física", "duration": "3,5h", "content": "Tópico 5 - Movimento Circular" },
+                { "subject": "História", "duration": "1h", "content": "Grécia (continuação)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-26",
+              "dayOfWeek": "Quarta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Mat A - Tópico 9 - Função quadrática (exercícios aprofundados)" },
+                { "subject": "Química", "duration": "3,5h", "content": "Tópico 6 - Propriedades Periódicas" },
+                { "subject": "História", "duration": "1h", "content": "Exercícios sobre Grécia" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-27",
+              "dayOfWeek": "Quinta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Mat B - Tópico 2 - Regra de três" },
+                { "subject": "Física", "duration": "3,5h", "content": "Tópico 6 - Leis de Newton" },
+                { "subject": "História", "duration": "1h", "content": "Tópico 2 - Roma (introdução)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-02-28",
+              "dayOfWeek": "Sexta",
+              "hours": 9,
+              "tasks": [
+                { "subject": "Matemática", "duration": "4h", "content": "Mat B - Tópico 3 - Noções Primitivas de Geometria Plana" },
+                { "subject": "Biologia", "duration": "3,5h", "content": "Tópico 3 - Bioquímica: Lipídios e Carboidratos" },
+                { "subject": "História", "duration": "1h", "content": "Roma (continuação)" },
+                { "subject": "Anki", "duration": "0,5h", "content": "Revisão + novos cards" }
+              ]
+            },
+            {
+              "date": "2026-03-01",
+              "dayOfWeek": "Sábado",
+              "hours": 6,
+              "tasks": [
+                { "subject": "Revisão geral", "duration": "6h", "content": "Revisão geral da semana. Foco: Função quadrática e Leis de Newton. Flashcards: Revisão espaçada" }
+              ]
+            }
+          ],
+          "weeklyGoal": [
+            "Mat A: Tópicos 8-9 ✓",
+            "Mat B: Tópicos 2-3 ✓",
+            "Qui A: Tópicos 5-6 ✓",
+            "Fís A: Tópicos 5-6 ✓",
+            "Bio A: Tópico 3 ✓",
+            "Hist A: Tópicos 1-2 (parcial) ✓"
+          ]
+        }
+      ]
+    },
+    "march": {
+      "name": "Março 2026",
+      "goals": {
+        "matematicaA": "Tópicos 8-14",
+        "matematicaB": "Tópicos 1-7",
+        "quimicaA": "Tópicos 9-16",
+        "fisicaA": "Tópicos 7-12",
+        "biologiaA": "Tópicos 4-9",
+        "historia": "Tópicos 1-5",
+        "gramatica": "Completar tópicos restantes",
+        "simulados": "4 simulados UERJ + 1 simulado ENEM"
+      },
+      "note": "Detalhes completos disponíveis no markdown original"
+    },
+    "april": {
+      "name": "Abril 2026",
+      "special": "MÊS ESPECIAL: 4 dias/semana, 5h/dia, SEM SIMULADOS",
+      "structure": {
+        "hoursPerDay": 5,
+        "daysPerWeek": 4,
+        "studyDays": ["Segunda", "Terça", "Quinta", "Sexta"],
+        "restDays": ["Quarta", "Sábado", "Domingo"],
+        "schedule": [
+          { "time": "09:00 - 11:30", "duration": "2,5h", "subject": "Matemática" },
+          { "time": "11:30 - 12:00", "duration": "0,5h", "subject": "Intervalo" },
+          { "time": "12:00 - 14:00", "duration": "2h", "subject": "Alta complexidade 2" },
+          { "time": "14:00 - 14:30", "duration": "0,5h", "subject": "Humanas/Flashcards" }
+        ]
+      },
+      "goals": {
+        "matematicaB": "Completar tópicos 13-21",
+        "quimicaA": "Completar tópicos 17-24",
+        "fisicaA": "Completar tópicos 17-18",
+        "biologiaA": "Avançar tópicos 9-14",
+        "focus": "Consolidação e reforço dos conteúdos estudados. Foco em exercícios e revisão conceitual"
+      },
+      "note": "Detalhes completos disponíveis no markdown original"
+    },
+    "may": {
+      "name": "Maio 2026",
+      "special": "INTENSIFICAÇÃO: 2 simulados UERJ/semana + 1 ENEM/semana + 1 redação/semana",
+      "goals": {
+        "matematicaC": "Tópicos 6-15",
+        "quimicaA": "Finalizar + iniciar Química B",
+        "fisicaB": "Tópicos 1-10",
+        "biologiaA": "Finalizar tópicos 13-24",
+        "historiaA": "Avançar tópicos 5-15"
+      },
+      "note": "Detalhes completos disponíveis no markdown original"
+    },
+    "june": {
+      "name": "Junho 2026",
+      "special": "RETA FINAL UERJ: Foco máximo nos tópicos mais recorrentes",
+      "goals": {
+        "quimicaB": "Tópicos 5-18",
+        "fisicaB": "Completar + iniciar Física C",
+        "biologiaA": "Finalizar tópicos 17-24",
+        "historiaA": "Completar tópicos 16-30",
+        "simulados": "4 simulados UERJ + 4 simulados ENEM + 4 redações"
+      },
+      "note": "Detalhes completos disponíveis no markdown original"
+    },
+    "july": {
+      "name": "Julho 2026",
+      "special": "FASE FINAL: Revisão intensiva + simulados (até 01/08)",
+      "goals": {
+        "fisicaC": "Tópicos 1-12",
+        "quimicaB": "Finalizar tópicos restantes",
+        "biologiaB": "Iniciar tópicos prioritários",
+        "historiaA": "Finalizar tópicos 14-30",
+        "simulados": "6 simulados UERJ + 4 simulados ENEM + 4 redações"
+      },
+      "note": "Detalhes completos disponíveis no markdown original"
+    }
+  },
+  "summary": {
+    "totalHours": 1450,
+    "hoursBySubject": {
+      "matematica": 520,
+      "quimica": 180,
+      "fisica": 180,
+      "biologia": 130,
+      "literatura": 45,
+      "gramatica": 20,
+      "historia": 60,
+      "geografia": 30,
+      "filosofia": 10,
+      "sociologia": 10,
+      "anki": 90
+    },
+    "simulados": {
+      "uerj": { "count": 16, "hours": 64 },
+      "enem": { "count": 7, "hours": 45.5 },
+      "redacoes": { "count": 7, "hours": 24.5 },
+      "analises": { "hours": 80 }
+    }
+  },
+  "priorities": {
+    "linguagens": [
+      "Interpretação de textos",
+      "Figuras de linguagem",
+      "Conjunções e pronomes",
+      "Funções da linguagem"
+    ],
+    "matematica": [
+      "Razão e proporção",
+      "PA e PG",
+      "Estatística (média, moda, mediana)",
+      "Funções (afim, quadrática)",
+      "Geometria plana e espacial"
+    ],
+    "cienciasNatureza": {
+      "biologia": ["Ecologia", "Fisiologia", "Citologia", "Bioquímica"],
+      "fisica": ["Leis de Newton", "Eletricidade", "Cinemática"],
+      "quimica": ["Estequiometria", "Soluções", "Equilíbrio", "Eletroquímica"]
+    },
+    "cienciasHumanas": {
+      "historia": ["Guerra Fria", "Ditadura militar", "Brasil Colônia/República"],
+      "geografia": ["Questões ambientais", "Urbanização", "Globalização"]
+    }
+  },
+  "guidelines": {
+    "studyTheory": {
+      "percentage": 40,
+      "tips": [
+        "Ler teoria com atenção",
+        "Fazer resumos próprios",
+        "Criar mapas mentais",
+        "Destacar fórmulas e conceitos-chave"
+      ]
+    },
+    "exercises": {
+      "percentage": 50,
+      "tips": [
+        "Resolver exercícios variados",
+        "Priorizar questões UERJ e ENEM",
+        "Refazer exercícios com erro",
+        "Cronometrar resolução"
+      ]
+    },
+    "review": {
+      "percentage": 10,
+      "tips": [
+        "Revisão espaçada (sábados)",
+        "Flashcards diários (Anki)",
+        "Análise detalhada de simulados",
+        "Conversão de erros em cards"
+      ]
+    },
+    "health": [
+      "Dormir 7-8h/noite",
+      "Alimentação saudável",
+      "Hidratação constante",
+      "Pausas a cada 50min de estudo",
+      "Exercício físico (caminhadas, alongamento)",
+      "Domingo: descanso total obrigatório"
+    ]
+  }
+}
