@@ -1,13 +1,61 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import scheduleData from "@/data/uerj-schedule.json";
 
-const selectedWeek = ref(1);
+const selectedMonth = ref("2026-02");
+const selectedWeekNum = ref(1);
 
-const februaryWeeks = computed(() => scheduleData.months.february.weeks);
+// Auto-select current week based on today's date
+onMounted(() => {
+  const today = new Date();
+  const startDate = new Date(scheduleData.meta.studyPeriod.start);
+  const examDate = new Date(scheduleData.meta.examDate);
+
+  // If today is before start date, show week 1
+  if (today < startDate) {
+    selectedWeekNum.value = 1;
+    return;
+  }
+
+  // If today is after exam date, show week 16
+  if (today > examDate) {
+    selectedWeekNum.value = 16;
+    return;
+  }
+
+  // Calculate which week we're in (1-16)
+  const daysSinceStart = Math.floor((today.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
+  const currentWeek = Math.min(Math.floor(daysSinceStart / 7) + 1, 16);
+  selectedWeekNum.value = currentWeek;
+});
+
+// Get all schedule entries (week1-week16 across all months)
+const allWeeks = computed(() => {
+  const weeks = [];
+  for (const [monthKey, monthData] of Object.entries(scheduleData.schedule)) {
+    for (const [weekKey, weekData] of Object.entries(monthData)) {
+      if (weekKey.startsWith('week')) {
+        const weekNum = parseInt(weekKey.replace('week', ''));
+        weeks.push({
+          monthKey,
+          weekNum,
+          ...weekData
+        });
+      }
+    }
+  }
+  return weeks.sort((a, b) => a.weekNum - b.weekNum);
+});
+
 const currentWeek = computed(() =>
-  februaryWeeks.value.find((w: any) => w.id === selectedWeek.value)
+  allWeeks.value.find(w => w.weekNum === selectedWeekNum.value)
 );
+
+const meta = computed(() => scheduleData.meta);
+const priorities = computed(() => scheduleData.priorities);
+const weeklySchedule = computed(() => scheduleData.weeklySchedule);
+const phases = computed(() => scheduleData.phases);
+const goals = computed(() => scheduleData.goals);
 </script>
 
 <template>
@@ -22,16 +70,45 @@ const currentWeek = computed(() =>
         <!-- Título -->
         <div class="title-section">
           <h1 class="main-title">UERJ 2026</h1>
-          <p class="subtitle">Cronograma de Estudos</p>
+          <p class="subtitle">{{ meta.title }}</p>
           <div class="info-grid">
             <div class="info-item">
-              <strong>Início:</strong> 10/02/2026
+              <strong>Início:</strong> {{ new Date(meta.studyPeriod.start).toLocaleDateString('pt-BR') }}
             </div>
             <div class="info-item">
-              <strong>Término:</strong> 01/08/2026
+              <strong>Prova:</strong> {{ new Date(meta.examDate).toLocaleDateString('pt-BR') }}
             </div>
             <div class="info-item">
-              <strong>Total:</strong> ~1.450 horas
+              <strong>Total:</strong> {{ meta.studyPeriod.totalDays }} dias ({{ meta.studyPeriod.totalWeeks }} semanas)
+            </div>
+          </div>
+        </div>
+
+        <!-- Prioridades -->
+        <div class="content-section" id="priorities">
+          <h2 class="section-heading">🎯 Prioridades de Estudo</h2>
+          <div class="priority-grid">
+            <div class="priority-card level1">
+              <h3>⭐⭐⭐ Prioridade 1: {{ priorities.level1.name }}</h3>
+              <p class="priority-percentage">{{ priorities.level1.percentage }}% ({{ priorities.level1.hoursPerWeek }}h/sem)</p>
+              <p class="priority-reason">{{ priorities.level1.reason }}</p>
+            </div>
+            <div class="priority-card level2">
+              <h3>⭐⭐ Prioridade 2: {{ priorities.level2.name }}</h3>
+              <p class="priority-percentage">{{ priorities.level2.percentage }}% ({{ priorities.level2.hoursPerWeek }}h/sem)</p>
+              <ul class="compact-list">
+                <li>Física: {{ priorities.level2.distribution.fisica }}h</li>
+                <li>Química: {{ priorities.level2.distribution.quimica }}h</li>
+                <li>Biologia: {{ priorities.level2.distribution.biologia }}h</li>
+              </ul>
+            </div>
+            <div class="priority-card level3">
+              <h3>⭐ Prioridade 3: {{ priorities.level3.name }}</h3>
+              <p class="priority-percentage">{{ priorities.level3.percentage }}% ({{ priorities.level3.hoursPerWeek }}h/sem)</p>
+            </div>
+            <div class="priority-card level4">
+              <h3>Prioridade 4: {{ priorities.level4.name }}</h3>
+              <p class="priority-percentage">{{ priorities.level4.percentage }}% ({{ priorities.level4.hoursPerWeek }}h/sem)</p>
             </div>
           </div>
         </div>
@@ -40,16 +117,11 @@ const currentWeek = computed(() =>
         <div class="content-section" id="intro">
           <h2 class="section-heading">📖 Lembre-se</h2>
           <ul class="remember-list">
-            <li>🎯 Matemática é estudada <strong>todos os dias</strong></li>
-            <li>
-              ⚠️ Física e Química <strong>nunca</strong> no mesmo dia
-            </li>
-            <li>📊 Sábados: revisão semanal (6h)</li>
-            <li>🌴 Domingos: descanso total</li>
-            <li>
-              💪 Abril: carga reduzida (4 dias/semana, 5h/dia, sem simulados)
-            </li>
-            <li>🔥 Maio em diante: intensificação (2 UERJ + 1 ENEM por semana)</li>
+            <li>📅 <strong>Segunda a Sexta:</strong> 9h/dia (quinta 8h - terapia 10-11h)</li>
+            <li>📊 <strong>Sábado:</strong> 6h revisão + simulado</li>
+            <li>🌴 <strong>Domingo:</strong> descanso total obrigatório</li>
+            <li>🎯 <strong>Meta:</strong> {{ goals.overall.target }} para nota {{ goals.overall.gradeNeeded }}</li>
+            <li>⚡ <strong>Total:</strong> {{ meta.weeklyHours.total }}h/semana</li>
           </ul>
         </div>
 
@@ -117,60 +189,65 @@ const currentWeek = computed(() =>
 
         <!-- Cronograma Detalhado -->
         <div class="content-section" id="cronograma">
-          <h2 class="section-heading">📅 Fevereiro 2026</h2>
-
-          <!-- Meta do mês -->
-          <div class="meta-box">
-            <h4>Meta do Mês</h4>
-            <ul class="compact-list">
-              <li>Matemática A: Tópicos 1-7</li>
-              <li>Química A: Tópicos 1-8</li>
-              <li>Física A: Tópicos 1-6</li>
-              <li>Biologia A: Tópicos 1-6</li>
-              <li>Literatura: Tópicos 1-3</li>
-              <li><strong>1 simulado UERJ</strong> (16/02)</li>
-            </ul>
-          </div>
+          <h2 class="section-heading">📅 Cronograma Semanal (16 semanas)</h2>
 
           <!-- Seletor de semana -->
           <div class="week-selector">
             <button
-              v-for="week in februaryWeeks"
-              :key="week.id"
-              @click="selectedWeek = week.id"
-              :class="['week-btn', { active: selectedWeek === week.id }]"
+              v-for="week in allWeeks"
+              :key="week.weekNum"
+              @click="selectedWeekNum = week.weekNum"
+              :class="['week-btn', { active: selectedWeekNum === week.weekNum }]"
             >
-              {{ week.label }}
+              Semana {{ week.weekNum }}
             </button>
           </div>
 
           <!-- Semana selecionada -->
           <div v-if="currentWeek" class="week-detail">
-            <h4 class="week-title">{{ currentWeek.label }}</h4>
+            <h3 class="week-title">📍 Semana {{ currentWeek.weekNum }}: {{ currentWeek.dates }}</h3>
 
-            <div
-              v-for="(day, idx) in currentWeek.days"
-              :key="idx"
-              :class="['day-detail', { review: day.dayOfWeek === 'Sábado' }]"
-            >
-              <div class="day-header">
-                <span class="day-name">
-                  {{ day.dayOfWeek }} {{ day.date.split("-").slice(1).reverse().join("/") }}
-                  <span v-if="day.special" class="special-badge">{{ day.special }}</span>
-                </span>
-                <span class="day-badge">{{ day.hours }}h</span>
-              </div>
-              <ul class="task-list">
-                <li v-for="(task, taskIdx) in day.tasks" :key="taskIdx">
-                  <strong>{{ task.subject }} ({{ task.duration }}):</strong>
-                  {{ task.content }}
-                </li>
-              </ul>
+            <div v-if="currentWeek.focus" class="focus-box">
+              <strong>🎯 Foco da Semana:</strong> {{ currentWeek.focus }}
             </div>
 
-            <div v-if="currentWeek.weeklyGoal" class="week-checkpoint">
-              <strong>✅ Meta Semanal:</strong>
-              {{ currentWeek.weeklyGoal.join(" • ") }}
+            <div v-if="currentWeek.activity" class="activity-box">
+              <strong>📝 Atividade:</strong> {{ currentWeek.activity }}
+            </div>
+
+            <div class="subjects-grid">
+              <div v-if="currentWeek.matematica" class="subject-card mat">
+                <h4>📐 Matemática</h4>
+                <p>{{ currentWeek.matematica }}</p>
+              </div>
+              <div v-if="currentWeek.fisica" class="subject-card fis">
+                <h4>⚡ Física</h4>
+                <p>{{ currentWeek.fisica }}</p>
+              </div>
+              <div v-if="currentWeek.quimica" class="subject-card qui">
+                <h4>🧪 Química</h4>
+                <p>{{ currentWeek.quimica }}</p>
+              </div>
+              <div v-if="currentWeek.biologia" class="subject-card bio">
+                <h4>🧬 Biologia</h4>
+                <p>{{ currentWeek.biologia }}</p>
+              </div>
+              <div v-if="currentWeek.linguagens" class="subject-card ling">
+                <h4>📚 Linguagens</h4>
+                <p>{{ currentWeek.linguagens }}</p>
+              </div>
+              <div v-if="currentWeek.humanas" class="subject-card hum">
+                <h4>🌍 Humanas</h4>
+                <p>{{ currentWeek.humanas }}</p>
+              </div>
+            </div>
+
+            <div v-if="currentWeek.simulado" class="simulado-box">
+              <strong>📝 Simulado:</strong> {{ currentWeek.simulado }}
+            </div>
+
+            <div v-if="currentWeek.examDay" class="exam-day-box">
+              <strong>🎯 DIA DA PROVA:</strong> {{ currentWeek.examDay }}
             </div>
           </div>
         </div>
@@ -595,6 +672,56 @@ const currentWeek = computed(() =>
   @apply pl-3 py-2 border-l-4 border-amber-500 bg-white/40 rounded-r;
 }
 
+.priority-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4 mb-6;
+}
+
+.priority-card {
+  @apply p-5 bg-white/60 rounded-lg border-2;
+  font-family: "Merriweather", serif;
+}
+
+.priority-card h3 {
+  @apply text-lg font-bold mb-2;
+  font-family: "Crimson Text", serif;
+  color: #0d3e47;
+}
+
+.priority-percentage {
+  @apply text-base font-semibold mb-2;
+  color: #c9a961;
+}
+
+.priority-reason {
+  @apply text-sm italic;
+  color: #2d4f56;
+}
+
+.priority-card.level1 {
+  @apply border-red-400 bg-red-50/40;
+}
+
+.priority-card.level2 {
+  @apply border-orange-400 bg-orange-50/40;
+}
+
+.priority-card.level3 {
+  @apply border-yellow-400 bg-yellow-50/40;
+}
+
+.priority-card.level4 {
+  @apply border-blue-400 bg-blue-50/40;
+}
+
+.distribution-list {
+  @apply list-none space-y-1 mb-2;
+  font-size: 0.9rem;
+}
+
+.distribution-list li {
+  @apply pl-2 border-l-2 border-gray-400;
+}
+
 .doc-links {
   @apply flex flex-col md:flex-row gap-3 mt-6;
 }
@@ -636,5 +763,107 @@ const currentWeek = computed(() =>
 
 .motivacao-emoji {
   @apply text-4xl text-center mt-4;
+}
+
+.week-selector {
+  @apply flex flex-wrap gap-2 mb-6;
+}
+
+.week-btn {
+  @apply flex-1 px-4 py-2 rounded-lg font-semibold transition-all duration-200;
+  background: rgba(201, 169, 97, 0.1);
+  border: 2px solid #c9a961;
+  color: #0d3e47;
+  font-family: "Merriweather", serif;
+  font-size: 0.9rem;
+  min-width: 120px;
+}
+
+.week-btn:hover {
+  background: rgba(201, 169, 97, 0.2);
+  transform: translateY(-2px);
+}
+
+.week-btn.active {
+  background: #c9a961;
+  color: #fff;
+  border-color: #b8935a;
+}
+
+.week-title {
+  @apply text-2xl font-bold mb-4;
+  font-family: "Crimson Text", serif;
+  color: #c9a961;
+}
+
+.focus-box {
+  @apply p-4 mb-4 bg-amber-50/60 rounded-lg border-l-4 border-amber-500;
+  font-family: "Merriweather", serif;
+  color: #0d3e47;
+}
+
+.activity-box {
+  @apply p-4 mb-4 bg-blue-50/60 rounded-lg border-l-4 border-blue-500;
+  font-family: "Merriweather", serif;
+  color: #0d3e47;
+}
+
+.subjects-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4;
+}
+
+.subject-card {
+  @apply p-4 rounded-lg border-2;
+  font-family: "Merriweather", serif;
+}
+
+.subject-card h4 {
+  @apply text-base font-bold mb-2;
+  font-family: "Crimson Text", serif;
+}
+
+.subject-card p {
+  @apply text-sm;
+  color: #2d4f56;
+}
+
+.subject-card.mat {
+  @apply bg-blue-50/40 border-blue-400;
+}
+
+.subject-card.fis {
+  @apply bg-purple-50/40 border-purple-400;
+}
+
+.subject-card.qui {
+  @apply bg-green-50/40 border-green-400;
+}
+
+.subject-card.bio {
+  @apply bg-cyan-50/40 border-cyan-400;
+}
+
+.subject-card.ling {
+  @apply bg-pink-50/40 border-pink-400;
+}
+
+.subject-card.hum {
+  @apply bg-orange-50/40 border-orange-400;
+}
+
+.simulado-box {
+  @apply p-4 mb-4 bg-green-50/60 rounded-lg border-l-4 border-green-500;
+  font-family: "Merriweather", serif;
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.exam-day-box {
+  @apply p-6 bg-gradient-to-r from-red-50/80 to-orange-50/80 rounded-lg border-2 border-red-500;
+  font-family: "Crimson Text", serif;
+  color: #dc2626;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
 }
 </style>
